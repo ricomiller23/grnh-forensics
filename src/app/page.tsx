@@ -265,6 +265,28 @@ ${sourceFilesCatalog
               >
                 <FileText size={15} /> Lawyer Highway Map & Handbook (.MD)
               </a>
+              <a
+                href="/LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.pdf"
+                download="LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  background: "linear-gradient(135deg, rgba(239, 68, 68, 0.25) 0%, rgba(185, 28, 28, 0.35) 100%)",
+                  color: "#fca5a5",
+                  border: "1px solid rgba(239, 68, 68, 0.5)",
+                  fontWeight: 700,
+                  fontSize: "0.82rem",
+                  padding: "9px 16px",
+                  borderRadius: "8px",
+                  textDecoration: "none",
+                  boxShadow: "0 2px 10px rgba(239, 68, 68, 0.2)",
+                }}
+              >
+                <FileText size={15} /> Download Lawyer Handbook (PDF)
+              </a>
               <button onClick={handleDownloadReport} className="btn-primary">
                 <Download size={15} /> Export Legal Brief (.MD)
               </button>
