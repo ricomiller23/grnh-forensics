@@ -2,9 +2,15 @@
 
 import React, { useState, useMemo } from "react";
 import db from "@/data/grnh_forensic_database.json";
-import { CertificateDossier } from "@/types";
+import { CertificateDossier, ForensicDatabase } from "@/types";
 import {
   ShieldAlert,
+  AlertOctagon,
+  FileWarning,
+  Landmark,
+  DollarSign,
+  Percent,
+  Briefcase,
   FileText,
   Search,
   Download,
@@ -23,16 +29,40 @@ import {
 } from "lucide-react";
 
 export default function ForensicDashboard() {
-  const [activeTab, setActiveTab] = useState<"timeline" | "matcher" | "vault" | "radar" | "entities">("timeline");
+  const [activeTab, setActiveTab] = useState<"timeline" | "matcher" | "vault" | "radar" | "entities" | "non-company">("timeline");
   const [selectedPhase, setSelectedPhase] = useState<string>("all");
   const [selectedCert, setSelectedCert] = useState<string>("all");
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [selectedMatcherCert, setSelectedMatcherCert] = useState<string>("CS1-7750");
   const [copiedPath, setCopiedPath] = useState<string | null>(null);
+  const [selectedNonCompanyCategory, setSelectedNonCompanyCategory] = useState<string>("all");
+  const [selectedWitness, setSelectedWitness] = useState<string>("John T. Root, Jr., Esq.");
+  const [expandedNonCompanyId, setExpandedNonCompanyId] = useState<string | null>("NCS-01");
 
-  const { meta, evidentiaryPhases, entities, fraudPatterns, transactions, sourceFilesCatalog } = db;
-  const certificates = db.certificates as Record<string, CertificateDossier>;
+
+  const forensicDb = db as unknown as ForensicDatabase;
+  const { meta, evidentiaryPhases, entities, fraudPatterns, transactions, sourceFilesCatalog, nonCompanySharesAnalysis } = forensicDb;
+  const certificates = forensicDb.certificates;
+
+  // Filtered Non-Company Sourced Tranches
+  const filteredNonCompanyTranches = useMemo(() => {
+    if (!nonCompanySharesAnalysis?.tranches) return [];
+    return nonCompanySharesAnalysis.tranches.filter((t: any) => {
+      const matchCat =
+        selectedNonCompanyCategory === "all" || t.mechanismCategory === selectedNonCompanyCategory;
+      const q = searchQuery.toLowerCase();
+      const matchQ =
+        !searchQuery ||
+        t.recipient.toLowerCase().includes(q) ||
+        t.cert.toLowerCase().includes(q) ||
+        t.opinionAuthor.toLowerCase().includes(q) ||
+        t.statedOrigin.toLowerCase().includes(q) ||
+        t.forensicAutopsy.toLowerCase().includes(q) ||
+        t.statutoryViolations.some((v: string) => v.toLowerCase().includes(q));
+      return matchCat && matchQ;
+    });
+  }, [nonCompanySharesAnalysis, selectedNonCompanyCategory, searchQuery]);
 
   // Filtered transactions
   const filteredTransactions = useMemo(() => {
@@ -437,6 +467,27 @@ ${sourceFilesCatalog
             }}
           >
             <ShieldAlert size={15} /> Fraud Pattern Radar ({fraudPatterns.length})
+          </button>
+
+          <button
+            onClick={() => setActiveTab("non-company")}
+            style={{
+              padding: "10px 18px",
+              fontSize: "0.84rem",
+              fontWeight: 600,
+              background: activeTab === "non-company" ? "rgba(239, 68, 68, 0.15)" : "transparent",
+              border: "none",
+              borderBottom: activeTab === "non-company" ? "2px solid #ef4444" : "2px solid transparent",
+              color: activeTab === "non-company" ? "#f87171" : "var(--text-muted)",
+              cursor: "pointer",
+              display: "flex",
+              alignItems: "center",
+              gap: "8px",
+              whiteSpace: "nowrap",
+              borderRadius: "6px 6px 0 0",
+            }}
+          >
+            <AlertOctagon size={15} color="#ef4444" /> Non-Company Sourced Shares ({nonCompanySharesAnalysis?.summaryMetrics?.totalTranchesTracked || 14} Tranches / 109.2M)
           </button>
 
           <button
@@ -1101,6 +1152,521 @@ ${sourceFilesCatalog
             ))}
           </div>
         )}
+
+        {/* TAB 6: NON-COMPANY SOURCED SHARES & LEGAL OPINION FORENSICS */}
+        {activeTab === "non-company" && (
+          <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
+            {/* Executive Alert Banner */}
+            <div
+              className="glass-panel"
+              style={{
+                padding: "24px",
+                borderLeft: "4px solid #ef4444",
+                background: "linear-gradient(135deg, rgba(239, 68, 68, 0.08) 0%, rgba(15, 23, 42, 0.6) 100%)",
+              }}
+            >
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "16px" }}>
+                <div>
+                  <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "8px" }}>
+                    <span className="badge badge-rose" style={{ fontSize: "0.75rem", padding: "4px 10px" }}>
+                      Critical Securities Audit Finding
+                    </span>
+                    <span style={{ fontSize: "0.82rem", color: "var(--text-muted)" }}>
+                      Governing Standard: 17 C.F.R. § 230.144(d)(1) & 15 U.S.C. § 77b(a)(11)
+                    </span>
+                  </div>
+                  <h2 style={{ fontSize: "1.35rem", fontWeight: 700, color: "#f8fafc", marginBottom: "6px" }}>
+                    Forensic Analysis of Shares NOT Purchased from the Company
+                  </h2>
+                  <p style={{ fontSize: "0.88rem", color: "#cbd5e1", maxWidth: "1100px", lineHeight: 1.5 }}>
+                    Detailed examination of all <strong style={{ color: "#f87171" }}>109,240,000 shares (99.4% of subject issuances)</strong> identified in legal opinion letters, promissory notes, and transfer agent records where <strong style={{ color: "#38bdf8" }}>zero cash consideration entered GreenGro Technologies, Inc. corporate accounts</strong>. Sourced exclusively through affiliate debt pledges, backdated consulting contracts, third-party promoter loans, and nominee amalgamations.
+                  </p>
+                </div>
+
+                <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+                  <div style={{ background: "rgba(0,0,0,0.3)", padding: "12px 16px", borderRadius: "8px", border: "1px solid rgba(239, 68, 68, 0.3)", textAlign: "center" }}>
+                    <div style={{ fontSize: "0.7rem", color: "var(--text-dim)", textTransform: "uppercase" }}>Non-Company Volume</div>
+                    <div style={{ fontSize: "1.25rem", fontWeight: 700, color: "#f87171", fontFamily: "var(--font-mono)" }}>109,240,000</div>
+                    <div style={{ fontSize: "0.68rem", color: "var(--text-muted)" }}>99.4% of Tracked Float</div>
+                  </div>
+                  <div style={{ background: "rgba(0,0,0,0.3)", padding: "12px 16px", borderRadius: "8px", border: "1px solid rgba(56, 189, 248, 0.3)", textAlign: "center" }}>
+                    <div style={{ fontSize: "0.7rem", color: "var(--text-dim)", textTransform: "uppercase" }}>Issuer Treasury Cash</div>
+                    <div style={{ fontSize: "1.25rem", fontWeight: 700, color: "#38bdf8", fontFamily: "var(--font-mono)" }}>$0.00</div>
+                    <div style={{ fontSize: "0.68rem", color: "var(--text-muted)" }}>Zero Capital Infusion</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Mechanism Breakdown Bar */}
+              <div style={{ marginTop: "20px", paddingTop: "18px", borderTop: "1px solid rgba(255, 255, 255, 0.08)" }}>
+                <div style={{ fontSize: "0.75rem", fontWeight: 700, textTransform: "uppercase", color: "var(--text-muted)", marginBottom: "8px" }}>
+                  Volume Distribution by Non-Company Acquisition Mechanism:
+                </div>
+                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "10px" }}>
+                  {nonCompanySharesAnalysis?.summaryMetrics?.breakdownByMechanism?.map((b: any, idx: number) => (
+                    <div
+                      key={idx}
+                      style={{
+                        padding: "10px 14px",
+                        background: "rgba(0, 0, 0, 0.25)",
+                        borderRadius: "6px",
+                        borderLeft: `3px solid ${b.color}`,
+                      }}
+                    >
+                      <div style={{ fontSize: "0.72rem", color: "var(--text-dim)" }}>{b.mechanism}</div>
+                      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginTop: "4px" }}>
+                        <span style={{ fontSize: "0.95rem", fontWeight: 700, color: b.color, fontFamily: "var(--font-mono)" }}>
+                          {b.shares.toLocaleString()}
+                        </span>
+                        <span style={{ fontSize: "0.75rem", color: "var(--text-muted)", fontWeight: 600 }}>
+                          {b.percentage}
+                        </span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* TWO CRITICAL SPOTLIGHT AUTOPSIES */}
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(500px, 1fr))", gap: "20px" }}>
+              {/* SPOTLIGHT 1: JOHN T. ROOT 27M OPINION */}
+              <div
+                className="glass-panel"
+                style={{
+                  padding: "22px",
+                  borderTop: "3px solid #ef4444",
+                  background: "rgba(15, 23, 42, 0.75)",
+                }}
+              >
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "12px" }}>
+                  <div>
+                    <span className="badge badge-rose" style={{ fontSize: "0.68rem", marginBottom: "6px" }}>
+                      Mathematical Falsification & Affiliate Tacking
+                    </span>
+                    <h3 style={{ fontSize: "1.1rem", fontWeight: 700, color: "#f8fafc" }}>
+                      John T. Root, Jr. 27M Share Opinion Autopsy
+                    </h3>
+                    <div style={{ fontSize: "0.76rem", color: "#38bdf8", marginTop: "2px" }}>
+                      Recipient: E.F. Romano III &bull; Cert CS1-8172 &bull; Jan 22 / Apr 22, 2019
+                    </div>
+                  </div>
+                  <span style={{ fontSize: "1.2rem", fontWeight: 800, color: "#f87171", fontFamily: "var(--font-mono)" }}>
+                    27,000,000 Shs
+                  </span>
+                </div>
+
+                <div style={{ background: "rgba(0,0,0,0.3)", padding: "12px", borderRadius: "6px", marginBottom: "14px", border: "1px solid rgba(255,255,255,0.06)" }}>
+                  <div style={{ fontSize: "0.72rem", fontWeight: 700, textTransform: "uppercase", color: "#fbbf24", marginBottom: "4px" }}>
+                    The 5.74% Math Fraud vs. Root's Opinion Letter:
+                  </div>
+                  <div style={{ fontSize: "0.82rem", color: "#e2e8f0", lineHeight: 1.45 }}>
+                    Root certified to Fidelity Transfer Services: <em>"I do not consider it to rise to the level of a distribution as it is <strong>much less than one percent</strong> of the outstanding shares."</em>
+                  </div>
+                  <div style={{ marginTop: "6px", display: "flex", gap: "16px", fontSize: "0.78rem" }}>
+                    <div>Outstanding: <strong style={{ color: "#38bdf8" }}>470,220,980</strong></div>
+                    <div>Actual Share Ratio: <strong style={{ color: "#f87171" }}>5.7419%</strong></div>
+                    <div>Statutory Ceiling: <strong style={{ color: "#94a3b8" }}>1.00%</strong> (5.74x Excess)</div>
+                  </div>
+                </div>
+
+                <div style={{ fontSize: "0.82rem", color: "#cbd5e1", lineHeight: 1.45, marginBottom: "12px" }}>
+                  <strong style={{ color: "#ef4444" }}>Rule 144(d)(1) Affiliate Bar:</strong> Root explicitly admitted: <em>"These Shares were assigned and transferred from James Haas, an affiliate, as collateral in return for the lending of funds to the Issuer..."</em> Under federal law, securities acquired from an affiliate restart the holding period. Root's attempt to tack back 10 years to Haas's 2009 employment agreement was a legal impossibility.
+                </div>
+
+                <div style={{ background: "rgba(239, 68, 68, 0.1)", padding: "10px 14px", borderRadius: "6px", borderLeft: "3px solid #ef4444", marginBottom: "14px" }}>
+                  <div style={{ fontSize: "0.72rem", fontWeight: 700, color: "#f87171", textTransform: "uppercase" }}>
+                    The May 6, 2019 Kickback Split Order:
+                  </div>
+                  <div style={{ fontSize: "0.8rem", color: "#fecdd3", marginTop: "2px" }}>
+                    Exactly 14 days after Root's opinion, James Haas ordered transfer agent Ruben Sanchez: <em>"Send 10 million to Ira Gaines and 17 million back to me."</em> Proves Romano was merely an unregistered nominee conduit.
+                  </div>
+                </div>
+
+                <div style={{ fontSize: "0.74rem", color: "var(--text-dim)" }}>
+                  Primary Evidence Receipts:
+                  <div style={{ display: "flex", gap: "8px", flexWrap: "wrap", marginTop: "4px" }}>
+                    <span style={{ padding: "2px 6px", background: "rgba(255,255,255,0.05)", borderRadius: "4px", color: "#38bdf8" }}>
+                      GRNH-4a1 Opinion Letter Draft II (4) (2).pdf
+                    </span>
+                    <span style={{ padding: "2px 6px", background: "rgba(255,255,255,0.05)", borderRadius: "4px", color: "#38bdf8" }}>
+                      DEFENDANT_HAAS_RULE_26_1_SUPPLEMENTAL_DISCLOSURE.pdf
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              {/* SPOTLIGHT 2: CHERYL HINTZEN LAWSUIT DEFENSE */}
+              <div
+                className="glass-panel"
+                style={{
+                  padding: "22px",
+                  borderTop: "3px solid #38bdf8",
+                  background: "rgba(15, 23, 42, 0.75)",
+                }}
+              >
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "12px" }}>
+                  <div>
+                    <span className="badge badge-cyan" style={{ fontSize: "0.68rem", marginBottom: "6px" }}>
+                      Ariz. Super. Ct. Case No. CV2025-013574
+                    </span>
+                    <h3 style={{ fontSize: "1.1rem", fontWeight: 700, color: "#f8fafc" }}>
+                      Cheryl Hintzen 6.79M Share Lawsuit Defense
+                    </h3>
+                    <div style={{ fontSize: "0.76rem", color: "#38bdf8", marginTop: "2px" }}>
+                      Plaintiff: Cheryl Hintzen &bull; Cert CS1-7937 &bull; Stephen Mills Opinion (Jan 10, 2018)
+                    </div>
+                  </div>
+                  <span style={{ fontSize: "1.2rem", fontWeight: 800, color: "#38bdf8", fontFamily: "var(--font-mono)" }}>
+                    6,790,000 Shs
+                  </span>
+                </div>
+
+                <div style={{ background: "rgba(0,0,0,0.3)", padding: "12px", borderRadius: "6px", marginBottom: "14px", border: "1px solid rgba(255,255,255,0.06)" }}>
+                  <div style={{ fontSize: "0.72rem", fontWeight: 700, textTransform: "uppercase", color: "#38bdf8", marginBottom: "4px" }}>
+                    The 44-Month Retroactive Backdating Fraud:
+                  </div>
+                  <div style={{ fontSize: "0.82rem", color: "#e2e8f0", lineHeight: 1.45 }}>
+                    Mills's opinion asserted Hintzen purchased 6.79M shares from Mark Delfin under an August 20, 2015 SPA, which derived from a Sept 9, 2013 consulting agreement.
+                  </div>
+                  <div style={{ marginTop: "6px", fontSize: "0.78rem", color: "#f43f5e" }}>
+                    Corporate records establish Delfin's agreement was drafted and signed on <strong>May 1, 2017</strong>. Hintzen could not have acquired shares in August 2015 from an agreement created in May 2017.
+                  </div>
+                </div>
+
+                <div style={{ fontSize: "0.82rem", color: "#cbd5e1", lineHeight: 1.45, marginBottom: "12px" }}>
+                  <strong style={{ color: "#38bdf8" }}>Triad Defense for Counsel:</strong>
+                  <ul style={{ margin: "6px 0 0 16px", padding: 0 }}>
+                    <li><strong>In Pari Delicto / Unclean Hands:</strong> Hintzen cannot claim $1.8M in equity damages for failure to lift legends on shares born of a fraudulent Section 5 evasion scheme.</li>
+                    <li><strong>Statutory Underwriter Conduit:</strong> Immediate Section 4(a)(1) opinion request proves shares were taken with a view to distribution under Section 2(a)(11).</li>
+                    <li><strong>Legality of Performance:</strong> Directing the transfer agent to remove legends would constitute a federal securities felony.</li>
+                  </ul>
+                </div>
+
+                <div style={{ fontSize: "0.74rem", color: "var(--text-dim)" }}>
+                  Primary Evidence Receipts:
+                  <div style={{ display: "flex", gap: "8px", flexWrap: "wrap", marginTop: "4px" }}>
+                    <span style={{ padding: "2px 6px", background: "rgba(255,255,255,0.05)", borderRadius: "4px", color: "#38bdf8" }}>
+                      grnhhintzen7937.pdf
+                    </span>
+                    <span style={{ padding: "2px 6px", background: "rgba(255,255,255,0.05)", borderRadius: "4px", color: "#38bdf8" }}>
+                      GRNH req for legal Cheryl 2.docx
+                    </span>
+                    <span style={{ padding: "2px 6px", background: "rgba(255,255,255,0.05)", borderRadius: "4px", color: "#38bdf8" }}>
+                      CONSULTING AGREEMENT_Delfin_GRNH.docx
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* TRANCHES MASTER DOSSIER TABLE */}
+            <div className="glass-panel" style={{ padding: "22px" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px", flexWrap: "wrap", gap: "12px" }}>
+                <div>
+                  <h3 style={{ fontSize: "1.1rem", fontWeight: 700, color: "#f8fafc" }}>
+                    Master Ledger: Shares Not Purchased from Issuer ({filteredNonCompanyTranches.length} Tranches)
+                  </h3>
+                  <div style={{ fontSize: "0.78rem", color: "var(--text-muted)" }}>
+                    Every documented non-company acquisition tranche isolated from legal opinion letters and transfer agent ledgers.
+                  </div>
+                </div>
+
+                {/* Filter Pills */}
+                <div style={{ display: "flex", gap: "6px", flexWrap: "wrap" }}>
+                  {["all", "Affiliate Debt & Collateral Transfers", "Backdated Sham Consulting Awards", "Foreign Straw Nominee Amalgamations", "Purported Note Assignments & Familial Conduits", "Promoter Loan Collateral & Nominee Shells"].map((cat) => (
+                    <button
+                      key={cat}
+                      onClick={() => setSelectedNonCompanyCategory(cat)}
+                      style={{
+                        padding: "5px 10px",
+                        fontSize: "0.72rem",
+                        borderRadius: "4px",
+                        border: "1px solid var(--border-subtle)",
+                        background: selectedNonCompanyCategory === cat ? "#ef4444" : "rgba(255,255,255,0.04)",
+                        color: selectedNonCompanyCategory === cat ? "#ffffff" : "var(--text-muted)",
+                        cursor: "pointer",
+                        fontWeight: 600,
+                      }}
+                    >
+                      {cat === "all" ? "All Categories" : cat.split(" ")[0] + " " + cat.split(" ")[1]}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Table */}
+              <div style={{ overflowX: "auto" }}>
+                <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.8rem", textAlign: "left" }}>
+                  <thead>
+                    <tr style={{ borderBottom: "1px solid var(--border-subtle)", color: "var(--text-dim)", textTransform: "uppercase", fontSize: "0.7rem", letterSpacing: "0.05em" }}>
+                      <th style={{ padding: "10px 12px" }}>Tranche / Cert</th>
+                      <th style={{ padding: "10px 12px" }}>Recipient / Nominee</th>
+                      <th style={{ padding: "10px 12px", textAlign: "right" }}>Shares</th>
+                      <th style={{ padding: "10px 12px" }}>Mechanism & Stated Origin</th>
+                      <th style={{ padding: "10px 12px" }}>Legal Opinion / Counsel</th>
+                      <th style={{ padding: "10px 12px", textAlign: "center" }}>Company Cash</th>
+                      <th style={{ padding: "10px 12px" }}>Statutory Violations</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {filteredNonCompanyTranches.map((t: any) => {
+                      const isExpanded = expandedNonCompanyId === t.id;
+                      return (
+                        <React.Fragment key={t.id}>
+                          <tr
+                            onClick={() => setExpandedNonCompanyId(isExpanded ? null : t.id)}
+                            style={{
+                              borderBottom: "1px solid rgba(255,255,255,0.04)",
+                              cursor: "pointer",
+                              background: isExpanded ? "rgba(239, 68, 68, 0.08)" : "transparent",
+                            }}
+                          >
+                            <td style={{ padding: "12px", fontFamily: "var(--font-mono)", fontWeight: 700, color: "#f87171" }}>
+                              <div>{t.id}</div>
+                              <div style={{ fontSize: "0.72rem", color: "var(--text-dim)" }}>{t.cert}</div>
+                            </td>
+                            <td style={{ padding: "12px", fontWeight: 600, color: "#f1f5f9" }}>
+                              {t.recipient}
+                            </td>
+                            <td style={{ padding: "12px", textAlign: "right", fontFamily: "var(--font-mono)", fontWeight: 700, color: "#f87171" }}>
+                              {t.shares.toLocaleString()}
+                            </td>
+                            <td style={{ padding: "12px", maxWidth: "340px" }}>
+                              <div style={{ fontSize: "0.72rem", color: "#38bdf8", fontWeight: 600 }}>{t.mechanismCategory}</div>
+                              <div style={{ fontSize: "0.75rem", color: "var(--text-muted)", marginTop: "2px", lineHeight: 1.35 }}>
+                                {t.statedOrigin}
+                              </div>
+                            </td>
+                            <td style={{ padding: "12px" }}>
+                              <div style={{ fontWeight: 600, color: "#e2e8f0" }}>{t.opinionAuthor}</div>
+                              <div style={{ fontSize: "0.72rem", color: "var(--text-dim)" }}>{t.opinionDate}</div>
+                            </td>
+                            <td style={{ padding: "12px", textAlign: "center", fontFamily: "var(--font-mono)", fontWeight: 700, color: "#38bdf8" }}>
+                              {t.actualCompanyCash}
+                            </td>
+                            <td style={{ padding: "12px" }}>
+                              <div style={{ display: "flex", flexWrap: "wrap", gap: "4px" }}>
+                                {t.statutoryViolations.map((v: string, vIdx: number) => (
+                                  <span
+                                    key={vIdx}
+                                    style={{
+                                      fontSize: "0.65rem",
+                                      padding: "1px 6px",
+                                      borderRadius: "3px",
+                                      background: "rgba(239, 68, 68, 0.15)",
+                                      color: "#fca5a5",
+                                      border: "1px solid rgba(239, 68, 68, 0.3)",
+                                      whiteSpace: "nowrap",
+                                    }}
+                                  >
+                                    {v}
+                                  </span>
+                                ))}
+                              </div>
+                            </td>
+                          </tr>
+
+                          {/* Expanded Autopsy Row */}
+                          {isExpanded && (
+                            <tr style={{ background: "rgba(0,0,0,0.4)" }}>
+                              <td colSpan={7} style={{ padding: "16px 20px" }}>
+                                <div style={{ display: "grid", gridTemplateColumns: "2fr 1fr", gap: "20px" }}>
+                                  <div>
+                                    <div style={{ fontSize: "0.75rem", fontWeight: 700, color: "#f87171", textTransform: "uppercase", marginBottom: "6px" }}>
+                                      Forensic Autopsy & Legal Vulnerability:
+                                    </div>
+                                    <p style={{ fontSize: "0.84rem", color: "#e2e8f0", lineHeight: 1.5, margin: 0 }}>
+                                      {t.forensicAutopsy}
+                                    </p>
+                                  </div>
+
+                                  <div>
+                                    <div style={{ fontSize: "0.75rem", fontWeight: 700, color: "#38bdf8", textTransform: "uppercase", marginBottom: "6px" }}>
+                                      Primary Evidence Files on Disk:
+                                    </div>
+                                    <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                                      {t.primaryEvidenceFiles.map((f: string, fIdx: number) => (
+                                        <div
+                                          key={fIdx}
+                                          style={{
+                                            display: "flex",
+                                            alignItems: "center",
+                                            justifyContent: "space-between",
+                                            padding: "6px 10px",
+                                            borderRadius: "4px",
+                                            background: "rgba(255,255,255,0.04)",
+                                            fontSize: "0.75rem",
+                                            color: "#cbd5e1",
+                                          }}
+                                        >
+                                          <span>{f}</span>
+                                          <button
+                                            onClick={(e) => {
+                                              e.stopPropagation();
+                                              navigator.clipboard.writeText(f);
+                                              setCopiedPath(f);
+                                              setTimeout(() => setCopiedPath(null), 2000);
+                                            }}
+                                            style={{
+                                              background: "transparent",
+                                              border: "none",
+                                              color: copiedPath === f ? "#34d399" : "#64748b",
+                                              cursor: "pointer",
+                                              display: "flex",
+                                              alignItems: "center",
+                                              gap: "4px",
+                                            }}
+                                          >
+                                            {copiedPath === f ? <Check size={12} /> : <Copy size={12} />}
+                                          </button>
+                                        </div>
+                                      ))}
+                                    </div>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                          )}
+                        </React.Fragment>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            {/* STATUTORY VULNERABILITIES GRID */}
+            <div className="glass-panel" style={{ padding: "22px" }}>
+              <h3 style={{ fontSize: "1.1rem", fontWeight: 700, color: "#f8fafc", marginBottom: "6px" }}>
+                Statutory Vulnerabilities & Securities Violations Framework
+              </h3>
+              <p style={{ fontSize: "0.8rem", color: "var(--text-muted)", marginBottom: "16px" }}>
+                Key legal grounds and federal securities rules violated by the non-company share issuances and opinion letters.
+              </p>
+
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "14px" }}>
+                {nonCompanySharesAnalysis?.statutoryVulnerabilities?.map((sv: any, idx: number) => (
+                  <div
+                    key={idx}
+                    style={{
+                      padding: "16px",
+                      borderRadius: "8px",
+                      background: "rgba(255, 255, 255, 0.02)",
+                      border: "1px solid var(--border-subtle)",
+                      display: "flex",
+                      flexDirection: "column",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <div>
+                      <div style={{ fontSize: "0.7rem", color: "#f87171", fontFamily: "var(--font-mono)", fontWeight: 700 }}>
+                        {sv.code}
+                      </div>
+                      <div style={{ fontSize: "0.95rem", fontWeight: 700, color: "#f8fafc", marginTop: "2px", marginBottom: "6px" }}>
+                        {sv.name}
+                      </div>
+                      <p style={{ fontSize: "0.78rem", color: "var(--text-muted)", lineHeight: 1.45, marginBottom: "10px" }}>
+                        {sv.summary}
+                      </p>
+                    </div>
+
+                    <div style={{ borderTop: "1px solid rgba(255,255,255,0.06)", paddingTop: "8px", fontSize: "0.72rem", color: "#38bdf8" }}>
+                      <strong>Litigation Impact:</strong> {sv.relevanceToLitigation}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* LITIGATION & DEPOSITION PLAYBOOK */}
+            <div className="glass-panel" style={{ padding: "22px" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px", flexWrap: "wrap", gap: "10px" }}>
+                <div>
+                  <h3 style={{ fontSize: "1.1rem", fontWeight: 700, color: "#f8fafc" }}>
+                    Litigation & Deposition Playbook for Defense Counsel
+                  </h3>
+                  <div style={{ fontSize: "0.78rem", color: "var(--text-muted)" }}>
+                    Targeted cross-examination questions and document traps for opinion counsel, plaintiff Hintzen, and transfer agent.
+                  </div>
+                </div>
+
+                <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
+                  {nonCompanySharesAnalysis?.litigationPlaybook?.map((lp: any) => (
+                    <button
+                      key={lp.witness}
+                      onClick={() => setSelectedWitness(lp.witness)}
+                      style={{
+                        padding: "6px 12px",
+                        fontSize: "0.75rem",
+                        borderRadius: "4px",
+                        border: "1px solid var(--border-subtle)",
+                        background: selectedWitness === lp.witness ? "#38bdf8" : "rgba(255,255,255,0.04)",
+                        color: selectedWitness === lp.witness ? "#0f172a" : "var(--text-muted)",
+                        fontWeight: 700,
+                        cursor: "pointer",
+                      }}
+                    >
+                      {lp.witness}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Witness Deposition Card */}
+              {(() => {
+                const currentWitness = nonCompanySharesAnalysis?.litigationPlaybook?.find(
+                  (lp: any) => lp.witness === selectedWitness
+                );
+                if (!currentWitness) return null;
+                return (
+                  <div
+                    style={{
+                      padding: "18px",
+                      borderRadius: "8px",
+                      background: "rgba(0, 0, 0, 0.35)",
+                      border: "1px solid rgba(56, 189, 248, 0.2)",
+                    }}
+                  >
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: "12px" }}>
+                      <div>
+                        <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", textTransform: "uppercase" }}>Deposition Target</div>
+                        <div style={{ fontSize: "1.15rem", fontWeight: 700, color: "#f8fafc" }}>{currentWitness.witness}</div>
+                      </div>
+                      <span className="badge badge-amber" style={{ fontSize: "0.72rem" }}>
+                        Subject: {currentWitness.targetSubject}
+                      </span>
+                    </div>
+
+                    <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+                      {currentWitness.sampleQuestions.map((q: string, qIdx: number) => (
+                        <div
+                          key={qIdx}
+                          style={{
+                            padding: "12px 14px",
+                            borderRadius: "6px",
+                            background: "rgba(255, 255, 255, 0.03)",
+                            borderLeft: "3px solid #38bdf8",
+                            display: "flex",
+                            gap: "10px",
+                          }}
+                        >
+                          <span style={{ color: "#38bdf8", fontWeight: 700, fontFamily: "var(--font-mono)", fontSize: "0.82rem" }}>
+                            Q{qIdx + 1}:
+                          </span>
+                          <span style={{ fontSize: "0.82rem", color: "#e2e8f0", lineHeight: 1.45 }}>
+                            {q}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })()}
+            </div>
+          </div>
+        )}
+
       </main>
 
       {/* Footer */}

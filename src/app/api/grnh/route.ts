@@ -7,9 +7,11 @@ export async function GET(request: Request) {
   const phase = searchParams.get("phase");
   const cert = searchParams.get("cert");
   const category = searchParams.get("category");
+  const nonCompanyOnly = searchParams.get("nonCompanyOnly") === "true";
 
   let filteredTxs = db.transactions;
   let filteredFiles = db.sourceFilesCatalog;
+  let filteredNonCompanyTranches = db.nonCompanySharesAnalysis?.tranches || [];
 
   if (phase && phase !== "all") {
     filteredTxs = filteredTxs.filter((tx) => tx.phase === phase);
@@ -20,6 +22,9 @@ export async function GET(request: Request) {
     filteredFiles = filteredFiles.filter((f) =>
       f.linkedCertificates.some((c) => c.toLowerCase().includes(cert.toLowerCase())) ||
       f.filename.toLowerCase().includes(cert.toLowerCase())
+    );
+    filteredNonCompanyTranches = filteredNonCompanyTranches.filter((t) =>
+      t.cert.toLowerCase().includes(cert.toLowerCase())
     );
   }
 
@@ -45,6 +50,34 @@ export async function GET(request: Request) {
         f.path.toLowerCase().includes(q) ||
         f.linkedCertificates.some((c) => c.toLowerCase().includes(q))
     );
+
+    filteredNonCompanyTranches = filteredNonCompanyTranches.filter(
+      (t) =>
+        t.recipient.toLowerCase().includes(q) ||
+        t.cert.toLowerCase().includes(q) ||
+        t.opinionAuthor.toLowerCase().includes(q) ||
+        t.statedOrigin.toLowerCase().includes(q) ||
+        t.forensicAutopsy.toLowerCase().includes(q) ||
+        t.statutoryViolations.some((v: string) => v.toLowerCase().includes(q))
+    );
+  }
+
+  if (nonCompanyOnly) {
+    return NextResponse.json({
+      meta: {
+        ticker: db.meta.ticker,
+        companyName: db.meta.companyName,
+        totalNonCompanyShares: db.nonCompanySharesAnalysis.summaryMetrics.totalNonCompanyShares,
+        totalTranchesTracked: db.nonCompanySharesAnalysis.summaryMetrics.totalTranchesTracked,
+        filteredTranchesCount: filteredNonCompanyTranches.length,
+      },
+      summaryMetrics: db.nonCompanySharesAnalysis.summaryMetrics,
+      tranches: filteredNonCompanyTranches,
+      rootOpinionAutopsy: db.nonCompanySharesAnalysis.rootOpinionAutopsy,
+      cherylHintzenLawsuitAutopsy: db.nonCompanySharesAnalysis.cherylHintzenLawsuitAutopsy,
+      statutoryVulnerabilities: db.nonCompanySharesAnalysis.statutoryVulnerabilities,
+      litigationPlaybook: db.nonCompanySharesAnalysis.litigationPlaybook,
+    });
   }
 
   return NextResponse.json({
@@ -52,6 +85,7 @@ export async function GET(request: Request) {
       ...db.meta,
       filteredTransactionsCount: filteredTxs.length,
       filteredFilesCount: filteredFiles.length,
+      totalNonCompanyShares: db.nonCompanySharesAnalysis?.summaryMetrics?.totalNonCompanyShares || 0,
     },
     evidentiaryPhases: db.evidentiaryPhases,
     entities: db.entities,
@@ -59,5 +93,9 @@ export async function GET(request: Request) {
     transactions: filteredTxs,
     certificates: db.certificates,
     sourceFilesCatalog: filteredFiles,
+    nonCompanySharesAnalysis: {
+      ...db.nonCompanySharesAnalysis,
+      tranches: filteredNonCompanyTranches,
+    },
   });
 }

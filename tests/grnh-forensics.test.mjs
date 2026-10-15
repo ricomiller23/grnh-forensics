@@ -90,6 +90,49 @@ for (const bw of bannedWords) {
   }
 }
 
+
+// 5. Non-Company Sourced Shares Analysis Assertions
+if (!db.nonCompanySharesAnalysis) {
+  console.error("FAIL: Missing nonCompanySharesAnalysis section in database!");
+  process.exit(1);
+}
+
+const ncs = db.nonCompanySharesAnalysis;
+if (!ncs.tranches || ncs.tranches.length < 10) {
+  console.error(`FAIL: Expected at least 10 non-company share tranches, found ${ncs.tranches?.length || 0}`);
+  process.exit(1);
+}
+
+if (!ncs.summaryMetrics || ncs.summaryMetrics.totalNonCompanyShares < 100000000) {
+  console.error(`FAIL: Expected totalNonCompanyShares > 100M, found ${ncs.summaryMetrics?.totalNonCompanyShares}`);
+  process.exit(1);
+}
+
+// Verify Root 27M and Hintzen 6.79M tranches
+const rootTranche = ncs.tranches.find(t => t.recipient.includes("Romano") && t.shares === 27000000);
+if (!rootTranche) {
+  console.error("FAIL: Missing E.F. Romano 27M share Root opinion tranche!");
+  process.exit(1);
+}
+
+const hintzenTranche = ncs.tranches.find(t => t.recipient.includes("Hintzen") && t.shares === 6790000);
+if (!hintzenTranche) {
+  console.error("FAIL: Missing Cheryl Hintzen 6.79M share tranche!");
+  process.exit(1);
+}
+
+for (const t of ncs.tranches) {
+  if (!t.id || !t.recipient || !t.cert || !t.shares || !t.opinionAuthor || !t.actualCompanyCash || !t.statutoryViolations || t.statutoryViolations.length === 0 || !t.primaryEvidenceFiles || t.primaryEvidenceFiles.length === 0) {
+    console.error(`FAIL: Non-company tranche ${t.id || 'unknown'} has invalid schema or missing receipts!`);
+    process.exit(1);
+  }
+}
+
+if (!ncs.rootOpinionAutopsy || !ncs.cherylHintzenLawsuitAutopsy || !ncs.statutoryVulnerabilities || !ncs.litigationPlaybook) {
+  console.error("FAIL: Missing autopsy, statutory vulnerability, or litigation playbook sections in nonCompanySharesAnalysis!");
+  process.exit(1);
+}
+
 console.log(`PASS: All assertions verified!`);
 console.log(`- ${db.transactions.length} verified transactions carrying primary source receipts`);
 console.log(`- ${Object.keys(db.certificates).length} certificate dossiers with verified custody chains`);

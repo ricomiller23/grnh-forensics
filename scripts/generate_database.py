@@ -952,7 +952,486 @@ database = {
     ],
     'transactions': raw_txs,
     'certificates': cert_map,
-    'sourceFilesCatalog': discovered_files
+    'sourceFilesCatalog': discovered_files,
+    'nonCompanySharesAnalysis': {
+        "summaryMetrics": {
+                "totalNonCompanyShares": 109240000,
+                "totalTranchesTracked": 14,
+                "directCompanyCashReceived": "zsh.00",
+                "pctNonCompanySourced": "99.4%",
+                "flaggedOpinionAttorneys": [
+                        "John T. Root, Jr., Esq.",
+                        "Stephen Mills, Esq.",
+                        "James Hintzen, Esq."
+                ],
+                "primaryStatutoryViolations": [
+                        "Securities Act Section 5 (Unregistered Public Distribution)",
+                        "Rule 144(d)(1) Affiliate Tacking Bar",
+                        "Section 2(a)(11) Statutory Underwriter Status",
+                        "Rule 144(i) Shell Company Prohibition",
+                        "Rule 144(e)(1)(i) 1% Float Volume Ceiling Fraud"
+                ],
+                "breakdownByMechanism": [
+                        {
+                                "mechanism": "Foreign Straw Nominee Amalgamations (Poe / Canada)",
+                                "shares": 30450000,
+                                "percentage": "27.9%",
+                                "color": "#f97316"
+                        },
+                        {
+                                "mechanism": "Affiliate Collateral & Debt Transfers (Haas 2009)",
+                                "shares": 27000000,
+                                "percentage": "24.7%",
+                                "color": "#ef4444"
+                        },
+                        {
+                                "mechanism": "Backdated Sham Consulting Awards (Delfin / Rubio / Hulbert)",
+                                "shares": 25500000,
+                                "percentage": "23.3%",
+                                "color": "#eab308"
+                        },
+                        {
+                                "mechanism": "Purported Note Assignments & Familial Conduits (Cheryl & Josh Hintzen)",
+                                "shares": 15790000,
+                                "percentage": "14.5%",
+                                "color": "#8b5cf6"
+                        },
+                        {
+                                "mechanism": "Promoter Loan Collateral & Nominee Shells (Brouillette / Big Thunder)",
+                                "shares": 10500000,
+                                "percentage": "9.6%",
+                                "color": "#06b6d4"
+                        }
+                ]
+        },
+        "tranches": [
+                {
+                        "id": "NCS-01",
+                        "recipient": "E.F. Romano III",
+                        "cert": "CS1-8172 / 27M Unlegended",
+                        "shares": 27000000,
+                        "mechanismCategory": "Affiliate Debt & Collateral Transfers",
+                        "opinionDate": "January 22, 2019 / April 22, 2019",
+                        "opinionAuthor": "John T. Root, Jr., Esq.",
+                        "statedOrigin": "Assigned and transferred from James Haas (Affiliate) as collateral for a ,000 loan to Issuer, originating from 2009 Employment Agreement debt settled on Sept 30, 2017 for 27,500,000 shares.",
+                        "actualCompanyCash": "zsh.00",
+                        "statutoryViolations": [
+                                "Rule 144(d)(1) Affiliate Tacking Bar",
+                                "Section 2(a)(11) Statutory Underwriter Status",
+                                "Rule 144(e)(1)(i) 1% Volume Ceiling Fraud",
+                                "Section 5 Unregistered Public Distribution"
+                        ],
+                        "forensicAutopsy": "Root explicitly represented that 27M shares was \"much less than one percent of the outstanding shares of the Issuer\". In fact, 27M was 5.74% of the 470,220,980 total shares\u2014more than 5x the statutory ceiling. Haas subsequently ordered Ruben Sanchez on May 6, 2019: \"Send 10 million to Ira Gaines and 17 million back to me\", proving Romano was merely a temporary nominee conduit to wash affiliate stock.",
+                        "primaryEvidenceFiles": [
+                                "GRNH-4a1 Opinion Letter Draft II (4) (2).pdf",
+                                "DEFENDANT_HAAS_RULE_26_1_SUPPLEMENTAL_DISCLOSURE_with_contact_info.pdf"
+                        ]
+                },
+                {
+                        "id": "NCS-02",
+                        "recipient": "Cheryl Hintzen",
+                        "cert": "CS1-7937",
+                        "shares": 6790000,
+                        "mechanismCategory": "Purported Note Assignments & Familial Conduits",
+                        "opinionDate": "January 10, 2018 (Request: Jan 9, 2018)",
+                        "opinionAuthor": "Stephen Mills, Esq.",
+                        "statedOrigin": "Secondary purchase from Mark Delfin pursuant to Stock Purchase Agreement dated August 20, 2015 for ,000.00, purportedly deriving from a Sept 9, 2013 consulting agreement.",
+                        "actualCompanyCash": "zsh.00",
+                        "statutoryViolations": [
+                                "Section 5 Unregistered Distribution",
+                                "Rule 144(d) Holding Period Fabrication",
+                                "In Pari Delicto / Unclean Hands",
+                                "Section 2(a)(11) Underwriter Conduit"
+                        ],
+                        "forensicAutopsy": "Corporate documents prove Mark Delfin consulting agreement was actually drafted and signed on May 1, 2017 (backdated 44 months). Cheryl Hintzen could not have acquired shares in August 2015 under a contract created in May 2017. Forms the basis of Hintzen v. Haas (CV2025-013574) claiming .8M damages for Haas refusing to lift the legend.",
+                        "primaryEvidenceFiles": [
+                                "grnhhintzen7937.pdf",
+                                "GRNH req for legal Cheryl 2.docx",
+                                "CONSULTING AGREEMENT_Delfin_GRNH.docx"
+                        ]
+                },
+                {
+                        "id": "NCS-03",
+                        "recipient": "Ira Gaines",
+                        "cert": "CS1-7905",
+                        "shares": 2500000,
+                        "mechanismCategory": "Promoter Loan Collateral & Nominee Shells",
+                        "opinionDate": "July 11, 2017",
+                        "opinionAuthor": "Stephen Mills, Esq.",
+                        "statedOrigin": "Secured Promissory Note dated October 7, 2016 between Ira Gaines and Ronald Brouillette / Third Coast Partners LLC (,000 loan satisfaction via 2,500,000 shares).",
+                        "actualCompanyCash": "zsh.00",
+                        "statutoryViolations": [
+                                "Section 2(a)(11) Statutory Underwriter Status",
+                                "Section 5 Unregistered Resale of Loan Collateral",
+                                "Rule 144(a)(1) Affiliate Control Concealment"
+                        ],
+                        "forensicAutopsy": "Private loan between third-party promoter Ronald Brouillette and undisclosed control person Ira Gaines converted into unlegended shares for immediate OTC resale through Stephen Mills Section 4(a)(1) opinion. Zero capital entered GreenGro corporate accounts.",
+                        "primaryEvidenceFiles": [
+                                "gainesgrnh7905.pdf",
+                                "GRNH req for legal 2.5 MM cert 7905 MILLS.pdf"
+                        ]
+                },
+                {
+                        "id": "NCS-04",
+                        "recipient": "Ira Gaines",
+                        "cert": "CS1-7910",
+                        "shares": 2000000,
+                        "mechanismCategory": "Promoter Loan Collateral & Nominee Shells",
+                        "opinionDate": "July 11, 2017",
+                        "opinionAuthor": "Stephen Mills, Esq.",
+                        "statedOrigin": "Secondary SPA dated April 3, 2017 whereby Ira Gaines purchased 2,000,000 shares from Dignitas Consulting LLC for ,000.00, purportedly deriving from a May 27, 2015 consulting award.",
+                        "actualCompanyCash": "zsh.00",
+                        "statutoryViolations": [
+                                "Rule 144(d)(1) Holding Period Evasion",
+                                "Beneficial Ownership Concealment",
+                                "Sham Consulting Intermediary"
+                        ],
+                        "forensicAutopsy": "Dignitas Consulting LLC was an intermediary vehicle managed by promoter Ronald Brouillette. Gaines purchased 2M shares secondarily for k and had Mills opine under Section 4(a)(1) that the shares had \"come to rest\" since 2015.",
+                        "primaryEvidenceFiles": [
+                                "gainesgrnh7910.pdf",
+                                "GRNH req for Legal 2MM cert 7910.pdf",
+                                "GRNH SPA 2M Ron Dignitas.pdf"
+                        ]
+                },
+                {
+                        "id": "NCS-05",
+                        "recipient": "Ira Gaines",
+                        "cert": "CS1-7696 / CS1-7896",
+                        "shares": 1000000,
+                        "mechanismCategory": "Promoter Loan Collateral & Nominee Shells",
+                        "opinionDate": "February 17, 2017",
+                        "opinionAuthor": "Stephen Mills, Esq.",
+                        "statedOrigin": "Advisory agreement dated June 16, 2015 between GRNH and Ira Gaines for services rendered beginning November 24, 2014 (zsh.00 cash).",
+                        "actualCompanyCash": "zsh.00",
+                        "statutoryViolations": [
+                                "Section 4(a)(1) Misrepresentation (Affiliate Bar)",
+                                "Rule 144(a)(1) Affiliate Control Concealment",
+                                "Section 5 Unregistered Public Offering"
+                        ],
+                        "forensicAutopsy": "Mills opined that Gaines was not an affiliate and did not own >10% of stock. In reality, Gaines controlled tens of millions of shares through trusts, nominees, and family conduits, and directed transfer agent issuances.",
+                        "primaryEvidenceFiles": [
+                                "gainesgrnh4a1.pdf",
+                                "GRNH 7696 req for legal.pdf"
+                        ]
+                },
+                {
+                        "id": "NCS-06",
+                        "recipient": "Big Thunder, LLC (Tom McClusky)",
+                        "cert": "CS1-8002",
+                        "shares": 4000000,
+                        "mechanismCategory": "Promoter Loan Collateral & Nominee Shells",
+                        "opinionDate": "December 1, 2017 (Request)",
+                        "opinionAuthor": "Stephen Mills, Esq.",
+                        "statedOrigin": "Private securities transaction with issuer dated March 31, 2016 for 4,000,000 shares.",
+                        "actualCompanyCash": "zsh.00",
+                        "statutoryViolations": [
+                                "Nominee Entity Masking Affiliate Control",
+                                "Section 2(a)(11) Underwriter Conduit",
+                                "Rule 144(i) Shell Evasion"
+                        ],
+                        "forensicAutopsy": "Big Thunder, LLC was an entity organized and controlled by Ira Gaines and Tom McClusky to receive large blocks of restricted stock, hold them nominally for 12 months, and then obtain Section 4(a)(1) opinions to liquidate into the OTC market.",
+                        "primaryEvidenceFiles": [
+                                "GRNH request for legal 4MM GRNH BIg Thunder.docx",
+                                "GRNH 8002 4MM shares BTLLC.pdf"
+                        ]
+                },
+                {
+                        "id": "NCS-07",
+                        "recipient": "Mark Delfin",
+                        "cert": "CS1-8089",
+                        "shares": 6500000,
+                        "mechanismCategory": "Backdated Sham Consulting Awards",
+                        "opinionDate": "Executed May 1, 2017 (Backdated to Sept 9, 2013)",
+                        "opinionAuthor": "In-House / Mills Reliance",
+                        "statedOrigin": "Consulting Agreement for advisory knowledge and product expertise in lieu of monetary compensation.",
+                        "actualCompanyCash": "zsh.00",
+                        "statutoryViolations": [
+                                "Securities Act Section 5 Violation",
+                                "Rule 144(d) 44-Month Holding Period Backdating",
+                                "Creation of Bogus Corporate Consideration"
+                        ],
+                        "forensicAutopsy": "Contract executed May 1, 2017 explicitly backdated description of services start date to September 9, 2013. Designed to create retroactive paper trail to support legend removal and secondary transfers like Cheryl Hintzen Cert 7937.",
+                        "primaryEvidenceFiles": [
+                                "CONSULTING AGREEMENT_Delfin_GRNH.docx",
+                                "FINAL CONSULTING AGREEMENT_Delfin_GRNH (4).docx"
+                        ]
+                },
+                {
+                        "id": "NCS-08",
+                        "recipient": "Santiago Rubio",
+                        "cert": "CS1-8090",
+                        "shares": 8500000,
+                        "mechanismCategory": "Backdated Sham Consulting Awards",
+                        "opinionDate": "Executed May 1, 2017 (Backdated to Oct 30, 2015)",
+                        "opinionAuthor": "In-House / Mills Reliance",
+                        "statedOrigin": "Consulting Agreement for advisory knowledge in lieu of monetary compensation.",
+                        "actualCompanyCash": "zsh.00",
+                        "statutoryViolations": [
+                                "Securities Act Section 5 Violation",
+                                "Rule 144(d) 18-Month Holding Period Backdating",
+                                "Section 2(a)(11) Nominee Conduit"
+                        ],
+                        "forensicAutopsy": "Consulting agreement drafted May 1, 2017 backdated 18 months to October 30, 2015. 8.5M shares issued without cash consideration to corporate treasury.",
+                        "primaryEvidenceFiles": [
+                                "CONSULTING AGREEMENT_Rubio_GRNH.docx",
+                                "FINAL CONSULTING AGREEMENT_Rubio_GRNH.docx"
+                        ]
+                },
+                {
+                        "id": "NCS-09",
+                        "recipient": "Hulbert Ventures",
+                        "cert": "CS1-8091",
+                        "shares": 8500000,
+                        "mechanismCategory": "Backdated Sham Consulting Awards",
+                        "opinionDate": "Executed May 1, 2017 (Backdated to Dec 8, 2014)",
+                        "opinionAuthor": "In-House / Mills Reliance",
+                        "statedOrigin": "Consulting Agreement for advisory knowledge in lieu of monetary compensation.",
+                        "actualCompanyCash": "zsh.00",
+                        "statutoryViolations": [
+                                "Securities Act Section 5 Violation",
+                                "Rule 144(d) Holding Period Fabrication",
+                                "Sham Boilerplate Contract Execution"
+                        ],
+                        "forensicAutopsy": "Draft agreement was an unedited copy-paste of Santiago Rubio contract, retaining Rubio preamble verbatim. 8.5M shares issued with zsh.00 capital invested.",
+                        "primaryEvidenceFiles": [
+                                "CONSULTING AGREEMENT_Hulbert_GRNH.docx",
+                                "FINAL FINAL CONSULTING AGREEMENT_Hulbert_GRNH.docx"
+                        ]
+                },
+                {
+                        "id": "NCS-10",
+                        "recipient": "Phoenix Group",
+                        "cert": "CS1-8088",
+                        "shares": 2000000,
+                        "mechanismCategory": "Backdated Sham Consulting Awards",
+                        "opinionDate": "Executed May 1, 2017 (Backdated to July 10, 2015)",
+                        "opinionAuthor": "In-House / Mills Reliance",
+                        "statedOrigin": "Consulting Agreement for strategic marketing and corporate development advisory.",
+                        "actualCompanyCash": "zsh.00",
+                        "statutoryViolations": [
+                                "Securities Act Section 5 Violation",
+                                "Rule 144(d) 22-Month Holding Period Backdating"
+                        ],
+                        "forensicAutopsy": "Part of the coordinated 25.5M share May 1, 2017 backdating issuance tranche.",
+                        "primaryEvidenceFiles": [
+                                "CONSULTING AGREEMENT_PHOENIX_GRNH.docx"
+                        ]
+                },
+                {
+                        "id": "NCS-11",
+                        "recipient": "Paula Marie Poe (Canadian Nominee)",
+                        "cert": "CS1-8166",
+                        "shares": 5500000,
+                        "mechanismCategory": "Foreign Straw Nominee Amalgamations",
+                        "opinionDate": "April 8-15, 2019 (Transfer Agent Ledger)",
+                        "opinionAuthor": "Fidelity Transfer Services Instruction",
+                        "statedOrigin": "Secondary amalgamation combining restricted Cert CS1-7750 (2,000,000 shares from Ira J. Gaines Revocable Trust) + Cert CS1-8087 (3,500,000 shares from Justin Haas).",
+                        "actualCompanyCash": "zsh.00",
+                        "statutoryViolations": [
+                                "Laundering Restricted Affiliate Shares into Foreign Straw",
+                                "Rule 144(d)(1) Affiliate Tacking Bar",
+                                "Section 5 Unregistered Public Distribution"
+                        ],
+                        "forensicAutopsy": "Spreadsheet GRNH april 152019.xlsx explicitly records: \"From 8087 Justin 3.5MM and 7750 IGRT 2MM\". Restricted affiliate and family certificates merged into Canadian nominee Paula Marie Poe at BMO InvestorLine to dump into public float.",
+                        "primaryEvidenceFiles": [
+                                "GRNH april 152019.xlsx",
+                                "GRNH 8166 and 8167 total 14MMshares.pdf"
+                        ]
+                },
+                {
+                        "id": "NCS-12",
+                        "recipient": "Paula Marie Poe (Canadian Nominee)",
+                        "cert": "CS1-7835",
+                        "shares": 3000000,
+                        "mechanismCategory": "Foreign Straw Nominee Amalgamations",
+                        "opinionDate": "April 2019 (Transfer Agent Ledger)",
+                        "opinionAuthor": "Fidelity Transfer Services Instruction",
+                        "statedOrigin": "Secondary purchase explicitly recorded in Gaines ledger as \"BOT FROM RON\" (Ronald Brouillette).",
+                        "actualCompanyCash": "zsh.00",
+                        "statutoryViolations": [
+                                "Section 4(a)(1) Evasion on Promoter Stock",
+                                "Section 2(a)(11) Underwriter Conduit",
+                                "Section 5 Registration Violation"
+                        ],
+                        "forensicAutopsy": "Secondary market acquisition from promoter Ronald Brouillette converted directly to nominee Paula Marie Poe without registration.",
+                        "primaryEvidenceFiles": [
+                                "GRNH april 152019.xlsx",
+                                "GRNH 7835 3 MM shares.pdf"
+                        ]
+                },
+                {
+                        "id": "NCS-13",
+                        "recipient": "Joshua Hintzen -> Paula Marie Poe",
+                        "cert": "CS1-7960, 7961, 7963 (Amalgamated into CS1-8162)",
+                        "shares": 1500000,
+                        "mechanismCategory": "Purported Note Assignments & Familial Conduits",
+                        "opinionDate": "April 2, 2019 (Letter of Instruction)",
+                        "opinionAuthor": "Fidelity Transfer Services (Ruben Sanchez)",
+                        "statedOrigin": "Instruction letter from Joshua Hintzen states certificates 7960, 7961, 7963 are \"registered in the name of Ira Gaines\" and instructs cancellation and reissuance to Canadian nominee Paula Marie Poe at BMO InvestorLine.",
+                        "actualCompanyCash": "zsh.00",
+                        "statutoryViolations": [
+                                "Affiliate Control Stock Nominee Washing",
+                                "Cross-Border Securities Laundering",
+                                "Section 5 Unregistered Public Resale"
+                        ],
+                        "forensicAutopsy": "Smoking gun documentary admission: Joshua Hintzen signs instruction acknowledging shares belong to Ira Gaines, routing them through Canadian nominee account with medallion guarantee to circumvent US broker scrutiny.",
+                        "primaryEvidenceFiles": [
+                                "GRNH loi GRNH Joshua 2 and a half million shares loi to Paul Poe.docx",
+                                "GRNH april 152019.xlsx"
+                        ]
+                },
+                {
+                        "id": "NCS-14",
+                        "recipient": "Paula Marie Poe (Canadian Nominee)",
+                        "cert": "CS1-8161 through CS1-8165",
+                        "shares": 20450000,
+                        "mechanismCategory": "Foreign Straw Nominee Amalgamations",
+                        "opinionDate": "April 4-12, 2019",
+                        "opinionAuthor": "Fidelity Transfer Services Processing",
+                        "statedOrigin": "Secondary debt note amalgamations and conversion fees paid directly to Fidelity Transfer Services (,500 on 4/4/2019, ,150 on 4/8/2019, ,000 on 4/10/2019).",
+                        "actualCompanyCash": "zsh.00",
+                        "statutoryViolations": [
+                                "Massive Unregistered Public Distribution (20.45M Shares)",
+                                "Transfer Agent Payoffs / Direct Conversion Fees",
+                                "90% Price Discount Evasion"
+                        ],
+                        "forensicAutopsy": "Over 20.45M shares consolidated into Poe at an effective price of zsh.007/share (90% market discount). Fees wired directly to Fidelity Transfer Services and personal promoter accounts, with zero capital funding GreenGro operations.",
+                        "primaryEvidenceFiles": [
+                                "GRNH april 152019.xlsx",
+                                "GRNH 8161 - 8165 22MM shares 2.pdf"
+                        ]
+                }
+        ],
+        "rootOpinionAutopsy": {
+                "title": "The John T. Root, Jr. 27M Share Opinion Fraud Autopsy",
+                "attorney": "John T. Root, Jr., Esq. (P.O. Box 701, Greenbrier, AR 72058)",
+                "recipient": "E.F. Romano III",
+                "date": "January 22, 2019 (Drafted) / April 22, 2019 (Re-issued)",
+                "shares": 27000000,
+                "issuerOutstandingShares": 470220980,
+                "statedPercentage": "Much less than one percent (<1%)",
+                "actualPercentage": "5.7419% (5.74x statutory ceiling)",
+                "verbatimExcerpts": [
+                        "These Shares were assigned and transferred from James Haas, an affiliate, as collateral in return for the lending of funds to the Issuer, and they are properly restricted, which restriction may be validly removed pursuant to Rule 144(e)(1)(i)...",
+                        "The original debt arose from amounts due Mr. Haas from an Employment Agreement, dated August 2009...",
+                        "The Shares represent 27,000,000 shares. The outstanding shares are 470,220,980 common and ... number, I do not consider it to rise to the level of a distribution as it is much less than one percent of the outstanding shares of the Issuer."
+                ],
+                "statutoryViolations": [
+                        {
+                                "statute": "Rule 144(d)(1) Affiliate Tacking Bar",
+                                "analysis": "Under Rule 144(d)(1), purchasers of securities or debt from an affiliate cannot tack the affiliate's holding period. Romano was legally required to hold the shares for a minimum of 6 months to 1 year from the date of the January 2019 transfer before any public resale could occur. Root's attempt to tack back 10 years to Haas's 2009 employment agreement was a legal nullity."
+                        },
+                        {
+                                "statute": "Rule 144(e)(1)(i) 1% Volume Ceiling Fraud",
+                                "analysis": "Root explicitly certified to transfer agent Fidelity Transfer Services that 27M shares was \"much less than one percent of the outstanding shares\". In reality, 27M / 470.22M = 5.7419%! This was a direct, mathematically demonstrable false statement of material fact made to induce the issuance of unlegended shares."
+                        },
+                        {
+                                "statute": "Section 2(a)(11) Conduit & The Haas May 6, 2019 Order",
+                                "analysis": "Exactly 14 days after Root's April 22, 2019 reissuance, James Haas sent formal written instructions to transfer agent Ruben Sanchez: \"Send 10 million to Ira Gaines and 17 million back to me\" (10M + 17M = 27M). This proves the E.F. Romano III loan was a complete sham conduit designed to wash affiliate stock before returning it to Haas and Gaines."
+                        }
+                ]
+        },
+        "cherylHintzenLawsuitAutopsy": {
+                "title": "The Cheryl Hintzen 6.79M Share Conduit & Lawsuit Defense Autopsy",
+                "caseCaption": "Cheryl Hintzen v. James M. Haas, Maricopa County Superior Court Case No. CV2025-013574",
+                "certificateNumber": "CS1-7937",
+                "shares": 6790000,
+                "plaintiffClaim": "Breach of contract alleging ,800,000+ in damages based on James Haas's refusal to instruct transfer agent Fidelity Transfer Services to remove restrictive legends.",
+                "opinionAttorney": "Stephen Mills, Esq. (Opinion: January 10, 2018; Request: January 9, 2018)",
+                "claimedProvenance": "Stock Purchase Agreement dated August 20, 2015 from Mark Delfin (,000.00), purportedly deriving from a Sept 9, 2013 consulting agreement with GreenGro.",
+                "evidentiaryDiscrepancy": "GreenGro corporate records reveal Mark Delfin's consulting agreement (CONSULTING AGREEMENT_Delfin_GRNH.docx) was actually drafted and signed on May 1, 2017, and backdated 44 months to September 9, 2013. Cheryl Hintzen could not have acquired shares in August 2015 under a contract that did not exist until May 2017.",
+                "defenseStrategies": [
+                        {
+                                "doctrine": "In Pari Delicto & Clean Hands Bar",
+                                "legalRule": "Courts of equity will not enforce an illegal agreement or award damages to a party participating in a fraudulent evasion scheme.",
+                                "application": "Because Hintzen's claim derives from a retroactively backdated consulting contract designed to evade Section 5 registration, her claim is barred by the doctrine of unclean hands."
+                        },
+                        {
+                                "doctrine": "Section 2(a)(11) Statutory Underwriter Status",
+                                "legalRule": "Any person acquiring stock from an issuer or affiliate with a view to distribution is an underwriter disqualified from Section 4(a)(1).",
+                                "application": "Hintzen immediately retained Stephen Mills to issue a Section 4(a)(1) free-trading opinion for open-market liquidation. She acted as a statutory underwriter conduit."
+                        },
+                        {
+                                "doctrine": "Impossibility & Legality of Performance",
+                                "legalRule": "A corporate officer cannot be held liable for refusing to direct an unlawful act.",
+                                "application": "Had Haas instructed the transfer agent to remove the legend, Haas, the issuer, and the transfer agent would have committed a federal felony under Section 5. Refusal to commit a felony cannot form the predicate for breach of contract."
+                        }
+                ]
+        },
+        "statutoryVulnerabilities": [
+                {
+                        "code": "17 C.F.R. \u00a7 230.144(d)(1)",
+                        "name": "Affiliate Tacking Prohibition",
+                        "summary": "Holding periods can only tack if securities were purchased from non-affiliates. Acquisition of shares or debt from an affiliate (Haas or Gaines) restarts the holding period from day zero.",
+                        "relevanceToLitigation": "Completely invalidates John T. Root's opinion tacking Haas's 2009 employment debt to E.F. Romano III, and Mills's opinions tacking Gaines trust holdings."
+                },
+                {
+                        "code": "15 U.S.C. \u00a7 77b(a)(11)",
+                        "name": "Statutory Underwriter Status",
+                        "summary": "Any person who purchases from an issuer or control person with a view to distribution is an underwriter, stripping Section 4(a)(1) exemption eligibility.",
+                        "relevanceToLitigation": "Applies directly to E.F. Romano III, Cheryl Hintzen, Big Thunder LLC, and Paula Marie Poe, who served as conduits to funnel restricted stock into OTC retail markets."
+                },
+                {
+                        "code": "17 C.F.R. \u00a7 230.144(i)",
+                        "name": "Shell Company Resale Prohibition",
+                        "summary": "Rule 144 is unavailable for the resale of securities initially issued by a shell or former shell company unless strict reporting conditions and a 1-year seasoning period are met.",
+                        "relevanceToLitigation": "GreenGro was a former shell company (Twister Holdings, Inc.). Opinion counsel attempted an end-run around 144(i) by citing Section 4(a)(1), which SEC enforcement precedent strictly forbids."
+                },
+                {
+                        "code": "17 C.F.R. \u00a7 230.144(e)(1)",
+                        "name": "Volume Limitations Ceiling",
+                        "summary": "Sales within any 3-month period cannot exceed the greater of 1% of outstanding shares or the average weekly reported trading volume.",
+                        "relevanceToLitigation": "Root's 27M share opinion represented 5.74% of GreenGro's 470M outstanding shares, exceeding the 1% volume ceiling by 574%."
+                },
+                {
+                        "code": "15 U.S.C. \u00a7 77e / SEC v. Spectrum",
+                        "name": "Attorney Opinion Liability & Scheme Liability",
+                        "summary": "Attorneys who author opinion letters without reasonable inquiry or who make material misstatements to transfer agents face SEC enforcement and civil liability.",
+                        "relevanceToLitigation": "Establishes opinion counsel liability for Stephen Mills and John T. Root, Jr. for facilitating illegal distributions based on backdated and mathematically false representations."
+                }
+        ],
+        "litigationPlaybook": [
+                {
+                        "witness": "John T. Root, Jr., Esq.",
+                        "targetSubject": "The 27M Share Romano Opinion & 5.74% Float Falsification",
+                        "sampleQuestions": [
+                                "In your opinion letter dated January 22, 2019, you wrote that 27,000,000 shares was \"much less than one percent of the outstanding shares of the Issuer\". Did you perform basic arithmetic before signing that statement?",
+                                "GreenGro had 470,220,980 common shares outstanding. What is 27,000,000 divided by 470,220,980?",
+                                "Under Rule 144(d)(1), how could Mr. Romano tack the holding period of James Haas, whom you explicitly identified in paragraph 2 as an affiliate of the issuer?",
+                                "Were you aware that exactly two weeks after your April 22, 2019 opinion letter, James Haas instructed transfer agent Ruben Sanchez to wire 10 million shares to Ira Gaines and 17 million shares back to himself?"
+                        ]
+                },
+                {
+                        "witness": "Stephen Mills, Esq.",
+                        "targetSubject": "Opinion Shopping, Backdated Consulting Agreements & Gaines Affiliation",
+                        "sampleQuestions": [
+                                "In your January 10, 2018 opinion letter for Cheryl Hintzen regarding certificate CS1-7937, you relied on a consulting agreement between GreenGro and Mark Delfin dated September 9, 2013. Did you examine the original metadata of that document?",
+                                "Are you aware that the Mark Delfin agreement was created and executed on May 1, 2017, nearly 4 years after its stated date?",
+                                "In your February 17, 2017 opinion for Ira Gaines (CS1-7696), you certified that Gaines was not an affiliate. What investigation did you conduct regarding Mr. Gaines's beneficial control over certificates 7750, 7800, 7835, and 7905?",
+                                "Did you verify whether GreenGro Technologies was a former shell company subject to the resale disqualifications of Rule 144(i)?"
+                        ]
+                },
+                {
+                        "witness": "Cheryl Hintzen",
+                        "targetSubject": "Lack of Consideration, Mark Delfin Conduit & Maricopa County Lawsuit",
+                        "sampleQuestions": [
+                                "You are currently suing James Haas in Maricopa County Superior Court (CV2025-013574) for failing to remove the legend on certificate CS1-7937. How much money did you pay to GreenGro Technologies, Inc. for those 6,790,000 shares?",
+                                "Your stock purchase agreement states you purchased the shares from Mark Delfin for ,000 on August 20, 2015. Can you produce bank records showing ,000 transferred to Mr. Delfin?",
+                                "Did you know that Mark Delfin's consulting agreement with GreenGro was not authored or signed until May 1, 2017?",
+                                "When you requested Stephen Mills to issue a Section 4(a)(1) legal opinion on January 9, 2018, was it your immediate intention to sell all 6.79 million shares into the OTC public float?"
+                        ]
+                },
+                {
+                        "witness": "Ruben Sanchez (Fidelity Transfer Services)",
+                        "targetSubject": "Transfer Agent Discrepancies (29M vs 78M vs 120M) & Canadian Straw Wires",
+                        "sampleQuestions": [
+                                "As disclosed in the Haas Rule 26.1 disclosure, Fidelity Transfer Services processed between 29 million, 78 million, and 120 million questionable GRNH shares. Why do your internal transfer ledgers fail to reconcile with SEC Pinksheet share totals?",
+                                "On April 2, 2019, Joshua Hintzen instructed you to cancel certificates 7960, 7961, and 7963 registered to Ira Gaines and reissue them to Canadian resident Paula Marie Poe. Why did you process a transfer from an affiliate to a foreign nominee without a registration statement?",
+                                "Between April 4 and April 10, 2019, Fidelity received wire payments totaling over ,000 for processing certificates 8161 through 8169. Who paid those transfer fees and what account did they originate from?"
+                        ]
+                }
+        ]
+}
 }
 
 out_file = 'src/data/grnh_forensic_database.json'
