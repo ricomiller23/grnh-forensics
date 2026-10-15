@@ -43,7 +43,7 @@ for pat in db['fraudPatterns']:
     lines.append(f"- **Analysis:** {pat['description']}")
     lines.append(f"- **Affected Stock Certificates:** {', '.join(pat['affectedCertificates'])}")
     lines.append("- **Primary Source Evidence Files:**")
-    for f in pat['primaryEvidenceFiles']:
+    for f in pat.get('primaryEvidenceFiles', []):
         lines.append(f"  - `{f}`")
     lines.append("")
 
@@ -150,6 +150,86 @@ for lp in ncs.get('litigationPlaybook', []):
     for q_idx, q in enumerate(lp['sampleQuestions']):
         lines.append(f"- **Q{q_idx+1}:** {q}")
     lines.append("")
+
+
+lines.append("---")
+lines.append("## VII. CERTIFICATE LINEAGE, NEW SELLERS ANALYSIS & VISUAL TRANSFER PATTERNS")
+lines.append("This section documents the traceable custody pedigree for each individual certificate and analyzes the systematic reliance on 'New Sellers' (secondary intermediaries) who transferred restricted blocks without proceeds entering the corporate treasury.\n")
+
+lineage = db.get('certificateLineage', {})
+metrics = lineage.get('summaryMetrics', {})
+
+lines.append("### VII.A. Summary Metrics: The 'New Sellers' Reality")
+lines.append(f"- **Total Non-Company Shares Sold via New Sellers:** **{metrics.get('totalNewSellerVolume', 66500000):,} Shares**")
+lines.append(f"- **Proceeds Directed to Issuer Treasury:** **$0.00** (100% of proceeds were captured by promoters and nominees)")
+lines.append(f"- **Big Thunder LLC Nominee Liquidation Volume:** **{metrics.get('bigThunderVolume', 8000000):,} Shares**")
+lines.append(f"- **Motivated Minds / SagePoint Volume:** **{metrics.get('motivatedMindsVolume', 1000000):,} Shares**")
+lines.append(f"- **Foreign / Canadian Straw Amalgamation Volume:** **{metrics.get('canadianStrawVolume', 30450000):,} Shares**")
+lines.append(f"- **Total Cataloged Traceable Certificates:** **{metrics.get('totalCertificatesCataloged', 31)} Distinct Stock Certificates**\n")
+
+lines.append("### VII.B. Master Dossier of 'New Sellers' (Secondary Intermediaries)")
+lines.append("| ID | Seller Entity | Controller / Proxy | Operational Role | Volume Sold | Issuer Cash | Key Affected Certs | Key Receipts |")
+lines.append("|---|---|---|---|---|---|---|---|")
+for s in lineage.get('newSellersAnalysis', []):
+    certs_str = ', '.join(s['affectedCertificates'][:3])
+    if len(s['affectedCertificates']) > 3:
+        certs_str += f" (+{len(s['affectedCertificates'])-3} more)"
+    ev_str = ', '.join(s['primaryEvidenceFiles'][:2])
+    lines.append(f"| {s['id']} | **{s['name']}** | {s['controller']} | {s['role']} | {s['totalSharesSoldOrTransferred']:,} | {s['considerationReceived']} | {certs_str} | {ev_str} |")
+lines.append("")
+
+lines.append("#### Special Entity Dossier 1: Big Thunder, LLC (Nominee Vehicle)")
+lines.append("- **Formation Date:** August 30, 2017 (Nevada LLC)")
+lines.append("- **Managing Member:** Tom McCluskey (Husband of Sue McCluskey, Ira Gaines' personal bookkeeper)")
+lines.append("- **Concealed Beneficial Owners:** Ira Gaines, Cheryl Hintzen, Stevie Ray McCluskey")
+lines.append("- **Operational Rationale:** Formed specifically because Ira Gaines and Cheryl Hintzen faced widespread broker account closures and freezes at Wilson-Davis, Pershing, and Manning-Napier.")
+lines.append("- **Brokerage Warning & Alteration:** The original operating agreement page 14 named Ira Gaines as Initial Manager. Broker David Adams at Forest Securities warned the parties that Gaines' name would trigger compliance rejection. Sue McCluskey substituted Tom McCluskey to evade scrutiny.")
+lines.append("- **Brokerages Used:** Forest Securities (David Adams) and Alpine Securities.")
+lines.append("- **Certificates Channeled:** CS1-8002 (4,000,000 shares), CS1-7910, 7960, 7961, 7962, 7963, 7964, 7965, 7966, 7967, 7968 (totaling 8,000,000 shares).")
+lines.append("- **Primary Evidence:** `Big Thunder LLC CHAPTER.docx`, `NARRATIVE V1.docx`, `GRNH request for legal 4MM GRNH BIg Thunder.docx`, `GRNH SENT TO TA to be put in Big Thunder Name 9 certs.pdf`\n")
+
+lines.append("#### Special Entity Dossier 2: Motivated Minds (Wells Fargo & Bankers Trust Conduit)")
+lines.append("- **Operational Vehicle:** Motivated Minds operated payroll and commercial accounts at Wells Fargo Bank and Bankers Trust.")
+lines.append("- **Clearing Brokerage:** SagePoint Financial, Inc.")
+lines.append("- **Clearing Volume:** 1,000,000 shares under Promissory Note transfer mechanisms.")
+lines.append("- **Primary Evidence:** `SagePoint Motivated Minds.pdf`, `GRNH for Sage point 1MM shares.pdf`, `Eric Miller Compensation 03-14-21.xlsx` (Sheet 'SUMMARY')\n")
+
+lines.append("### VII.C. The Six Core Visual Transfer Flow Patterns\n")
+for pat in lineage.get('visualPatterns', []):
+    lines.append(f"#### Pattern {pat['id']}: {pat['title']}")
+    lines.append(f"- **Subtitle:** {pat['subtitle']}")
+    lines.append(f"- **Severity:** `{pat['severity']}`")
+    lines.append(f"- **Statutory Violations:** {', '.join(pat['statutoryViolations'])}")
+    lines.append(f"- **Mechanic Summary:** {pat['mechanicSummary']}")
+    lines.append(f"- **Affected Certificates:** {', '.join(pat['affectedCertificates'])}")
+    lines.append("- **Transfer Flow Circuit:**")
+    for step in pat['nodes']:
+        lines.append(f"  {step['step']}. **[{step['badge']}] {step['entity']}**: {step['action']}")
+    lines.append("- **Primary Evidence Receipts:**")
+    for f in pat.get('primaryEvidenceFiles', []):
+        lines.append(f"  - `{f}`")
+    lines.append("")
+
+lines.append("### VII.D. Traceable Certificate Master Pedigree Ledger (31 Stock Certificates)\n")
+lines.append("| Cert # | Shares | Genesis Date | Origin Type | Primary Seller | Initial Recipient | Clearing Broker | Counsel | Red Flags | Key Receipts |")
+lines.append("|---|---|---|---|---|---|---|---|---|---|")
+for cert in lineage.get('traceableCertificates', []):
+    rf_str = '; '.join(cert['redFlags'][:2]) if cert['redFlags'] else 'None'
+    ev_str = ', '.join(cert['evidenceFiles'][:2])
+    lines.append(f"| **{cert['certNumber']}** | {cert['shares']:,} | {cert['genesisDate']} | {cert['originType']} | {cert['primarySeller']} | {cert['initialRecipient']} | {cert['brokerOrClearing']} | {cert['opinionCounsel']} | {rf_str} | {ev_str} |")
+lines.append("")
+
+lines.append("#### Detailed Step-by-Step Custody Pedigree for Key Certificates:\n")
+for cert in lineage.get('traceableCertificates', []):
+    lines.append(f"##### Certificate {cert['certNumber']} ({cert['shares']:,} Shares - {cert['initialRecipient']})")
+    lines.append(f"- **Genesis Date:** {cert['genesisDate']} | **Origin:** {cert['originType']}")
+    lines.append(f"- **Current Status:** {cert['currentHolderOrStatus']}")
+    lines.append(f"- **Clearing Broker:** {cert['brokerOrClearing']} | **Opinion Counsel:** {cert['opinionCounsel']}")
+    lines.append("- **Custody Chain of Title:**")
+    for hop in cert['custodyHops']:
+        lines.append(f"  - **Step {hop['step']} ({hop['date']}):** `{hop['from']}` → `{hop['to']}`: {hop['action']}")
+    lines.append(f"- **Evidentiary Anomalies:** {'; '.join(cert['redFlags'])}")
+    lines.append(f"- **Primary Hard Drive Files:** {', '.join(cert['evidenceFiles'])}\n")
 
 out_path = '/Users/ericmiller/Downloads/GRNH_Forensic_Securities_Litigation_Report.md'
 with open(out_path, 'w') as f:

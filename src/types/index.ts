@@ -177,6 +177,76 @@ export interface NonCompanySharesAnalysis {
   litigationPlaybook: LitigationPlaybookItem[];
 }
 
+
+export interface NewSellerProfile {
+  id: string;
+  name: string;
+  controller: string;
+  role: string;
+  totalSharesSoldOrTransferred: number;
+  considerationReceived: string;
+  affectedCertificates: string[];
+  summary: string;
+  legalOpinionsUsed: string[];
+  primaryEvidenceFiles: string[];
+}
+
+export interface CustodyHop {
+  step: number;
+  date: string;
+  from: string;
+  to: string;
+  action: string;
+  notes?: string;
+}
+
+export interface TraceableCertificate {
+  certNumber: string;
+  shares: number;
+  genesisDate: string;
+  originType: string;
+  primarySeller: string;
+  initialRecipient: string;
+  currentHolderOrStatus: string;
+  brokerOrClearing: string;
+  opinionCounsel: string;
+  custodyHops: CustodyHop[];
+  redFlags: string[];
+  evidenceFiles: string[];
+}
+
+export interface VisualTransferPatternNode {
+  step: number;
+  entity: string;
+  action: string;
+  badge: string;
+}
+
+export interface VisualTransferPattern {
+  id: string;
+  title: string;
+  subtitle: string;
+  severity: "Critical" | "High" | "Elevated" | "Medium";
+  statutoryViolations: string[];
+  mechanicSummary: string;
+  nodes: VisualTransferPatternNode[];
+  affectedCertificates: string[];
+}
+
+export interface CertificateLineageData {
+  newSellersAnalysis: NewSellerProfile[];
+  visualPatterns: VisualTransferPattern[];
+  traceableCertificates: TraceableCertificate[];
+  summaryMetrics: {
+    totalTrackedCertificates: number;
+    newSellerVolume: number;
+    bigThunderVolume: number;
+    motivatedMindsVolume: number;
+    canadianNomineeVolume: number;
+    flaggedBrokerages: string[];
+  };
+}
+
 export interface ForensicDatabase {
   meta: ForensicMeta;
   evidentiaryPhases: EvidentiaryPhase[];
@@ -186,4 +256,5 @@ export interface ForensicDatabase {
   certificates: Record<string, CertificateDossier>;
   sourceFilesCatalog: DiscoveredSourceFile[];
   nonCompanySharesAnalysis: NonCompanySharesAnalysis;
+  certificateLineage: CertificateLineageData;
 }

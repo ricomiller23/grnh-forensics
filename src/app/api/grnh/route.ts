@@ -8,6 +8,8 @@ export async function GET(request: Request) {
   const cert = searchParams.get("cert");
   const category = searchParams.get("category");
   const nonCompanyOnly = searchParams.get("nonCompanyOnly") === "true";
+  const lineageOnly = searchParams.get("lineageOnly") === "true";
+  const newSellersOnly = searchParams.get("newSellersOnly") === "true";
 
   let filteredTxs = db.transactions;
   let filteredFiles = db.sourceFilesCatalog;
@@ -62,6 +64,26 @@ export async function GET(request: Request) {
     );
   }
 
+    if (lineageOnly) {
+    return NextResponse.json({
+      meta: {
+        ticker: db.meta.ticker,
+        companyName: db.meta.companyName,
+        totalTrackedCertificates: db.certificateLineage?.summaryMetrics?.totalTrackedCertificates || 0,
+        newSellerVolume: db.certificateLineage?.summaryMetrics?.newSellerVolume || 0,
+        bigThunderVolume: db.certificateLineage?.summaryMetrics?.bigThunderVolume || 0,
+      },
+      certificateLineage: db.certificateLineage,
+    });
+  }
+
+  if (newSellersOnly) {
+    return NextResponse.json({
+      newSellersAnalysis: db.certificateLineage?.newSellersAnalysis || [],
+      summaryMetrics: db.certificateLineage?.summaryMetrics,
+    });
+  }
+
   if (nonCompanyOnly) {
     return NextResponse.json({
       meta: {
@@ -93,6 +115,7 @@ export async function GET(request: Request) {
     transactions: filteredTxs,
     certificates: db.certificates,
     sourceFilesCatalog: filteredFiles,
+    certificateLineage: db.certificateLineage,
     nonCompanySharesAnalysis: {
       ...db.nonCompanySharesAnalysis,
       tranches: filteredNonCompanyTranches,

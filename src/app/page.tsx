@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useMemo } from "react";
+import Link from "next/link";
 import db from "@/data/grnh_forensic_database.json";
 import { CertificateDossier, ForensicDatabase } from "@/types";
 import {
@@ -25,7 +26,9 @@ import {
   BadgeAlert,
   Building2,
   Copy,
-  Check
+  Check,
+  GitCommit,
+  Share2
 } from "lucide-react";
 
 export default function ForensicDashboard() {
@@ -223,7 +226,26 @@ ${sourceFilesCatalog
               </p>
             </div>
 
-            <div style={{ display: "flex", gap: "12px", alignItems: "center" }}>
+            <div style={{ display: "flex", gap: "12px", alignItems: "center", flexWrap: "wrap" }}>
+              <Link
+                href="/lineage"
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  background: "linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%)",
+                  color: "#ffffff",
+                  border: "1px solid #a855f7",
+                  fontWeight: 700,
+                  fontSize: "0.82rem",
+                  padding: "9px 16px",
+                  borderRadius: "8px",
+                  textDecoration: "none",
+                  boxShadow: "0 4px 14px rgba(124, 58, 237, 0.35)",
+                }}
+              >
+                <GitCommit size={15} /> Certificate Lineage & Transfer Patterns Studio →
+              </Link>
               <button onClick={handleDownloadReport} className="btn-primary">
                 <Download size={15} /> Export Legal Brief (.MD)
               </button>
@@ -509,6 +531,27 @@ ${sourceFilesCatalog
           >
             <Users size={15} /> Key Targets & Nominees ({entities.length})
           </button>
+
+          <Link
+            href="/lineage"
+            style={{
+              padding: "10px 18px",
+              fontSize: "0.84rem",
+              fontWeight: 700,
+              background: "rgba(124, 58, 237, 0.15)",
+              border: "1px solid rgba(168, 85, 247, 0.35)",
+              borderRadius: "6px 6px 0 0",
+              color: "#c084fc",
+              textDecoration: "none",
+              display: "flex",
+              alignItems: "center",
+              gap: "8px",
+              whiteSpace: "nowrap",
+              marginLeft: "auto",
+            }}
+          >
+            <GitCommit size={15} /> Lineage & Patterns Studio (Separate Page) ↗
+          </Link>
         </div>
 
         {/* Global Search and Filter Bar */}

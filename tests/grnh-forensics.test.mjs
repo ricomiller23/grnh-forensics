@@ -133,9 +133,80 @@ if (!ncs.rootOpinionAutopsy || !ncs.cherylHintzenLawsuitAutopsy || !ncs.statutor
   process.exit(1);
 }
 
+
+// 6. Certificate Lineage & Transfer Patterns Studio Assertions
+if (!db.certificateLineage) {
+  console.error("FAIL: Missing certificateLineage in database!");
+  process.exit(1);
+}
+
+const lineage = db.certificateLineage;
+if (!lineage.newSellersAnalysis || lineage.newSellersAnalysis.length < 8) {
+  console.error(`FAIL: Expected at least 8 new seller profiles, found ${lineage.newSellersAnalysis?.length || 0}`);
+  process.exit(1);
+}
+
+// Check Big Thunder LLC
+const bigThunder = lineage.newSellersAnalysis.find(s => s.name && s.name.includes("Big Thunder"));
+if (!bigThunder) {
+  console.error("FAIL: Missing Big Thunder LLC profile in newSellersAnalysis!");
+  process.exit(1);
+}
+if (!bigThunder.controller.includes("McCluskey") || !bigThunder.summary.includes("Forest")) {
+  console.error("FAIL: Big Thunder LLC profile missing McCluskey or Forest Securities linkage!");
+  process.exit(1);
+}
+
+// Check Motivated Minds
+const motivatedMinds = lineage.newSellersAnalysis.find(s => s.name && s.name.includes("Motivated Minds"));
+if (!motivatedMinds) {
+  console.error("FAIL: Missing Motivated Minds profile in newSellersAnalysis!");
+  process.exit(1);
+}
+if (!motivatedMinds.summary.includes("SagePoint")) {
+  console.error("FAIL: Motivated Minds profile missing SagePoint clearing brokerage linkage!");
+  process.exit(1);
+}
+
+// Check all new sellers have receipts and affected certificates
+for (const seller of lineage.newSellersAnalysis) {
+  if (!seller.id || !seller.name || !seller.affectedCertificates || seller.affectedCertificates.length === 0 || !seller.primaryEvidenceFiles || seller.primaryEvidenceFiles.length === 0) {
+    console.error(`FAIL: New Seller ${seller.id || 'unknown'} has invalid schema or missing receipts!`);
+    process.exit(1);
+  }
+}
+
+// Check Visual Transfer Patterns
+if (!lineage.visualPatterns || lineage.visualPatterns.length < 6) {
+  console.error(`FAIL: Expected at least 6 visual transfer patterns, found ${lineage.visualPatterns?.length || 0}`);
+  process.exit(1);
+}
+for (const pat of lineage.visualPatterns) {
+  if (!pat.id || !pat.title || !pat.nodes || pat.nodes.length < 3 || !pat.affectedCertificates || pat.affectedCertificates.length === 0) {
+    console.error(`FAIL: Pattern ${pat.id || 'unknown'} has invalid schema or missing nodes/certificates!`);
+    process.exit(1);
+  }
+}
+
+// Check Traceable Certificates Ledger
+if (!lineage.traceableCertificates || lineage.traceableCertificates.length < 25) {
+  console.error(`FAIL: Expected at least 25 traceable certificates, found ${lineage.traceableCertificates?.length || 0}`);
+  process.exit(1);
+}
+
+for (const c of lineage.traceableCertificates) {
+  if (!c.certNumber || !c.shares || !c.primarySeller || !c.initialRecipient || !c.custodyHops || c.custodyHops.length < 2 || !c.evidenceFiles || c.evidenceFiles.length === 0) {
+    console.error(`FAIL: Certificate ${c.certNumber || 'unknown'} has incomplete custody chain or missing receipts!`);
+    process.exit(1);
+  }
+}
+
 console.log(`PASS: All assertions verified!`);
 console.log(`- ${db.transactions.length} verified transactions carrying primary source receipts`);
 console.log(`- ${Object.keys(db.certificates).length} certificate dossiers with verified custody chains`);
 console.log(`- ${db.sourceFilesCatalog.length} hard drive source files indexed`);
+console.log(`- ${lineage.newSellersAnalysis.length} New Seller entities cataloged (Big Thunder, Motivated Minds, Dignitas, Third Coast, etc.)`);
+console.log(`- ${lineage.visualPatterns.length} visual transfer flow patterns verified`);
+console.log(`- ${lineage.traceableCertificates.length} certificates with full traceable custody pedigree verified`);
 console.log(`- Zero synthetic placeholders`);
 process.exit(0);
