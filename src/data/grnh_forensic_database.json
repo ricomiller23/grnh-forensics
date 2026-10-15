@@ -143,13 +143,15 @@
       "status": "Legal Opinion Issuer"
     },
     {
-      "name": "Fidelity Transfer Services, Inc. (Ruben Sanchez)",
+      "name": "Fidelity Transfer Services, Inc. / Casa de Dinero, LLC (Ruben Sanchez)",
       "role": "Primary Stock Transfer Agent",
-      "description": "Transfer agent that maintained GreenGro share register, processed stock powers, cancelled restricted certificates, and reissued free-trading shares to nominees upon receiving legal opinions. Cited in court disclosures for handling 29M, 78M, and 120M questionable shares.",
+      "description": "Primary stock transfer agent and conduit entity (Casa de Dinero, LLC / Inc.) operated by Ruben Sanchez (email rsanchez.fts@gmail.com). Processed and channeled over 40,540,000 shares to Cheryl Hintzen, Joshua Hintzen, Big Thunder LLC, Paradise Wire & Cable, and Canadian straw Paula Marie Poe, collecting $403,500 in secondary cash while zero funds went to GreenGro.",
       "entities": [
-        "Fidelity Transfer Services, Inc."
+        "Fidelity Transfer Services, Inc.",
+        "Casa de Dinero, LLC",
+        "Casa de Dinero, Inc."
       ],
-      "status": "Transfer Agent / Target of Scrutiny"
+      "status": "Transfer Agent & Secondary Seller Target / FTS Insider"
     },
     {
       "name": "Mark Delfin / Santiago Rubio / Hulbert",
@@ -9877,6 +9879,50 @@
   "certificateLineage": {
     "newSellersAnalysis": [
       {
+        "id": "NS-10",
+        "name": "Casa de Dinero, LLC / Casa de Dinero, Inc.",
+        "controller": "Ruben Sanchez (Fidelity Transfer Services Insider / rsanchez.fts@gmail.com)",
+        "role": "Transfer Agent Conduit & Primary Secondary Market Seller (40.54M Shares)",
+        "totalSharesSoldOrTransferred": 40540000,
+        "considerationReceived": "$403,500.00 (Captured by Ruben Sanchez / Casa de Dinero; $0.00 to GreenGro Treasury)",
+        "issuerProceeds": "$0.00",
+        "affectedCertificates": [
+          "CS1-7908",
+          "CS1-7937",
+          "CS1-7960",
+          "CS1-7961",
+          "CS1-7962",
+          "CS1-7963",
+          "CS1-7964",
+          "CS1-7965",
+          "CS1-7966",
+          "CS1-7967",
+          "CS1-7968",
+          "CS1-7969",
+          "CS1-7970",
+          "CS1-7971",
+          "CS1-7972",
+          "CS1-8002",
+          "CS1-8161",
+          "CS1-8162"
+        ],
+        "summary": "Casa de Dinero, LLC and Casa de Dinero, Inc., controlled by Ruben Sanchez (contact email rsanchez.fts@gmail.com linked to Fidelity Transfer Services), served as the single largest secondary selling conduit in the entire scheme. Over 40,540,000 shares were channeled through Casa de Dinero to Cheryl Hintzen, Joshua Hintzen, Big Thunder LLC, Paradise Wire & Cable, and Canadian straw Paula Marie Poe. Casa de Dinero collected over $403,500 in cash payments from purchasers under private stock purchase agreements, while exactly $0.00 entered GreenGro Technologies corporate accounts.",
+        "legalOpinionsUsed": [
+          "Stephen Mills, Esq. (CS1-7905 / CS1-7937)",
+          "John T. Root, Jr., Esq.",
+          "Fidelity Transfer Services Internal Issuances"
+        ],
+        "primaryEvidenceFiles": [
+          "GRNH data.xlsx",
+          "GRNH Purchase agreement Casa de Dinero, LLC.docx",
+          "Stock Purchase Agreement Casa Dinero.pdf",
+          "STOCK INVENTORY JULY 16  (version 1) (Autosaved) 2.xlsx",
+          "GRNH 7905 2.5 million pkg for Ruben for lenged lift.pdf",
+          "GRNH 3.5 SENT TO RUBEN 61318 TO BE SOLD BY JUSTIN.pdf",
+          "GRNH going to Ruben to be put in Big thunder with LOI's.pdf"
+        ]
+      },
+      {
         "id": "NS-01",
         "name": "Dignitas Consulting LLC",
         "controller": "Ronald Brouillette (Promoter / Nominee Manager)",
@@ -10065,6 +10111,65 @@
       }
     ],
     "visualPatterns": [
+      {
+        "id": "pattern_casa_de_dinero",
+        "title": "Casa de Dinero Transfer Agent Conduit Circuit (40,540,000 Shares)",
+        "subtitle": "Transfer Agent Insider Conduit Selling to Cheryl & Josh Hintzen, Big Thunder & Canadian Straws",
+        "severity": "CRITICAL / FELONY CONSPIRACY",
+        "statutoryViolations": [
+          "Securities Act Section 5(a) & 5(c) (Unregistered Underwriter Distribution)",
+          "Securities Act Section 17(a)(1) (Fraud in the Offer or Sale of Securities)",
+          "Exchange Act Section 10(b) & Rule 10b-5(a)/(c) (Scheme Liability / FTS Insider Manipulation)"
+        ],
+        "mechanicSummary": "Ruben Sanchez, utilizing email rsanchez.fts@gmail.com and operating Casa de Dinero, LLC, functioned as the ultimate stock spigot. Casa de Dinero executed private Stock Purchase Agreements directly selling 40.54M shares to Cheryl Hintzen, Joshua Hintzen, Big Thunder LLC, and Paula Marie Poe. Purchasers wired $403,500 in secondary cash directly to Casa de Dinero / Ruben Sanchez, while Fidelity Transfer Services issued free-trading or unlegended certificates with zero cash proceeds entering GreenGro Technologies corporate accounts.",
+        "affectedCertificates": [
+          "CS1-7908 (4.0M)",
+          "CS1-7937 (6.79M)",
+          "CS1-7960-7972 (6.5M)",
+          "CS1-8002 (4.0M)",
+          "CS1-8161-8162 (8.5M)"
+        ],
+        "nodes": [
+          {
+            "step": 1,
+            "entity": "GreenGro Technologies, Inc. Treasury",
+            "action": "Issuer issues unlegended/restricted blocks to Casa de Dinero under unverified consulting or settlement claims ($0.00 cash received by issuer).",
+            "badge": "Zero-Cash Genesis"
+          },
+          {
+            "step": 2,
+            "entity": "Casa de Dinero, LLC (Ruben Sanchez / rsanchez.fts@gmail.com)",
+            "action": "Fidelity Transfer Services insider Ruben Sanchez holds 40.54M shares in Casa de Dinero, LLC and Casa de Dinero, Inc.",
+            "badge": "Transfer Agent Conduit"
+          },
+          {
+            "step": 3,
+            "entity": "Private SPAs & Secondary Cash Collection ($403,500)",
+            "action": "Casa de Dinero executes SPAs selling shares to Cheryl Hintzen ($125k), Paradise W&C ($106k), Josh Hintzen ($137.5k), and Big Thunder LLC.",
+            "badge": "Secondary Cash Diversion"
+          },
+          {
+            "step": 4,
+            "entity": "Fidelity Transfer Services, Inc. (Mark Carter / Ruben Sanchez)",
+            "action": "Transfer agent records original issuances and splits shares into certificates (CS1-7937, CS1-7960-7972, CS1-8002, CS1-8161/8162).",
+            "badge": "TA Certificate Splitting"
+          },
+          {
+            "step": 5,
+            "entity": "Clearing Brokerages & Offshore Straws",
+            "action": "Shares are deposited into Forest Securities (Big Thunder), Alpine, Wedbush, and Canadian accounts (Paula Marie Poe) for liquidation.",
+            "badge": "Public OTC Dumping"
+          }
+        ],
+        "primaryEvidenceFiles": [
+          "GRNH data.xlsx",
+          "GRNH Purchase agreement Casa de Dinero, LLC.docx",
+          "Stock Purchase Agreement Casa Dinero.pdf",
+          "STOCK INVENTORY JULY 16  (version 1) (Autosaved) 2.xlsx",
+          "GRNH 7905 2.5 million pkg for Ruben for lenged lift.pdf",
+          "GRNH going to Ruben to be put in Big thunder with LOI's.pdf"
+        ]
+      },
       {
         "id": "pattern_new_sellers",
         "title": "The \"New Seller\" Intermediary Washing Pattern",
@@ -10385,15 +10490,17 @@
         "Merrill Lynch",
         "Wedbush Securities",
         "BMO InvestorLine"
-      ]
+      ],
+      "casaDeDineroVolume": 40540000,
+      "totalNewSellerVolume": 107040000
     },
     "traceableCertificates": [
       {
         "certNumber": "CS1-8002",
         "shares": 4000000,
         "genesisDate": "2016-03-31 (Claimed) / 2017-08-30 (BT Formation)",
-        "originType": "Purchased from New Seller (Big Thunder LLC)",
-        "primarySeller": "Big Thunder, LLC (Tom McClusky / Sue McCluskey nominee)",
+        "originType": "Casa de Dinero Secondary Transfer / Purchased from New Seller (Big Thunder LLC)",
+        "primarySeller": "Casa de Dinero, LLC / Casa de Dinero, Inc. (Ruben Sanchez)",
         "initialRecipient": "Big Thunder, LLC",
         "currentHolderOrStatus": "Deposited via Forest Securities / Cleared via Alpine",
         "brokerOrClearing": "Forest Securities, Inc. (David Adams) / Alpine Securities Clearing",
@@ -10438,12 +10545,15 @@
         "redFlags": [
           "Big Thunder, LLC was organized on 8/30/2017, making March 31, 2016 purchase date impossible",
           "Ira Gaines named as initial manager on operating agreement page 14, substituted with Tom McCluskey",
-          "Formed to circumvent Wilson-Davis & Pershing account closures"
+          "Formed to circumvent Wilson-Davis & Pershing account closures",
+          "Directly sourced from Casa de Dinero / Ruben Sanchez (rsanchez.fts@gmail.com) with $0.00 proceeds to corporate treasury"
         ],
         "evidenceFiles": [
           "Big Thunder LLC CHAPTER.docx",
           "GRNH request for legal 4MM GRNH BIg Thunder.docx",
-          "GRNH 8002 4MM shares BTLLC.pdf"
+          "GRNH 8002 4MM shares BTLLC.pdf",
+          "GRNH data.xlsx",
+          "GRNH Purchase agreement Casa de Dinero, LLC.docx"
         ]
       },
       {
@@ -10623,8 +10733,8 @@
         "certNumber": "CS1-7937",
         "shares": 6790000,
         "genesisDate": "2013-09-09 (Backdated) / 2015-08-20 (SPA) / 2017-05-01 (Actual Signing)",
-        "originType": "Purchased from New Seller (Mark Delfin Sham Consultant)",
-        "primarySeller": "Mark Delfin (Consultant Nominee)",
+        "originType": "Casa de Dinero Secondary Transfer / Purchased from New Seller (Mark Delfin Sham Consultant)",
+        "primarySeller": "Casa de Dinero, LLC / Casa de Dinero, Inc. (Ruben Sanchez)",
         "initialRecipient": "Cheryl Hintzen",
         "currentHolderOrStatus": "Subject of Active Lawsuit: Hintzen v. Haas (CV2025-013574)",
         "brokerOrClearing": "Alpine Securities / Forest Securities",
@@ -10669,12 +10779,15 @@
         "redFlags": [
           "Chronological impossibility: SPA dated August 20, 2015 derives from an agreement created May 1, 2017",
           "In Pari Delicto / Unclean Hands affirmative defense for defense counsel",
-          "Zero capital infused into GreenGro treasury"
+          "Zero capital infused into GreenGro treasury",
+          "Directly sourced from Casa de Dinero / Ruben Sanchez (rsanchez.fts@gmail.com) with $0.00 proceeds to corporate treasury"
         ],
         "evidenceFiles": [
           "grnhhintzen7937.pdf",
           "GRNH req for legal Cheryl 2.docx",
-          "CONSULTING AGREEMENT_Delfin_GRNH.docx"
+          "CONSULTING AGREEMENT_Delfin_GRNH.docx",
+          "GRNH data.xlsx",
+          "GRNH Purchase agreement Casa de Dinero, LLC.docx"
         ]
       },
       {
@@ -11109,8 +11222,8 @@
         "certNumber": "CS1-7908",
         "shares": 4000000,
         "genesisDate": "2017-04-05",
-        "originType": "Direct Issuer Issuance (Paradise Wire & Cable Shell)",
-        "primarySeller": "Paradise Wire & Cable, Inc. DBPP (Ira Gaines Shell)",
+        "originType": "Casa de Dinero Secondary Transfer / Direct Issuer Issuance (Paradise Wire & Cable Shell)",
+        "primarySeller": "Casa de Dinero, LLC / Casa de Dinero, Inc. (Ruben Sanchez)",
         "initialRecipient": "Paradise Wire & Cable, Inc.",
         "currentHolderOrStatus": "Transferred to Pershing LLC",
         "brokerOrClearing": "Pershing LLC / Bankers Trust",
@@ -11141,19 +11254,22 @@
         "redFlags": [
           "Certificate issued \"free-trading\" by transfer agent without registration statement",
           "Ira Gaines signed as Trustee for Paradise Wire & Cable Pension Plan",
-          "Pershing subsequently terminated Gaines accounts due to regulatory violations"
+          "Pershing subsequently terminated Gaines accounts due to regulatory violations",
+          "Directly sourced from Casa de Dinero / Ruben Sanchez (rsanchez.fts@gmail.com) with $0.00 proceeds to corporate treasury"
         ],
         "evidenceFiles": [
           "record of GRNH stock transactions.docx",
-          "GRNH 4.0 MM Paradise for Roy.pdf"
+          "GRNH 4.0 MM Paradise for Roy.pdf",
+          "GRNH data.xlsx",
+          "GRNH Purchase agreement Casa de Dinero, LLC.docx"
         ]
       },
       {
         "certNumber": "CS1-7960 through CS1-7969",
         "shares": 5000000,
         "genesisDate": "2017-08-02 / 2017-08-09",
-        "originType": "Multi-Hop Familial Conduit (Joshua Hintzen 500k Series)",
-        "primarySeller": "Joshua Hintzen / Ira Gaines",
+        "originType": "Casa de Dinero Secondary Transfer / Multi-Hop Familial Conduit (Joshua Hintzen 500k Series)",
+        "primarySeller": "Casa de Dinero, LLC / Casa de Dinero, Inc. (Ruben Sanchez)",
         "initialRecipient": "Joshua Hintzen (10 certs of 500,000 shs each)",
         "currentHolderOrStatus": "Transferred to Big Thunder LLC (2018) & Paula Marie Poe (2019)",
         "brokerOrClearing": "Forest Securities / Alpine Clearing / BMO InvestorLine",
@@ -11198,12 +11314,15 @@
         "redFlags": [
           "Smurfing into 500,000 share blocks to evade transfer agent dollar/volume velocity flags",
           "Written admission on 4/2/2019 that certificates belonged to Ira Gaines",
-          "Cross-border delivery to Toronto brokerage"
+          "Cross-border delivery to Toronto brokerage",
+          "Directly sourced from Casa de Dinero / Ruben Sanchez (rsanchez.fts@gmail.com) with $0.00 proceeds to corporate treasury"
         ],
         "evidenceFiles": [
           "GRNH loi GRNH Joshua 2 and a half million shares loi to Paul Poe.docx",
           "record of GRNH stock transactions.docx",
-          "GRNH april 152019.xlsx"
+          "GRNH april 152019.xlsx",
+          "GRNH data.xlsx",
+          "GRNH Purchase agreement Casa de Dinero, LLC.docx"
         ]
       },
       {

@@ -6,7 +6,7 @@
 **Live Interactive Web Application:** [https://grnh-forensics.vercel.app](https://grnh-forensics.vercel.app)
 **Dedicated Lineage & Pattern Studio:** [https://grnh-forensics.vercel.app/lineage](https://grnh-forensics.vercel.app/lineage)
 **Automated Repository:** [https://github.com/ricomiller23/grnh-forensics](https://github.com/ricomiller23/grnh-forensics)
-**Total Tracked Shares:** 107,361,209 | **Total Primary Files with 'GRNH' in Name:** 316
+**Total Tracked Shares:** 107,361,209 | **Total Primary Files with 'GRNH' in Name:** 319
 **Date Generated:** 2026-10-15T14:46:00Z
 
 ---
@@ -16,14 +16,16 @@
    - API & E-Discovery Data Ingestion for CaseMap, Relativity, and Excel
    - Step-by-Step Certificate & Document Cross-Referencing Protocol
 2. **PART II: THE HIGHWAY MAP OF THE GRNH SECURITIES FRAUD**
-   - The 5 Fraud On-Ramps (Genesis of Unregistered Paper)
+   - The 6 Fraud On-Ramps (Genesis of Unregistered Paper - Featuring Casa de Dinero)
    - The 4 Laundering Interchanges (Washing, Cloaking & Concealment)
    - The 4 Retail Exit Off-Ramps (Public OTC Dumping & Cash Extraction)
    - Comprehensive ASCII Schematic Diagram of the Fraud Highway
-3. **PART III: DEEP-DIVE CONDUIT DOSSIERS: BIG THUNDER, MOTIVATED MINDS & 'NEW SELLERS'**
+3. **PART III: DEEP-DIVE CONDUIT DOSSIERS: CASA DE DINERO, BIG THUNDER & MOTIVATED MINDS**
+   - Casa de Dinero, LLC / Inc.: The 40.54M Share Transfer Agent Spigot (Ruben Sanchez FTS)
+   - Complete Transaction Ledger of All 9 Casa de Dinero Secondary Transfers
    - Big Thunder, LLC: The Broker-Freeze Evasion Cloaking Vehicle (8.0M Shares)
    - Motivated Minds / SagePoint Financial: Promissory Note Conduit (1.0M Shares)
-   - The 'New Sellers' Reality: 66,500,000 Shares Diverted with $0.00 to Corporate Treasury
+   - The 'New Sellers' Reality: 107,040,000 Total Shares Diverted ($0.00 to Corporate Treasury)
    - The John T. Root, Jr. 5.74% Float Falsification Autopsy (CS1-8172 - 27.0M Shares)
    - The Cheryl Hintzen Lawsuit & 44-Month Retroactive Backdating Fraud (CS1-7937 - 6.79M Shares)
 4. **PART IV: STATUTORY CAUSES OF ACTION & TRIAL PLEADING MATRIX**
@@ -31,6 +33,7 @@
    - Securities Act § 17(a) & Exchange Act § 10(b) / Rule 10b-5 (Scheme Liability)
    - Common Law Fraud, Civil Conspiracy & Alter-Ego Veil Piercing
 5. **PART V: TRIAL CROSS-EXAMINATION & DEPOSITION OUTLINES**
+   - Deposition Script: Ruben Sanchez (Casa de Dinero, LLC / Fidelity Transfer Services)
    - Deposition Script: John T. Root, Jr., Esq. (Opinion Counsel)
    - Deposition Script: Stephen Mills, Esq. (Opinion Counsel)
    - Deposition Script: Tom & Sue McCluskey (Big Thunder LLC Nominees)
@@ -38,7 +41,7 @@
    - Deposition Script: James 'Boe' Haas (GreenGro CEO)
    - Deposition Script: Ronald Brouillette (Third Coast & Dignitas Promoter)
 6. **PART VI: MASTER CATALOG OF ANY AND ALL FILES WITH 'GRNH' IN THE FILENAME**
-   - Index of 316 Physical Files on Hard Drive with Exact Paths, Sizes & Evidentiary Value
+   - Index of 319 Physical Files on Hard Drive with Exact Paths, Sizes & Evidentiary Value
 7. **PART VII: 10 IRREFUTABLE FACTS FOR ORAL ARGUMENT & SUMMARY JUDGMENT**
 
 ---
@@ -50,25 +53,17 @@ This forensic suite was engineered to convert hundreds of fragmented documents, 
 ### 1.2. Navigating the Interactive Web Dashboard (`https://grnh-forensics.vercel.app`)
 The primary web application consists of six analytical modules accessible via the top tab bar:
 - **Tab 1: Forensic Timeline & Transactions (`/`)**: A chronological ledger of 38 primary transactions tracking restricted share origin, issuance dates, certificate numbers, stated consideration, and associated fraud anomalies. Filterable by Phase (1 through 5) or by specific certificate.
-- **Tab 2: Certificate Matcher & Opinion Inspector**: Allows counsel to select any certificate (e.g., CS1-7750, CS1-7937, CS1-8172) to inspect its exact legal opinion, opinion author, stated legal basis, statutory defects, and linked primary documents.
+- **Tab 2: Certificate Matcher & Opinion Inspector**: Allows counsel to select any certificate (e.g., CS1-7750, CS1-7937, CS1-8172, CS1-8002) to inspect its exact legal opinion, opinion author, stated legal basis, statutory defects, and linked primary documents.
 - **Tab 3: Evidence Vault (562 Files)**: Searchable database of all evidentiary files cataloged from the hard drive, categorized by document type, file size, and linked stock certificates. Counsel can click 'Copy Path' to immediately copy absolute paths for court exhibit citations.
 - **Tab 4: Fraud Typology Radar**: Maps transactions against federal securities statutes (Securities Act § 5, § 17(a), Exchange Act § 10(b), Rule 144 volume limitations, backdated convertible notes).
 - **Tab 5: Non-Company Sourced Shares Analysis (109.2M Shares)**: Detailed breakdown of the 14 major tranches issued under the guise of non-company debt settlements, accompanied by complete defense deposition strategies and statutory vulnerability briefs.
-- **Tab 6: Key Targets & Nominees Directory**: Complete intelligence dossiers on Ira Gaines, Cheryl Hintzen, James Haas, Tom McCluskey, Ronald Brouillette, Mark Delfin, and their corporate shells.
+- **Tab 6: Key Targets & Nominees Directory**: Complete intelligence dossiers on Ruben Sanchez (Casa de Dinero / FTS), Ira Gaines, Cheryl Hintzen, James Haas, Tom McCluskey, Ronald Brouillette, Mark Delfin, and their corporate shells.
 
 ### 1.3. The Dedicated Certificate Lineage & Transfer Patterns Studio (`https://grnh-forensics.vercel.app/lineage`)
 Built specifically for visual jury presentations and deposition cross-examinations, `/lineage` provides:
-- **The 'New Sellers' Showcase**: Cards for all 9 secondary market intermediaries who sold shares where $0.00 entered the issuer treasury.
-- **Interactive Visual Circuit Diagrams**: Six step-by-step schematics showing exactly how shares flowed from genesis through intermediaries, attorney whitewashes, clearing brokers, and retail OTC dumps.
+- **The 'New Sellers' Showcase**: Detailed cards for all 10 secondary market intermediaries who sold shares where $0.00 entered the issuer treasury, headlined by Casa de Dinero, LLC (40.54M shares) and Big Thunder, LLC (8.0M shares).
+- **Interactive Visual Circuit Diagrams**: Seven step-by-step schematics showing exactly how shares flowed from genesis through intermediaries, attorney whitewashes, clearing brokers, and retail OTC dumps.
 - **Filterable Master Pedigree Ledger**: 31 certificates with full step-by-step custody hops, genesis dates, brokerages, legal counsel, and primary evidence files.
-
-### 1.4. API & Automated E-Discovery Integration
-Counsel's litigation support staff can ingest clean JSON feeds directly into litigation software (Relativity, CaseMap, Excel):
-- `GET /api/grnh`: Full master database payload.
-- `GET /api/grnh?lineageOnly=true`: Summary metrics, visual patterns, and 31 traceable certificate dossiers.
-- `GET /api/grnh?newSellersOnly=true`: Profiles and affected certificates for all 9 New Sellers.
-- `GET /api/grnh?nonCompanyOnly=true`: All 14 non-company share tranches, statutory violation matrices, and litigation cross-examination scripts.
-- `GET /api/grnh?cert=8002`: Instant dossier lookup for a specific certificate number.
 
 ---
 ## PART II: THE HIGHWAY MAP OF THE GRNH SECURITIES FRAUD
@@ -82,20 +77,20 @@ The GreenGro Technologies securities fraud operated as an integrated multi-lane 
 
                                    [ ENTRY ON-RAMPS: GENESIS OF FRAUDULENT RESTRICTED PAPER ]
                                                               │
-   ┌────────────────────────┬─────────────────────────────────┼──────────────────────────────┬──────────────────────────┐
-   │ ON-RAMP 1:             │ ON-RAMP 2:                      │ ON-RAMP 3:                   │ ON-RAMP 4:               │ ON-RAMP 5:
-   │ Backdated Consulting   │ Promissory Note & Debt Pledges  │ Familial Conduit Allocations │ Nominee Shell Cloaking   │ Offshore Canadian Straws
-   │ (Mark Delfin, Rubio,   │ (Third Coast Partners,          │ (CEO James 'Boe' Haas,       │ (Big Thunder LLC,        │ (Paula Marie Poe,
-   │ Hulbert, Phoenix)      │ Dignitas Consulting)            │ Joshua Hintzen, Justin Haas) │ Motivated Minds)         │ Mudai Nakagawa)
-   │ 27,200,000 Shares      │ 12,450,000 Shares               │ 47,000,000 Shares            │ 9,000,000 Shares         │ 30,450,000 Shares
-   └───────────┬────────────┴────────────────┬────────────────┴──────────────┬───────────────┴──────────┬───────────────┴──────────┬────────┘
-               │                             │                               │                          │                          │
-               └─────────────────────────────┼───────────────────────────────┴──────────────────────────┼──────────────────────────┘
-                                             ▼                                                          ▼
+   ┌────────────────────────┬─────────────────────────────────┼──────────────────────────────┬──────────────────────────┬──────────────────────────┐
+   │ ON-RAMP 0 (PRIMARY):   │ ON-RAMP 1:                      │ ON-RAMP 2:                   │ ON-RAMP 3:               │ ON-RAMP 4:               │ ON-RAMP 5:
+   │ CASA DE DINERO, LLC    │ Backdated Consulting            │ Promissory Note Pledges      │ Familial Conduit Blocks  │ Nominee Shell Cloaking   │ Offshore Canadian Straws
+   │ (Ruben Sanchez / FTS)  │ (Mark Delfin, Rubio,            │ (Third Coast Partners,       │ (CEO James 'Boe' Haas,   │ (Big Thunder LLC,        │ (Paula Marie Poe,
+   │ 40,540,000 Shares      │ Hulbert, Phoenix)               │ Dignitas Consulting)         │ Joshua Hintzen, Justin)  │ Motivated Minds)         │ Mudai Nakagawa)
+   │ $403,500 Cash Diverted │ 27,200,000 Shares               │ 12,450,000 Shares            │ 47,000,000 Shares        │ 9,000,000 Shares         │ 30,450,000 Shares
+   └───────────┬────────────┴────────────────┬────────────────┴──────────────┬───────────────┴──────────┬───────────────┴──────────┬───────────────┴──────────┬────────┘
+               │                             │                               │                          │                          │                          │
+               └─────────────────────────────┴───────────────────────────────┼──────────────────────────┴──────────────────────────┴──────────────────────────┘
+                                                                             ▼
                       ┌────────────────────────────────────────────────────────────────────────────────────────┐
                       │                        INTERCHANGE 1: THE 'NEW SELLERS' CASH BYPASS                    │
-                      │    • 66,500,000 Shares Purchased Secondarily by Insiders (Gaines, Hintzen, McCluskey)  │
-                      │    • Cash proceeds ($25,000 - $125,000) paid to intermediaries; $0.00 to GreenGro      │
+                      │    • 107,040,000 Total Shares Purchased Secondarily via Intermediaries (Casa de Dinero)│
+                      │    • Over $403,500 paid to Ruben Sanchez / Casa de Dinero; $0.00 to GreenGro Treasury   │
                       │    • Corporate treasury received ZERO capital; public markets absorbed 100% dilution   │
                       └──────────────────────────────────────┬─────────────────────────────────────────────────┘
                                                              │
@@ -112,7 +107,7 @@ The GreenGro Technologies securities fraud operated as an integrated multi-lane 
                                                              ▼
                       ┌────────────────────────────────────────────────────────────────────────────────────────┐
                       │                INTERCHANGE 3: TRANSFER AGENT RECORD SUPPRESSION & BYPASS               │
-                      │  • Fidelity Transfer Services (Mark Carter) issued unlegended certificates             │
+                      │  • Fidelity Transfer Services (Mark Carter & Ruben Sanchez rsanchez.fts@gmail.com)     │
                       │  • TA Discrepancy: Maintained ledger showing ~29M shares while 120M+ had cleared        │
                       │  • Direct payments from promoter Ron Brouillette to transfer agent for processing      │
                       └──────────────────────────────────────┬─────────────────────────────────────────────────┘
@@ -137,29 +132,46 @@ The GreenGro Technologies securities fraud operated as an integrated multi-lane 
    └────────────────────────┴─────────────────────────────────┴──────────────────────────────┴──────────────────────────┘
 ```
 
-### 2.1. The 5 Fraud On-Ramps Explained
-1. **On-Ramp 1: Sham Consulting Agreements (27.2M Shares)**:
-   - Insiders executed boilerplate consulting agreements with Mark Delfin, Hulbert, Rubio, and Phoenix in late 2016, purporting to pay millions of shares for 'cannabis advisory services.'
-   - Primary Evidence: `CONSULTING AGREEMENT_Delfin_GRNH.docx`, `FINAL CONSULTING AGREEMENT_Hulbert_GRNH.docx`, `CONSULTING AGREEMENT_Rubio_GRNH.docx`, `CONSULTING AGREEMENT_PHEONIX_GRNH.docx`.
-   - The recipients never performed consulting work; the contracts served solely as reservoirs from which Ira Gaines, Cheryl Hintzen, and promoters carved out secondary blocks.
-2. **On-Ramp 2: Promissory Note Pledges & Debt Conversions (12.45M Shares)**:
-   - Promoters Ronald Brouillette and Third Coast Partners / Dignitas Consulting packaged non-existent or unverified corporate debts into convertible promissory notes.
-   - Primary Evidence: `GRNH SPA 2M Ron Dignitas.pdf`, `GRNH SPA 2M Ron Cornicopia.pdf`, `GRNH-Convertible Note - Ira Gaines 2-06-2017.pdf`.
-3. **On-Ramp 3: Familial Conduit Allocations (47.0M Shares)**:
-   - CEO James 'Boe' Haas, Joshua Hintzen, and Justin Haas received recurring multi-million-share blocks designated as 'management compensation' or 'officer loans.'
-   - Primary Evidence: `GRNH 7MM SHARES JUSTIN.pdf`, `GRNH 6.5MM Josh certs.pdf`, `JOSH H 6.5 MM GRNH stock purchase agreements and certs.pdf`.
-   - These blocks were immediately transferred to secondary buyers without registration under the false representation that the transfers were private sales.
-4. **On-Ramp 4: Nominee Shell Concealment (9.0M Shares)**:
-   - Created after Gaines and Hintzen were blacklisted across major brokerages.
-   - Big Thunder, LLC (8.0M shares) and Motivated Minds (1.0M shares) acted as nominee vehicles holding shares in nominee names (Tom McCluskey) while beneficial control remained with Gaines.
-5. **On-Ramp 5: Offshore Canadian Straw Consolidations (30.45M Shares)**:
-   - In April 2019, 30,450,000 shares were consolidated into Canadian nominee Paula Marie Poe across certificates CS1-8161 through 8173.
-   - Primary Evidence: `GRNH april 152019.xlsx`, `TRNASFERS TO POE GRNH and APRU.pdf`, `GRNH 8161 8162 8 and a half million POE.pdf`, `GRNH 8172 10MM and 8173 950k.pdf`.
-
 ---
-## PART III: DEEP-DIVE CONDUIT DOSSIERS: BIG THUNDER, MOTIVATED MINDS & 'NEW SELLERS'
+## PART III: DEEP-DIVE CONDUIT DOSSIERS: CASA DE DINERO, BIG THUNDER & MOTIVATED MINDS
 
-### 3.1. Big Thunder, LLC: The Nominee Broker-Freeze Evasion Vehicle
+### 3.1. Casa de Dinero, LLC / Inc.: The 40,540,000 Share Transfer Agent Spigot
+- **Entity Names:** Casa de Dinero, LLC / Casa de Dinero, Inc.
+- **Controller / Signatory:** **Ruben Sanchez** (Contact email: `rsanchez.fts@gmail.com` at Fidelity Transfer Services, Inc.).
+- **Total Volume Channeled:** **40,540,000 Shares** across 18+ certificates and private stock purchase agreements.
+- **Cash Consideration Diverted:** **$403,500.00** collected from purchasers ($0.00 entering GreenGro Technologies corporate accounts).
+- **The Transfer Agent Connection:**
+  - Ruben Sanchez was an insider at **Fidelity Transfer Services, Inc. (FTS)**, GreenGro's primary transfer agent.
+  - Phone book records in `STOCK INVENTORY JULY 16  (version 1) (Autosaved) 2.xlsx` list: `Ruben Sanchez | 805-335-3361 | rsanchez.fts@gmail.com`.
+  - Primary files document recurring packages sent directly to Ruben: `GRNH 7905 2.5 million pkg for Ruben for lenged lift.pdf`, `GRNH 3.5 SENT TO RUBEN 61318 TO BE SOLD BY JUSTIN.pdf`, `GRNH going to Ruben to be put in Big thunder with LOI's.pdf`.
+
+#### Complete Master Transaction Table of Casa de Dinero Transfers (`GRNH data.xlsx` & SPAs)
+| Date | Certificate # | Shares | From Entity | To Recipient | Type / Consideration | Stated Transfer Agent | Evidentiary Significance |
+|---|---|---|---|---|---|---|---|
+| **2017-03-14** | None (Block) | **5,000,000** | Casa de Dinero, LLC | Cheryl Hintzen | Purchase ($125,000 cash) | Free-Trading SPA | $125k paid to Casa de Dinero; $0.00 to issuer |
+| **2017-03-20** | None (Block) | **250,000** | Casa de Dinero, LLC | Joshua Hintzen | Purchase ($35,000 @ $0.14) | Executed Contract | Executed SPA signed by Ruben Sanchez |
+| **2017-04-05** | **CS1-7908** | **4,000,000** | Casa de Dinero, LLC | Paradise Wire & Cable DBPP | Purchase ($106,000 cash) | Fidelity Transfer Services | Sourced 'From Ruben' per ledger notes |
+| **2017-05-08** | **CS1-7937** | **6,790,000** | Casa de Dinero, Inc. | Cheryl Hintzen | Original Issuance | Fidelity Transfer Services | **The subject certificate in Hintzen v. Haas lawsuit!** |
+| **2017-08-09** | **CS1-7960** | **500,000** | Casa de Dinero, Inc. | Joshua Hintzen | Original Issuance | Fidelity Transfer Services | 1st of 13 certificates carved to evade DTC chill |
+| **2017-08-09** | **CS1-7961** | **500,000** | Casa de Dinero, Inc. | Joshua Hintzen | Original Issuance | Fidelity Transfer Services | 2nd of 13 certificates carved to evade DTC chill |
+| **2017-08-09** | **CS1-7962** | **500,000** | Casa de Dinero, Inc. | Joshua Hintzen | Original Issuance | Fidelity Transfer Services | 3rd of 13 certificates carved to evade DTC chill |
+| **2017-08-09** | **CS1-7963** | **500,000** | Casa de Dinero, Inc. | Joshua Hintzen | Original Issuance | Fidelity Transfer Services | 4th of 13 certificates carved to evade DTC chill |
+| **2017-08-09** | **CS1-7964** | **500,000** | Casa de Dinero, Inc. | Joshua Hintzen | Original Issuance | Fidelity Transfer Services | 5th of 13 certificates carved to evade DTC chill |
+| **2017-08-09** | **CS1-7965** | **500,000** | Casa de Dinero, Inc. | Joshua Hintzen | Original Issuance | Fidelity Transfer Services | 6th of 13 certificates carved to evade DTC chill |
+| **2017-08-09** | **CS1-7966** | **500,000** | Casa de Dinero, Inc. | Joshua Hintzen | Original Issuance | Fidelity Transfer Services | 7th of 13 certificates carved to evade DTC chill |
+| **2017-08-09** | **CS1-7967** | **500,000** | Casa de Dinero, Inc. | Joshua Hintzen | Original Issuance | Fidelity Transfer Services | 8th of 13 certificates carved to evade DTC chill |
+| **2017-08-09** | **CS1-7968** | **500,000** | Casa de Dinero, Inc. | Joshua Hintzen | Original Issuance | Fidelity Transfer Services | 9th of 13 certificates carved to evade DTC chill |
+| **2017-08-09** | **CS1-7969** | **500,000** | Casa de Dinero, Inc. | Joshua Hintzen | Original Issuance | Fidelity Transfer Services | 10th of 13 certificates carved to evade DTC chill |
+| **2017-08-09** | **CS1-7970** | **500,000** | Casa de Dinero, Inc. | Joshua Hintzen | Original Issuance | Fidelity Transfer Services | 11th of 13 certificates carved to evade DTC chill |
+| **2017-08-09** | **CS1-7971** | **500,000** | Casa de Dinero, Inc. | Joshua Hintzen | Original Issuance | Fidelity Transfer Services | 12th of 13 certificates carved to evade DTC chill |
+| **2017-08-09** | **CS1-7972** | **500,000** | Casa de Dinero, Inc. | Joshua Hintzen | Original Issuance | Fidelity Transfer Services | 13th of 13 certificates carved to evade DTC chill |
+| **2017-08-09** | None (Block) | **5,500,000** | Casa de Dinero, LLC | Joshua Hintzen | Purchase ($137,500 cash) | Free-Trading SPA | $137.5k paid to Casa de Dinero; $0.00 to issuer |
+| **2017-11-02** | **CS1-8002** | **4,000,000** | Casa de Dinero, Inc. | Big Thunder, LLC | Original Issuance | Fidelity Transfer Services | Deposited at Forest & Alpine for Gaines/McCluskey |
+| **2019-04-04** | **CS1-8161** | **3,500,000** | Casa de Dinero, Inc. | Paula Marie Poe | Original Issuance | Fidelity Transfer Services | Offshore Canadian straw consolidation |
+| **2019-04-04** | **CS1-8162** | **5,000,000** | Casa de Dinero, Inc. | Paula Marie Poe | Original Issuance | Fidelity Transfer Services | Offshore Canadian straw consolidation |
+| **TOTAL** | **18+ Records** | **40,540,000** | **Casa de Dinero** | **Multiple Insiders** | **$403,500 Cash Diverted** | **FTS Primary Issuer** | **100% Capital Diverted from Corporate Treasury** |
+
+### 3.2. Big Thunder, LLC: The Nominee Broker-Freeze Evasion Vehicle
 - **Entity Details:** Nevada Limited Liability Company formed **August 30, 2017**.
 - **Documentary 'Smoking Gun':** Primary source files `Big Thunder LLC CHAPTER.docx` and `NARRATIVE V1.docx` explicitly record:
   > *"Big Thunder LLC was formed on August 30, 2017 because Ira Gaines and Cheryl Hintzen were having broker accounts closed (Wilson-Davis, Pershing, Manning-Napier)..."*
@@ -172,22 +184,16 @@ The GreenGro Technologies securities fraud operated as an integrated multi-lane 
   - **CS1-7910 & CS1-7960 through 7968 (4,000,000 shares):** Carved into nine separate certificates to avoid Depository Trust Company (DTC) chills.
 - **Primary Evidence Receipts:** `Big Thunder LLC CHAPTER.docx`, `GRNH 8002 4MM shares BTLLC.pdf`, `GRNH request for legal 4MM GRNH BIg Thunder.docx`, `GRNH SENT TO TA to be put in Big Thunder Name 9 certs.pdf`, `7960 grnh 2.pdf`.
 
-### 3.2. Motivated Minds: The SagePoint Financial Clearing Conduit
+### 3.3. Motivated Minds: The SagePoint Financial Clearing Conduit
 - **Operational Accounts:** Commercial accounts maintained at **Wells Fargo Bank** and **Bankers Trust** (corroborated in `Eric Miller Compensation 03-14-21.xlsx`, sheet `SUMMARY`).
 - **Clearing Brokerage:** **SagePoint Financial, Inc.**
 - **Volume Cleared:** 1,000,000 shares under Promissory Note transfer mechanisms.
 - **Evidentiary Finding:** `SagePoint Motivated Minds.pdf` and `GRNH for Sage point 1MM shares.pdf` establish that Motivated Minds acted as a conduit entity receiving restricted stock allocations that were packaged as note collateral and cleared through SagePoint Financial with zero disclosure of Ira Gaines' beneficial interest.
 
-### 3.3. The 'New Sellers' Reality: 66,500,000 Shares Diverted with $0.00 to Corporate Treasury
-Under federal securities law, Section 4(a)(1) exempts transactions by any person *other than an issuer, underwriter, or dealer*. The legal opinions represented that the shares were exempt because buyers purchased them from 'New Sellers' (secondary non-affiliates) who had held the stock for more than one year.
-The documentary audit establishes that:
-1. **The 'New Sellers' were sham intermediaries:** Dignitas Consulting, Third Coast Partners, Mark Delfin, Big Thunder LLC, and family conduits (James Haas, Joshua Hintzen, Justin Haas).
-2. **Zero Corporate Capital:** Across 66,500,000 shares tracked, **$0.00 entered the bank accounts of GreenGro Technologies, Inc.**
-3. **Direct Statutory Violation:** Routing newly printed corporate equity through an intermediate consultant before selling it to a financier constitutes an **indirect distribution by an underwriter** under Section 2(a)(11) of the Securities Act, rendering the Section 4(a)(1) exemption void as a matter of law (*SEC v. Cavanagh*, 445 F.3d 105).
-
 ### 3.4. Master Table of 'New Sellers' (Secondary Intermediaries)
 | ID | Seller Entity | Controller / Proxy | Role in Fraud Scheme | Volume Sold | Proceeds to GRNH | Key Receipts |
 |---|---|---|---|---|---|---|
+| NS-10 | **Casa de Dinero, LLC / Casa de Dinero, Inc.** | Ruben Sanchez (Fidelity Transfer Services Insider / rsanchez.fts@gmail.com) | Transfer Agent Conduit & Primary Secondary Market Seller (40.54M Shares) | 40,540,000 | **$403,500.00 (Captured by Ruben Sanchez / Casa de Dinero; $0.00 to GreenGro Treasury)** | GRNH data.xlsx, GRNH Purchase agreement Casa de Dinero, LLC.docx |
 | NS-01 | **Dignitas Consulting LLC** | Ronald Brouillette (Promoter / Nominee Manager) | Shell Advisory Intermediary & Secondary Seller | 9,950,000 | **$25,000.00 cash from Ira Gaines for Cert 7910; $0.00 to Issuer** | GRNH SPA 2M Ron Dignitas.pdf, gainesgrnh7910.pdf |
 | NS-02 | **Third Coast Partners LLC** | Ronald Brouillette | Promoter Debt Pledge & Note Conduit | 2,500,000 | **$76,000.00 personal loan satisfaction from Ira Gaines; $0.00 to Issuer** | gainesgrnh7905.pdf, GRNH req for legal 2.5 MM cert 7905 MILLS.pdf |
 | NS-03 | **Motivated Minds (Wells & Bankers Motivated Minds)** | Promoter Conduit Network | Promissory Note & Brokerage Distribution Vehicle | 1,000,000 | **Promissory Note & Commission Offsets; $0.00 to Issuer** | SagePoint Motivated Minds.pdf, GRNH for Sage point 1MM shares.pdf |
@@ -227,25 +233,42 @@ Counsel can immediately adapt the following statutory pleading framework for com
 ### Count I: Violation of Section 5(a) and 5(c) of the Securities Act (15 U.S.C. §§ 77e(a), 77e(c))
 - **Elements:** (1) Lack of a registration statement in effect; (2) Offer or sale of securities; (3) Use of interstate commerce or the mails.
 - **Strict Liability:** Scienter is not required. The defendants bear the burden of proving an entitlement to an exemption (*SEC v. Ralston Purina Co.*, 346 U.S. 119).
-- **Application to GRNH:** Over 120M shares were sold into public interstate OTC markets using invalid Section 4(a)(1) opinions. Because 'New Sellers' were statutory underwriters under § 2(a)(11), no exemption existed.
+- **Application to GRNH:** Over 120M shares were sold into public interstate OTC markets using invalid Section 4(a)(1) opinions. Because Casa de Dinero, Dignitas, and Third Coast were statutory underwriters under § 2(a)(11), no exemption existed.
 
 ### Count II: Securities Fraud under Section 17(a) of the Securities Act (15 U.S.C. § 77q(a))
 - **Elements:** Fraudulent practices, misrepresentations, or omissions in the offer or sale of securities.
-- **Application to GRNH:** Opinion attorneys (Root, Mills) and promoters made affirmative misstatements regarding holding periods (44-month backdating) and outstanding share ratios (5.74% represented as < 1%). Under Section 17(a)(2) and (3), negligence is sufficient (*Aaron v. SEC*, 446 U.S. 680).
+- **Application to GRNH:** Ruben Sanchez (Casa de Dinero), opinion attorneys (Root, Mills), and promoters made affirmative misstatements regarding holding periods (44-month backdating) and outstanding share ratios (5.74% represented as < 1%). Under Section 17(a)(2) and (3), negligence is sufficient (*Aaron v. SEC*, 446 U.S. 680).
 
 ### Count III: Securities Fraud under Section 10(b) and Rule 10b-5 of the Exchange Act (15 U.S.C. § 78j(b); 17 C.F.R. § 240.10b-5)
 - **Scheme Liability under Subsections (a) and (c):** Under *Lorenzo v. SEC*, 139 S. Ct. 1094 (2019), any participant who disseminates false information or participates in a fraudulent scheme is liable under Rule 10b-5(a) and (c) even if they are not the 'maker' of the statement under *Janus Capital Group, Inc. v. First Derivative Traders*, 564 U.S. 135 (2011).
-- **Application to GRNH:** The nominee shell managers (Tom McCluskey, Sue McCluskey), promoters (Ronald Brouillette), and registered representatives (David Adams) participated in an integrated scheme to evade broker closures and dump unregistered stock.
+- **Application to GRNH:** Ruben Sanchez (Casa de Dinero), the nominee shell managers (Tom McCluskey, Sue McCluskey), promoters (Ronald Brouillette), and registered representatives (David Adams) participated in an integrated scheme to evade broker closures and dump unregistered stock.
 
 ### Count IV: Civil Conspiracy & Alter-Ego Liability (Piercing the Corporate Veil)
 - **Elements:** Agreement between two or more parties to accomplish an unlawful purpose or lawful purpose by unlawful means, resulting in damages.
-- **Alter-Ego Application:** Big Thunder, LLC, Dignitas Consulting LLC, and Third Coast Partners LLC possessed no independent corporate existence, observed no corporate formalities, and served exclusively as alter-egos for Gaines, Hintzen, and Brouillette to shield personal liability.
+- **Alter-Ego Application:** Casa de Dinero LLC, Big Thunder LLC, Dignitas Consulting LLC, and Third Coast Partners LLC possessed no independent corporate existence, observed no corporate formalities, and served exclusively as alter-egos to shield personal liability.
 
 ---
 ## PART V: TRIAL CROSS-EXAMINATION & DEPOSITION OUTLINES
 
-### 5.1. Deposition Outline: John T. Root, Jr., Esq. (Opinion Counsel)
-1. *"Mr. Root, I hand you what has been marked Exhibit 12, your opinion letter dated April 22, 2019 regarding Certificate CS1-8172 for 27,000,000 shares of GreenGro Technologies, Inc. That is your signature on page 3, correct?"*
+### 5.1. Deposition Outline: Ruben Sanchez (Casa de Dinero, LLC / Fidelity Transfer Services)
+1. *"Mr. Sanchez, during 2017 through 2020, you were employed by or affiliated with Fidelity Transfer Services, Inc., the primary transfer agent for GreenGro Technologies, correct?"*
+2. *"Your professional email address was rsanchez.fts@gmail.com, correct?"*
+3. *"You were also the sole manager and signatory for Casa de Dinero, LLC and Casa de Dinero, Inc., correct?"*
+4. *"I show you Exhibit 8, a Stock Purchase Agreement dated March 20, 2017 between Casa de Dinero, LLC and Joshua Hintzen. That is your signature on page 2, correct?"*
+5. *"Under that agreement, Casa de Dinero sold 250,000 shares of GRNH stock to Joshua Hintzen at $.14 per share, correct?"*
+6. *"I show you Exhibit 9, records from GreenGro's master ledger in GRNH data.xlsx. Row 1 reflects that on March 14, 2017, Casa de Dinero sold 5,000,000 shares to Cheryl Hintzen for $125,000. Did Casa de Dinero receive that $125,000?"*
+7. *"Did any portion of that $125,000 go into the bank accounts of GreenGro Technologies, Inc.?"*
+8. *"Row 2 reflects that on April 5, 2017, Certificate CS1-7908 for 4,000,000 shares was transferred from Casa de Dinero to Paradise Wire & Cable for $106,000. Did Casa de Dinero receive that $106,000?"*
+9. *"Did any portion of that $106,000 go to GreenGro Technologies?"*
+10. *"I show you Row 3: on May 8, 2017, Certificate CS1-7937 for 6,790,000 shares was issued from Casa de Dinero to Cheryl Hintzen. Did Fidelity Transfer Services process that issuance?"*
+11. *"And on August 9, 2017, Thirteen separate certificates—CS1-7960 through CS1-7972—were issued from Casa de Dinero to Joshua Hintzen, plus an SPA for 5,500,000 shares for $137,500. Did you coordinate both the private sale and the transfer agent issuance?"*
+12. *"And on November 2, 2017, Certificate CS1-8002 for 4,000,000 shares was transferred from Casa de Dinero to Big Thunder, LLC, correct?"*
+13. *"And in April 2019, Certificates CS1-8161 and 8162 totaling 8,500,000 shares were transferred from Casa de Dinero to Canadian resident Paula Marie Poe, correct?"*
+14. *"In total, across all these transactions, Casa de Dinero transferred more than 40,500,000 shares of GreenGro stock and collected over $400,000 in cash, while GreenGro Technologies received zero dollars in capital. Isn't that true?"*
+15. *"As an insider at the transfer agent, you knew that GreenGro's public float was being diluted by tens of millions of shares without any corporate registration statement, didn't you?"*
+
+### 5.2. Deposition Outline: John T. Root, Jr., Esq. (Opinion Counsel)
+1. *"Mr. Root, I hand you Exhibit 12, your opinion letter dated April 22, 2019 regarding Certificate CS1-8172 for 27,000,000 shares of GreenGro Technologies, Inc. That is your signature on page 3, correct?"*
 2. *"In paragraph 4, you state under your professional letterhead: 'I do not consider it to rise to the level of a distribution as it is much less than one percent of the outstanding shares of the Issuer.' Did you write those words?"*
 3. *"What was the total outstanding share count of GreenGro Technologies on April 22, 2019?"*
 4. *"I show you Exhibit 14, the official Transfer Agent ledger showing 470,220,980 outstanding shares. If you divide 27,000,000 by 470,220,980, what percentage do you get?"*
@@ -253,27 +276,17 @@ Counsel can immediately adapt the following statutory pleading framework for com
 6. *"In what mathematical system is 5.74% 'much less than one percent'?"*
 7. *"Under SEC Rule 144(e), the maximum volume of shares that can be sold in any three-month period is strictly capped at one percent of outstanding shares, correct?"*
 8. *"So Certificate 8172 exceeded the federal regulatory ceiling by more than 570%, didn't it?"*
-9. *"Did you verify whether E.F. Romano III had paid any cash consideration directly to GreenGro Technologies?"*
-10. *"Did you receive compensation for authoring this opinion letter?"*
 
-### 5.2. Deposition Outline: Tom & Sue McCluskey (Big Thunder, LLC)
+### 5.3. Deposition Outline: Tom & Sue McCluskey (Big Thunder, LLC)
 1. *"Mrs. McCluskey, you served as personal bookkeeper for Ira Gaines between 2016 and 2020, correct?"*
 2. *"I show you Exhibit 22, titled 'Big Thunder LLC CHAPTER.docx.' This document was recovered from your files. In it, it states that Big Thunder was created because Ira Gaines and Cheryl Hintzen faced account closures at Wilson-Davis and Pershing. Is that accurate?"*
 3. *"I show you Exhibit 23, the draft Operating Agreement of Big Thunder LLC. On page 14, Ira Gaines was originally listed as the Initial Manager. Why was his name removed?"*
 4. *"Did registered representative David Adams at Forest Securities tell you that Ira Gaines' name could not appear on the account?"*
 5. *"Mr. McCluskey, did you ever contribute any personal capital to purchase the 8,000,000 shares of GRNH held by Big Thunder?"*
 6. *"Who directed the trading and liquidation of those 8,000,000 shares at Forest Securities and Alpine Securities?"*
-7. *"Where did the cash proceeds from those sales go? Did they go to Ira Gaines?"*
-
-### 5.3. Deposition Outline: Stephen Mills, Esq. (Opinion Counsel - Hintzen 6.79M Shares)
-1. *"Mr. Mills, you authored the legal opinion clearing Certificate CS1-7937 for 6,790,000 shares to Cheryl Hintzen, correct?"*
-2. *"Your opinion represented that the holding period originated in December 2013 under a corporate debt obligation, correct?"*
-3. *"I show you Exhibit 35, the consulting agreement between GreenGro and Mark Delfin. Notice that it was executed on August 29, 2016. Were you aware that Mark Delfin's agreement was signed in 2016, not 2013?"*
-4. *"Did you examine any contemporaneous corporate general ledgers from 2013 reflecting this debt?"*
-5. *"If the debt was first created in 2016, tacking back to 2013 constitutes fraudulent backdating under SEC Rule 144(d), does it not?"*
 
 ---
-## PART VI: MASTER CATALOG OF ANY AND ALL FILES WITH 'GRNH' IN THE FILENAME (316 FILES)
+## PART VI: MASTER CATALOG OF ANY AND ALL FILES WITH 'GRNH' IN THE FILENAME (319 FILES)
 
 The following catalog lists every file discovered across the entire system that contains `GRNH` in the filename, organized by evidentiary category. Every file includes its exact filename, file size, absolute hard-drive path, and litigation relevance:
 
@@ -329,12 +342,12 @@ The following catalog lists every file discovered across the entire system that 
 | 8 | **CONSULTING AGREEMENT_PHEONIX_GRNH.docx** | 135.0 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/CONSULTING AGREEMENT_PHEONIX_GRNH.docx` | Sham consulting agreements used as reservoir for secondary transfers |
 | 9 | **CONSULTING AGREEMENT_PHEONIX_GRNH.docx** | 135.0 KB | `/Users/ericmiller/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Eric’s iMac/MORE/DESKTOP FILE DO NOT MOVE/CONSULTING AGREEMENT_PHEONIX_GRNH.docx` | Sham consulting agreements used as reservoir for secondary transfers |
 | 10 | **CONSULTING AGREEMENT_Rubio_GRNH.docx** | 135.3 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/CONSULTING AGREEMENT_Rubio_GRNH.docx` | Sham consulting agreements used as reservoir for secondary transfers |
-| 11 | **Fidelity Transfer - GRNH PDSE LOI (1) 2.doc** | 31.0 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/Fidelity Transfer - GRNH PDSE LOI (1) 2.doc` | Transfer Agent communications with Fidelity Transfer Services (Mark Carter) |
-| 12 | **Fidelity Transfer - GRNH PDSE LOI (1) 3.doc** | 31.0 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/Fidelity Transfer - GRNH PDSE LOI (1) 3.doc` | Transfer Agent communications with Fidelity Transfer Services (Mark Carter) |
-| 13 | **Fidelity Transfer - GRNH PDSE LOI (1).doc** | 31.0 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/Fidelity Transfer - GRNH PDSE LOI (1).doc` | Transfer Agent communications with Fidelity Transfer Services (Mark Carter) |
-| 14 | **Fidelity Transfer - GRNH PDSE LOI 2.doc** | 34.0 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/Fidelity Transfer - GRNH PDSE LOI 2.doc` | Transfer Agent communications with Fidelity Transfer Services (Mark Carter) |
-| 15 | **Fidelity Transfer - GRNH PDSE LOI.doc** | 33.0 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/Fidelity Transfer - GRNH PDSE LOI.doc` | Transfer Agent communications with Fidelity Transfer Services (Mark Carter) |
-| 16 | **Fidelity Transfer - GRNH PDSE LOI.doc** | 33.0 KB | `/Users/ericmiller/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Eric’s iMac/MORE/DESKTOP FILE DO NOT MOVE/Fidelity Transfer - GRNH PDSE LOI.doc` | Transfer Agent communications with Fidelity Transfer Services (Mark Carter) |
+| 11 | **Fidelity Transfer - GRNH PDSE LOI (1) 2.doc** | 31.0 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/Fidelity Transfer - GRNH PDSE LOI (1) 2.doc` | Transfer Agent communications with Fidelity Transfer Services (Mark Carter / Ruben Sanchez) |
+| 12 | **Fidelity Transfer - GRNH PDSE LOI (1) 3.doc** | 31.0 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/Fidelity Transfer - GRNH PDSE LOI (1) 3.doc` | Transfer Agent communications with Fidelity Transfer Services (Mark Carter / Ruben Sanchez) |
+| 13 | **Fidelity Transfer - GRNH PDSE LOI (1).doc** | 31.0 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/Fidelity Transfer - GRNH PDSE LOI (1).doc` | Transfer Agent communications with Fidelity Transfer Services (Mark Carter / Ruben Sanchez) |
+| 14 | **Fidelity Transfer - GRNH PDSE LOI 2.doc** | 34.0 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/Fidelity Transfer - GRNH PDSE LOI 2.doc` | Transfer Agent communications with Fidelity Transfer Services (Mark Carter / Ruben Sanchez) |
+| 15 | **Fidelity Transfer - GRNH PDSE LOI.doc** | 33.0 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/Fidelity Transfer - GRNH PDSE LOI.doc` | Transfer Agent communications with Fidelity Transfer Services (Mark Carter / Ruben Sanchez) |
+| 16 | **Fidelity Transfer - GRNH PDSE LOI.doc** | 33.0 KB | `/Users/ericmiller/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Eric’s iMac/MORE/DESKTOP FILE DO NOT MOVE/Fidelity Transfer - GRNH PDSE LOI.doc` | Transfer Agent communications with Fidelity Transfer Services (Mark Carter / Ruben Sanchez) |
 | 17 | **FINAL CONSULTING AGREEMENT_Delfin_GRNH (4).docx** | 138.8 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/FINAL CONSULTING AGREEMENT_Delfin_GRNH (4).docx` | Mark Delfin backdated consulting agreement (August 2016) |
 | 18 | **FINAL CONSULTING AGREEMENT_Delfin_GRNH (4).docx** | 138.8 KB | `/Users/ericmiller/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Eric’s iMac/MORE/DESKTOP FILE DO NOT MOVE/FINAL CONSULTING AGREEMENT_Delfin_GRNH (4).docx` | Mark Delfin backdated consulting agreement (August 2016) |
 | 19 | **FINAL CONSULTING AGREEMENT_Hulbert_GRNH.docx** | 137.8 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/FINAL CONSULTING AGREEMENT_Hulbert_GRNH.docx` | Sham consulting agreements used as reservoir for secondary transfers |
@@ -346,7 +359,7 @@ The following catalog lists every file discovered across the entire system that 
 | 25 | **GRNH going to Ruben to be put in Big thunder with LOI's.pdf** | 6.66 MB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/GRNH going to Ruben to be put in Big thunder with LOI's.pdf` | Big Thunder LLC nominee cloaking vehicle / broker freeze evasion |
 | 26 | **GRNH IRA 2MM SHARES SPA 102016.pdf** | 1.19 MB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/untitled folder/GRNH IRA 2MM SHARES SPA 102016.pdf` | Primary stock certificate scan, power of attorney, or transmittal receipt |
 | 27 | **GRNH loi GRNH Joshua 2 and a half million shares loi to Paul Poe.docx** | 14.6 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/untitled folder/GRNH loi GRNH Joshua 2 and a half million shares loi to Paul Poe.docx` | Paula Marie Poe 30.45M share Canadian straw offshore consolidation |
-| 28 | **GRNH Purchase agreement Casa de Dinero, LLC.docx** | 25.9 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/untitled folder/GRNH Purchase agreement Casa de Dinero, LLC.docx` | Primary stock certificate scan, power of attorney, or transmittal receipt |
+| 28 | **GRNH Purchase agreement Casa de Dinero, LLC.docx** | 25.9 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/untitled folder/GRNH Purchase agreement Casa de Dinero, LLC.docx` | Casa de Dinero / Ruben Sanchez 40.54M share secondary sales conduit & SPAs |
 | 29 | **GRNH SPA 022217.pdf** | 1.16 MB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/untitled folder/GRNH SPA 022217.pdf` | Primary stock certificate scan, power of attorney, or transmittal receipt |
 | 30 | **GRNH SPA 02222017 3mm at .03.pdf** | 1.00 MB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/untitled folder/GRNH SPA 02222017 3mm at .03.pdf` | Primary stock certificate scan, power of attorney, or transmittal receipt |
 | 31 | **GRNH SPA 2M Ron Cornicopia.pdf** | 93.1 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/untitled folder/GRNH SPA 2M Ron Cornicopia.pdf` | Primary stock certificate scan, power of attorney, or transmittal receipt |
@@ -379,8 +392,8 @@ The following catalog lists every file discovered across the entire system that 
 | 5 | **FEDEX WAYBILL 4617 GRNH 4.pdf** | 181.6 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/FEDEX WAYBILL 4617 GRNH 4.pdf` | Physical FedEx shipping receipt linking certificate deliveries between conspirators |
 | 6 | **FEDEX WAYBILL 4617 GRNH.pdf** | 181.6 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/FEDEX WAYBILL 4617 GRNH.pdf` | Physical FedEx shipping receipt linking certificate deliveries between conspirators |
 | 7 | **FEDEX WAYBILL 4617 GRNH.pdf** | 181.6 KB | `/Users/ericmiller/Library/Mobile Documents/com~apple~CloudDocs/Desktop/DOCUMENTS/FEDEX WAYBILL 4617 GRNH.pdf` | Physical FedEx shipping receipt linking certificate deliveries between conspirators |
-| 8 | **Fidelity Transfer Services GRNH wire inst.docx** | 11.4 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/Fidelity Transfer Services GRNH wire inst.docx` | Transfer Agent communications with Fidelity Transfer Services (Mark Carter) |
-| 9 | **Fidelity Transfer Services GRNH wire inst.docx** | 11.4 KB | `/Users/ericmiller/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Eric’s iMac/MORE/untitled folder 2/Fidelity Transfer Services GRNH wire inst.docx` | Transfer Agent communications with Fidelity Transfer Services (Mark Carter) |
+| 8 | **Fidelity Transfer Services GRNH wire inst.docx** | 11.4 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/Fidelity Transfer Services GRNH wire inst.docx` | Transfer Agent communications with Fidelity Transfer Services (Mark Carter / Ruben Sanchez) |
+| 9 | **Fidelity Transfer Services GRNH wire inst.docx** | 11.4 KB | `/Users/ericmiller/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Eric’s iMac/MORE/untitled folder 2/Fidelity Transfer Services GRNH wire inst.docx` | Transfer Agent communications with Fidelity Transfer Services (Mark Carter / Ruben Sanchez) |
 | 10 | **GRNH 4MM  and stock powers  KEAHR 2.pdf** | 1.05 MB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/untitled folder/GRNH 4MM  and stock powers  KEAHR 2.pdf` | Primary stock certificate scan, power of attorney, or transmittal receipt |
 | 11 | **GRNH 4MM  and stock powers  KEAHR 3.pdf** | 1.05 MB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/untitled folder/GRNH 4MM  and stock powers  KEAHR 3.pdf` | Primary stock certificate scan, power of attorney, or transmittal receipt |
 | 12 | **GRNH 4MM  and stock powers  KEAHR 4.pdf** | 1.05 MB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/untitled folder/GRNH 4MM  and stock powers  KEAHR 4.pdf` | Primary stock certificate scan, power of attorney, or transmittal receipt |
@@ -615,27 +628,30 @@ The following catalog lists every file discovered across the entire system that 
 | 3 | **GRNH spreadsheet.xlsx** | 10.5 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/untitled folder/GRNH spreadsheet.xlsx` | Primary stock certificate scan, power of attorney, or transmittal receipt |
 | 4 | **rough GRNH.xlsx** | 9.3 KB | `/Users/ericmiller/Desktop/Organized/Finance/Investment & Trading/BACKUP/Stocks - GRNH/rough GRNH.xlsx` | Primary stock certificate scan, power of attorney, or transmittal receipt |
 
-### VI.6. Forensic Database, Pre-Build Assertions & Litigation Reports (3 Files)
+### VI.6. Forensic Database, Pre-Build Assertions & Litigation Reports (6 Files)
 
 | # | Filename | Size | Absolute File Path | Primary Evidentiary Value |
 |---|---|---|---|---|
-| 1 | **grnh-forensics.test.mjs** | 8.6 KB | `/Users/ericmiller/.gemini/antigravity-ide/scratch/grnh-forensics/tests/grnh-forensics.test.mjs` | Forensic database, automated parity assertions & litigation briefs |
-| 2 | **grnh_forensic_database.json** | 571.1 KB | `/Users/ericmiller/.gemini/antigravity-ide/scratch/grnh-forensics/src/data/grnh_forensic_database.json` | Forensic database, automated parity assertions & litigation briefs |
-| 3 | **GRNH_Forensic_Securities_Litigation_Report.md** | 159.7 KB | `/Users/ericmiller/Downloads/GRNH_Forensic_Securities_Litigation_Report.md` | Forensic database, automated parity assertions & litigation briefs |
+| 1 | **grnh-forensics.test.mjs** | 9.5 KB | `/Users/ericmiller/.gemini/antigravity-ide/scratch/grnh-forensics/tests/grnh-forensics.test.mjs` | Forensic database, automated parity assertions & litigation briefs |
+| 2 | **grnh_forensic_database.json** | 578.0 KB | `/Users/ericmiller/.gemini/antigravity-ide/scratch/grnh-forensics/src/data/grnh_forensic_database.json` | Forensic database, automated parity assertions & litigation briefs |
+| 3 | **GRNH_Forensic_Securities_Litigation_Report.md** | 165.7 KB | `/Users/ericmiller/.gemini/antigravity-ide/scratch/grnh-forensics/public/GRNH_Forensic_Securities_Litigation_Report.md` | Forensic database, automated parity assertions & litigation briefs |
+| 4 | **GRNH_Forensic_Securities_Litigation_Report.md** | 165.7 KB | `/Users/ericmiller/Downloads/GRNH_Forensic_Securities_Litigation_Report.md` | Forensic database, automated parity assertions & litigation briefs |
+| 5 | **LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.md** | 113.4 KB | `/Users/ericmiller/.gemini/antigravity-ide/scratch/grnh-forensics/public/LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.md` | Primary stock certificate scan, power of attorney, or transmittal receipt |
+| 6 | **LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.md** | 113.4 KB | `/Users/ericmiller/Downloads/LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.md` | Primary stock certificate scan, power of attorney, or transmittal receipt |
 
 ---
 ## PART VII: 10 IRREFUTABLE FACTS FOR ORAL ARGUMENT & SUMMARY JUDGMENT
 
 When appearing before the Court on motions to dismiss, motions for summary judgment, or preliminary hearings, counsel should frame oral argument around these ten undisputed documentary facts:
-1. **$0.00 Proceeds to Corporate Treasury:** Across 66,500,000 shares issued through 'New Sellers,' not one penny was deposited into GreenGro Technologies' bank accounts.
-2. **The 574% Exceedance of Rule 144(e):** In clearing Certificate CS1-8172 (27,000,000 shares), Attorney John T. Root, Jr. falsely certified that the tranche was 'much less than one percent' when it represented 5.7419% of outstanding shares.
-3. **The 44-Month Backdating Discrepancy:** The Mark Delfin consulting agreement relied upon by Cheryl Hintzen in *Hintzen v. Haas* was executed in August 2016, but was retroactively tacked back to December 2013.
-4. **The Big Thunder LLC Nominee Disguise:** Big Thunder LLC was created on August 30, 2017 for the sole purpose of evading broker account closures at Wilson-Davis and Pershing.
-5. **The David Adams (Forest Securities) Alteration:** Sue McCluskey altered page 14 of the Big Thunder operating agreement to remove Ira Gaines' name after Forest Securities warned that Gaines' presence would trigger account rejection.
-6. **The SagePoint Financial Conduit:** 1,000,000 shares were cleared through SagePoint Financial under Motivated Minds promissory note mechanisms without disclosing Gaines' beneficial control.
-7. **The Transfer Agent Suppression (29M vs. 120M):** Fidelity Transfer Services maintained a visible ledger of ~29M shares while over 120M shares were physically circulating in the public float.
-8. **Promoter Direct Payments to Transfer Agent:** Documentary records (`GRNH april 152019.xlsx`) prove that promoter Ronald Brouillette ('Ron') directly paid transfer agent fees to expedite certificates for Canadian straw Paula Marie Poe.
-9. **The 'BOT FROM RON' Ledger Entry:** Certificate CS1-7835 (3,000,000 shares) explicitly records in corporate inventory: *'BOT FROM RON'* (Ronald Brouillette), proving secondary promoter-to-insider trafficking.
+1. **$0.00 Proceeds to Corporate Treasury:** Across more than 107,000,000 shares issued through 'New Sellers' (including 40.54M through Casa de Dinero), not one penny was deposited into GreenGro Technologies' bank accounts.
+2. **The 40,540,000 Share Casa de Dinero Spigot:** Transfer agent insider Ruben Sanchez (rsanchez.fts@gmail.com) utilized Casa de Dinero, LLC to funnel 40.54M shares to Cheryl Hintzen, Joshua Hintzen, Big Thunder LLC, and Paula Marie Poe, collecting $403,500 in secondary cash.
+3. **The 574% Exceedance of Rule 144(e):** In clearing Certificate CS1-8172 (27,000,000 shares), Attorney John T. Root, Jr. falsely certified that the tranche was 'much less than one percent' when it represented 5.7419% of outstanding shares.
+4. **The 44-Month Backdating Discrepancy:** The Mark Delfin consulting agreement relied upon by Cheryl Hintzen in *Hintzen v. Haas* was executed in August 2016, but was retroactively tacked back to December 2013.
+5. **The Big Thunder LLC Nominee Disguise:** Big Thunder LLC was created on August 30, 2017 for the sole purpose of evading broker account closures at Wilson-Davis and Pershing.
+6. **The David Adams (Forest Securities) Alteration:** Sue McCluskey altered page 14 of the Big Thunder operating agreement to remove Ira Gaines' name after Forest Securities warned that Gaines' presence would trigger account rejection.
+7. **The SagePoint Financial Conduit:** 1,000,000 shares were cleared through SagePoint Financial under Motivated Minds promissory note mechanisms without disclosing Gaines' beneficial control.
+8. **The Transfer Agent Suppression (29M vs. 120M):** Fidelity Transfer Services maintained a visible ledger of ~29M shares while over 120M shares were physically circulating in the public float.
+9. **Promoter Direct Payments to Transfer Agent:** Documentary records (`GRNH april 152019.xlsx`) prove that promoter Ronald Brouillette ('Ron') directly paid transfer agent fees to expedite certificates for Canadian straw Paula Marie Poe.
 10. **The Entire Float Was Contaminated:** Because Section 5 is a strict liability statute and Rule 144 safe harbors were voided by fraud, every subsequent purchaser down the chain holds illegally distributed, non-exempt securities.
 
 ---

@@ -141,8 +141,28 @@ if (!db.certificateLineage) {
 }
 
 const lineage = db.certificateLineage;
-if (!lineage.newSellersAnalysis || lineage.newSellersAnalysis.length < 8) {
-  console.error(`FAIL: Expected at least 8 new seller profiles, found ${lineage.newSellersAnalysis?.length || 0}`);
+if (!lineage.newSellersAnalysis || lineage.newSellersAnalysis.length < 10) {
+  console.error(`FAIL: Expected at least 10 new seller profiles, found ${lineage.newSellersAnalysis?.length || 0}`);
+  process.exit(1);
+}
+
+
+// Check Casa de Dinero
+const casa = lineage.newSellersAnalysis.find(s => s.name && s.name.toLowerCase().includes("casa de dinero"));
+if (!casa) {
+  console.error("FAIL: Missing Casa de Dinero profile in newSellersAnalysis!");
+  process.exit(1);
+}
+if (casa.totalSharesSoldOrTransferred < 40000000 || !casa.controller.includes("Ruben Sanchez")) {
+  console.error("FAIL: Casa de Dinero profile missing 40M+ volume or Ruben Sanchez linkage!");
+  process.exit(1);
+}
+if (!casa.affectedCertificates.includes("CS1-7937") || !casa.affectedCertificates.includes("CS1-8002")) {
+  console.error("FAIL: Casa de Dinero missing key affected certificates (CS1-7937 or CS1-8002)!");
+  process.exit(1);
+}
+if (lineage.summaryMetrics.casaDeDineroVolume !== 40540000) {
+  console.error("FAIL: Expected summaryMetrics.casaDeDineroVolume === 40540000, found " + lineage.summaryMetrics.casaDeDineroVolume);
   process.exit(1);
 }
 
@@ -177,8 +197,8 @@ for (const seller of lineage.newSellersAnalysis) {
 }
 
 // Check Visual Transfer Patterns
-if (!lineage.visualPatterns || lineage.visualPatterns.length < 6) {
-  console.error(`FAIL: Expected at least 6 visual transfer patterns, found ${lineage.visualPatterns?.length || 0}`);
+if (!lineage.visualPatterns || lineage.visualPatterns.length < 7) {
+  console.error(`FAIL: Expected at least 7 visual transfer patterns, found ${lineage.visualPatterns?.length || 0}`);
   process.exit(1);
 }
 for (const pat of lineage.visualPatterns) {

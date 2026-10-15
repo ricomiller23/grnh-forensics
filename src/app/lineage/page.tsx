@@ -201,7 +201,19 @@ export default function CertificateLineageStudio() {
               {summaryMetrics.newSellerVolume.toLocaleString()}
             </div>
             <div style={{ fontSize: "0.72rem", color: "var(--text-muted)", marginTop: "2px" }}>
-              9 Secondary Entities &bull; $0.00 to Issuer Treasury
+              10 Secondary Entities &bull; $0.00 to Issuer Treasury
+            </div>
+          </div>
+
+          <div className="glass-panel" style={{ padding: "16px 20px", borderLeft: "3px solid #f43f5e" }}>
+            <div style={{ fontSize: "0.72rem", color: "var(--text-dim)", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+              Casa de Dinero Conduit
+            </div>
+            <div style={{ fontSize: "1.55rem", fontWeight: 800, color: "#f43f5e", fontFamily: "var(--font-mono)" }}>
+              {(summaryMetrics.casaDeDineroVolume || 40540000).toLocaleString()}
+            </div>
+            <div style={{ fontSize: "0.72rem", color: "var(--text-muted)", marginTop: "2px" }}>
+              Ruben Sanchez (FTS) &bull; $403.5k Cash Diverted
             </div>
           </div>
 
@@ -270,7 +282,7 @@ export default function CertificateLineageStudio() {
                 GRNH Shares Purchased from "New Sellers" (Secondary Conduits)
               </h2>
               <p style={{ fontSize: "0.82rem", color: "var(--text-muted)", maxWidth: "1000px", marginTop: "2px" }}>
-                Detailed dossiers on all 9 entities, promoters, and straw vehicles who acted as secondary sellers of GreenGro common stock, diverting proceeds from corporate accounts into personal offshore and promoter bank accounts.
+                Detailed dossiers on all 10 entities, promoters, and straw vehicles (headlined by Casa de Dinero, LLC with 40.54M shares, Big Thunder LLC with 8M shares, and Motivated Minds) who acted as secondary sellers of GreenGro common stock, diverting proceeds from corporate accounts into personal offshore and promoter bank accounts.
               </p>
             </div>
           </div>

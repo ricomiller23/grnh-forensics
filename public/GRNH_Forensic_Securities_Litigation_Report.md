@@ -773,7 +773,8 @@ The evidentiary chronology establishes five distinct operational phases:
 This section documents the traceable custody pedigree for each individual certificate and analyzes the systematic reliance on 'New Sellers' (secondary intermediaries) who transferred restricted blocks without proceeds entering the corporate treasury.
 
 ### VII.A. Summary Metrics: The 'New Sellers' Reality
-- **Total Non-Company Shares Sold via New Sellers:** **66,500,000 Shares**
+- **Total Non-Company Shares Sold via New Sellers:** **107,040,000 Shares**
+- **Casa de Dinero, LLC / Inc. (Ruben Sanchez FTS) Volume:** **40,540,000 Shares**
 - **Proceeds Directed to Issuer Treasury:** **$0.00** (100% of proceeds were captured by promoters and nominees)
 - **Big Thunder LLC Nominee Liquidation Volume:** **8,000,000 Shares**
 - **Motivated Minds / SagePoint Volume:** **1,000,000 Shares**
@@ -783,6 +784,7 @@ This section documents the traceable custody pedigree for each individual certif
 ### VII.B. Master Dossier of 'New Sellers' (Secondary Intermediaries)
 | ID | Seller Entity | Controller / Proxy | Operational Role | Volume Sold | Issuer Cash | Key Affected Certs | Key Receipts |
 |---|---|---|---|---|---|---|---|
+| NS-10 | **Casa de Dinero, LLC / Casa de Dinero, Inc.** | Ruben Sanchez (Fidelity Transfer Services Insider / rsanchez.fts@gmail.com) | Transfer Agent Conduit & Primary Secondary Market Seller (40.54M Shares) | 40,540,000 | $403,500.00 (Captured by Ruben Sanchez / Casa de Dinero; $0.00 to GreenGro Treasury) | CS1-7908, CS1-7937, CS1-7960 (+15 more) | GRNH data.xlsx, GRNH Purchase agreement Casa de Dinero, LLC.docx |
 | NS-01 | **Dignitas Consulting LLC** | Ronald Brouillette (Promoter / Nominee Manager) | Shell Advisory Intermediary & Secondary Seller | 9,950,000 | $25,000.00 cash from Ira Gaines for Cert 7910; $0.00 to Issuer | CS1-7549, CS1-7384, CS1-7488 (+3 more) | GRNH SPA 2M Ron Dignitas.pdf, gainesgrnh7910.pdf |
 | NS-02 | **Third Coast Partners LLC** | Ronald Brouillette | Promoter Debt Pledge & Note Conduit | 2,500,000 | $76,000.00 personal loan satisfaction from Ira Gaines; $0.00 to Issuer | CS1-7905 | gainesgrnh7905.pdf, GRNH req for legal 2.5 MM cert 7905 MILLS.pdf |
 | NS-03 | **Motivated Minds (Wells & Bankers Motivated Minds)** | Promoter Conduit Network | Promissory Note & Brokerage Distribution Vehicle | 1,000,000 | Promissory Note & Commission Offsets; $0.00 to Issuer | CS1-7768 Series / SagePoint 1MM Deposit | SagePoint Motivated Minds.pdf, GRNH for Sage point 1MM shares.pdf |
@@ -792,6 +794,20 @@ This section documents the traceable custody pedigree for each individual certif
 | NS-07 | **James "Boe" Haas (CEO / Affiliate as Seller)** | James Haas (GreenGro CEO / Chairman) | Affiliate Secondary Seller & Collateral Assignor | 37,000,000 | $70,000.00 private cash from Ira Gaines (Cert 7978); $200,000 debt loan collateral (Cert 8172); $0.00 to Issuer | CS1-7978, CS1-8172 | GRNH-4a1 Opinion Letter Draft II (4) (2).pdf, DEFENDANT_HAAS_RULE_26_1_SUPPLEMENTAL_DISCLOSURE_with_contact_info.pdf |
 | NS-08 | **Joshua Hintzen (Family Intermediary Seller)** | Joshua Hintzen / Ira Gaines | Conduit Assignor to Big Thunder and Canadian Straws | 6,500,000 | Familial / Nominee Transfer; $0.00 to Issuer | CS1-7960 through CS1-7972 | GRNH loi GRNH Joshua 2 and a half million shares loi to Paul Poe.docx, JHintzen-GRNH-LglOpLtr-CS1-7971-7972-2ndSet.pdf |
 | NS-09 | **Justin Haas (CEO Family Intermediary)** | Justin Haas (Son of CEO James Haas) | Family Conduit Seller / Amalgamation Transferor | 3,500,000 | Secondary assignment; $0.00 to Issuer | CS1-8087, CS1-8166 | GRNH april 152019.xlsx, GRNH 3.5 SENT TO RUBEN 61318 TO BE SOLD BY JUSTIN.pdf |
+
+#### Special Entity Dossier 0: Casa de Dinero, LLC / Inc. (The 40.54M Share Transfer Agent Spigot)
+- **Entity Names:** Casa de Dinero, LLC / Casa de Dinero, Inc.
+- **Controller / Signatory:** Ruben Sanchez (Operating with email `rsanchez.fts@gmail.com` at Fidelity Transfer Services, Inc.)
+- **Total Volume Channeled:** **40,540,000 Shares** across 18+ certificates and private SPAs
+- **Cash Consideration Diverted:** **$403,500.00** collected from purchasers ($0.00 to GreenGro Technologies)
+- **Primary Transferees & Recipients:**
+  - **Cheryl Hintzen:** 11,790,000 shares (5.0M shares via $125k SPA on 3/14/2017; 6.79M shares under CS1-7937 in *Hintzen v. Haas* lawsuit)
+  - **Joshua Hintzen:** 12,250,000 shares (6.5M shares across CS1-7960 to 7972; 5.5M shares via $137.5k SPA on 8/9/2017; 250k shares via $35k SPA on 3/20/2017)
+  - **Big Thunder, LLC (Tom McCluskey):** 4,000,000 shares under CS1-8002 on 11/2/2017 (cleared through Forest & Alpine)
+  - **Paradise Wire & Cable DBPP:** 4,000,000 shares under CS1-7908 via $106k SPA on 4/5/2017
+  - **Paula Marie Poe (Canadian Straw):** 8,500,000 shares under CS1-8161 (3.5M) and CS1-8162 (5.0M) on 4/4/2019
+- **Operational Mechanics:** Operating as an insider at transfer agent Fidelity Transfer Services (FTS), Ruben Sanchez packaged shares into Casa de Dinero and executed private purchase agreements selling stock to insiders and nominees, while transfer agent records suppressed the true nature of the transactions.
+- **Primary Evidence Receipts:** `GRNH data.xlsx`, `GRNH Purchase agreement Casa de Dinero, LLC.docx`, `Stock Purchase Agreement Casa Dinero.pdf`, `STOCK INVENTORY JULY 16  (version 1) (Autosaved) 2.xlsx` (noting `rsanchez.fts@gmail.com`), `GRNH 7905 2.5 million pkg for Ruben for lenged lift.pdf`, `GRNH going to Ruben to be put in Big thunder with LOI's.pdf`
 
 #### Special Entity Dossier 1: Big Thunder, LLC (Nominee Vehicle)
 - **Formation Date:** August 30, 2017 (Nevada LLC)
@@ -810,6 +826,26 @@ This section documents the traceable custody pedigree for each individual certif
 - **Primary Evidence:** `SagePoint Motivated Minds.pdf`, `GRNH for Sage point 1MM shares.pdf`, `Eric Miller Compensation 03-14-21.xlsx` (Sheet 'SUMMARY')
 
 ### VII.C. The Six Core Visual Transfer Flow Patterns
+
+#### Pattern pattern_casa_de_dinero: Casa de Dinero Transfer Agent Conduit Circuit (40,540,000 Shares)
+- **Subtitle:** Transfer Agent Insider Conduit Selling to Cheryl & Josh Hintzen, Big Thunder & Canadian Straws
+- **Severity:** `CRITICAL / FELONY CONSPIRACY`
+- **Statutory Violations:** Securities Act Section 5(a) & 5(c) (Unregistered Underwriter Distribution), Securities Act Section 17(a)(1) (Fraud in the Offer or Sale of Securities), Exchange Act Section 10(b) & Rule 10b-5(a)/(c) (Scheme Liability / FTS Insider Manipulation)
+- **Mechanic Summary:** Ruben Sanchez, utilizing email rsanchez.fts@gmail.com and operating Casa de Dinero, LLC, functioned as the ultimate stock spigot. Casa de Dinero executed private Stock Purchase Agreements directly selling 40.54M shares to Cheryl Hintzen, Joshua Hintzen, Big Thunder LLC, and Paula Marie Poe. Purchasers wired $403,500 in secondary cash directly to Casa de Dinero / Ruben Sanchez, while Fidelity Transfer Services issued free-trading or unlegended certificates with zero cash proceeds entering GreenGro Technologies corporate accounts.
+- **Affected Certificates:** CS1-7908 (4.0M), CS1-7937 (6.79M), CS1-7960-7972 (6.5M), CS1-8002 (4.0M), CS1-8161-8162 (8.5M)
+- **Transfer Flow Circuit:**
+  1. **[Zero-Cash Genesis] GreenGro Technologies, Inc. Treasury**: Issuer issues unlegended/restricted blocks to Casa de Dinero under unverified consulting or settlement claims ($0.00 cash received by issuer).
+  2. **[Transfer Agent Conduit] Casa de Dinero, LLC (Ruben Sanchez / rsanchez.fts@gmail.com)**: Fidelity Transfer Services insider Ruben Sanchez holds 40.54M shares in Casa de Dinero, LLC and Casa de Dinero, Inc.
+  3. **[Secondary Cash Diversion] Private SPAs & Secondary Cash Collection ($403,500)**: Casa de Dinero executes SPAs selling shares to Cheryl Hintzen ($125k), Paradise W&C ($106k), Josh Hintzen ($137.5k), and Big Thunder LLC.
+  4. **[TA Certificate Splitting] Fidelity Transfer Services, Inc. (Mark Carter / Ruben Sanchez)**: Transfer agent records original issuances and splits shares into certificates (CS1-7937, CS1-7960-7972, CS1-8002, CS1-8161/8162).
+  5. **[Public OTC Dumping] Clearing Brokerages & Offshore Straws**: Shares are deposited into Forest Securities (Big Thunder), Alpine, Wedbush, and Canadian accounts (Paula Marie Poe) for liquidation.
+- **Primary Evidence Receipts:**
+  - `GRNH data.xlsx`
+  - `GRNH Purchase agreement Casa de Dinero, LLC.docx`
+  - `Stock Purchase Agreement Casa Dinero.pdf`
+  - `STOCK INVENTORY JULY 16  (version 1) (Autosaved) 2.xlsx`
+  - `GRNH 7905 2.5 million pkg for Ruben for lenged lift.pdf`
+  - `GRNH going to Ruben to be put in Big thunder with LOI's.pdf`
 
 #### Pattern pattern_new_sellers: The "New Seller" Intermediary Washing Pattern
 - **Subtitle:** Secondary Market Promoters Bypassing Section 5 Registration
@@ -899,11 +935,11 @@ This section documents the traceable custody pedigree for each individual certif
 
 | Cert # | Shares | Genesis Date | Origin Type | Primary Seller | Initial Recipient | Clearing Broker | Counsel | Red Flags | Key Receipts |
 |---|---|---|---|---|---|---|---|---|---|
-| **CS1-8002** | 4,000,000 | 2016-03-31 (Claimed) / 2017-08-30 (BT Formation) | Purchased from New Seller (Big Thunder LLC) | Big Thunder, LLC (Tom McClusky / Sue McCluskey nominee) | Big Thunder, LLC | Forest Securities, Inc. (David Adams) / Alpine Securities Clearing | Stephen Mills, Esq. (Request dated Dec 1, 2017) | Big Thunder, LLC was organized on 8/30/2017, making March 31, 2016 purchase date impossible; Ira Gaines named as initial manager on operating agreement page 14, substituted with Tom McCluskey | Big Thunder LLC CHAPTER.docx, GRNH request for legal 4MM GRNH BIg Thunder.docx |
+| **CS1-8002** | 4,000,000 | 2016-03-31 (Claimed) / 2017-08-30 (BT Formation) | Casa de Dinero Secondary Transfer / Purchased from New Seller (Big Thunder LLC) | Casa de Dinero, LLC / Casa de Dinero, Inc. (Ruben Sanchez) | Big Thunder, LLC | Forest Securities, Inc. (David Adams) / Alpine Securities Clearing | Stephen Mills, Esq. (Request dated Dec 1, 2017) | Big Thunder, LLC was organized on 8/30/2017, making March 31, 2016 purchase date impossible; Ira Gaines named as initial manager on operating agreement page 14, substituted with Tom McCluskey | Big Thunder LLC CHAPTER.docx, GRNH request for legal 4MM GRNH BIg Thunder.docx |
 | **CS1-7910** | 2,000,000 | 2015-05-27 (Genesis) / 2017-04-03 (Secondary SPA) | Purchased from New Seller (Dignitas Consulting LLC) | Dignitas Consulting LLC (Ronald Brouillette) | Ira Gaines | Alpine Securities Clearing / Wedbush Securities | Stephen Mills, Esq. (Opinion dated July 11, 2017) | Zero dollars paid to GreenGro corporate treasury; $25,000 paid to Dignitas intermediary; Tacking back to May 2015 consulting contract to bypass Rule 144(d)(1) | gainesgrnh7910.pdf, GRNH SPA 2M Ron Dignitas.pdf |
 | **CS1-7905** | 2,500,000 | 2016-10-07 (Note) / 2017-07-11 (Opinion) | Purchased from New Seller (Third Coast Partners LLC) | Third Coast Partners LLC (Ronald Brouillette) | Ira Gaines | Alpine Securities / Wedbush Securities | Stephen Mills, Esq. (Opinion dated July 11, 2017) | Private third-party debt collateral converted into unlegended stock; Section 2(a)(11) Statutory Underwriter conduit status | gainesgrnh7905.pdf, GRNH req for legal 2.5 MM cert 7905 MILLS.pdf |
 | **CS1-7768** | 1,000,000 | 2016-10-25 (SPA) / 2018-10-25 (Request) | Purchased from New Seller (Motivated Minds / Queler Conduit) | Arthur N. Queler / Motivated Minds Network | Arthur N. Queler | SagePoint Financial, Inc. / Wedbush Securities | Stephen Mills, Esq. (Request dated Oct 25, 2018) | Exact date contradiction on face of legal request (SPA dated Oct 25, 2018 while claiming held for 1 year); Connected to SagePoint Motivated Minds distribution pipeline | GRNH Art Queler req for legal.docx, SagePoint Motivated Minds.pdf |
-| **CS1-7937** | 6,790,000 | 2013-09-09 (Backdated) / 2015-08-20 (SPA) / 2017-05-01 (Actual Signing) | Purchased from New Seller (Mark Delfin Sham Consultant) | Mark Delfin (Consultant Nominee) | Cheryl Hintzen | Alpine Securities / Forest Securities | Stephen Mills, Esq. (Opinion dated Jan 10, 2018) | Chronological impossibility: SPA dated August 20, 2015 derives from an agreement created May 1, 2017; In Pari Delicto / Unclean Hands affirmative defense for defense counsel | grnhhintzen7937.pdf, GRNH req for legal Cheryl 2.docx |
+| **CS1-7937** | 6,790,000 | 2013-09-09 (Backdated) / 2015-08-20 (SPA) / 2017-05-01 (Actual Signing) | Casa de Dinero Secondary Transfer / Purchased from New Seller (Mark Delfin Sham Consultant) | Casa de Dinero, LLC / Casa de Dinero, Inc. (Ruben Sanchez) | Cheryl Hintzen | Alpine Securities / Forest Securities | Stephen Mills, Esq. (Opinion dated Jan 10, 2018) | Chronological impossibility: SPA dated August 20, 2015 derives from an agreement created May 1, 2017; In Pari Delicto / Unclean Hands affirmative defense for defense counsel | grnhhintzen7937.pdf, GRNH req for legal Cheryl 2.docx |
 | **CS1-7835** | 3,000,000 | 2017-01-04 (Issuance) / 2019-03-27 (Poe Transfer) | Purchased from New Seller ("BOT FROM RON" Brouillette) | Ronald Brouillette ("Ron") | Ira Gaines | BMO InvestorLine (Toronto) / Fidelity Transfer Services | Fidelity Transfer Services Instruction | Direct documentary record: "BOT FROM RON" proves secondary promoter purchase; Promoter paper washed through transfer agent into offshore Canadian nominee | GRNH april 152019.xlsx, GRNH 7835 3 MM shares.pdf |
 | **CS1-7978** | 10,000,000 | 2019-04-10 | Purchased from New Seller (James Haas / CEO Private Sale) | James "Boe" Haas (CEO of GreenGro Technologies, Inc.) | Ira Gaines | Fidelity Transfer Services / Bank of America | In-House / John T. Root, Jr. Framework | CEO sold 10M shares at 90% discount to prevailing market price while company was actively promoting stock; Affiliate sale without registration under Section 5 | GRNH Signed 10MM.pdf, GRNH april 152019.xlsx |
 | **CS1-8172** | 27,000,000 | 2009-08-01 (Employment) / 2017-09-30 (Settlement) / 2019-01-22 (Root Opinion) | Purchased from New Seller (James Haas Affiliate Loan Collateral) | James "Boe" Haas (Affiliate Transferor) | E.F. Romano III (Nominee Creditor) | Fidelity Transfer Services / Ruben Sanchez | John T. Root, Jr., Esq. (Jan 22, 2019 / Apr 22, 2019) | Mathematical fraud: Root represented 27M was <1% of 470M float (actual: 5.74%); Affiliate tacking violation: Rule 144(d)(1) forbids tacking Haas's 2009 employment period | GRNH-4a1 Opinion Letter Draft II (4) (2).pdf, DEFENDANT_HAAS_RULE_26_1_SUPPLEMENTAL_DISCLOSURE_with_contact_info.pdf |
@@ -912,8 +948,8 @@ This section documents the traceable custody pedigree for each individual certif
 | **CS1-7800** | 1,500,000 | 2016-10-25 (SPA) / 2016-11-18 (Issuance) | Direct Issuer Issuance (Gaines Control Trust) | GreenGro Technologies, Inc. / Ira J. Gaines Revocable Trust | Ira Gaines Revocable Trust | Alpine Securities / Fidelity Transfer Services | Stephen Mills, Esq. (Opinion dated Dec 6, 2017) | Legal opinion certified non-affiliate status under Section 4(a)(1); Master ledger documents direct conversion from Gaines Trust to Canadian straw Poe | grnhgaines7800.pdf, GRNH 7800 IGRT For legend lift.pdf |
 | **CS1-7824** | 1,000,000 | 2016-12-23 | Direct Issuer Issuance / Rapid 4-Day Flip | Ira Gaines (Affiliate Transferor) | Ira Gaines | Merrill Lynch, Pierce, Fenner & Smith Incorporated | In-House / Fidelity Transfer Services | Hyper-velocity flipping (<96 hours) violating statutory investment intent under Section 2(a)(11); Transfer agent processed immediate transfer from affiliate into brokerage clearing | GRNH 7824 1mm shares to ML 122716.pdf, record of GRNH stock transactions.docx |
 | **CS1-7906** | 3,500,000 | 2017-03-31 | Direct Issuer Issuance / 72-Hour Cede & Co Flip | Ira Gaines (Affiliate Transferor) | Ira Gaines | Exeter Trust Company / Cede & Co. / BBVA Compass Bank | In-House / Exeter Trust | 72-hour turnaround between certificate issuance and Cede & Co. DTC depository transfer; Direct proceeds wired to personal banking accounts | record of GRNH stock transactions.docx, GRNH 3.5 MM shares.pdf |
-| **CS1-7908** | 4,000,000 | 2017-04-05 | Direct Issuer Issuance (Paradise Wire & Cable Shell) | Paradise Wire & Cable, Inc. DBPP (Ira Gaines Shell) | Paradise Wire & Cable, Inc. | Pershing LLC / Bankers Trust | In-House / Fidelity Transfer Services (Ruben Sanchez) | Certificate issued "free-trading" by transfer agent without registration statement; Ira Gaines signed as Trustee for Paradise Wire & Cable Pension Plan | record of GRNH stock transactions.docx, GRNH 4.0 MM Paradise for Roy.pdf |
-| **CS1-7960 through CS1-7969** | 5,000,000 | 2017-08-02 / 2017-08-09 | Multi-Hop Familial Conduit (Joshua Hintzen 500k Series) | Joshua Hintzen / Ira Gaines | Joshua Hintzen (10 certs of 500,000 shs each) | Forest Securities / Alpine Clearing / BMO InvestorLine | James Hintzen, Esq. & Stephen Mills, Esq. | Smurfing into 500,000 share blocks to evade transfer agent dollar/volume velocity flags; Written admission on 4/2/2019 that certificates belonged to Ira Gaines | GRNH loi GRNH Joshua 2 and a half million shares loi to Paul Poe.docx, record of GRNH stock transactions.docx |
+| **CS1-7908** | 4,000,000 | 2017-04-05 | Casa de Dinero Secondary Transfer / Direct Issuer Issuance (Paradise Wire & Cable Shell) | Casa de Dinero, LLC / Casa de Dinero, Inc. (Ruben Sanchez) | Paradise Wire & Cable, Inc. | Pershing LLC / Bankers Trust | In-House / Fidelity Transfer Services (Ruben Sanchez) | Certificate issued "free-trading" by transfer agent without registration statement; Ira Gaines signed as Trustee for Paradise Wire & Cable Pension Plan | record of GRNH stock transactions.docx, GRNH 4.0 MM Paradise for Roy.pdf |
+| **CS1-7960 through CS1-7969** | 5,000,000 | 2017-08-02 / 2017-08-09 | Casa de Dinero Secondary Transfer / Multi-Hop Familial Conduit (Joshua Hintzen 500k Series) | Casa de Dinero, LLC / Casa de Dinero, Inc. (Ruben Sanchez) | Joshua Hintzen (10 certs of 500,000 shs each) | Forest Securities / Alpine Clearing / BMO InvestorLine | James Hintzen, Esq. & Stephen Mills, Esq. | Smurfing into 500,000 share blocks to evade transfer agent dollar/volume velocity flags; Written admission on 4/2/2019 that certificates belonged to Ira Gaines | GRNH loi GRNH Joshua 2 and a half million shares loi to Paul Poe.docx, record of GRNH stock transactions.docx |
 | **CS1-7881** | 1,000,000 | 2017-08-09 | Multi-Hop Familial Conduit (Gaines to Josh Hintzen) | Ira Gaines (Affiliate Transferor) | Joshua Hintzen | Fidelity Transfer Services / Egan KS Brokerage | Stephen Mills, Esq. (Reliance) | Gaines directly ordered transfer agent to cancel his certificate and issue free-trading shares to relative; Zero registration statement or bona fide holding period compliance | LOI 7881 GRNH from ira to josh.docx, GRNH 7881 Sending to Egan KS address 1MM shares.pdf |
 | **CS1-8087** | 3,500,000 | 2017-06-15 | CEO Family Conduit (Justin Haas) | Justin Haas (Son of CEO James Haas) | Justin Haas | Fidelity Transfer Services / BMO InvestorLine | Fidelity Transfer Services Processing | CEO son certificate used as distribution feeder block for Canadian straw Poe; Direct instruction from CEO to transfer agent to sell Justin shares | GRNH 3.5 SENT TO RUBEN 61318 TO BE SOLD BY JUSTIN.pdf, GRNH april 152019.xlsx |
 | **CS1-8089** | 6,500,000 | 2017-05-01 (Actual Signing) / 2013-09-09 (Backdated) | Backdated Sham Consulting Award | Mark Delfin (Consultant Nominee) | Mark Delfin | Fidelity Transfer Services | Stephen Mills, Esq. (Reliance) | 44-month retroactive backdating; Zero verified advisory services performed | CONSULTING AGREEMENT_Delfin_GRNH.docx, FINAL CONSULTING AGREEMENT_Delfin_GRNH (4).docx |
@@ -934,7 +970,7 @@ This section documents the traceable custody pedigree for each individual certif
 #### Detailed Step-by-Step Custody Pedigree for Key Certificates:
 
 ##### Certificate CS1-8002 (4,000,000 Shares - Big Thunder, LLC)
-- **Genesis Date:** 2016-03-31 (Claimed) / 2017-08-30 (BT Formation) | **Origin:** Purchased from New Seller (Big Thunder LLC)
+- **Genesis Date:** 2016-03-31 (Claimed) / 2017-08-30 (BT Formation) | **Origin:** Casa de Dinero Secondary Transfer / Purchased from New Seller (Big Thunder LLC)
 - **Current Status:** Deposited via Forest Securities / Cleared via Alpine
 - **Clearing Broker:** Forest Securities, Inc. (David Adams) / Alpine Securities Clearing | **Opinion Counsel:** Stephen Mills, Esq. (Request dated Dec 1, 2017)
 - **Custody Chain of Title:**
@@ -943,8 +979,8 @@ This section documents the traceable custody pedigree for each individual certif
   - **Step 3 (2017-12-01):** `Big Thunder, LLC` → `Stephen Mills`: Tom McClusky signs request for Section 4(a)(1) legal opinion representing 12-month holding
   - **Step 4 (2017-12-05):** `Big Thunder, LLC` → `Forest Securities (David Adams)`: Deposited into brokerage account; broker alerts group to shovel related shares
   - **Step 5 (2018-01-15):** `Forest Securities` → `Alpine Clearing / OTC Market`: Liquidated in broker transactions directed to retail market
-- **Evidentiary Anomalies:** Big Thunder, LLC was organized on 8/30/2017, making March 31, 2016 purchase date impossible; Ira Gaines named as initial manager on operating agreement page 14, substituted with Tom McCluskey; Formed to circumvent Wilson-Davis & Pershing account closures
-- **Primary Hard Drive Files:** Big Thunder LLC CHAPTER.docx, GRNH request for legal 4MM GRNH BIg Thunder.docx, GRNH 8002 4MM shares BTLLC.pdf
+- **Evidentiary Anomalies:** Big Thunder, LLC was organized on 8/30/2017, making March 31, 2016 purchase date impossible; Ira Gaines named as initial manager on operating agreement page 14, substituted with Tom McCluskey; Formed to circumvent Wilson-Davis & Pershing account closures; Directly sourced from Casa de Dinero / Ruben Sanchez (rsanchez.fts@gmail.com) with $0.00 proceeds to corporate treasury
+- **Primary Hard Drive Files:** Big Thunder LLC CHAPTER.docx, GRNH request for legal 4MM GRNH BIg Thunder.docx, GRNH 8002 4MM shares BTLLC.pdf, GRNH data.xlsx, GRNH Purchase agreement Casa de Dinero, LLC.docx
 
 ##### Certificate CS1-7910 (2,000,000 Shares - Ira Gaines)
 - **Genesis Date:** 2015-05-27 (Genesis) / 2017-04-03 (Secondary SPA) | **Origin:** Purchased from New Seller (Dignitas Consulting LLC)
@@ -986,7 +1022,7 @@ This section documents the traceable custody pedigree for each individual certif
 - **Primary Hard Drive Files:** GRNH Art Queler req for legal.docx, SagePoint Motivated Minds.pdf, GRNH for Sage point 1MM shares.pdf
 
 ##### Certificate CS1-7937 (6,790,000 Shares - Cheryl Hintzen)
-- **Genesis Date:** 2013-09-09 (Backdated) / 2015-08-20 (SPA) / 2017-05-01 (Actual Signing) | **Origin:** Purchased from New Seller (Mark Delfin Sham Consultant)
+- **Genesis Date:** 2013-09-09 (Backdated) / 2015-08-20 (SPA) / 2017-05-01 (Actual Signing) | **Origin:** Casa de Dinero Secondary Transfer / Purchased from New Seller (Mark Delfin Sham Consultant)
 - **Current Status:** Subject of Active Lawsuit: Hintzen v. Haas (CV2025-013574)
 - **Clearing Broker:** Alpine Securities / Forest Securities | **Opinion Counsel:** Stephen Mills, Esq. (Opinion dated Jan 10, 2018)
 - **Custody Chain of Title:**
@@ -995,8 +1031,8 @@ This section documents the traceable custody pedigree for each individual certif
   - **Step 3 (2018-01-09):** `Cheryl Hintzen` → `Stephen Mills, Esq.`: Request for Section 4(a)(1) legal opinion representing non-affiliate status
   - **Step 4 (2018-01-10):** `Stephen Mills, Esq.` → `Fidelity Transfer Services`: Opinion letter issued certifying shares freely tradable
   - **Step 5 (2025-01-15):** `Cheryl Hintzen` → `James Haas`: Files lawsuit in Maricopa County Superior Court (CV2025-013574) seeking $1.8M damages for refusal to lift legend
-- **Evidentiary Anomalies:** Chronological impossibility: SPA dated August 20, 2015 derives from an agreement created May 1, 2017; In Pari Delicto / Unclean Hands affirmative defense for defense counsel; Zero capital infused into GreenGro treasury
-- **Primary Hard Drive Files:** grnhhintzen7937.pdf, GRNH req for legal Cheryl 2.docx, CONSULTING AGREEMENT_Delfin_GRNH.docx
+- **Evidentiary Anomalies:** Chronological impossibility: SPA dated August 20, 2015 derives from an agreement created May 1, 2017; In Pari Delicto / Unclean Hands affirmative defense for defense counsel; Zero capital infused into GreenGro treasury; Directly sourced from Casa de Dinero / Ruben Sanchez (rsanchez.fts@gmail.com) with $0.00 proceeds to corporate treasury
+- **Primary Hard Drive Files:** grnhhintzen7937.pdf, GRNH req for legal Cheryl 2.docx, CONSULTING AGREEMENT_Delfin_GRNH.docx, GRNH data.xlsx, GRNH Purchase agreement Casa de Dinero, LLC.docx
 
 ##### Certificate CS1-7835 (3,000,000 Shares - Ira Gaines)
 - **Genesis Date:** 2017-01-04 (Issuance) / 2019-03-27 (Poe Transfer) | **Origin:** Purchased from New Seller ("BOT FROM RON" Brouillette)
@@ -1099,18 +1135,18 @@ This section documents the traceable custody pedigree for each individual certif
 - **Primary Hard Drive Files:** record of GRNH stock transactions.docx, GRNH 3.5 MM shares.pdf
 
 ##### Certificate CS1-7908 (4,000,000 Shares - Paradise Wire & Cable, Inc.)
-- **Genesis Date:** 2017-04-05 | **Origin:** Direct Issuer Issuance (Paradise Wire & Cable Shell)
+- **Genesis Date:** 2017-04-05 | **Origin:** Casa de Dinero Secondary Transfer / Direct Issuer Issuance (Paradise Wire & Cable Shell)
 - **Current Status:** Transferred to Pershing LLC
 - **Clearing Broker:** Pershing LLC / Bankers Trust | **Opinion Counsel:** In-House / Fidelity Transfer Services (Ruben Sanchez)
 - **Custody Chain of Title:**
   - **Step 1 (2017-04-05):** `GreenGro Technologies, Inc.` → `Paradise Wire & Cable, Inc.`: Certificate CS1-7908 issued for 4,000,000 shares free-trading from Ruben Sanchez
   - **Step 2 (2017-04-07):** `Paradise Wire & Cable DBPP` → `Pershing LLC`: 2 days later: Irrevocable stock power executed to Pershing LLC, signed by Ira Gaines, Trustee
   - **Step 3 (2017-04-12):** `Pershing LLC` → `OTC Market`: Liquidated into retail market
-- **Evidentiary Anomalies:** Certificate issued "free-trading" by transfer agent without registration statement; Ira Gaines signed as Trustee for Paradise Wire & Cable Pension Plan; Pershing subsequently terminated Gaines accounts due to regulatory violations
-- **Primary Hard Drive Files:** record of GRNH stock transactions.docx, GRNH 4.0 MM Paradise for Roy.pdf
+- **Evidentiary Anomalies:** Certificate issued "free-trading" by transfer agent without registration statement; Ira Gaines signed as Trustee for Paradise Wire & Cable Pension Plan; Pershing subsequently terminated Gaines accounts due to regulatory violations; Directly sourced from Casa de Dinero / Ruben Sanchez (rsanchez.fts@gmail.com) with $0.00 proceeds to corporate treasury
+- **Primary Hard Drive Files:** record of GRNH stock transactions.docx, GRNH 4.0 MM Paradise for Roy.pdf, GRNH data.xlsx, GRNH Purchase agreement Casa de Dinero, LLC.docx
 
 ##### Certificate CS1-7960 through CS1-7969 (5,000,000 Shares - Joshua Hintzen (10 certs of 500,000 shs each))
-- **Genesis Date:** 2017-08-02 / 2017-08-09 | **Origin:** Multi-Hop Familial Conduit (Joshua Hintzen 500k Series)
+- **Genesis Date:** 2017-08-02 / 2017-08-09 | **Origin:** Casa de Dinero Secondary Transfer / Multi-Hop Familial Conduit (Joshua Hintzen 500k Series)
 - **Current Status:** Transferred to Big Thunder LLC (2018) & Paula Marie Poe (2019)
 - **Clearing Broker:** Forest Securities / Alpine Clearing / BMO InvestorLine | **Opinion Counsel:** James Hintzen, Esq. & Stephen Mills, Esq.
 - **Custody Chain of Title:**
@@ -1119,8 +1155,8 @@ This section documents the traceable custody pedigree for each individual certif
   - **Step 3 (2018-12-03):** `Joshua Hintzen` → `Big Thunder, LLC`: LOI to re-issue 8 certificates (7960-7969 series, 4M shs) in name of Big Thunder, LLC
   - **Step 4 (2019-03-27):** `Joshua Hintzen` → `Paula Marie Poe`: LOI to cancel 5 certificates (7964, 7965, 7966, 7968, 7969) and reissue 2.5M shs to Poe
   - **Step 5 (2019-04-02):** `Joshua Hintzen` → `Paula Marie Poe`: LOI stating certs 7960, 7961, 7963 are "registered in name of Ira Gaines" and sending to Poe at BMO
-- **Evidentiary Anomalies:** Smurfing into 500,000 share blocks to evade transfer agent dollar/volume velocity flags; Written admission on 4/2/2019 that certificates belonged to Ira Gaines; Cross-border delivery to Toronto brokerage
-- **Primary Hard Drive Files:** GRNH loi GRNH Joshua 2 and a half million shares loi to Paul Poe.docx, record of GRNH stock transactions.docx, GRNH april 152019.xlsx
+- **Evidentiary Anomalies:** Smurfing into 500,000 share blocks to evade transfer agent dollar/volume velocity flags; Written admission on 4/2/2019 that certificates belonged to Ira Gaines; Cross-border delivery to Toronto brokerage; Directly sourced from Casa de Dinero / Ruben Sanchez (rsanchez.fts@gmail.com) with $0.00 proceeds to corporate treasury
+- **Primary Hard Drive Files:** GRNH loi GRNH Joshua 2 and a half million shares loi to Paul Poe.docx, record of GRNH stock transactions.docx, GRNH april 152019.xlsx, GRNH data.xlsx, GRNH Purchase agreement Casa de Dinero, LLC.docx
 
 ##### Certificate CS1-7881 (1,000,000 Shares - Joshua Hintzen)
 - **Genesis Date:** 2017-08-09 | **Origin:** Multi-Hop Familial Conduit (Gaines to Josh Hintzen)

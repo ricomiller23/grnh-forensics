@@ -240,6 +240,7 @@ export interface CertificateLineageData {
   summaryMetrics: {
     totalTrackedCertificates: number;
     newSellerVolume: number;
+    casaDeDineroVolume?: number;
     bigThunderVolume: number;
     motivatedMindsVolume: number;
     canadianNomineeVolume: number;
