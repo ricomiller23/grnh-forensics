@@ -134,6 +134,25 @@ export default function CertificateLineageStudio() {
 
           <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
             <a
+              href="/LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.md"
+              download="LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.md"
+              style={{
+                fontSize: "0.78rem",
+                padding: "8px 14px",
+                borderRadius: "6px",
+                background: "linear-gradient(135deg, rgba(244, 63, 94, 0.2) 0%, rgba(190, 18, 60, 0.3) 100%)",
+                border: "1px solid rgba(244, 63, 94, 0.4)",
+                color: "#fda4af",
+                textDecoration: "none",
+                display: "flex",
+                alignItems: "center",
+                gap: "6px",
+                fontWeight: 700,
+              }}
+            >
+              <FileText size={14} /> Lawyer Highway Map & Handbook (.MD)
+            </a>
+            <a
               href="/api/grnh?lineageOnly=true"
               target="_blank"
               rel="noopener noreferrer"

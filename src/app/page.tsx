@@ -246,6 +246,25 @@ ${sourceFilesCatalog
               >
                 <GitCommit size={15} /> Certificate Lineage & Transfer Patterns Studio →
               </Link>
+              <a
+                href="/LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.md"
+                download="LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.md"
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  background: "rgba(244, 63, 94, 0.15)",
+                  color: "#fb7185",
+                  border: "1px solid rgba(244, 63, 94, 0.4)",
+                  fontWeight: 700,
+                  fontSize: "0.82rem",
+                  padding: "9px 16px",
+                  borderRadius: "8px",
+                  textDecoration: "none",
+                }}
+              >
+                <FileText size={15} /> Lawyer Highway Map & Handbook (.MD)
+              </a>
               <button onClick={handleDownloadReport} className="btn-primary">
                 <Download size={15} /> Export Legal Brief (.MD)
               </button>
