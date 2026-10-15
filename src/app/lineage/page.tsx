@@ -16,6 +16,7 @@ import {
   Building2,
   Users,
   FileText,
+  FileCheck2,
   Briefcase,
   Flame,
   Layers,
@@ -134,7 +135,28 @@ export default function CertificateLineageStudio() {
 
           <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
             <a
-              href="/LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.pdf"
+              href="/GRNH_Forensic_Securities_Litigation_Report.pdf"
+              download="GRNH_Forensic_Securities_Litigation_Report.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                fontSize: "0.78rem",
+                padding: "8px 14px",
+                borderRadius: "6px",
+                background: "linear-gradient(135deg, rgba(14, 165, 233, 0.25) 0%, rgba(2, 132, 199, 0.35) 100%)",
+                border: "1px solid rgba(56, 189, 248, 0.5)",
+                color: "#7dd3fc",
+                textDecoration: "none",
+                display: "flex",
+                alignItems: "center",
+                gap: "6px",
+                fontWeight: 700,
+              }}
+            >
+              <FileCheck2 size={14} /> Audit Report (PDF)
+            </a>
+            <a
+              href="/LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.pdf" 
               download="LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.pdf"
               target="_blank"
               rel="noopener noreferrer"

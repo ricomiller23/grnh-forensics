@@ -266,7 +266,29 @@ ${sourceFilesCatalog
                 <FileText size={15} /> Lawyer Highway Map & Handbook (.MD)
               </a>
               <a
-                href="/LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.pdf"
+                href="/GRNH_Forensic_Securities_Litigation_Report.pdf"
+                download="GRNH_Forensic_Securities_Litigation_Report.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  background: "linear-gradient(135deg, rgba(14, 165, 233, 0.25) 0%, rgba(2, 132, 199, 0.35) 100%)",
+                  color: "#7dd3fc",
+                  border: "1px solid rgba(56, 189, 248, 0.5)",
+                  fontWeight: 700,
+                  fontSize: "0.82rem",
+                  padding: "9px 16px",
+                  borderRadius: "8px",
+                  textDecoration: "none",
+                  boxShadow: "0 2px 10px rgba(56, 189, 248, 0.2)",
+                }}
+              >
+                <FileCheck2 size={15} /> Download Full Audit (PDF)
+              </a>
+              <a
+                href="/LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.pdf" 
                 download="LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
