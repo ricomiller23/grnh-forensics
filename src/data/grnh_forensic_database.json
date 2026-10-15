@@ -10511,35 +10511,45 @@
             "date": "2016-03-31",
             "from": "Issuer",
             "to": "Big Thunder, LLC (Purported)",
-            "action": "Private placement transaction claimed on legal request"
+            "action": "Private placement transaction claimed on legal request",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2017-08-30",
             "from": "Ira Gaines",
             "to": "Big Thunder, LLC",
-            "action": "LLC formed; Ira Gaines initially listed on page 14 of operating agreement, changed to Tom McCluskey upon broker warning"
+            "action": "LLC formed; Ira Gaines initially listed on page 14 of operating agreement, changed to Tom McCluskey upon broker warning",
+            "stageBadge": "Brokerage Deposit",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2017-12-01",
             "from": "Big Thunder, LLC",
             "to": "Stephen Mills",
-            "action": "Tom McClusky signs request for Section 4(a)(1) legal opinion representing 12-month holding"
+            "action": "Tom McClusky signs request for Section 4(a)(1) legal opinion representing 12-month holding",
+            "stageBadge": "Legal Opinion Whitewash",
+            "actorType": "counsel"
           },
           {
             "step": 4,
             "date": "2017-12-05",
             "from": "Big Thunder, LLC",
             "to": "Forest Securities (David Adams)",
-            "action": "Deposited into brokerage account; broker alerts group to shovel related shares"
+            "action": "Deposited into brokerage account; broker alerts group to shovel related shares",
+            "stageBadge": "Brokerage Deposit",
+            "actorType": "broker"
           },
           {
             "step": 5,
             "date": "2018-01-15",
             "from": "Forest Securities",
             "to": "Alpine Clearing / OTC Market",
-            "action": "Liquidated in broker transactions directed to retail market"
+            "action": "Liquidated in broker transactions directed to retail market",
+            "stageBadge": "Retail OTC Liquidation",
+            "actorType": "broker"
           }
         ],
         "redFlags": [
@@ -10572,35 +10582,45 @@
             "date": "2015-05-27",
             "from": "GreenGro Technologies, Inc.",
             "to": "Dignitas Consulting LLC",
-            "action": "Awarded 3,000,000 restricted shares under consulting agreement"
+            "action": "Awarded 3,000,000 restricted shares under consulting agreement",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2017-04-03",
             "from": "Dignitas Consulting LLC",
             "to": "Ira Gaines",
-            "action": "Secondary Stock Purchase Agreement: Gaines buys 2,000,000 shares for $25,000.00 ($0.0125/sh)"
+            "action": "Secondary Stock Purchase Agreement: Gaines buys 2,000,000 shares for $25,000.00 ($0.0125/sh)",
+            "stageBadge": "Secondary SPA Purchase",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2017-04-06",
             "from": "Fidelity Transfer Services",
             "to": "Ira Gaines",
-            "action": "Certificate CS1-7910 issued, noted in ledger as \"sending to ALPINE\""
+            "action": "Certificate CS1-7910 issued, noted in ledger as \"sending to ALPINE\"",
+            "stageBadge": "Brokerage Deposit",
+            "actorType": "conduit"
           },
           {
             "step": 4,
             "date": "2017-07-11",
             "from": "Stephen Mills, Esq.",
             "to": "Fidelity Transfer Services",
-            "action": "Section 4(a)(1) opinion issued opining shares freely tradable"
+            "action": "Section 4(a)(1) opinion issued opining shares freely tradable",
+            "stageBadge": "Legal Opinion Whitewash",
+            "actorType": "conduit"
           },
           {
             "step": 5,
             "date": "2017-07-20",
             "from": "Ira Gaines",
             "to": "Alpine Securities",
-            "action": "Deposited for open market retail sale"
+            "action": "Deposited for open market retail sale",
+            "stageBadge": "Retail OTC Liquidation",
+            "actorType": "broker"
           }
         ],
         "redFlags": [
@@ -10630,35 +10650,45 @@
             "date": "2016-10-07",
             "from": "Ronald Brouillette / Third Coast Partners LLC",
             "to": "Ira Gaines",
-            "action": "Secured Promissory Note: Gaines loans $76,000.00 to Brouillette, collateralized by 2.5M shares"
+            "action": "Secured Promissory Note: Gaines loans $76,000.00 to Brouillette, collateralized by 2.5M shares",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "conduit"
           },
           {
             "step": 2,
             "date": "2017-03-31",
             "from": "Third Coast Partners LLC",
             "to": "Ira Gaines",
-            "action": "Note default/satisfaction: 2,500,000 shares transferred to Gaines in lieu of repayment"
+            "action": "Note default/satisfaction: 2,500,000 shares transferred to Gaines in lieu of repayment",
+            "stageBadge": "Conduit Hop / Split",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2017-07-11",
             "from": "Stephen Mills, Esq.",
             "to": "Fidelity Transfer Services",
-            "action": "Section 4(a)(1) legal opinion issued to remove restrictive legend"
+            "action": "Section 4(a)(1) legal opinion issued to remove restrictive legend",
+            "stageBadge": "Legal Opinion Whitewash",
+            "actorType": "conduit"
           },
           {
             "step": 4,
             "date": "2017-07-15",
             "from": "Fidelity Transfer Services",
             "to": "Ira Gaines",
-            "action": "Unlegended certificate released to Ruben Sanchez for broker delivery"
+            "action": "Unlegended certificate released to Ruben Sanchez for broker delivery",
+            "stageBadge": "Brokerage Deposit",
+            "actorType": "conduit"
           },
           {
             "step": 5,
             "date": "2017-08-01",
             "from": "Ira Gaines",
             "to": "Brokerage Accounts",
-            "action": "Liquidated into retail market"
+            "action": "Liquidated into retail market",
+            "stageBadge": "Retail OTC Liquidation",
+            "actorType": "broker"
           }
         ],
         "redFlags": [
@@ -10687,35 +10717,45 @@
             "date": "2016-10-25",
             "from": "GreenGro Technologies, Inc.",
             "to": "Arthur N. Queler",
-            "action": "Stock Purchase Agreement for 1,000,000 restricted shares"
+            "action": "Stock Purchase Agreement for 1,000,000 restricted shares",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2016-11-16",
             "from": "Fidelity Transfer Services",
             "to": "Arthur N. Queler",
-            "action": "Certificate FedExed to Queler"
+            "action": "Certificate FedExed to Queler",
+            "stageBadge": "Courier / Physical Transit",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2017-12-06",
             "from": "Motivated Minds Network",
             "to": "SagePoint Financial",
-            "action": "Account opening and promissory note routing via SagePoint Motivated Minds"
+            "action": "Account opening and promissory note routing via SagePoint Motivated Minds",
+            "stageBadge": "Brokerage Deposit",
+            "actorType": "broker"
           },
           {
             "step": 4,
             "date": "2018-10-25",
             "from": "Arthur N. Queler",
             "to": "Stephen Mills",
-            "action": "Request for legal opinion; claims SPA was dated Oct 25, 2018 yet simultaneously claims 1-year holding"
+            "action": "Request for legal opinion; claims SPA was dated Oct 25, 2018 yet simultaneously claims 1-year holding",
+            "stageBadge": "Legal Opinion Whitewash",
+            "actorType": "counsel"
           },
           {
             "step": 5,
             "date": "2018-11-05",
             "from": "SagePoint Financial",
             "to": "OTC Market",
-            "action": "1MM shares cleared and deposited for retail sale"
+            "action": "1MM shares cleared and deposited for retail sale",
+            "stageBadge": "Retail OTC Liquidation",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -10745,35 +10785,45 @@
             "date": "2017-05-01",
             "from": "GreenGro Technologies, Inc.",
             "to": "Mark Delfin",
-            "action": "Consulting Agreement executed May 1, 2017, explicitly backdated 44 months to Sept 9, 2013"
+            "action": "Consulting Agreement executed May 1, 2017, explicitly backdated 44 months to Sept 9, 2013",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2015-08-20",
             "from": "Mark Delfin",
             "to": "Cheryl Hintzen",
-            "action": "Purported Stock Purchase Agreement: Hintzen buys 6,790,000 shares from Delfin for $125,000 (pre-dates contract creation)"
+            "action": "Purported Stock Purchase Agreement: Hintzen buys 6,790,000 shares from Delfin for $125,000 (pre-dates contract creation)",
+            "stageBadge": "Secondary SPA Purchase",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2018-01-09",
             "from": "Cheryl Hintzen",
             "to": "Stephen Mills, Esq.",
-            "action": "Request for Section 4(a)(1) legal opinion representing non-affiliate status"
+            "action": "Request for Section 4(a)(1) legal opinion representing non-affiliate status",
+            "stageBadge": "Legal Opinion Whitewash",
+            "actorType": "counsel"
           },
           {
             "step": 4,
             "date": "2018-01-10",
             "from": "Stephen Mills, Esq.",
             "to": "Fidelity Transfer Services",
-            "action": "Opinion letter issued certifying shares freely tradable"
+            "action": "Opinion letter issued certifying shares freely tradable",
+            "stageBadge": "Legal Opinion Whitewash",
+            "actorType": "conduit"
           },
           {
             "step": 5,
             "date": "2025-01-15",
             "from": "Cheryl Hintzen",
             "to": "James Haas",
-            "action": "Files lawsuit in Maricopa County Superior Court (CV2025-013574) seeking $1.8M damages for refusal to lift legend"
+            "action": "Files lawsuit in Maricopa County Superior Court (CV2025-013574) seeking $1.8M damages for refusal to lift legend",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -10806,35 +10856,45 @@
             "date": "2017-01-04",
             "from": "Ronald Brouillette (\"Ron\")",
             "to": "Ira Gaines",
-            "action": "Certificate CS1-7835 issued for 3,000,000 shares, noted in portfolio list as \"BOT FROM RON\""
+            "action": "Certificate CS1-7835 issued for 3,000,000 shares, noted in portfolio list as \"BOT FROM RON\"",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "conduit"
           },
           {
             "step": 2,
             "date": "2017-01-10",
             "from": "Fidelity Transfer Services",
             "to": "Ira Gaines",
-            "action": "Restricted certificate delivered"
+            "action": "Restricted certificate delivered",
+            "stageBadge": "Courier / Physical Transit",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2019-03-27",
             "from": "Ira Gaines",
             "to": "Paula Marie Poe",
-            "action": "Letter of Instruction to cancel Cert 7835 and reissue to Paula Marie Poe"
+            "action": "Letter of Instruction to cancel Cert 7835 and reissue to Paula Marie Poe",
+            "stageBadge": "Split & Certificate Re-issuance",
+            "actorType": "conduit"
           },
           {
             "step": 4,
             "date": "2019-04-12",
             "from": "Fidelity Transfer Services",
             "to": "BMO InvestorLine",
-            "action": "Overnighted via FedEx to BMO InvestorLine account 23013702-15 in Toronto"
+            "action": "Overnighted via FedEx to BMO InvestorLine account 23013702-15 in Toronto",
+            "stageBadge": "Courier / Physical Transit",
+            "actorType": "conduit"
           },
           {
             "step": 5,
             "date": "2019-04-20",
             "from": "Paula Marie Poe",
             "to": "OTC Retail Market",
-            "action": "Liquidated into public float"
+            "action": "Liquidated into public float",
+            "stageBadge": "Retail OTC Liquidation",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -10864,35 +10924,45 @@
             "date": "2019-04-10",
             "from": "James Haas (CEO)",
             "to": "Ira Gaines",
-            "action": "Private Stock Purchase Agreement: Haas sells 10,000,000 shares to Gaines for $70,000 ($0.007/share)"
+            "action": "Private Stock Purchase Agreement: Haas sells 10,000,000 shares to Gaines for $70,000 ($0.007/share)",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "conduit"
           },
           {
             "step": 2,
             "date": "2019-04-10",
             "from": "Ira Gaines",
             "to": "James Haas Personal Account",
-            "action": "$70k cash paid directly to Haas, zero funds entering GreenGro treasury"
+            "action": "$70k cash paid directly to Haas, zero funds entering GreenGro treasury",
+            "stageBadge": "Financial Consideration / Loan",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2019-04-12",
             "from": "Fidelity Transfer Services",
             "to": "Cert CS1-8172",
-            "action": "Certificate 7978 re-titled into CS1-8172 for 10M shares in name of Paula Marie Poe"
+            "action": "Certificate 7978 re-titled into CS1-8172 for 10M shares in name of Paula Marie Poe",
+            "stageBadge": "Split & Certificate Re-issuance",
+            "actorType": "conduit"
           },
           {
             "step": 4,
             "date": "2019-04-15",
             "from": "Fidelity Transfer Services",
             "to": "BMO InvestorLine",
-            "action": "Physical certificate shipped to Toronto brokerage for Canadian deposit"
+            "action": "Physical certificate shipped to Toronto brokerage for Canadian deposit",
+            "stageBadge": "Brokerage Deposit",
+            "actorType": "conduit"
           },
           {
             "step": 5,
             "date": "2019-04-25",
             "from": "Paula Marie Poe",
             "to": "OTC Market",
-            "action": "Sold at retail prices, generating over 10x return on the $0.007 purchase price"
+            "action": "Sold at retail prices, generating over 10x return on the $0.007 purchase price",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -10922,35 +10992,45 @@
             "date": "2009-08-01",
             "from": "GreenGro Technologies, Inc.",
             "to": "James Haas",
-            "action": "Employment Agreement back-salary accrual claimed by Haas"
+            "action": "Employment Agreement back-salary accrual claimed by Haas",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2017-09-30",
             "from": "GreenGro Technologies, Inc.",
             "to": "James Haas",
-            "action": "Settlement Agreement & Mutual Release: Haas issued 27,500,000 shares for release of debt"
+            "action": "Settlement Agreement & Mutual Release: Haas issued 27,500,000 shares for release of debt",
+            "stageBadge": "Litigation Settlement Transfer",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2019-01-22",
             "from": "James Haas",
             "to": "E.F. Romano III",
-            "action": "Assigned as collateral for purported $200,000 loan to issuer"
+            "action": "Assigned as collateral for purported $200,000 loan to issuer",
+            "stageBadge": "Financial Consideration / Loan",
+            "actorType": "conduit"
           },
           {
             "step": 4,
             "date": "2019-04-22",
             "from": "John T. Root, Jr., Esq.",
             "to": "Fidelity Transfer Services",
-            "action": "Re-issues opinion asserting 27M is \"<1% of outstanding\" (actual: 5.74%)"
+            "action": "Re-issues opinion asserting 27M is \"<1% of outstanding\" (actual: 5.74%)",
+            "stageBadge": "Legal Opinion Whitewash",
+            "actorType": "conduit"
           },
           {
             "step": 5,
             "date": "2019-05-06",
             "from": "James Haas",
             "to": "Ruben Sanchez",
-            "action": "Haas instructs: \"Send 10 million to Ira Gaines and 17 million back to me\""
+            "action": "Haas instructs: \"Send 10 million to Ira Gaines and 17 million back to me\"",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -10979,35 +11059,45 @@
             "date": "2016-10-19",
             "from": "GreenGro Technologies, Inc.",
             "to": "IRA J. Gaines Revocable Trust",
-            "action": "2,000,000 restricted shares issued via Cert CS1-7750"
+            "action": "2,000,000 restricted shares issued via Cert CS1-7750",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2017-06-15",
             "from": "GreenGro Technologies, Inc.",
             "to": "Justin Haas",
-            "action": "3,500,000 restricted shares issued via Cert CS1-8087"
+            "action": "3,500,000 restricted shares issued via Cert CS1-8087",
+            "stageBadge": "Conduit Hop / Split",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2019-04-08",
             "from": "Fidelity Transfer Services",
             "to": "Paula Marie Poe",
-            "action": "Certificates 7750 and 8087 cancelled and merged into Cert CS1-8166 (5.5M shares)"
+            "action": "Certificates 7750 and 8087 cancelled and merged into Cert CS1-8166 (5.5M shares)",
+            "stageBadge": "Split & Certificate Re-issuance",
+            "actorType": "conduit"
           },
           {
             "step": 4,
             "date": "2019-04-12",
             "from": "Ruben Sanchez",
             "to": "Carter / BMO",
-            "action": "Noted in ledger as \"sent to carter, yes\""
+            "action": "Noted in ledger as \"sent to carter, yes\"",
+            "stageBadge": "Courier / Physical Transit",
+            "actorType": "conduit"
           },
           {
             "step": 5,
             "date": "2019-04-20",
             "from": "Paula Marie Poe",
             "to": "Public Float",
-            "action": "Deposited in Canadian account and sold to retail investors"
+            "action": "Deposited in Canadian account and sold to retail investors",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -11036,35 +11126,45 @@
             "date": "2016-10-19",
             "from": "GreenGro Technologies, Inc.",
             "to": "IRA J. Gaines Revocable Trust",
-            "action": "Stock Purchase Agreement: 2,000,000 shares for $80,000 ($0.04/sh)"
+            "action": "Stock Purchase Agreement: 2,000,000 shares for $80,000 ($0.04/sh)",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2016-10-21",
             "from": "Fidelity Transfer Services",
             "to": "IRA J. Gaines Revocable Trust",
-            "action": "Certificate CS1-7750 issued restricted"
+            "action": "Certificate CS1-7750 issued restricted",
+            "stageBadge": "Conduit Hop / Split",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2017-12-06",
             "from": "Stephen Mills, Esq.",
             "to": "Fidelity Transfer Services",
-            "action": "Section 4(a)(1) opinion issued to remove legend, claiming Gaines Trust was non-affiliate"
+            "action": "Section 4(a)(1) opinion issued to remove legend, claiming Gaines Trust was non-affiliate",
+            "stageBadge": "Legal Opinion Whitewash",
+            "actorType": "conduit"
           },
           {
             "step": 4,
             "date": "2018-02-23",
             "from": "IRA J. Gaines Revocable Trust",
             "to": "Alpine Securities",
-            "action": "Deposit package submitted for clearance"
+            "action": "Deposit package submitted for clearance",
+            "stageBadge": "Brokerage Deposit",
+            "actorType": "broker"
           },
           {
             "step": 5,
             "date": "2019-04-08",
             "from": "Fidelity Transfer Services",
             "to": "Paula Marie Poe",
-            "action": "Cancelled and amalgamated into Cert CS1-8166 (5.5M shares)"
+            "action": "Cancelled and amalgamated into Cert CS1-8166 (5.5M shares)",
+            "stageBadge": "Final Disposition",
+            "actorType": "offshore"
           }
         ],
         "redFlags": [
@@ -11093,35 +11193,45 @@
             "date": "2016-10-25",
             "from": "GreenGro Technologies, Inc.",
             "to": "Ira Gaines Revocable Trust",
-            "action": "Stock Purchase Agreement for 1,500,000 shares for $60,000 ($0.04/sh)"
+            "action": "Stock Purchase Agreement for 1,500,000 shares for $60,000 ($0.04/sh)",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2016-11-06",
             "from": "Ira Gaines Trust",
             "to": "Naccarato and Associates",
-            "action": "$60,000 paid to legal escrow on behalf of GreenGro"
+            "action": "$60,000 paid to legal escrow on behalf of GreenGro",
+            "stageBadge": "Legal Opinion Whitewash",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2016-11-18",
             "from": "Fidelity Transfer Services",
             "to": "Ira Gaines Trust",
-            "action": "Certificate CS1-7800 issued"
+            "action": "Certificate CS1-7800 issued",
+            "stageBadge": "Conduit Hop / Split",
+            "actorType": "conduit"
           },
           {
             "step": 4,
             "date": "2017-12-06",
             "from": "Stephen Mills, Esq.",
             "to": "Fidelity Transfer Services",
-            "action": "Section 4(a)(1) legal opinion removes restrictive legend"
+            "action": "Section 4(a)(1) legal opinion removes restrictive legend",
+            "stageBadge": "Legal Opinion Whitewash",
+            "actorType": "conduit"
           },
           {
             "step": 5,
             "date": "2019-04-10",
             "from": "Fidelity Transfer Services",
             "to": "Paula Marie Poe",
-            "action": "Noted in master ledger: \"7800 IGRT 1500000 Conv to Poe\""
+            "action": "Noted in master ledger: \"7800 IGRT 1500000 Conv to Poe\"",
+            "stageBadge": "Final Disposition",
+            "actorType": "offshore"
           }
         ],
         "redFlags": [
@@ -11150,21 +11260,27 @@
             "date": "2016-12-23",
             "from": "GreenGro Technologies, Inc.",
             "to": "Ira Gaines",
-            "action": "Certificate CS1-7824 issued to Ira Gaines"
+            "action": "Certificate CS1-7824 issued to Ira Gaines",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2016-12-27",
             "from": "Ira Gaines",
             "to": "Merrill Lynch",
-            "action": "Just 4 days later: Irrevocable Stock Power executed to Merrill Lynch account 2872-57N77"
+            "action": "Just 4 days later: Irrevocable Stock Power executed to Merrill Lynch account 2872-57N77",
+            "stageBadge": "Stock Power Endorsement",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2016-12-28",
             "from": "Fidelity Transfer Services",
             "to": "Merrill Lynch",
-            "action": "Overnighted to Merrill Lynch clearing for immediate book-entry credit"
+            "action": "Overnighted to Merrill Lynch clearing for immediate book-entry credit",
+            "stageBadge": "Retail OTC Liquidation",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -11192,21 +11308,27 @@
             "date": "2017-03-31",
             "from": "GreenGro Technologies, Inc.",
             "to": "Ira Gaines",
-            "action": "Certificate CS1-7906 issued for 3,500,000 shares"
+            "action": "Certificate CS1-7906 issued for 3,500,000 shares",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2017-04-03",
             "from": "Ira Gaines",
             "to": "Cede & Co.",
-            "action": "72 hours later: Irrevocable Stock Power executed to Cede & Co. for Exeter Trust Administration"
+            "action": "72 hours later: Irrevocable Stock Power executed to Cede & Co. for Exeter Trust Administration",
+            "stageBadge": "Stock Power Endorsement",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2017-04-10",
             "from": "Exeter Trust Company",
             "to": "BBVA Compass Bank",
-            "action": "Proceeds from share sales wired to Gaines BBVA Compass account"
+            "action": "Proceeds from share sales wired to Gaines BBVA Compass account",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -11234,21 +11356,27 @@
             "date": "2017-04-05",
             "from": "GreenGro Technologies, Inc.",
             "to": "Paradise Wire & Cable, Inc.",
-            "action": "Certificate CS1-7908 issued for 4,000,000 shares free-trading from Ruben Sanchez"
+            "action": "Certificate CS1-7908 issued for 4,000,000 shares free-trading from Ruben Sanchez",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2017-04-07",
             "from": "Paradise Wire & Cable DBPP",
             "to": "Pershing LLC",
-            "action": "2 days later: Irrevocable stock power executed to Pershing LLC, signed by Ira Gaines, Trustee"
+            "action": "2 days later: Irrevocable stock power executed to Pershing LLC, signed by Ira Gaines, Trustee",
+            "stageBadge": "Conduit Hop / Split",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2017-04-12",
             "from": "Pershing LLC",
             "to": "OTC Market",
-            "action": "Liquidated into retail market"
+            "action": "Liquidated into retail market",
+            "stageBadge": "Retail OTC Liquidation",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -11280,35 +11408,45 @@
             "date": "2017-08-02",
             "from": "GreenGro Technologies, Inc.",
             "to": "Ira Gaines",
-            "action": "Certificate CS1-7960 issued for 500,000 shares"
+            "action": "Certificate CS1-7960 issued for 500,000 shares",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2017-08-09",
             "from": "GreenGro Technologies, Inc.",
             "to": "Joshua Hintzen",
-            "action": "Nine additional certificates (7961-7969) issued for 500,000 shares each"
+            "action": "Nine additional certificates (7961-7969) issued for 500,000 shares each",
+            "stageBadge": "Conduit Hop / Split",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2018-12-03",
             "from": "Joshua Hintzen",
             "to": "Big Thunder, LLC",
-            "action": "LOI to re-issue 8 certificates (7960-7969 series, 4M shs) in name of Big Thunder, LLC"
+            "action": "LOI to re-issue 8 certificates (7960-7969 series, 4M shs) in name of Big Thunder, LLC",
+            "stageBadge": "Conduit Hop / Split",
+            "actorType": "conduit"
           },
           {
             "step": 4,
             "date": "2019-03-27",
             "from": "Joshua Hintzen",
             "to": "Paula Marie Poe",
-            "action": "LOI to cancel 5 certificates (7964, 7965, 7966, 7968, 7969) and reissue 2.5M shs to Poe"
+            "action": "LOI to cancel 5 certificates (7964, 7965, 7966, 7968, 7969) and reissue 2.5M shs to Poe",
+            "stageBadge": "Split & Certificate Re-issuance",
+            "actorType": "conduit"
           },
           {
             "step": 5,
             "date": "2019-04-02",
             "from": "Joshua Hintzen",
             "to": "Paula Marie Poe",
-            "action": "LOI stating certs 7960, 7961, 7963 are \"registered in name of Ira Gaines\" and sending to Poe at BMO"
+            "action": "LOI stating certs 7960, 7961, 7963 are \"registered in name of Ira Gaines\" and sending to Poe at BMO",
+            "stageBadge": "Final Disposition",
+            "actorType": "offshore"
           }
         ],
         "redFlags": [
@@ -11341,21 +11479,27 @@
             "date": "2017-08-09",
             "from": "Ira Gaines",
             "to": "Fidelity Transfer Services",
-            "action": "LOI signed by Gaines instructing cancellation of Cert 7881 and reissuance of free-trading shares to Joshua Hintzen"
+            "action": "LOI signed by Gaines instructing cancellation of Cert 7881 and reissuance of free-trading shares to Joshua Hintzen",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "conduit"
           },
           {
             "step": 2,
             "date": "2017-08-15",
             "from": "Fidelity Transfer Services",
             "to": "Joshua Hintzen",
-            "action": "Certificate re-issued without legend"
+            "action": "Certificate re-issued without legend",
+            "stageBadge": "Split & Certificate Re-issuance",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2017-08-20",
             "from": "Joshua Hintzen",
             "to": "Egan KS Account",
-            "action": "Delivered for brokerage deposit"
+            "action": "Delivered for brokerage deposit",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -11383,21 +11527,27 @@
             "date": "2017-06-15",
             "from": "GreenGro Technologies, Inc.",
             "to": "Justin Haas",
-            "action": "3,500,000 shares issued to CEO son Justin Haas"
+            "action": "3,500,000 shares issued to CEO son Justin Haas",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2018-06-13",
             "from": "James Haas",
             "to": "Ruben Sanchez",
-            "action": "Document: \"GRNH 3.5 SENT TO RUBEN 61318 TO BE SOLD BY JUSTIN\""
+            "action": "Document: \"GRNH 3.5 SENT TO RUBEN 61318 TO BE SOLD BY JUSTIN\"",
+            "stageBadge": "Secondary SPA Purchase",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2019-04-08",
             "from": "Justin Haas",
             "to": "Paula Marie Poe",
-            "action": "Combined with Gaines Trust Cert 7750 to create Cert CS1-8166 (5.5M shares) issued to Poe"
+            "action": "Combined with Gaines Trust Cert 7750 to create Cert CS1-8166 (5.5M shares) issued to Poe",
+            "stageBadge": "Final Disposition",
+            "actorType": "offshore"
           }
         ],
         "redFlags": [
@@ -11425,21 +11575,27 @@
             "date": "2017-05-01",
             "from": "GreenGro Technologies, Inc.",
             "to": "Mark Delfin",
-            "action": "Consulting Agreement executed May 1, 2017, backdated 44 months to Sept 9, 2013"
+            "action": "Consulting Agreement executed May 1, 2017, backdated 44 months to Sept 9, 2013",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2017-05-10",
             "from": "Fidelity Transfer Services",
             "to": "Mark Delfin",
-            "action": "Restricted Cert CS1-8089 issued for 6,500,000 shares"
+            "action": "Restricted Cert CS1-8089 issued for 6,500,000 shares",
+            "stageBadge": "Conduit Hop / Split",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2018-01-10",
             "from": "Mark Delfin",
             "to": "Cheryl Hintzen",
-            "action": "Feeder pool for Cheryl Hintzen 6,790,000 share transfer and Stephen Mills opinion"
+            "action": "Feeder pool for Cheryl Hintzen 6,790,000 share transfer and Stephen Mills opinion",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -11468,21 +11624,27 @@
             "date": "2017-05-01",
             "from": "GreenGro Technologies, Inc.",
             "to": "Santiago Rubio",
-            "action": "Consulting Agreement executed May 1, 2017, backdated 18 months to Oct 30, 2015 for 8.5M shares"
+            "action": "Consulting Agreement executed May 1, 2017, backdated 18 months to Oct 30, 2015 for 8.5M shares",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2017-05-10",
             "from": "Fidelity Transfer Services",
             "to": "Santiago Rubio",
-            "action": "Restricted Cert CS1-8090 issued"
+            "action": "Restricted Cert CS1-8090 issued",
+            "stageBadge": "Conduit Hop / Split",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2018-06-01",
             "from": "Santiago Rubio",
             "to": "Nominee Fleet",
-            "action": "Used to support unlegended reissuance requests"
+            "action": "Used to support unlegended reissuance requests",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -11510,14 +11672,18 @@
             "date": "2017-05-01",
             "from": "GreenGro Technologies, Inc.",
             "to": "Hulbert Ventures",
-            "action": "Consulting Agreement executed May 1, 2017; duplicate text of Rubio agreement"
+            "action": "Consulting Agreement executed May 1, 2017; duplicate text of Rubio agreement",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2017-05-10",
             "from": "Fidelity Transfer Services",
             "to": "Hulbert Ventures",
-            "action": "Restricted Cert CS1-8091 issued for 8,500,000 shares"
+            "action": "Restricted Cert CS1-8091 issued for 8,500,000 shares",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -11545,14 +11711,18 @@
             "date": "2017-05-01",
             "from": "GreenGro Technologies, Inc.",
             "to": "Phoenix Group",
-            "action": "Consulting Agreement executed May 1, 2017, backdated 22 months to July 10, 2015 for 2.0M shares"
+            "action": "Consulting Agreement executed May 1, 2017, backdated 22 months to July 10, 2015 for 2.0M shares",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2017-05-10",
             "from": "Fidelity Transfer Services",
             "to": "Phoenix Group",
-            "action": "Restricted Cert CS1-8088 issued"
+            "action": "Restricted Cert CS1-8088 issued",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -11578,14 +11748,18 @@
             "date": "2019-04-03",
             "from": "GreenGro Technologies, Inc.",
             "to": "Paula Marie Poe",
-            "action": "Certificates CS1-8158 (2.5M), CS1-8159 (3.0M), CS1-8160 (2.5M) issued directly to Poe"
+            "action": "Certificates CS1-8158 (2.5M), CS1-8159 (3.0M), CS1-8160 (2.5M) issued directly to Poe",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2019-04-08",
             "from": "Ruben Sanchez",
             "to": "BMO InvestorLine",
-            "action": "Overnighted to First Canadian Place, Toronto via FedEx account #165398572"
+            "action": "Overnighted to First Canadian Place, Toronto via FedEx account #165398572",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -11612,21 +11786,27 @@
             "date": "2019-04-04",
             "from": "Various Debt Paper Holders",
             "to": "Paula Marie Poe",
-            "action": "22,000,000 shares consolidated across certificates 8161 through 8165"
+            "action": "22,000,000 shares consolidated across certificates 8161 through 8165",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "offshore"
           },
           {
             "step": 2,
             "date": "2019-04-04",
             "from": "BofA Account",
             "to": "Fidelity Transfer Services",
-            "action": "$107,500 wire fee paid to Fidelity on 4/4/2019 for processing Certs 8163/8164"
+            "action": "$107,500 wire fee paid to Fidelity on 4/4/2019 for processing Certs 8163/8164",
+            "stageBadge": "Conduit Hop / Split",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2019-04-12",
             "from": "Fidelity Transfer Services",
             "to": "BMO InvestorLine",
-            "action": "Certificates shipped to Toronto for open market resale"
+            "action": "Certificates shipped to Toronto for open market resale",
+            "stageBadge": "Retail OTC Liquidation",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -11654,21 +11834,27 @@
             "date": "2019-04-08",
             "from": "GreenGro Technologies, Inc.",
             "to": "Paula Marie Poe",
-            "action": "Certificate CS1-8167 issued for 8,500,000 shares"
+            "action": "Certificate CS1-8167 issued for 8,500,000 shares",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2019-04-08",
             "from": "BofA Account",
             "to": "Fidelity Transfer Services",
-            "action": "$50,150 wire fee paid to Fidelity for 8.5M shares processing"
+            "action": "$50,150 wire fee paid to Fidelity for 8.5M shares processing",
+            "stageBadge": "Conduit Hop / Split",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2019-04-15",
             "from": "Fidelity Transfer Services",
             "to": "BMO InvestorLine",
-            "action": "Shipped to Toronto brokerage for Canadian deposit"
+            "action": "Shipped to Toronto brokerage for Canadian deposit",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -11695,21 +11881,27 @@
             "date": "2019-04-10",
             "from": "GreenGro Technologies, Inc.",
             "to": "Paula Marie Poe",
-            "action": "Certificate CS1-8169 issued for 5,500,000 shares (of 6.5M total allotment)"
+            "action": "Certificate CS1-8169 issued for 5,500,000 shares (of 6.5M total allotment)",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2019-04-10",
             "from": "BofA Account",
             "to": "Fidelity Transfer Services",
-            "action": "$39,000 wire fee paid to Fidelity for processing"
+            "action": "$39,000 wire fee paid to Fidelity for processing",
+            "stageBadge": "Conduit Hop / Split",
+            "actorType": "conduit"
           },
           {
             "step": 3,
             "date": "2019-04-12",
             "from": "Fidelity Transfer Services",
             "to": "BMO InvestorLine",
-            "action": "Shipped to Toronto brokerage"
+            "action": "Shipped to Toronto brokerage",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -11736,14 +11928,18 @@
             "date": "2019-04-12",
             "from": "GreenGro Technologies, Inc.",
             "to": "Paula Marie Poe",
-            "action": "Certificate CS1-8171 issued for 1,000,000 shares"
+            "action": "Certificate CS1-8171 issued for 1,000,000 shares",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2019-04-12",
             "from": "Ruben Sanchez",
             "to": "Carter / BMO",
-            "action": "Noted in master ledger: \"sent to carter 2019-04-12\""
+            "action": "Noted in master ledger: \"sent to carter 2019-04-12\"",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -11770,14 +11966,18 @@
             "date": "2018-12-10",
             "from": "Third Coast Partners / GRNH",
             "to": "Ronald Brouillette (\"Ron\")",
-            "action": "Promoter compensation carveout originating from consulting/debt arrangement"
+            "action": "Promoter compensation carveout originating from consulting/debt arrangement",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "conduit"
           },
           {
             "step": 2,
             "date": "2019-04-15",
             "from": "Ronald Brouillette (\"Ron\")",
             "to": "Paula Marie Poe",
-            "action": "Certificate CS1-8173 issued for 950,000 shares, noted in ledger as \"Paid to Fidelity: Ron, sent to carter: not SENT YET\""
+            "action": "Certificate CS1-8173 issued for 950,000 shares, noted in ledger as \"Paid to Fidelity: Ron, sent to carter: not SENT YET\"",
+            "stageBadge": "Final Disposition",
+            "actorType": "offshore"
           }
         ],
         "redFlags": [
@@ -11804,14 +12004,18 @@
             "date": "2015-06-01",
             "from": "GreenGro Technologies, Inc.",
             "to": "Ira Gaines",
-            "action": "Issued under \"Compromise June 2015\" for 1,000,000 shares"
+            "action": "Issued under \"Compromise June 2015\" for 1,000,000 shares",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2016-04-01",
             "from": "Ira Gaines",
             "to": "Wedbush Securities",
-            "action": "Noted in master cert ledger: \"at wedbush\""
+            "action": "Noted in master cert ledger: \"at wedbush\"",
+            "stageBadge": "Final Disposition",
+            "actorType": "broker"
           }
         ],
         "redFlags": [
@@ -11838,14 +12042,18 @@
             "date": "2015-06-01",
             "from": "GreenGro Technologies, Inc.",
             "to": "Dignitas Consulting LLC",
-            "action": "7,000,000 restricted shares issued under June 2015 compromise"
+            "action": "7,000,000 restricted shares issued under June 2015 compromise",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2016-04-01",
             "from": "Dignitas Consulting LLC",
             "to": "Promoter Conduits",
-            "action": "Used to feed secondary stock purchase agreements and promissory note pledges"
+            "action": "Used to feed secondary stock purchase agreements and promissory note pledges",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -11872,14 +12080,18 @@
             "date": "2016-04-01",
             "from": "GreenGro Technologies, Inc.",
             "to": "Paradise Wire & Cable, Inc.",
-            "action": "Issued for 250,000 shares"
+            "action": "Issued for 250,000 shares",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2016-04-01",
             "from": "Paradise Wire & Cable",
             "to": "Wilson-Davis & Co.",
-            "action": "Noted in master inventory: \"4/1/16 cert to WDCO\""
+            "action": "Noted in master inventory: \"4/1/16 cert to WDCO\"",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [
@@ -11906,14 +12118,18 @@
             "date": "2016-04-27",
             "from": "GreenGro Technologies, Inc.",
             "to": "Ira Gaines",
-            "action": "Certificate CS1-7628 issued for 1,000,000 shares"
+            "action": "Certificate CS1-7628 issued for 1,000,000 shares",
+            "stageBadge": "Genesis / Origin",
+            "actorType": "issuer"
           },
           {
             "step": 2,
             "date": "2016-04-27",
             "from": "Ira Gaines",
             "to": "Wilson-Davis & Co.",
-            "action": "Noted in inventory: \"all in WDCO 4/27\""
+            "action": "Noted in inventory: \"all in WDCO 4/27\"",
+            "stageBadge": "Final Disposition",
+            "actorType": "conduit"
           }
         ],
         "redFlags": [

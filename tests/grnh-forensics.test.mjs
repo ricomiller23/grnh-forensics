@@ -219,6 +219,16 @@ for (const c of lineage.traceableCertificates) {
     console.error(`FAIL: Certificate ${c.certNumber || 'unknown'} has incomplete custody chain or missing receipts!`);
     process.exit(1);
   }
+  for (const hop of c.custodyHops) {
+    if (!hop.stageBadge || hop.stageBadge.includes('Custody Step')) {
+      console.error(`FAIL: Certificate ${c.certNumber} hop ${hop.step} lacks specific graphic stageBadge!`);
+      process.exit(1);
+    }
+    if (!hop.actorType) {
+      console.error(`FAIL: Certificate ${c.certNumber} hop ${hop.step} lacks actorType!`);
+      process.exit(1);
+    }
+  }
 }
 
 console.log(`PASS: All assertions verified!`);

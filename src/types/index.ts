@@ -198,6 +198,8 @@ export interface CustodyHop {
   to: string;
   action: string;
   notes?: string;
+  stageBadge?: string;
+  actorType?: string;
 }
 
 export interface TraceableCertificate {

@@ -226,6 +226,1399 @@ The GreenGro Technologies securities fraud operated as an integrated multi-lane 
 - **Defense Doctrine:** Under the **In Pari Delicto** and **Unclean Hands** doctrines, Hintzen cannot enforce a contract whose primary object was the illegal manufacture of backdated, unregistered stock in violation of Section 5 (*Bateman Eichler, Hill Richards, Inc. v. Berner*, 472 U.S. 299).
 
 ---
+## PART III-B: COURT EXHIBIT GRAPHIC FLOWCHARTS FOR ALL 31 CERTIFICATES
+This section renders each and every individual certificate as a courtroom-ready, chronological graphic flowchart. Counsel can introduce these visual diagrams as trial exhibits, deposition attachments, or appendices to Section 5 / Rule 10b-5 complaints to visually demonstrate the unbroken chain from issuer/intermediary origin through attorney whitewashing to brokerage dumping.
+
+### Court Exhibit Flowchart: Certificate #CS1-8002
+- **Certificate Number:** `CS1-8002`
+- **Common Shares:** **4,000,000**
+- **Genesis Date:** 2016-03-31 (Claimed) / 2017-08-30 (BT Formation)
+- **Origin Mechanism:** Casa de Dinero Secondary Transfer / Purchased from New Seller (Big Thunder LLC)
+- **Primary Seller / Intermediary:** Casa de Dinero, LLC / Casa de Dinero, Inc. (Ruben Sanchez)
+- **Initial Recipient:** Big Thunder, LLC
+- **Legal Opinion Counsel:** Stephen Mills, Esq. (Request dated Dec 1, 2017)
+- **Clearing Broker / Depository:** Forest Securities, Inc. (David Adams) / Alpine Securities Clearing
+- **Final Disposition Status:** `Deposited via Forest Securities / Cleared via Alpine`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-8002 │ 4,000,000 SHARES │ GENESIS: 2016-03-31 (Claimed) / 2017-08-30 (BT Formation)║
+║ Origin: Casa de Dinero Secondary Transfe │ Status: Deposited via Forest Securities ║
+║ Counsel: Stephen Mills, Esq. (Request dat │ Broker: Forest Securities, Inc. (David A║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2016-03-31] ─── GENESIS / ORIGIN
+    Transfer:  Issuer  ──────►  Big Thunder, LLC (Purported)
+    Action:     Private placement transaction claimed on legal request
+  │
+  ▼ [Hop 2 - 2017-08-30] ─── BROKERAGE DEPOSIT
+    Transfer:  Ira Gaines  ──────►  Big Thunder, LLC
+    Action:     LLC formed; Ira Gaines initially listed on page 14 of
+               operating agreement, changed to Tom McCluskey upon broker
+               warning
+  │
+  ▼ [Hop 3 - 2017-12-01] ─── LEGAL OPINION WHITEWASH
+    Transfer:  Big Thunder, LLC  ──────►  Stephen Mills
+    Action:     Tom McClusky signs request for Section 4(a)(1) legal
+               opinion representing 12-month holding
+  │
+  ▼ [Hop 4 - 2017-12-05] ─── BROKERAGE DEPOSIT
+    Transfer:  Big Thunder, LLC  ──────►  Forest Securities (David Adams)
+    Action:     Deposited into brokerage account; broker alerts group to
+               shovel related shares
+  │
+  ▼ [Hop 5 - 2018-01-15] ─── RETAIL OTC LIQUIDATION
+    Transfer:  Forest Securities  ──────►  Alpine Clearing / OTC Market
+    Action:     Liquidated in broker transactions directed to retail
+               market
+```
+
+- **Evidentiary Red Flags:**
+  - Big Thunder, LLC was organized on 8/30/2017, making March 31, 2016 purchase date impossible
+  - Ira Gaines named as initial manager on operating agreement page 14, substituted with Tom McCluskey
+  - Formed to circumvent Wilson-Davis & Pershing account closures
+  - Directly sourced from Casa de Dinero / Ruben Sanchez (rsanchez.fts@gmail.com) with $0.00 proceeds to corporate treasury
+- **Verified Hard Drive Receipts:**
+  - `Big Thunder LLC CHAPTER.docx`
+  - `GRNH request for legal 4MM GRNH BIg Thunder.docx`
+  - `GRNH 8002 4MM shares BTLLC.pdf`
+  - `GRNH data.xlsx`
+  - `GRNH Purchase agreement Casa de Dinero, LLC.docx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7910
+- **Certificate Number:** `CS1-7910`
+- **Common Shares:** **2,000,000**
+- **Genesis Date:** 2015-05-27 (Genesis) / 2017-04-03 (Secondary SPA)
+- **Origin Mechanism:** Purchased from New Seller (Dignitas Consulting LLC)
+- **Primary Seller / Intermediary:** Dignitas Consulting LLC (Ronald Brouillette)
+- **Initial Recipient:** Ira Gaines
+- **Legal Opinion Counsel:** Stephen Mills, Esq. (Opinion dated July 11, 2017)
+- **Clearing Broker / Depository:** Alpine Securities Clearing / Wedbush Securities
+- **Final Disposition Status:** `Deposited at Alpine Securities`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7910 │ 2,000,000 SHARES │ GENESIS: 2015-05-27 (Genesis) / 2017-04-03 (Secondary SPA)║
+║ Origin: Purchased from New Seller (Digni │ Status: Deposited at Alpine Securities║
+║ Counsel: Stephen Mills, Esq. (Opinion dat │ Broker: Alpine Securities Clearing / Wed║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2015-05-27] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Dignitas Consulting LLC
+    Action:     Awarded 3,000,000 restricted shares under consulting
+               agreement
+  │
+  ▼ [Hop 2 - 2017-04-03] ─── SECONDARY SPA PURCHASE
+    Transfer:  Dignitas Consulting LLC  ──────►  Ira Gaines
+    Action:     Secondary Stock Purchase Agreement: Gaines buys
+               2,000,000 shares for $25,000.00 ($0.0125/sh)
+  │
+  ▼ [Hop 3 - 2017-04-06] ─── BROKERAGE DEPOSIT
+    Transfer:  Fidelity Transfer Services  ──────►  Ira Gaines
+    Action:     Certificate CS1-7910 issued, noted in ledger as "sending
+               to ALPINE"
+  │
+  ▼ [Hop 4 - 2017-07-11] ─── LEGAL OPINION WHITEWASH
+    Transfer:  Stephen Mills, Esq.  ──────►  Fidelity Transfer Services
+    Action:     Section 4(a)(1) opinion issued opining shares freely
+               tradable
+  │
+  ▼ [Hop 5 - 2017-07-20] ─── RETAIL OTC LIQUIDATION
+    Transfer:  Ira Gaines  ──────►  Alpine Securities
+    Action:     Deposited for open market retail sale
+```
+
+- **Evidentiary Red Flags:**
+  - Zero dollars paid to GreenGro corporate treasury; $25,000 paid to Dignitas intermediary
+  - Tacking back to May 2015 consulting contract to bypass Rule 144(d)(1)
+  - Gaines concealed beneficial affiliate control over Dignitas vehicle
+- **Verified Hard Drive Receipts:**
+  - `gainesgrnh7910.pdf`
+  - `GRNH SPA 2M Ron Dignitas.pdf`
+  - `GRNH req for Legal 2MM cert 7910.pdf`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7905
+- **Certificate Number:** `CS1-7905`
+- **Common Shares:** **2,500,000**
+- **Genesis Date:** 2016-10-07 (Note) / 2017-07-11 (Opinion)
+- **Origin Mechanism:** Purchased from New Seller (Third Coast Partners LLC)
+- **Primary Seller / Intermediary:** Third Coast Partners LLC (Ronald Brouillette)
+- **Initial Recipient:** Ira Gaines
+- **Legal Opinion Counsel:** Stephen Mills, Esq. (Opinion dated July 11, 2017)
+- **Clearing Broker / Depository:** Alpine Securities / Wedbush Securities
+- **Final Disposition Status:** `Legend Lifted / Cleared for OTC Market`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7905 │ 2,500,000 SHARES │ GENESIS: 2016-10-07 (Note) / 2017-07-11 (Opinion)║
+║ Origin: Purchased from New Seller (Third │ Status: Legend Lifted / Cleared for OTC ║
+║ Counsel: Stephen Mills, Esq. (Opinion dat │ Broker: Alpine Securities / Wedbush Secu║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2016-10-07] ─── GENESIS / ORIGIN
+    Transfer:  Ronald Brouillette / Third Coast Partners LLC  ──────►  Ira Gaines
+    Action:     Secured Promissory Note: Gaines loans $76,000.00 to
+               Brouillette, collateralized by 2.5M shares
+  │
+  ▼ [Hop 2 - 2017-03-31] ─── CONDUIT HOP / SPLIT
+    Transfer:  Third Coast Partners LLC  ──────►  Ira Gaines
+    Action:     Note default/satisfaction: 2,500,000 shares transferred
+               to Gaines in lieu of repayment
+  │
+  ▼ [Hop 3 - 2017-07-11] ─── LEGAL OPINION WHITEWASH
+    Transfer:  Stephen Mills, Esq.  ──────►  Fidelity Transfer Services
+    Action:     Section 4(a)(1) legal opinion issued to remove
+               restrictive legend
+  │
+  ▼ [Hop 4 - 2017-07-15] ─── BROKERAGE DEPOSIT
+    Transfer:  Fidelity Transfer Services  ──────►  Ira Gaines
+    Action:     Unlegended certificate released to Ruben Sanchez for
+               broker delivery
+  │
+  ▼ [Hop 5 - 2017-08-01] ─── RETAIL OTC LIQUIDATION
+    Transfer:  Ira Gaines  ──────►  Brokerage Accounts
+    Action:     Liquidated into retail market
+```
+
+- **Evidentiary Red Flags:**
+  - Private third-party debt collateral converted into unlegended stock
+  - Section 2(a)(11) Statutory Underwriter conduit status
+  - Zero capital infused into GreenGro operations
+- **Verified Hard Drive Receipts:**
+  - `gainesgrnh7905.pdf`
+  - `GRNH req for legal 2.5 MM cert 7905 MILLS.pdf`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7768
+- **Certificate Number:** `CS1-7768`
+- **Common Shares:** **1,000,000**
+- **Genesis Date:** 2016-10-25 (SPA) / 2018-10-25 (Request)
+- **Origin Mechanism:** Purchased from New Seller (Motivated Minds / Queler Conduit)
+- **Primary Seller / Intermediary:** Arthur N. Queler / Motivated Minds Network
+- **Initial Recipient:** Arthur N. Queler
+- **Legal Opinion Counsel:** Stephen Mills, Esq. (Request dated Oct 25, 2018)
+- **Clearing Broker / Depository:** SagePoint Financial, Inc. / Wedbush Securities
+- **Final Disposition Status:** `Cleared via SagePoint Financial, Inc.`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7768 │ 1,000,000 SHARES │ GENESIS: 2016-10-25 (SPA) / 2018-10-25 (Request)║
+║ Origin: Purchased from New Seller (Motiv │ Status: Cleared via SagePoint Financial,║
+║ Counsel: Stephen Mills, Esq. (Request dat │ Broker: SagePoint Financial, Inc. / Wedb║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2016-10-25] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Arthur N. Queler
+    Action:     Stock Purchase Agreement for 1,000,000 restricted shares
+  │
+  ▼ [Hop 2 - 2016-11-16] ─── COURIER / PHYSICAL TRANSIT
+    Transfer:  Fidelity Transfer Services  ──────►  Arthur N. Queler
+    Action:     Certificate FedExed to Queler
+  │
+  ▼ [Hop 3 - 2017-12-06] ─── BROKERAGE DEPOSIT
+    Transfer:  Motivated Minds Network  ──────►  SagePoint Financial
+    Action:     Account opening and promissory note routing via
+               SagePoint Motivated Minds
+  │
+  ▼ [Hop 4 - 2018-10-25] ─── LEGAL OPINION WHITEWASH
+    Transfer:  Arthur N. Queler  ──────►  Stephen Mills
+    Action:     Request for legal opinion; claims SPA was dated Oct 25,
+               2018 yet simultaneously claims 1-year holding
+  │
+  ▼ [Hop 5 - 2018-11-05] ─── RETAIL OTC LIQUIDATION
+    Transfer:  SagePoint Financial  ──────►  OTC Market
+    Action:     1MM shares cleared and deposited for retail sale
+```
+
+- **Evidentiary Red Flags:**
+  - Exact date contradiction on face of legal request (SPA dated Oct 25, 2018 while claiming held for 1 year)
+  - Connected to SagePoint Motivated Minds distribution pipeline
+  - Commercial compensation accounts (Wells-Motivated Minds, Bankers-Motivated Minds)
+- **Verified Hard Drive Receipts:**
+  - `GRNH Art Queler req for legal.docx`
+  - `SagePoint Motivated Minds.pdf`
+  - `GRNH for Sage point 1MM shares.pdf`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7937
+- **Certificate Number:** `CS1-7937`
+- **Common Shares:** **6,790,000**
+- **Genesis Date:** 2013-09-09 (Backdated) / 2015-08-20 (SPA) / 2017-05-01 (Actual Signing)
+- **Origin Mechanism:** Casa de Dinero Secondary Transfer / Purchased from New Seller (Mark Delfin Sham Consultant)
+- **Primary Seller / Intermediary:** Casa de Dinero, LLC / Casa de Dinero, Inc. (Ruben Sanchez)
+- **Initial Recipient:** Cheryl Hintzen
+- **Legal Opinion Counsel:** Stephen Mills, Esq. (Opinion dated Jan 10, 2018)
+- **Clearing Broker / Depository:** Alpine Securities / Forest Securities
+- **Final Disposition Status:** `Subject of Active Lawsuit: Hintzen v. Haas (CV2025-013574)`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7937 │ 6,790,000 SHARES │ GENESIS: 2013-09-09 (Backdated) / 2015-08-20 (SPA) / 2017-05-01 (Actual Signing)║
+║ Origin: Casa de Dinero Secondary Transfe │ Status: Subject of Active Lawsuit: Hintz║
+║ Counsel: Stephen Mills, Esq. (Opinion dat │ Broker: Alpine Securities / Forest Secur║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2017-05-01] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Mark Delfin
+    Action:     Consulting Agreement executed May 1, 2017, explicitly
+               backdated 44 months to Sept 9, 2013
+  │
+  ▼ [Hop 2 - 2015-08-20] ─── SECONDARY SPA PURCHASE
+    Transfer:  Mark Delfin  ──────►  Cheryl Hintzen
+    Action:     Purported Stock Purchase Agreement: Hintzen buys
+               6,790,000 shares from Delfin for $125,000 (pre-dates
+               contract creation)
+  │
+  ▼ [Hop 3 - 2018-01-09] ─── LEGAL OPINION WHITEWASH
+    Transfer:  Cheryl Hintzen  ──────►  Stephen Mills, Esq.
+    Action:     Request for Section 4(a)(1) legal opinion representing
+               non-affiliate status
+  │
+  ▼ [Hop 4 - 2018-01-10] ─── LEGAL OPINION WHITEWASH
+    Transfer:  Stephen Mills, Esq.  ──────►  Fidelity Transfer Services
+    Action:     Opinion letter issued certifying shares freely tradable
+  │
+  ▼ [Hop 5 - 2025-01-15] ─── FINAL DISPOSITION
+    Transfer:  Cheryl Hintzen  ──────►  James Haas
+    Action:     Files lawsuit in Maricopa County Superior Court
+               (CV2025-013574) seeking $1.8M damages for refusal to lift
+               legend
+```
+
+- **Evidentiary Red Flags:**
+  - Chronological impossibility: SPA dated August 20, 2015 derives from an agreement created May 1, 2017
+  - In Pari Delicto / Unclean Hands affirmative defense for defense counsel
+  - Zero capital infused into GreenGro treasury
+  - Directly sourced from Casa de Dinero / Ruben Sanchez (rsanchez.fts@gmail.com) with $0.00 proceeds to corporate treasury
+- **Verified Hard Drive Receipts:**
+  - `grnhhintzen7937.pdf`
+  - `GRNH req for legal Cheryl 2.docx`
+  - `CONSULTING AGREEMENT_Delfin_GRNH.docx`
+  - `GRNH data.xlsx`
+  - `GRNH Purchase agreement Casa de Dinero, LLC.docx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7835
+- **Certificate Number:** `CS1-7835`
+- **Common Shares:** **3,000,000**
+- **Genesis Date:** 2017-01-04 (Issuance) / 2019-03-27 (Poe Transfer)
+- **Origin Mechanism:** Purchased from New Seller ("BOT FROM RON" Brouillette)
+- **Primary Seller / Intermediary:** Ronald Brouillette ("Ron")
+- **Initial Recipient:** Ira Gaines
+- **Legal Opinion Counsel:** Fidelity Transfer Services Instruction
+- **Clearing Broker / Depository:** BMO InvestorLine (Toronto) / Fidelity Transfer Services
+- **Final Disposition Status:** `Transferred to Canadian Nominee Paula Marie Poe`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7835 │ 3,000,000 SHARES │ GENESIS: 2017-01-04 (Issuance) / 2019-03-27 (Poe Transfer)║
+║ Origin: Purchased from New Seller ("BOT  │ Status: Transferred to Canadian Nominee ║
+║ Counsel: Fidelity Transfer Services Instr │ Broker: BMO InvestorLine (Toronto) / Fid║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2017-01-04] ─── GENESIS / ORIGIN
+    Transfer:  Ronald Brouillette ("Ron")  ──────►  Ira Gaines
+    Action:     Certificate CS1-7835 issued for 3,000,000 shares, noted
+               in portfolio list as "BOT FROM RON"
+  │
+  ▼ [Hop 2 - 2017-01-10] ─── COURIER / PHYSICAL TRANSIT
+    Transfer:  Fidelity Transfer Services  ──────►  Ira Gaines
+    Action:     Restricted certificate delivered
+  │
+  ▼ [Hop 3 - 2019-03-27] ─── SPLIT & CERTIFICATE RE-ISSUANCE
+    Transfer:  Ira Gaines  ──────►  Paula Marie Poe
+    Action:     Letter of Instruction to cancel Cert 7835 and reissue to
+               Paula Marie Poe
+  │
+  ▼ [Hop 4 - 2019-04-12] ─── COURIER / PHYSICAL TRANSIT
+    Transfer:  Fidelity Transfer Services  ──────►  BMO InvestorLine
+    Action:     Overnighted via FedEx to BMO InvestorLine account
+               23013702-15 in Toronto
+  │
+  ▼ [Hop 5 - 2019-04-20] ─── RETAIL OTC LIQUIDATION
+    Transfer:  Paula Marie Poe  ──────►  OTC Retail Market
+    Action:     Liquidated into public float
+```
+
+- **Evidentiary Red Flags:**
+  - Direct documentary record: "BOT FROM RON" proves secondary promoter purchase
+  - Promoter paper washed through transfer agent into offshore Canadian nominee
+  - Zero registration statement or bona fide holding period compliance
+- **Verified Hard Drive Receipts:**
+  - `GRNH april 152019.xlsx`
+  - `GRNH 7835 3 MM shares.pdf`
+  - `record of GRNH stock transactions.docx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7978
+- **Certificate Number:** `CS1-7978`
+- **Common Shares:** **10,000,000**
+- **Genesis Date:** 2019-04-10
+- **Origin Mechanism:** Purchased from New Seller (James Haas / CEO Private Sale)
+- **Primary Seller / Intermediary:** James "Boe" Haas (CEO of GreenGro Technologies, Inc.)
+- **Initial Recipient:** Ira Gaines
+- **Legal Opinion Counsel:** In-House / John T. Root, Jr. Framework
+- **Clearing Broker / Depository:** Fidelity Transfer Services / Bank of America
+- **Final Disposition Status:** `Subdivided and Reissued to Paula Marie Poe`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7978 │ 10,000,000 SHARES │ GENESIS: 2019-04-10          ║
+║ Origin: Purchased from New Seller (James │ Status: Subdivided and Reissued to Paula║
+║ Counsel: In-House / John T. Root, Jr. Fra │ Broker: Fidelity Transfer Services / Ban║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2019-04-10] ─── GENESIS / ORIGIN
+    Transfer:  James Haas (CEO)  ──────►  Ira Gaines
+    Action:     Private Stock Purchase Agreement: Haas sells 10,000,000
+               shares to Gaines for $70,000 ($0.007/share)
+  │
+  ▼ [Hop 2 - 2019-04-10] ─── FINANCIAL CONSIDERATION / LOAN
+    Transfer:  Ira Gaines  ──────►  James Haas Personal Account
+    Action:     $70k cash paid directly to Haas, zero funds entering
+               GreenGro treasury
+  │
+  ▼ [Hop 3 - 2019-04-12] ─── SPLIT & CERTIFICATE RE-ISSUANCE
+    Transfer:  Fidelity Transfer Services  ──────►  Cert CS1-8172
+    Action:     Certificate 7978 re-titled into CS1-8172 for 10M shares
+               in name of Paula Marie Poe
+  │
+  ▼ [Hop 4 - 2019-04-15] ─── BROKERAGE DEPOSIT
+    Transfer:  Fidelity Transfer Services  ──────►  BMO InvestorLine
+    Action:     Physical certificate shipped to Toronto brokerage for
+               Canadian deposit
+  │
+  ▼ [Hop 5 - 2019-04-25] ─── FINAL DISPOSITION
+    Transfer:  Paula Marie Poe  ──────►  OTC Market
+    Action:     Sold at retail prices, generating over 10x return on the
+               $0.007 purchase price
+```
+
+- **Evidentiary Red Flags:**
+  - CEO sold 10M shares at 90% discount to prevailing market price while company was actively promoting stock
+  - Affiliate sale without registration under Section 5
+  - Proceeds went directly to CEO Haas personally
+- **Verified Hard Drive Receipts:**
+  - `GRNH Signed 10MM.pdf`
+  - `GRNH april 152019.xlsx`
+  - `record of GRNH stock transactions.docx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-8172
+- **Certificate Number:** `CS1-8172`
+- **Common Shares:** **27,000,000**
+- **Genesis Date:** 2009-08-01 (Employment) / 2017-09-30 (Settlement) / 2019-01-22 (Root Opinion)
+- **Origin Mechanism:** Purchased from New Seller (James Haas Affiliate Loan Collateral)
+- **Primary Seller / Intermediary:** James "Boe" Haas (Affiliate Transferor)
+- **Initial Recipient:** E.F. Romano III (Nominee Creditor)
+- **Legal Opinion Counsel:** John T. Root, Jr., Esq. (Jan 22, 2019 / Apr 22, 2019)
+- **Clearing Broker / Depository:** Fidelity Transfer Services / Ruben Sanchez
+- **Final Disposition Status:** `Split per Haas May 6, 2019 Order: 10M to Gaines, 17M to Haas`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-8172 │ 27,000,000 SHARES │ GENESIS: 2009-08-01 (Employment) / 2017-09-30 (Settlement) / 2019-01-22 (Root Opinion)║
+║ Origin: Purchased from New Seller (James │ Status: Split per Haas May 6, 2019 Order║
+║ Counsel: John T. Root, Jr., Esq. (Jan 22, │ Broker: Fidelity Transfer Services / Rub║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2009-08-01] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  James Haas
+    Action:     Employment Agreement back-salary accrual claimed by Haas
+  │
+  ▼ [Hop 2 - 2017-09-30] ─── LITIGATION SETTLEMENT TRANSFER
+    Transfer:  GreenGro Technologies, Inc.  ──────►  James Haas
+    Action:     Settlement Agreement & Mutual Release: Haas issued
+               27,500,000 shares for release of debt
+  │
+  ▼ [Hop 3 - 2019-01-22] ─── FINANCIAL CONSIDERATION / LOAN
+    Transfer:  James Haas  ──────►  E.F. Romano III
+    Action:     Assigned as collateral for purported $200,000 loan to
+               issuer
+  │
+  ▼ [Hop 4 - 2019-04-22] ─── LEGAL OPINION WHITEWASH
+    Transfer:  John T. Root, Jr., Esq.  ──────►  Fidelity Transfer Services
+    Action:     Re-issues opinion asserting 27M is "<1% of outstanding"
+               (actual: 5.74%)
+  │
+  ▼ [Hop 5 - 2019-05-06] ─── FINAL DISPOSITION
+    Transfer:  James Haas  ──────►  Ruben Sanchez
+    Action:     Haas instructs: "Send 10 million to Ira Gaines and 17
+               million back to me"
+```
+
+- **Evidentiary Red Flags:**
+  - Mathematical fraud: Root represented 27M was <1% of 470M float (actual: 5.74%)
+  - Affiliate tacking violation: Rule 144(d)(1) forbids tacking Haas's 2009 employment period
+  - May 6, 2019 kickback order proves loan was a fraudulent pretext
+- **Verified Hard Drive Receipts:**
+  - `GRNH-4a1 Opinion Letter Draft II (4) (2).pdf`
+  - `DEFENDANT_HAAS_RULE_26_1_SUPPLEMENTAL_DISCLOSURE_with_contact_info.pdf`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-8166
+- **Certificate Number:** `CS1-8166`
+- **Common Shares:** **5,500,000**
+- **Genesis Date:** 2016-10-19 (Gaines Trust) / 2017 (Justin Haas) / 2019-04-08 (Amalgamation)
+- **Origin Mechanism:** Amalgamation from New Sellers (Ira Gaines Trust & Justin Haas)
+- **Primary Seller / Intermediary:** Ira J. Gaines Revocable Trust (Cert 7750) & Justin Haas (Cert 8087)
+- **Initial Recipient:** Paula Marie Poe
+- **Legal Opinion Counsel:** Fidelity Transfer Services Processing
+- **Clearing Broker / Depository:** BMO InvestorLine (Toronto) / Fidelity Transfer Services
+- **Final Disposition Status:** `Delivered to Carter / BMO InvestorLine`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-8166 │ 5,500,000 SHARES │ GENESIS: 2016-10-19 (Gaines Trust) / 2017 (Justin Haas) / 2019-04-08 (Amalgamation)║
+║ Origin: Amalgamation from New Sellers (I │ Status: Delivered to Carter / BMO Invest║
+║ Counsel: Fidelity Transfer Services Proce │ Broker: BMO InvestorLine (Toronto) / Fid║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2016-10-19] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  IRA J. Gaines Revocable Trust
+    Action:     2,000,000 restricted shares issued via Cert CS1-7750
+  │
+  ▼ [Hop 2 - 2017-06-15] ─── CONDUIT HOP / SPLIT
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Justin Haas
+    Action:     3,500,000 restricted shares issued via Cert CS1-8087
+  │
+  ▼ [Hop 3 - 2019-04-08] ─── SPLIT & CERTIFICATE RE-ISSUANCE
+    Transfer:  Fidelity Transfer Services  ──────►  Paula Marie Poe
+    Action:     Certificates 7750 and 8087 cancelled and merged into
+               Cert CS1-8166 (5.5M shares)
+  │
+  ▼ [Hop 4 - 2019-04-12] ─── COURIER / PHYSICAL TRANSIT
+    Transfer:  Ruben Sanchez  ──────►  Carter / BMO
+    Action:     Noted in ledger as "sent to carter, yes"
+  │
+  ▼ [Hop 5 - 2019-04-20] ─── FINAL DISPOSITION
+    Transfer:  Paula Marie Poe  ──────►  Public Float
+    Action:     Deposited in Canadian account and sold to retail
+               investors
+```
+
+- **Evidentiary Red Flags:**
+  - Explicit spreadsheet ledger note: "From 8087 Justin 3.5MM and 7750 IGRT 2MM"
+  - Direct pooling of affiliate trust stock and CEO son stock into foreign straw
+  - Zero registration statement filed
+- **Verified Hard Drive Receipts:**
+  - `GRNH april 152019.xlsx`
+  - `GRNH 8166 and 8167 total 14MMshares.pdf`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7750
+- **Certificate Number:** `CS1-7750`
+- **Common Shares:** **2,000,000**
+- **Genesis Date:** 2016-10-19
+- **Origin Mechanism:** Direct Issuer Issuance (Gaines Control Trust)
+- **Primary Seller / Intermediary:** GreenGro Technologies, Inc. / Ira J. Gaines Revocable Trust
+- **Initial Recipient:** IRA J. Gaines Revocable Trust
+- **Legal Opinion Counsel:** Stephen Mills, Esq. (Opinion dated Dec 6, 2017)
+- **Clearing Broker / Depository:** Alpine Securities / Fidelity Transfer Services
+- **Final Disposition Status:** `Amalgamated into Cert CS1-8166 (Paula Marie Poe)`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7750 │ 2,000,000 SHARES │ GENESIS: 2016-10-19           ║
+║ Origin: Direct Issuer Issuance (Gaines C │ Status: Amalgamated into Cert CS1-8166 (║
+║ Counsel: Stephen Mills, Esq. (Opinion dat │ Broker: Alpine Securities / Fidelity Tra║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2016-10-19] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  IRA J. Gaines Revocable Trust
+    Action:     Stock Purchase Agreement: 2,000,000 shares for $80,000
+               ($0.04/sh)
+  │
+  ▼ [Hop 2 - 2016-10-21] ─── CONDUIT HOP / SPLIT
+    Transfer:  Fidelity Transfer Services  ──────►  IRA J. Gaines Revocable Trust
+    Action:     Certificate CS1-7750 issued restricted
+  │
+  ▼ [Hop 3 - 2017-12-06] ─── LEGAL OPINION WHITEWASH
+    Transfer:  Stephen Mills, Esq.  ──────►  Fidelity Transfer Services
+    Action:     Section 4(a)(1) opinion issued to remove legend,
+               claiming Gaines Trust was non-affiliate
+  │
+  ▼ [Hop 4 - 2018-02-23] ─── BROKERAGE DEPOSIT
+    Transfer:  IRA J. Gaines Revocable Trust  ──────►  Alpine Securities
+    Action:     Deposit package submitted for clearance
+  │
+  ▼ [Hop 5 - 2019-04-08] ─── FINAL DISPOSITION
+    Transfer:  Fidelity Transfer Services  ──────►  Paula Marie Poe
+    Action:     Cancelled and amalgamated into Cert CS1-8166 (5.5M
+               shares)
+```
+
+- **Evidentiary Red Flags:**
+  - Mills certified Gaines Trust was not an affiliate despite controlling tens of millions of shares
+  - Re-amalgamated in 2019 into foreign nominee Poe to evade US brokerage scrutiny
+- **Verified Hard Drive Receipts:**
+  - `grnhgaines7750.pdf`
+  - `GRNH req for legal 2mm cert 7750.pdf`
+  - `GRNH april 152019.xlsx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7800
+- **Certificate Number:** `CS1-7800`
+- **Common Shares:** **1,500,000**
+- **Genesis Date:** 2016-10-25 (SPA) / 2016-11-18 (Issuance)
+- **Origin Mechanism:** Direct Issuer Issuance (Gaines Control Trust)
+- **Primary Seller / Intermediary:** GreenGro Technologies, Inc. / Ira J. Gaines Revocable Trust
+- **Initial Recipient:** Ira Gaines Revocable Trust
+- **Legal Opinion Counsel:** Stephen Mills, Esq. (Opinion dated Dec 6, 2017)
+- **Clearing Broker / Depository:** Alpine Securities / Fidelity Transfer Services
+- **Final Disposition Status:** `Transferred to Canadian Nominee Paula Marie Poe`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7800 │ 1,500,000 SHARES │ GENESIS: 2016-10-25 (SPA) / 2016-11-18 (Issuance)║
+║ Origin: Direct Issuer Issuance (Gaines C │ Status: Transferred to Canadian Nominee ║
+║ Counsel: Stephen Mills, Esq. (Opinion dat │ Broker: Alpine Securities / Fidelity Tra║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2016-10-25] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Ira Gaines Revocable Trust
+    Action:     Stock Purchase Agreement for 1,500,000 shares for
+               $60,000 ($0.04/sh)
+  │
+  ▼ [Hop 2 - 2016-11-06] ─── LEGAL OPINION WHITEWASH
+    Transfer:  Ira Gaines Trust  ──────►  Naccarato and Associates
+    Action:     $60,000 paid to legal escrow on behalf of GreenGro
+  │
+  ▼ [Hop 3 - 2016-11-18] ─── CONDUIT HOP / SPLIT
+    Transfer:  Fidelity Transfer Services  ──────►  Ira Gaines Trust
+    Action:     Certificate CS1-7800 issued
+  │
+  ▼ [Hop 4 - 2017-12-06] ─── LEGAL OPINION WHITEWASH
+    Transfer:  Stephen Mills, Esq.  ──────►  Fidelity Transfer Services
+    Action:     Section 4(a)(1) legal opinion removes restrictive legend
+  │
+  ▼ [Hop 5 - 2019-04-10] ─── FINAL DISPOSITION
+    Transfer:  Fidelity Transfer Services  ──────►  Paula Marie Poe
+    Action:     Noted in master ledger: "7800 IGRT 1500000 Conv to Poe"
+```
+
+- **Evidentiary Red Flags:**
+  - Legal opinion certified non-affiliate status under Section 4(a)(1)
+  - Master ledger documents direct conversion from Gaines Trust to Canadian straw Poe
+- **Verified Hard Drive Receipts:**
+  - `grnhgaines7800.pdf`
+  - `GRNH 7800 IGRT For legend lift.pdf`
+  - `GRNH april 152019.xlsx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7824
+- **Certificate Number:** `CS1-7824`
+- **Common Shares:** **1,000,000**
+- **Genesis Date:** 2016-12-23
+- **Origin Mechanism:** Direct Issuer Issuance / Rapid 4-Day Flip
+- **Primary Seller / Intermediary:** Ira Gaines (Affiliate Transferor)
+- **Initial Recipient:** Ira Gaines
+- **Legal Opinion Counsel:** In-House / Fidelity Transfer Services
+- **Clearing Broker / Depository:** Merrill Lynch, Pierce, Fenner & Smith Incorporated
+- **Final Disposition Status:** `Transferred to Merrill Lynch Account 2872-57N77`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7824 │ 1,000,000 SHARES │ GENESIS: 2016-12-23           ║
+║ Origin: Direct Issuer Issuance / Rapid 4 │ Status: Transferred to Merrill Lynch Acc║
+║ Counsel: In-House / Fidelity Transfer Ser │ Broker: Merrill Lynch, Pierce, Fenner & ║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2016-12-23] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Ira Gaines
+    Action:     Certificate CS1-7824 issued to Ira Gaines
+  │
+  ▼ [Hop 2 - 2016-12-27] ─── STOCK POWER ENDORSEMENT
+    Transfer:  Ira Gaines  ──────►  Merrill Lynch
+    Action:     Just 4 days later: Irrevocable Stock Power executed to
+               Merrill Lynch account 2872-57N77
+  │
+  ▼ [Hop 3 - 2016-12-28] ─── RETAIL OTC LIQUIDATION
+    Transfer:  Fidelity Transfer Services  ──────►  Merrill Lynch
+    Action:     Overnighted to Merrill Lynch clearing for immediate
+               book-entry credit
+```
+
+- **Evidentiary Red Flags:**
+  - Hyper-velocity flipping (<96 hours) violating statutory investment intent under Section 2(a)(11)
+  - Transfer agent processed immediate transfer from affiliate into brokerage clearing
+- **Verified Hard Drive Receipts:**
+  - `GRNH 7824 1mm shares to ML 122716.pdf`
+  - `record of GRNH stock transactions.docx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7906
+- **Certificate Number:** `CS1-7906`
+- **Common Shares:** **3,500,000**
+- **Genesis Date:** 2017-03-31
+- **Origin Mechanism:** Direct Issuer Issuance / 72-Hour Cede & Co Flip
+- **Primary Seller / Intermediary:** Ira Gaines (Affiliate Transferor)
+- **Initial Recipient:** Ira Gaines
+- **Legal Opinion Counsel:** In-House / Exeter Trust
+- **Clearing Broker / Depository:** Exeter Trust Company / Cede & Co. / BBVA Compass Bank
+- **Final Disposition Status:** `Transferred to Cede & Co. for Exeter Trust`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7906 │ 3,500,000 SHARES │ GENESIS: 2017-03-31           ║
+║ Origin: Direct Issuer Issuance / 72-Hour │ Status: Transferred to Cede & Co. for Ex║
+║ Counsel: In-House / Exeter Trust │ Broker: Exeter Trust Company / Cede & Co║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2017-03-31] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Ira Gaines
+    Action:     Certificate CS1-7906 issued for 3,500,000 shares
+  │
+  ▼ [Hop 2 - 2017-04-03] ─── STOCK POWER ENDORSEMENT
+    Transfer:  Ira Gaines  ──────►  Cede & Co.
+    Action:     72 hours later: Irrevocable Stock Power executed to Cede
+               & Co. for Exeter Trust Administration
+  │
+  ▼ [Hop 3 - 2017-04-10] ─── FINAL DISPOSITION
+    Transfer:  Exeter Trust Company  ──────►  BBVA Compass Bank
+    Action:     Proceeds from share sales wired to Gaines BBVA Compass
+               account
+```
+
+- **Evidentiary Red Flags:**
+  - 72-hour turnaround between certificate issuance and Cede & Co. DTC depository transfer
+  - Direct proceeds wired to personal banking accounts
+- **Verified Hard Drive Receipts:**
+  - `record of GRNH stock transactions.docx`
+  - `GRNH 3.5 MM shares.pdf`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7908
+- **Certificate Number:** `CS1-7908`
+- **Common Shares:** **4,000,000**
+- **Genesis Date:** 2017-04-05
+- **Origin Mechanism:** Casa de Dinero Secondary Transfer / Direct Issuer Issuance (Paradise Wire & Cable Shell)
+- **Primary Seller / Intermediary:** Casa de Dinero, LLC / Casa de Dinero, Inc. (Ruben Sanchez)
+- **Initial Recipient:** Paradise Wire & Cable, Inc.
+- **Legal Opinion Counsel:** In-House / Fidelity Transfer Services (Ruben Sanchez)
+- **Clearing Broker / Depository:** Pershing LLC / Bankers Trust
+- **Final Disposition Status:** `Transferred to Pershing LLC`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7908 │ 4,000,000 SHARES │ GENESIS: 2017-04-05           ║
+║ Origin: Casa de Dinero Secondary Transfe │ Status: Transferred to Pershing LLC║
+║ Counsel: In-House / Fidelity Transfer Ser │ Broker: Pershing LLC / Bankers Trust║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2017-04-05] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Paradise Wire & Cable, Inc.
+    Action:     Certificate CS1-7908 issued for 4,000,000 shares
+               free-trading from Ruben Sanchez
+  │
+  ▼ [Hop 2 - 2017-04-07] ─── CONDUIT HOP / SPLIT
+    Transfer:  Paradise Wire & Cable DBPP  ──────►  Pershing LLC
+    Action:     2 days later: Irrevocable stock power executed to
+               Pershing LLC, signed by Ira Gaines, Trustee
+  │
+  ▼ [Hop 3 - 2017-04-12] ─── RETAIL OTC LIQUIDATION
+    Transfer:  Pershing LLC  ──────►  OTC Market
+    Action:     Liquidated into retail market
+```
+
+- **Evidentiary Red Flags:**
+  - Certificate issued "free-trading" by transfer agent without registration statement
+  - Ira Gaines signed as Trustee for Paradise Wire & Cable Pension Plan
+  - Pershing subsequently terminated Gaines accounts due to regulatory violations
+  - Directly sourced from Casa de Dinero / Ruben Sanchez (rsanchez.fts@gmail.com) with $0.00 proceeds to corporate treasury
+- **Verified Hard Drive Receipts:**
+  - `record of GRNH stock transactions.docx`
+  - `GRNH 4.0 MM Paradise for Roy.pdf`
+  - `GRNH data.xlsx`
+  - `GRNH Purchase agreement Casa de Dinero, LLC.docx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7960 through CS1-7969
+- **Certificate Number:** `CS1-7960 through CS1-7969`
+- **Common Shares:** **5,000,000**
+- **Genesis Date:** 2017-08-02 / 2017-08-09
+- **Origin Mechanism:** Casa de Dinero Secondary Transfer / Multi-Hop Familial Conduit (Joshua Hintzen 500k Series)
+- **Primary Seller / Intermediary:** Casa de Dinero, LLC / Casa de Dinero, Inc. (Ruben Sanchez)
+- **Initial Recipient:** Joshua Hintzen (10 certs of 500,000 shs each)
+- **Legal Opinion Counsel:** James Hintzen, Esq. & Stephen Mills, Esq.
+- **Clearing Broker / Depository:** Forest Securities / Alpine Clearing / BMO InvestorLine
+- **Final Disposition Status:** `Transferred to Big Thunder LLC (2018) & Paula Marie Poe (2019)`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7960 through CS1-7969 │ 5,000,000 SHARES │ GENESIS: 2017-08-02 / 2017-08-09║
+║ Origin: Casa de Dinero Secondary Transfe │ Status: Transferred to Big Thunder LLC (║
+║ Counsel: James Hintzen, Esq. & Stephen Mi │ Broker: Forest Securities / Alpine Clear║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2017-08-02] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Ira Gaines
+    Action:     Certificate CS1-7960 issued for 500,000 shares
+  │
+  ▼ [Hop 2 - 2017-08-09] ─── CONDUIT HOP / SPLIT
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Joshua Hintzen
+    Action:     Nine additional certificates (7961-7969) issued for
+               500,000 shares each
+  │
+  ▼ [Hop 3 - 2018-12-03] ─── CONDUIT HOP / SPLIT
+    Transfer:  Joshua Hintzen  ──────►  Big Thunder, LLC
+    Action:     LOI to re-issue 8 certificates (7960-7969 series, 4M
+               shs) in name of Big Thunder, LLC
+  │
+  ▼ [Hop 4 - 2019-03-27] ─── SPLIT & CERTIFICATE RE-ISSUANCE
+    Transfer:  Joshua Hintzen  ──────►  Paula Marie Poe
+    Action:     LOI to cancel 5 certificates (7964, 7965, 7966, 7968,
+               7969) and reissue 2.5M shs to Poe
+  │
+  ▼ [Hop 5 - 2019-04-02] ─── FINAL DISPOSITION
+    Transfer:  Joshua Hintzen  ──────►  Paula Marie Poe
+    Action:     LOI stating certs 7960, 7961, 7963 are "registered in
+               name of Ira Gaines" and sending to Poe at BMO
+```
+
+- **Evidentiary Red Flags:**
+  - Smurfing into 500,000 share blocks to evade transfer agent dollar/volume velocity flags
+  - Written admission on 4/2/2019 that certificates belonged to Ira Gaines
+  - Cross-border delivery to Toronto brokerage
+  - Directly sourced from Casa de Dinero / Ruben Sanchez (rsanchez.fts@gmail.com) with $0.00 proceeds to corporate treasury
+- **Verified Hard Drive Receipts:**
+  - `GRNH loi GRNH Joshua 2 and a half million shares loi to Paul Poe.docx`
+  - `record of GRNH stock transactions.docx`
+  - `GRNH april 152019.xlsx`
+  - `GRNH data.xlsx`
+  - `GRNH Purchase agreement Casa de Dinero, LLC.docx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7881
+- **Certificate Number:** `CS1-7881`
+- **Common Shares:** **1,000,000**
+- **Genesis Date:** 2017-08-09
+- **Origin Mechanism:** Multi-Hop Familial Conduit (Gaines to Josh Hintzen)
+- **Primary Seller / Intermediary:** Ira Gaines (Affiliate Transferor)
+- **Initial Recipient:** Joshua Hintzen
+- **Legal Opinion Counsel:** Stephen Mills, Esq. (Reliance)
+- **Clearing Broker / Depository:** Fidelity Transfer Services / Egan KS Brokerage
+- **Final Disposition Status:** `Re-issued as Free-Trading to Joshua Hintzen`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7881 │ 1,000,000 SHARES │ GENESIS: 2017-08-09           ║
+║ Origin: Multi-Hop Familial Conduit (Gain │ Status: Re-issued as Free-Trading to Jos║
+║ Counsel: Stephen Mills, Esq. (Reliance) │ Broker: Fidelity Transfer Services / Ega║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2017-08-09] ─── GENESIS / ORIGIN
+    Transfer:  Ira Gaines  ──────►  Fidelity Transfer Services
+    Action:     LOI signed by Gaines instructing cancellation of Cert
+               7881 and reissuance of free-trading shares to Joshua
+               Hintzen
+  │
+  ▼ [Hop 2 - 2017-08-15] ─── SPLIT & CERTIFICATE RE-ISSUANCE
+    Transfer:  Fidelity Transfer Services  ──────►  Joshua Hintzen
+    Action:     Certificate re-issued without legend
+  │
+  ▼ [Hop 3 - 2017-08-20] ─── FINAL DISPOSITION
+    Transfer:  Joshua Hintzen  ──────►  Egan KS Account
+    Action:     Delivered for brokerage deposit
+```
+
+- **Evidentiary Red Flags:**
+  - Gaines directly ordered transfer agent to cancel his certificate and issue free-trading shares to relative
+  - Zero registration statement or bona fide holding period compliance
+- **Verified Hard Drive Receipts:**
+  - `LOI 7881 GRNH from ira to josh.docx`
+  - `GRNH 7881 Sending to Egan KS address 1MM shares.pdf`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-8087
+- **Certificate Number:** `CS1-8087`
+- **Common Shares:** **3,500,000**
+- **Genesis Date:** 2017-06-15
+- **Origin Mechanism:** CEO Family Conduit (Justin Haas)
+- **Primary Seller / Intermediary:** Justin Haas (Son of CEO James Haas)
+- **Initial Recipient:** Justin Haas
+- **Legal Opinion Counsel:** Fidelity Transfer Services Processing
+- **Clearing Broker / Depository:** Fidelity Transfer Services / BMO InvestorLine
+- **Final Disposition Status:** `Amalgamated into Cert CS1-8166 (Paula Marie Poe)`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-8087 │ 3,500,000 SHARES │ GENESIS: 2017-06-15           ║
+║ Origin: CEO Family Conduit (Justin Haas) │ Status: Amalgamated into Cert CS1-8166 (║
+║ Counsel: Fidelity Transfer Services Proce │ Broker: Fidelity Transfer Services / BMO║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2017-06-15] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Justin Haas
+    Action:     3,500,000 shares issued to CEO son Justin Haas
+  │
+  ▼ [Hop 2 - 2018-06-13] ─── SECONDARY SPA PURCHASE
+    Transfer:  James Haas  ──────►  Ruben Sanchez
+    Action:     Document: "GRNH 3.5 SENT TO RUBEN 61318 TO BE SOLD BY
+               JUSTIN"
+  │
+  ▼ [Hop 3 - 2019-04-08] ─── FINAL DISPOSITION
+    Transfer:  Justin Haas  ──────►  Paula Marie Poe
+    Action:     Combined with Gaines Trust Cert 7750 to create Cert
+               CS1-8166 (5.5M shares) issued to Poe
+```
+
+- **Evidentiary Red Flags:**
+  - CEO son certificate used as distribution feeder block for Canadian straw Poe
+  - Direct instruction from CEO to transfer agent to sell Justin shares
+- **Verified Hard Drive Receipts:**
+  - `GRNH 3.5 SENT TO RUBEN 61318 TO BE SOLD BY JUSTIN.pdf`
+  - `GRNH april 152019.xlsx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-8089
+- **Certificate Number:** `CS1-8089`
+- **Common Shares:** **6,500,000**
+- **Genesis Date:** 2017-05-01 (Actual Signing) / 2013-09-09 (Backdated)
+- **Origin Mechanism:** Backdated Sham Consulting Award
+- **Primary Seller / Intermediary:** Mark Delfin (Consultant Nominee)
+- **Initial Recipient:** Mark Delfin
+- **Legal Opinion Counsel:** Stephen Mills, Esq. (Reliance)
+- **Clearing Broker / Depository:** Fidelity Transfer Services
+- **Final Disposition Status:** `Used to Feeder Cheryl Hintzen Cert CS1-7937`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-8089 │ 6,500,000 SHARES │ GENESIS: 2017-05-01 (Actual Signing) / 2013-09-09 (Backdated)║
+║ Origin: Backdated Sham Consulting Award │ Status: Used to Feeder Cheryl Hintzen Ce║
+║ Counsel: Stephen Mills, Esq. (Reliance) │ Broker: Fidelity Transfer Services║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2017-05-01] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Mark Delfin
+    Action:     Consulting Agreement executed May 1, 2017, backdated 44
+               months to Sept 9, 2013
+  │
+  ▼ [Hop 2 - 2017-05-10] ─── CONDUIT HOP / SPLIT
+    Transfer:  Fidelity Transfer Services  ──────►  Mark Delfin
+    Action:     Restricted Cert CS1-8089 issued for 6,500,000 shares
+  │
+  ▼ [Hop 3 - 2018-01-10] ─── FINAL DISPOSITION
+    Transfer:  Mark Delfin  ──────►  Cheryl Hintzen
+    Action:     Feeder pool for Cheryl Hintzen 6,790,000 share transfer
+               and Stephen Mills opinion
+```
+
+- **Evidentiary Red Flags:**
+  - 44-month retroactive backdating
+  - Zero verified advisory services performed
+  - Direct genesis of Hintzen v. Haas lawsuit
+- **Verified Hard Drive Receipts:**
+  - `CONSULTING AGREEMENT_Delfin_GRNH.docx`
+  - `FINAL CONSULTING AGREEMENT_Delfin_GRNH (4).docx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-8090
+- **Certificate Number:** `CS1-8090`
+- **Common Shares:** **8,500,000**
+- **Genesis Date:** 2017-05-01 (Actual Signing) / 2015-10-30 (Backdated)
+- **Origin Mechanism:** Backdated Sham Consulting Award
+- **Primary Seller / Intermediary:** Santiago Rubio (Consultant Nominee)
+- **Initial Recipient:** Santiago Rubio
+- **Legal Opinion Counsel:** Stephen Mills, Esq. (Reliance)
+- **Clearing Broker / Depository:** Fidelity Transfer Services
+- **Final Disposition Status:** `Nominee Holding for Reissuance`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-8090 │ 8,500,000 SHARES │ GENESIS: 2017-05-01 (Actual Signing) / 2015-10-30 (Backdated)║
+║ Origin: Backdated Sham Consulting Award │ Status: Nominee Holding for Reissuance║
+║ Counsel: Stephen Mills, Esq. (Reliance) │ Broker: Fidelity Transfer Services║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2017-05-01] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Santiago Rubio
+    Action:     Consulting Agreement executed May 1, 2017, backdated 18
+               months to Oct 30, 2015 for 8.5M shares
+  │
+  ▼ [Hop 2 - 2017-05-10] ─── CONDUIT HOP / SPLIT
+    Transfer:  Fidelity Transfer Services  ──────►  Santiago Rubio
+    Action:     Restricted Cert CS1-8090 issued
+  │
+  ▼ [Hop 3 - 2018-06-01] ─── FINAL DISPOSITION
+    Transfer:  Santiago Rubio  ──────►  Nominee Fleet
+    Action:     Used to support unlegended reissuance requests
+```
+
+- **Evidentiary Red Flags:**
+  - 18-month retroactive backdating
+  - Zero monetary consideration received by company treasury
+- **Verified Hard Drive Receipts:**
+  - `CONSULTING AGREEMENT_Rubio_GRNH.docx`
+  - `FINAL CONSULTING AGREEMENT_Rubio_GRNH.docx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-8091
+- **Certificate Number:** `CS1-8091`
+- **Common Shares:** **8,500,000**
+- **Genesis Date:** 2017-05-01 (Actual Signing) / 2014-12-08 (Backdated)
+- **Origin Mechanism:** Backdated Sham Consulting Award
+- **Primary Seller / Intermediary:** Hulbert Ventures (Consultant Nominee)
+- **Initial Recipient:** Hulbert Ventures
+- **Legal Opinion Counsel:** Stephen Mills, Esq. (Reliance)
+- **Clearing Broker / Depository:** Fidelity Transfer Services
+- **Final Disposition Status:** `Nominee Holding for Reissuance`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-8091 │ 8,500,000 SHARES │ GENESIS: 2017-05-01 (Actual Signing) / 2014-12-08 (Backdated)║
+║ Origin: Backdated Sham Consulting Award │ Status: Nominee Holding for Reissuance║
+║ Counsel: Stephen Mills, Esq. (Reliance) │ Broker: Fidelity Transfer Services║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2017-05-01] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Hulbert Ventures
+    Action:     Consulting Agreement executed May 1, 2017; duplicate
+               text of Rubio agreement
+  │
+  ▼ [Hop 2 - 2017-05-10] ─── FINAL DISPOSITION
+    Transfer:  Fidelity Transfer Services  ──────►  Hulbert Ventures
+    Action:     Restricted Cert CS1-8091 issued for 8,500,000 shares
+```
+
+- **Evidentiary Red Flags:**
+  - Unedited boilerplate copy-paste retaining Santiago Rubio name in body
+  - Fabricated corporate consideration
+- **Verified Hard Drive Receipts:**
+  - `CONSULTING AGREEMENT_Hulbert_GRNH.docx`
+  - `FINAL FINAL CONSULTING AGREEMENT_Hulbert_GRNH.docx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-8088
+- **Certificate Number:** `CS1-8088`
+- **Common Shares:** **2,000,000**
+- **Genesis Date:** 2017-05-01 (Actual Signing) / 2015-07-10 (Backdated)
+- **Origin Mechanism:** Backdated Sham Consulting Award
+- **Primary Seller / Intermediary:** Phoenix Group (Consultant Nominee)
+- **Initial Recipient:** Phoenix Group
+- **Legal Opinion Counsel:** Stephen Mills, Esq. (Reliance)
+- **Clearing Broker / Depository:** Fidelity Transfer Services
+- **Final Disposition Status:** `Nominee Holding for Reissuance`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-8088 │ 2,000,000 SHARES │ GENESIS: 2017-05-01 (Actual Signing) / 2015-07-10 (Backdated)║
+║ Origin: Backdated Sham Consulting Award │ Status: Nominee Holding for Reissuance║
+║ Counsel: Stephen Mills, Esq. (Reliance) │ Broker: Fidelity Transfer Services║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2017-05-01] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Phoenix Group
+    Action:     Consulting Agreement executed May 1, 2017, backdated 22
+               months to July 10, 2015 for 2.0M shares
+  │
+  ▼ [Hop 2 - 2017-05-10] ─── FINAL DISPOSITION
+    Transfer:  Fidelity Transfer Services  ──────►  Phoenix Group
+    Action:     Restricted Cert CS1-8088 issued
+```
+
+- **Evidentiary Red Flags:**
+  - Part of coordinated 25.5M share May 1, 2017 backdating issuance tranche
+- **Verified Hard Drive Receipts:**
+  - `CONSULTING AGREEMENT_PHEONIX_GRNH.docx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-8158 through CS1-8160
+- **Certificate Number:** `CS1-8158 through CS1-8160`
+- **Common Shares:** **8,000,000**
+- **Genesis Date:** 2019-04-03
+- **Origin Mechanism:** Canadian Straw Nominee Consolidation
+- **Primary Seller / Intermediary:** Paula Marie Poe (Canadian Straw)
+- **Initial Recipient:** Paula Marie Poe
+- **Legal Opinion Counsel:** Fidelity Transfer Services Processing
+- **Clearing Broker / Depository:** BMO InvestorLine (Toronto) / Fidelity Transfer Services
+- **Final Disposition Status:** `BMO InvestorLine Account #23013702-15`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-8158 through CS1-8160 │ 8,000,000 SHARES │ GENESIS: 2019-04-03║
+║ Origin: Canadian Straw Nominee Consolida │ Status: BMO InvestorLine Account #230137║
+║ Counsel: Fidelity Transfer Services Proce │ Broker: BMO InvestorLine (Toronto) / Fid║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2019-04-03] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Paula Marie Poe
+    Action:     Certificates CS1-8158 (2.5M), CS1-8159 (3.0M), CS1-8160
+               (2.5M) issued directly to Poe
+  │
+  ▼ [Hop 2 - 2019-04-08] ─── FINAL DISPOSITION
+    Transfer:  Ruben Sanchez  ──────►  BMO InvestorLine
+    Action:     Overnighted to First Canadian Place, Toronto via FedEx
+               account #165398572
+```
+
+- **Evidentiary Red Flags:**
+  - Direct issuance of 8.0M shares to foreign nominee without registration or public disclosure
+- **Verified Hard Drive Receipts:**
+  - `GRNH april 152019.xlsx`
+  - `record of GRNH stock transactions.docx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-8161 through CS1-8165
+- **Certificate Number:** `CS1-8161 through CS1-8165`
+- **Common Shares:** **22,000,000**
+- **Genesis Date:** 2019-04-04
+- **Origin Mechanism:** Canadian Straw Note Amalgamation
+- **Primary Seller / Intermediary:** Paula Marie Poe (Canadian Straw)
+- **Initial Recipient:** Paula Marie Poe
+- **Legal Opinion Counsel:** Fidelity Transfer Services Processing
+- **Clearing Broker / Depository:** BMO InvestorLine (Toronto) / Bank of America
+- **Final Disposition Status:** `BMO InvestorLine Account #23013702-15`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-8161 through CS1-8165 │ 22,000,000 SHARES │ GENESIS: 2019-04-04║
+║ Origin: Canadian Straw Note Amalgamation │ Status: BMO InvestorLine Account #230137║
+║ Counsel: Fidelity Transfer Services Proce │ Broker: BMO InvestorLine (Toronto) / Ban║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2019-04-04] ─── GENESIS / ORIGIN
+    Transfer:  Various Debt Paper Holders  ──────►  Paula Marie Poe
+    Action:     22,000,000 shares consolidated across certificates 8161
+               through 8165
+  │
+  ▼ [Hop 2 - 2019-04-04] ─── CONDUIT HOP / SPLIT
+    Transfer:  BofA Account  ──────►  Fidelity Transfer Services
+    Action:     $107,500 wire fee paid to Fidelity on 4/4/2019 for
+               processing Certs 8163/8164
+  │
+  ▼ [Hop 3 - 2019-04-12] ─── RETAIL OTC LIQUIDATION
+    Transfer:  Fidelity Transfer Services  ──────►  BMO InvestorLine
+    Action:     Certificates shipped to Toronto for open market resale
+```
+
+- **Evidentiary Red Flags:**
+  - $107,500 processing fee paid directly to transfer agent
+  - 22 million shares issued at effective $0.007/share subpenny price
+- **Verified Hard Drive Receipts:**
+  - `GRNH april 152019.xlsx`
+  - `GRNH 8161 - 8165 22MM shares.pdf`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-8167
+- **Certificate Number:** `CS1-8167`
+- **Common Shares:** **8,500,000**
+- **Genesis Date:** 2019-04-08
+- **Origin Mechanism:** Canadian Straw Direct Amalgamation
+- **Primary Seller / Intermediary:** Paula Marie Poe (Canadian Straw)
+- **Initial Recipient:** Paula Marie Poe
+- **Legal Opinion Counsel:** Fidelity Transfer Services Processing
+- **Clearing Broker / Depository:** BMO InvestorLine / Bank of America / Fidelity
+- **Final Disposition Status:** `BMO InvestorLine Account #23013702-15`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-8167 │ 8,500,000 SHARES │ GENESIS: 2019-04-08           ║
+║ Origin: Canadian Straw Direct Amalgamati │ Status: BMO InvestorLine Account #230137║
+║ Counsel: Fidelity Transfer Services Proce │ Broker: BMO InvestorLine / Bank of Ameri║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2019-04-08] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Paula Marie Poe
+    Action:     Certificate CS1-8167 issued for 8,500,000 shares
+  │
+  ▼ [Hop 2 - 2019-04-08] ─── CONDUIT HOP / SPLIT
+    Transfer:  BofA Account  ──────►  Fidelity Transfer Services
+    Action:     $50,150 wire fee paid to Fidelity for 8.5M shares
+               processing
+  │
+  ▼ [Hop 3 - 2019-04-15] ─── FINAL DISPOSITION
+    Transfer:  Fidelity Transfer Services  ──────►  BMO InvestorLine
+    Action:     Shipped to Toronto brokerage for Canadian deposit
+```
+
+- **Evidentiary Red Flags:**
+  - $50,150 paid directly to transfer agent; zero funds to GreenGro treasury
+- **Verified Hard Drive Receipts:**
+  - `GRNH april 152019.xlsx`
+  - `GRNH 8166 and 8167 total 14MMshares.pdf`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-8169
+- **Certificate Number:** `CS1-8169`
+- **Common Shares:** **5,500,000**
+- **Genesis Date:** 2019-04-10
+- **Origin Mechanism:** Canadian Straw Direct Amalgamation
+- **Primary Seller / Intermediary:** Paula Marie Poe (Canadian Straw)
+- **Initial Recipient:** Paula Marie Poe
+- **Legal Opinion Counsel:** Fidelity Transfer Services Processing
+- **Clearing Broker / Depository:** BMO InvestorLine / Bank of America / Fidelity
+- **Final Disposition Status:** `BMO InvestorLine Account #23013702-15`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-8169 │ 5,500,000 SHARES │ GENESIS: 2019-04-10           ║
+║ Origin: Canadian Straw Direct Amalgamati │ Status: BMO InvestorLine Account #230137║
+║ Counsel: Fidelity Transfer Services Proce │ Broker: BMO InvestorLine / Bank of Ameri║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2019-04-10] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Paula Marie Poe
+    Action:     Certificate CS1-8169 issued for 5,500,000 shares (of
+               6.5M total allotment)
+  │
+  ▼ [Hop 2 - 2019-04-10] ─── CONDUIT HOP / SPLIT
+    Transfer:  BofA Account  ──────►  Fidelity Transfer Services
+    Action:     $39,000 wire fee paid to Fidelity for processing
+  │
+  ▼ [Hop 3 - 2019-04-12] ─── FINAL DISPOSITION
+    Transfer:  Fidelity Transfer Services  ──────►  BMO InvestorLine
+    Action:     Shipped to Toronto brokerage
+```
+
+- **Evidentiary Red Flags:**
+  - $39,000 fee paid directly to transfer agent
+- **Verified Hard Drive Receipts:**
+  - `GRNH april 152019.xlsx`
+  - `GRNH 8169 5mm of total 605.pdf`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-8171
+- **Certificate Number:** `CS1-8171`
+- **Common Shares:** **1,000,000**
+- **Genesis Date:** 2019-04-12
+- **Origin Mechanism:** Canadian Straw Direct Amalgamation
+- **Primary Seller / Intermediary:** Paula Marie Poe (Canadian Straw)
+- **Initial Recipient:** Paula Marie Poe
+- **Legal Opinion Counsel:** Fidelity Transfer Services Processing
+- **Clearing Broker / Depository:** BMO InvestorLine / Carter Clearing
+- **Final Disposition Status:** `BMO InvestorLine Account #23013702-15`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-8171 │ 1,000,000 SHARES │ GENESIS: 2019-04-12           ║
+║ Origin: Canadian Straw Direct Amalgamati │ Status: BMO InvestorLine Account #230137║
+║ Counsel: Fidelity Transfer Services Proce │ Broker: BMO InvestorLine / Carter Cleari║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2019-04-12] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Paula Marie Poe
+    Action:     Certificate CS1-8171 issued for 1,000,000 shares
+  │
+  ▼ [Hop 2 - 2019-04-12] ─── FINAL DISPOSITION
+    Transfer:  Ruben Sanchez  ──────►  Carter / BMO
+    Action:     Noted in master ledger: "sent to carter 2019-04-12"
+```
+
+- **Evidentiary Red Flags:**
+  - Part of massive April 2019 offshore straw consolidation
+- **Verified Hard Drive Receipts:**
+  - `GRNH april 152019.xlsx`
+  - `GRNH 8172 8169 8171.pdf`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-8173
+- **Certificate Number:** `CS1-8173`
+- **Common Shares:** **950,000**
+- **Genesis Date:** 2019-04-15
+- **Origin Mechanism:** Secondary Promoter Transfer ("Ron")
+- **Primary Seller / Intermediary:** Ronald Brouillette ("Ron")
+- **Initial Recipient:** Paula Marie Poe
+- **Legal Opinion Counsel:** Fidelity Transfer Services Processing
+- **Clearing Broker / Depository:** Fidelity Transfer Services / Carter
+- **Final Disposition Status:** `Pending Delivery per April 2019 Ledger`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-8173 │ 950,000 SHARES │ GENESIS: 2019-04-15             ║
+║ Origin: Secondary Promoter Transfer ("Ro │ Status: Pending Delivery per April 2019 ║
+║ Counsel: Fidelity Transfer Services Proce │ Broker: Fidelity Transfer Services / Car║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2018-12-10] ─── GENESIS / ORIGIN
+    Transfer:  Third Coast Partners / GRNH  ──────►  Ronald Brouillette ("Ron")
+    Action:     Promoter compensation carveout originating from
+               consulting/debt arrangement
+  │
+  ▼ [Hop 2 - 2019-04-15] ─── FINAL DISPOSITION
+    Transfer:  Ronald Brouillette ("Ron")  ──────►  Paula Marie Poe
+    Action:     Certificate CS1-8173 issued for 950,000 shares, noted in
+               ledger as "Paid to Fidelity: Ron, sent to carter: not
+               SENT YET"
+```
+
+- **Evidentiary Red Flags:**
+  - Direct evidence that promoter Ron Brouillette was paying Fidelity Transfer Services directly
+- **Verified Hard Drive Receipts:**
+  - `GRNH april 152019.xlsx`
+  - `GRNH 8172 10MM and 8173 950k.pdf`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7568
+- **Certificate Number:** `CS1-7568`
+- **Common Shares:** **1,000,000**
+- **Genesis Date:** 2015-06-01
+- **Origin Mechanism:** Direct Issuer Issuance ("Compromise June 2015")
+- **Primary Seller / Intermediary:** Ira Gaines (Affiliate Transferor)
+- **Initial Recipient:** Ira Gaines
+- **Legal Opinion Counsel:** In-House Legal Package
+- **Clearing Broker / Depository:** Wedbush Securities, Inc.
+- **Final Disposition Status:** `Deposited at Wedbush Securities`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7568 │ 1,000,000 SHARES │ GENESIS: 2015-06-01           ║
+║ Origin: Direct Issuer Issuance ("Comprom │ Status: Deposited at Wedbush Securities║
+║ Counsel: In-House Legal Package │ Broker: Wedbush Securities, Inc.       ║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2015-06-01] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Ira Gaines
+    Action:     Issued under "Compromise June 2015" for 1,000,000 shares
+  │
+  ▼ [Hop 2 - 2016-04-01] ─── FINAL DISPOSITION
+    Transfer:  Ira Gaines  ──────►  Wedbush Securities
+    Action:     Noted in master cert ledger: "at wedbush"
+```
+
+- **Evidentiary Red Flags:**
+  - Early seed block used to establish OTC trading velocity
+- **Verified Hard Drive Receipts:**
+  - `GRNH 7568 legal and cert.pdf`
+  - `STOCK INVENTORY JULY 16  (version 1) (Autosaved) 2.xlsx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7549
+- **Certificate Number:** `CS1-7549`
+- **Common Shares:** **7,000,000**
+- **Genesis Date:** 2015-06-01
+- **Origin Mechanism:** Direct Issuer Issuance ("Compromise June 2015")
+- **Primary Seller / Intermediary:** Dignitas Consulting LLC
+- **Initial Recipient:** Dignitas Consulting LLC
+- **Legal Opinion Counsel:** McGee Legal / Stephen Mills
+- **Clearing Broker / Depository:** Wilson-Davis & Co / Dignitas Fleet
+- **Final Disposition Status:** `Feeder Block for Dignitas Secondary Resales`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7549 │ 7,000,000 SHARES │ GENESIS: 2015-06-01           ║
+║ Origin: Direct Issuer Issuance ("Comprom │ Status: Feeder Block for Dignitas Second║
+║ Counsel: McGee Legal / Stephen Mills │ Broker: Wilson-Davis & Co / Dignitas Fle║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2015-06-01] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Dignitas Consulting LLC
+    Action:     7,000,000 restricted shares issued under June 2015
+               compromise
+  │
+  ▼ [Hop 2 - 2016-04-01] ─── FINAL DISPOSITION
+    Transfer:  Dignitas Consulting LLC  ──────►  Promoter Conduits
+    Action:     Used to feed secondary stock purchase agreements and
+               promissory note pledges
+```
+
+- **Evidentiary Red Flags:**
+  - Massive 7,000,000 share block issued without registered public offering
+- **Verified Hard Drive Receipts:**
+  - `STOCK INVENTORY JULY 16  (version 1) (Autosaved) 2.xlsx`
+  - `GRNH SPA 2M Ron Dignitas.pdf`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7596
+- **Certificate Number:** `CS1-7596`
+- **Common Shares:** **250,000**
+- **Genesis Date:** 2016-04-01
+- **Origin Mechanism:** Direct Issuer Issuance (Paradise Wire & Cable Shell)
+- **Primary Seller / Intermediary:** Paradise Wire & Cable, Inc.
+- **Initial Recipient:** Paradise Wire & Cable, Inc.
+- **Legal Opinion Counsel:** McGee Legal
+- **Clearing Broker / Depository:** Wilson-Davis & Co. (WDCO)
+- **Final Disposition Status:** `Deposited at Wilson-Davis & Co.`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7596 │ 250,000 SHARES │ GENESIS: 2016-04-01             ║
+║ Origin: Direct Issuer Issuance (Paradise │ Status: Deposited at Wilson-Davis & Co.║
+║ Counsel: McGee Legal │ Broker: Wilson-Davis & Co. (WDCO)                 ║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2016-04-01] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Paradise Wire & Cable, Inc.
+    Action:     Issued for 250,000 shares
+  │
+  ▼ [Hop 2 - 2016-04-01] ─── FINAL DISPOSITION
+    Transfer:  Paradise Wire & Cable  ──────►  Wilson-Davis & Co.
+    Action:     Noted in master inventory: "4/1/16 cert to WDCO"
+```
+
+- **Evidentiary Red Flags:**
+  - Corporate shell utilized to deposit shares into subpenny brokerage
+- **Verified Hard Drive Receipts:**
+  - `GRNH 7596 Paradise.pdf`
+  - `STOCK INVENTORY JULY 16  (version 1) (Autosaved) 2.xlsx`
+
+---
+
+### Court Exhibit Flowchart: Certificate #CS1-7628
+- **Certificate Number:** `CS1-7628`
+- **Common Shares:** **1,000,000**
+- **Genesis Date:** 2016-04-27
+- **Origin Mechanism:** Direct Issuer Issuance (Ira Gaines)
+- **Primary Seller / Intermediary:** Ira Gaines
+- **Initial Recipient:** Ira Gaines
+- **Legal Opinion Counsel:** McGee Legal
+- **Clearing Broker / Depository:** Wilson-Davis & Co. (WDCO)
+- **Final Disposition Status:** `Deposited at Wilson-Davis & Co.`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════╗
+║ CERTIFICATE #CS1-7628 │ 1,000,000 SHARES │ GENESIS: 2016-04-27           ║
+║ Origin: Direct Issuer Issuance (Ira Gain │ Status: Deposited at Wilson-Davis & Co.║
+║ Counsel: McGee Legal │ Broker: Wilson-Davis & Co. (WDCO)                 ║
+╚══════════════════════════════════════════════════════════════════════════╝
+  │
+  ▼ [Hop 1 - 2016-04-27] ─── GENESIS / ORIGIN
+    Transfer:  GreenGro Technologies, Inc.  ──────►  Ira Gaines
+    Action:     Certificate CS1-7628 issued for 1,000,000 shares
+  │
+  ▼ [Hop 2 - 2016-04-27] ─── FINAL DISPOSITION
+    Transfer:  Ira Gaines  ──────►  Wilson-Davis & Co.
+    Action:     Noted in inventory: "all in WDCO 4/27"
+```
+
+- **Evidentiary Red Flags:**
+  - Wilson-Davis later sanctioned by SEC and closed Gaines accounts
+- **Verified Hard Drive Receipts:**
+  - `STOCK INVENTORY JULY 16  (version 1) (Autosaved) 2.xlsx`
+
+---
+
 ## PART IV: STATUTORY CAUSES OF ACTION & TRIAL PLEADING MATRIX
 
 Counsel can immediately adapt the following statutory pleading framework for complaints, counterclaims, or summary judgment motions:

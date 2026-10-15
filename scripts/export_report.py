@@ -233,15 +233,42 @@ for cert in lineage.get('traceableCertificates', []):
     lines.append(f"| **{cert['certNumber']}** | {cert['shares']:,} | {cert['genesisDate']} | {cert['originType']} | {cert['primarySeller']} | {cert['initialRecipient']} | {cert['brokerOrClearing']} | {cert['opinionCounsel']} | {rf_str} | {ev_str} |")
 lines.append("")
 
-lines.append("#### Detailed Step-by-Step Custody Pedigree for Key Certificates:\n")
+lines.append("#### Detailed Step-by-Step Graphic Custody Pedigree for Each and Every Certificate (31 Graphic Exhibits):\n")
 for cert in lineage.get('traceableCertificates', []):
     lines.append(f"##### Certificate {cert['certNumber']} ({cert['shares']:,} Shares - {cert['initialRecipient']})")
     lines.append(f"- **Genesis Date:** {cert['genesisDate']} | **Origin:** {cert['originType']}")
     lines.append(f"- **Current Status:** {cert['currentHolderOrStatus']}")
     lines.append(f"- **Clearing Broker:** {cert['brokerOrClearing']} | **Opinion Counsel:** {cert['opinionCounsel']}")
-    lines.append("- **Custody Chain of Title:**")
+    lines.append("- **Graphic Chain-of-Custody Flowchart:**\n")
+    
+    # ASCII Box Flowchart
+    lines.append("```text")
+    border = "═" * 74
+    lines.append(f"╔{border}╗")
+    h1 = f" CERTIFICATE #{cert['certNumber']} │ {cert['shares']:,} SHARES │ GENESIS: {cert['genesisDate']}"
+    lines.append(f"║{h1:<74}║")
+    h2 = f" Origin: {cert['originType'][:32]} │ Status: {cert['currentHolderOrStatus'][:32]}"
+    lines.append(f"║{h2:<74}║")
+    h3 = f" Counsel: {cert['opinionCounsel'][:32]} │ Broker: {cert['brokerOrClearing'][:32]}"
+    lines.append(f"║{h3:<74}║")
+    lines.append(f"╚{border}╝")
     for hop in cert['custodyHops']:
-        lines.append(f"  - **Step {hop['step']} ({hop['date']}):** `{hop['from']}` → `{hop['to']}`: {hop['action']}")
+        b = hop.get('stageBadge', 'Custody Hop')
+        lines.append("  │")
+        lines.append(f"  ▼ [Hop {hop['step']} - {hop['date']}] ─── {b.upper()}")
+        lines.append(f"    Transfer:  {hop['from']}  ──────►  {hop['to']}")
+        act = hop['action']
+        words = act.split()
+        cur = "    Action:    "
+        for w in words:
+            if len(cur) + len(w) + 1 > 72:
+                lines.append(cur)
+                cur = "               " + w
+            else:
+                cur += (" " if cur.strip() else "") + w
+        if cur.strip():
+            lines.append(cur)
+    lines.append("```\n")
     lines.append(f"- **Evidentiary Anomalies:** {'; '.join(cert['redFlags'])}")
     lines.append(f"- **Primary Hard Drive Files:** {', '.join(cert['evidenceFiles'])}\n")
 
