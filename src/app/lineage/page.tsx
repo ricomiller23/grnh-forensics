@@ -2,6 +2,7 @@
 
 import React, { useState, useMemo } from "react";
 import Link from "next/link";
+import { LexCoreConcurrentEngine, LawAnalysisTarget } from "@/components/LexCoreConcurrentEngine";
 import db from "@/data/grnh_forensic_database.json";
 import { ForensicDatabase, TraceableCertificate, NewSellerProfile, VisualTransferPattern } from "@/types";
 import {
@@ -48,6 +49,34 @@ export default function CertificateLineageStudio() {
   const [certViewMode, setCertViewMode] = useState<"flowchart" | "table">("flowchart");
   const [copiedPath, setCopiedPath] = useState<string | null>(null);
   const [copiedCitation, setCopiedCitation] = useState<string | null>(null);
+
+  const [lexCoreDrawerOpen, setLexCoreDrawerOpen] = useState(false);
+  const [lexCoreCustomTarget, setLexCoreCustomTarget] = useState<LawAnalysisTarget | null>(null);
+
+  const handleTriggerLexCore = (targetData: {
+    name: string;
+    shares: string | number;
+    category?: string;
+    statute?: string;
+    precedent?: string;
+    summary: string;
+    primaryFiles?: string[];
+    cert?: string;
+  }) => {
+    const target: LawAnalysisTarget = {
+      id: "target-" + String(Date.now()),
+      name: targetData.name,
+      category: targetData.category || "New Seller Conduit",
+      shares: typeof targetData.shares === "number" ? targetData.shares.toLocaleString() : String(targetData.shares),
+      statute: targetData.statute || "Exchange Act § 10(b) & Rule 10b-5 Scheme Liability",
+      precedent: targetData.precedent || "Lorenzo v. SEC, 139 S. Ct. 1094 (2019)",
+      summary: targetData.summary,
+      primaryFiles: targetData.primaryFiles || ["TA_Ledger_2017_2021.xlsx"],
+      cert: targetData.cert
+    };
+    setLexCoreCustomTarget(target);
+    setLexCoreDrawerOpen(true);
+  };
 
   const selectedGraphicCert = useMemo(() => {
     return traceableCertificates.find((c) => c.certNumber === selectedGraphicCertId) || traceableCertificates[0];
@@ -227,6 +256,26 @@ export default function CertificateLineageStudio() {
           </div>
 
           <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+            <button
+              id="btn-open-lexcore-drawer"
+              onClick={() => setLexCoreDrawerOpen(!lexCoreDrawerOpen)}
+              style={{
+                fontSize: "0.78rem",
+                padding: "8px 14px",
+                borderRadius: "6px",
+                background: "linear-gradient(135deg, #0284c7 0%, #0891b2 100%)",
+                border: "1px solid #38bdf8",
+                color: "#ffffff",
+                display: "flex",
+                alignItems: "center",
+                gap: "6px",
+                fontWeight: 700,
+                cursor: "pointer",
+                minHeight: "44px",
+              }}
+            >
+              <Scale size={14} /> LexCore Law Copilot
+            </button>
             <a
               href="/GRNH_Forensic_Securities_Litigation_Report.pdf"
               download="GRNH_Forensic_Securities_Litigation_Report.pdf"
@@ -1767,6 +1816,27 @@ export default function CertificateLineageStudio() {
           <a href="/api/grnh?lineageOnly=true" target="_blank" rel="noopener noreferrer" style={{ color: "#94a3b8", textDecoration: "none" }}>Lineage API</a>
         </div>
       </footer>
+      {/* LexCore Copilot Drawer */}
+      {lexCoreDrawerOpen && (
+        <div
+          id="lineage-lexcore-copilot-drawer"
+          style={{
+            position: "fixed",
+            top: 0,
+            right: 0,
+            width: "min(620px, 100vw)",
+            height: "100vh",
+            zIndex: 99999,
+            boxShadow: "-8px 0 32px rgba(0, 0, 0, 0.8)",
+          }}
+        >
+          <LexCoreConcurrentEngine
+            customTarget={lexCoreCustomTarget}
+            onClose={() => setLexCoreDrawerOpen(false)}
+            isDrawer={true}
+          />
+        </div>
+      )}
     </div>
   );
 }

@@ -2,9 +2,11 @@
 
 import React, { useState, useMemo } from "react";
 import Link from "next/link";
+import { LexCoreConcurrentEngine, LawAnalysisTarget } from "@/components/LexCoreConcurrentEngine";
 import db from "@/data/grnh_forensic_database.json";
 import { CertificateDossier, ForensicDatabase } from "@/types";
 import {
+  ExternalLink,
   ShieldAlert,
   AlertOctagon,
   FileWarning,
@@ -42,6 +44,37 @@ export default function ForensicDashboard() {
   const [selectedNonCompanyCategory, setSelectedNonCompanyCategory] = useState<string>("all");
   const [selectedWitness, setSelectedWitness] = useState<string>("John T. Root, Jr., Esq.");
   const [expandedNonCompanyId, setExpandedNonCompanyId] = useState<string | null>("NCS-01");
+
+  const [lexCoreMode, setLexCoreMode] = useState<"hidden" | "drawer" | "split">("hidden");
+  const [lexCoreCustomTarget, setLexCoreCustomTarget] = useState<LawAnalysisTarget | null>(null);
+
+  const handleTriggerLexCore = (targetData: {
+    name: string;
+    cert?: string;
+    shares: string | number;
+    recipient?: string;
+    statute?: string;
+    precedent?: string;
+    summary: string;
+    primaryFiles?: string[];
+    category?: string;
+  }) => {
+    const target: LawAnalysisTarget = {
+      id: "target-" + String(Date.now()),
+      name: targetData.name,
+      category: targetData.category || "Forensic Share Issuance",
+      shares: typeof targetData.shares === "number" ? targetData.shares.toLocaleString() : targetData.shares,
+      statute: targetData.statute || "Securities Act § 5(a)/(c) Strict Liability",
+      precedent: targetData.precedent || "SEC v. Ralston Purina Co., 346 U.S. 119",
+      summary: targetData.summary,
+      primaryFiles: targetData.primaryFiles || ["accounts/Gaines (IRA)/TD-2020/statements/TD_Ameritrade_Oct2020.pdf"],
+      cert: targetData.cert
+    };
+    setLexCoreCustomTarget(target);
+    if (lexCoreMode === "hidden") {
+      setLexCoreMode("drawer");
+    }
+  };
 
 
   const forensicDb = db as unknown as ForensicDatabase;
@@ -409,8 +442,117 @@ ${sourceFilesCatalog
         </div>
       </header>
 
-      {/* Main Container */}
-      <main style={{ flex: 1, padding: "24px 32px", maxWidth: "1600px", width: "100%", margin: "0 auto" }}>
+      {/* Persistent Concurrent Engine Status & Controls */}
+      <div
+        id="lexcore-concurrent-status-bar"
+        style={{
+          padding: "10px 32px",
+          background: "linear-gradient(90deg, rgba(8, 47, 73, 0.7) 0%, rgba(15, 23, 42, 0.9) 100%)",
+          borderBottom: "1px solid rgba(56, 189, 248, 0.25)",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          flexWrap: "wrap",
+          gap: "12px",
+          fontSize: "0.8rem",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+          <span
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "6px",
+              padding: "4px 10px",
+              borderRadius: "9999px",
+              background: "rgba(16, 185, 129, 0.15)",
+              border: "1px solid rgba(16, 185, 129, 0.4)",
+              color: "#34d399",
+              fontWeight: 700,
+              fontFamily: "var(--font-mono)",
+              fontSize: "0.72rem",
+            }}
+          >
+            <span style={{ width: "7px", height: "7px", borderRadius: "50%", background: "#34d399" }} className="animate-pulse" />
+            LEXCORE DATA & LAW ANALYZER: CONCURRENT ENGINE RUNNING
+          </span>
+          <span style={{ color: "#94a3b8", fontSize: "0.76rem" }}>
+            Operating concurrently with GRNH Forensics &bull; DeepSeek V4.1 Reasoning Active
+          </span>
+        </div>
+
+        <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+          <button
+            id="btn-toggle-split-view"
+            onClick={() => setLexCoreMode(lexCoreMode === "split" ? "hidden" : "split")}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "6px",
+              padding: "6px 14px",
+              borderRadius: "6px",
+              background: lexCoreMode === "split" ? "rgba(56, 189, 248, 0.25)" : "rgba(255, 255, 255, 0.06)",
+              border: lexCoreMode === "split" ? "1px solid #38bdf8" : "1px solid rgba(255, 255, 255, 0.12)",
+              color: lexCoreMode === "split" ? "#38bdf8" : "#cbd5e1",
+              fontSize: "0.76rem",
+              fontWeight: 600,
+              cursor: "pointer",
+              minHeight: "44px",
+            }}
+          >
+            <Scale size={14} />
+            {lexCoreMode === "split" ? "Exit Split View" : "Split Screen (50/50)"}
+          </button>
+          <button
+            id="btn-toggle-copilot-drawer"
+            onClick={() => setLexCoreMode(lexCoreMode === "drawer" ? "hidden" : "drawer")}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "6px",
+              padding: "6px 14px",
+              borderRadius: "6px",
+              background: lexCoreMode === "drawer" ? "rgba(56, 189, 248, 0.25)" : "rgba(255, 255, 255, 0.06)",
+              border: lexCoreMode === "drawer" ? "1px solid #38bdf8" : "1px solid rgba(255, 255, 255, 0.12)",
+              color: lexCoreMode === "drawer" ? "#38bdf8" : "#cbd5e1",
+              fontSize: "0.76rem",
+              fontWeight: 600,
+              cursor: "pointer",
+              minHeight: "44px",
+            }}
+          >
+            <FileText size={14} />
+            {lexCoreMode === "drawer" ? "Close Drawer" : "Copilot Drawer"}
+          </button>
+          <a
+            id="btn-lexcore-popout-sidecar"
+            href="https://lex-core-terminal-20261024.vercel.app/?companion=1"
+            target="_blank"
+            rel="noreferrer"
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "6px",
+              padding: "6px 14px",
+              borderRadius: "6px",
+              background: "rgba(255, 255, 255, 0.06)",
+              border: "1px solid rgba(255, 255, 255, 0.12)",
+              color: "#cbd5e1",
+              fontSize: "0.76rem",
+              fontWeight: 600,
+              textDecoration: "none",
+              minHeight: "44px",
+            }}
+          >
+            <ExternalLink size={14} /> Popout Sidecar ↗
+          </a>
+        </div>
+      </div>
+
+      {/* Main Container & Concurrent Split View */}
+      <div style={{ display: "flex", width: "100%", minHeight: "calc(100vh - 180px)", position: "relative" }}>
+        <div style={{ flex: 1, width: lexCoreMode === "split" ? "55%" : "100%", minWidth: 0, transition: "width 0.2s ease" }}>
+          <main style={{ flex: 1, padding: "24px 32px", maxWidth: lexCoreMode === "split" ? "100%" : "1600px", width: "100%", margin: "0 auto" }}>
         {/* Phase Timeline Stepper */}
         <section style={{ marginBottom: "24px" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
@@ -717,6 +859,7 @@ ${sourceFilesCatalog
                       <th>Legal Opinion Attached</th>
                       <th>Evidentiary Anomalies & Red Flags</th>
                       <th style={{ width: "150px" }}>Hard Drive Sources</th>
+                      <th style={{ width: "130px" }}>AI Law Analysis</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -827,6 +970,41 @@ ${sourceFilesCatalog
                             ))}
                           </div>
                         </td>
+
+                        <td>
+                          <button
+                            id={"btn-analyze-tx-" + String(tx.id)}
+                            onClick={() => handleTriggerLexCore({
+                              name: String(tx.to) + " (Cert " + String(tx.cert) + ")",
+                              cert: tx.cert,
+                              shares: tx.shares,
+                              category: "Transaction Lineage",
+                              statute: tx.opinion.includes("Root") ? "Securities Act § 17(a) & Common Law Fraud" : "Securities Act § 5(a)/(c) Strict Liability",
+                              precedent: tx.opinion.includes("Root") ? "SEC v. Ralston Purina Co., 346 U.S. 119" : "SEC v. CMKM Diamonds, Inc., 729 F.3d 1248",
+                              summary: "Transfer of " + String(tx.shares) + " shares from " + String(tx.from) + " to " + String(tx.to) + ". TA: " + String(tx.ta) + ". Opinion: " + String(tx.opinion) + ".",
+                              primaryFiles: tx.sources
+                            })}
+                            style={{
+                              display: "inline-flex",
+                              alignItems: "center",
+                              gap: "5px",
+                              padding: "6px 10px",
+                              borderRadius: "6px",
+                              background: "rgba(56, 189, 248, 0.12)",
+                              border: "1px solid rgba(56, 189, 248, 0.35)",
+                              color: "#38bdf8",
+                              fontSize: "0.72rem",
+                              fontWeight: 600,
+                              cursor: "pointer",
+                              whiteSpace: "nowrap",
+                              minHeight: "36px",
+                            }}
+                            title="Analyze statutory violations and case law with LexCore AI"
+                          >
+                            <Scale size={12} />
+                            Analyze Law
+                          </button>
+                        </td>
                       </tr>
                     ))}
                   </tbody>
@@ -900,10 +1078,39 @@ ${sourceFilesCatalog
                     </div>
                   </div>
 
-                  <div style={{ display: "flex", gap: "8px" }}>
+                  <div style={{ display: "flex", gap: "8px", alignItems: "center", flexWrap: "wrap" }}>
                     <span className="badge badge-purple">
                       Phase: {activeDossier.phase.replace("phase_", "Phase ").replace(/_/g, " ")}
                     </span>
+                    <button
+                      id="btn-analyze-dossier-lexcore"
+                      onClick={() => handleTriggerLexCore({
+                        name: String(activeDossier.currentHolder || "Dossier") + " (Cert " + String(activeDossier.certNumber) + ")",
+                        cert: activeDossier.certNumber,
+                        shares: activeDossier.totalShares,
+                        category: "Certificate Dossier",
+                        statute: "Securities Act § 5(a)/(c) Strict Liability & Rule 144 Disqualification",
+                        precedent: "SEC v. CMKM Diamonds, Inc., 729 F.3d 1248 (9th Cir. 2013)",
+                        summary: "Certificate " + String(activeDossier.certNumber) + " held by " + String(activeDossier.currentHolder) + " for " + String(activeDossier.totalShares) + " shares. Anomalies: " + activeDossier.anomalies.join("; ") + ".",
+                        primaryFiles: []
+                      })}
+                      style={{
+                        display: "inline-flex",
+                        alignItems: "center",
+                        gap: "6px",
+                        padding: "6px 12px",
+                        borderRadius: "6px",
+                        background: "linear-gradient(135deg, #0284c7 0%, #0891b2 100%)",
+                        color: "#ffffff",
+                        border: "1px solid #38bdf8",
+                        fontSize: "0.76rem",
+                        fontWeight: 700,
+                        cursor: "pointer",
+                        minHeight: "36px",
+                      }}
+                    >
+                      <Scale size={13} /> Analyze with LexCore AI
+                    </button>
                   </div>
                 </div>
 
@@ -1653,6 +1860,40 @@ ${sourceFilesCatalog
                                     </div>
                                   </div>
                                 </div>
+                                <div style={{ marginTop: "14px", paddingTop: "12px", borderTop: "1px solid rgba(255,255,255,0.06)", display: "flex", justifyContent: "flex-end" }}>
+                                  <button
+                                    id={"btn-analyze-tranche-" + String(t.id)}
+                                    onClick={(e) => {
+                                      e.stopPropagation();
+                                      handleTriggerLexCore({
+                                        name: String(t.recipient) + " (Cert " + String(t.cert) + ")",
+                                        cert: t.cert,
+                                        shares: t.shares,
+                                        category: t.mechanismCategory,
+                                        statute: t.statutoryViolations.join("; "),
+                                        precedent: "Lorenzo v. SEC, 139 S. Ct. 1094",
+                                        summary: t.forensicAutopsy,
+                                        primaryFiles: t.primaryEvidenceFiles
+                                      });
+                                    }}
+                                    style={{
+                                      display: "inline-flex",
+                                      alignItems: "center",
+                                      gap: "6px",
+                                      padding: "7px 14px",
+                                      borderRadius: "6px",
+                                      background: "linear-gradient(135deg, #0284c7 0%, #0891b2 100%)",
+                                      color: "#ffffff",
+                                      border: "1px solid #38bdf8",
+                                      fontSize: "0.76rem",
+                                      fontWeight: 700,
+                                      cursor: "pointer",
+                                      minHeight: "44px",
+                                    }}
+                                  >
+                                    <Scale size={13} /> Analyze Statutory Claim with LexCore AI (Concurrent)
+                                  </button>
+                                </div>
                               </td>
                             </tr>
                           )}
@@ -1796,6 +2037,83 @@ ${sourceFilesCatalog
         )}
 
       </main>
+        </div>
+
+        {lexCoreMode === "split" && (
+          <div
+            id="lexcore-split-pane"
+            style={{
+              width: "45%",
+              minWidth: "420px",
+              height: "calc(100vh - 120px)",
+              position: "sticky",
+              top: "120px",
+              padding: "16px",
+              overflowY: "auto",
+              borderLeft: "1px solid rgba(56, 189, 248, 0.25)",
+              background: "rgba(10, 15, 26, 0.95)",
+            }}
+          >
+            <LexCoreConcurrentEngine
+              customTarget={lexCoreCustomTarget}
+              onClose={() => setLexCoreMode("hidden")}
+            />
+          </div>
+        )}
+      </div>
+
+      {/* Floating Copilot Drawer */}
+      {lexCoreMode === "drawer" && (
+        <div
+          id="lexcore-copilot-drawer"
+          style={{
+            position: "fixed",
+            top: 0,
+            right: 0,
+            width: "min(620px, 100vw)",
+            height: "100vh",
+            zIndex: 99999,
+            boxShadow: "-8px 0 32px rgba(0, 0, 0, 0.8)",
+          }}
+        >
+          <LexCoreConcurrentEngine
+            customTarget={lexCoreCustomTarget}
+            onClose={() => setLexCoreMode("hidden")}
+            isDrawer={true}
+          />
+        </div>
+      )}
+
+      {/* Persistent Floating Quick-Access Trigger Button */}
+      {lexCoreMode === "hidden" && (
+        <button
+          id="floating-lexcore-copilot-trigger"
+          onClick={() => setLexCoreMode("drawer")}
+          style={{
+            position: "fixed",
+            bottom: "24px",
+            right: "24px",
+            zIndex: 9999,
+            display: "inline-flex",
+            alignItems: "center",
+            gap: "10px",
+            padding: "12px 20px",
+            borderRadius: "9999px",
+            background: "linear-gradient(135deg, #0284c7 0%, #0f172a 100%)",
+            color: "#ffffff",
+            border: "1px solid #38bdf8",
+            fontWeight: 700,
+            fontSize: "0.82rem",
+            boxShadow: "0 8px 30px rgba(2, 132, 199, 0.5)",
+            cursor: "pointer",
+            minHeight: "44px",
+          }}
+        >
+          <span style={{ width: "8px", height: "8px", borderRadius: "50%", background: "#34d399" }} className="animate-pulse" />
+          <Scale size={16} color="#38bdf8" />
+          <span>LexCore Law Analyzer (Concurrent Engine)</span>
+        </button>
+      )}
 
       {/* Footer */}
       <footer
