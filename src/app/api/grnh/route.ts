@@ -22,7 +22,7 @@ export async function GET(request: Request) {
   if (cert && cert !== "all") {
     filteredTxs = filteredTxs.filter((tx) => tx.cert.toLowerCase().includes(cert.toLowerCase()));
     filteredFiles = filteredFiles.filter((f) =>
-      f.linkedCertificates.some((c) => c.toLowerCase().includes(cert.toLowerCase())) ||
+      (f.linkedCertificates || []).some((c) => c.toLowerCase().includes(cert.toLowerCase())) ||
       f.filename.toLowerCase().includes(cert.toLowerCase())
     );
     filteredNonCompanyTranches = filteredNonCompanyTranches.filter((t) =>
@@ -50,7 +50,7 @@ export async function GET(request: Request) {
         f.filename.toLowerCase().includes(q) ||
         f.category.toLowerCase().includes(q) ||
         f.path.toLowerCase().includes(q) ||
-        f.linkedCertificates.some((c) => c.toLowerCase().includes(q))
+        (f.linkedCertificates || []).some((c) => c.toLowerCase().includes(q))
     );
 
     filteredNonCompanyTranches = filteredNonCompanyTranches.filter(

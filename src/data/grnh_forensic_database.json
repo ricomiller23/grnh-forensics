@@ -3,16 +3,16 @@
     "ticker": "GRNH",
     "companyName": "GreenGro Technologies, Inc.",
     "caseCaptions": [
-      "USA v. Gaines et al., Case No. 2:21-cr-00266 (D. Ariz.)",
+      "USA v. Gaines et al., Case No. 2:21-cr-00266 (C.D. Cal. / D. Ariz. Detainer)",
       "Cheryl Hintzen v. James M. Haas, Case No. CV2025-013574 (Ariz. Super. Ct., Maricopa Cnty.)",
       "GreenGro Technologies, Inc. v. Gaines et al., Case No. CV2020-015738 (Ariz. Super. Ct.)"
     ],
     "auditorDesk": "Forensic Securities Litigation & Stock Anomaly Audit Desk",
     "generatedAt": "2026-10-15T14:46:00Z",
-    "totalSharesTracked": 107361209,
-    "totalTransactions": 38,
-    "totalCertificates": 31,
-    "totalDiscoveredFiles": 562,
+    "totalSharesTracked": 163990000,
+    "totalTransactions": 51,
+    "totalCertificates": 35,
+    "totalDiscoveredFiles": 567,
     "anomaliesDetected": 50
   },
   "evidentiaryPhases": [
@@ -594,7 +594,7 @@
     {
       "id": "TX-16",
       "date": "2017-05-01",
-      "cert": "Advisory Tranche Delfin",
+      "cert": "CS1-8089",
       "shares": 6500000,
       "from": "GreenGro Technologies, Inc.",
       "to": "Mark Delfin (Consultant)",
@@ -608,7 +608,7 @@
         "Backdated by 4 years (Start date: Sept 9, 2013 on May 1, 2017 agreement)",
         "Designed to fabricate 1-year Rule 144 holding period"
       ],
-      "notes": "Agreement signed by James Haas as CEO promising 6.5M Rule 144 restricted shares for services backdated 4 years.",
+      "notes": "Issued pursuant to Mark Delfin consulting agreement backdated 44 months to Sept 9, 2013 (signed May 1, 2017). Later transferred to Cheryl Hintzen (CS1-7937).",
       "sources": [
         "CONSULTING AGREEMENT_Delfin_GRNH.docx",
         "FINAL CONSULTING AGREEMENT_Delfin_GRNH (4).docx"
@@ -617,7 +617,7 @@
     {
       "id": "TX-17",
       "date": "2017-05-01",
-      "cert": "Advisory Tranche Rubio",
+      "cert": "CS1-8090",
       "shares": 8500000,
       "from": "GreenGro Technologies, Inc.",
       "to": "Santiago Rubio (Consultant)",
@@ -631,7 +631,7 @@
         "Backdated start date to Oct 30, 2015",
         "Enormous 8.5M share block issued to individual consultant"
       ],
-      "notes": "Agreement signed by James Haas promising 8.5M Rule 144 restricted shares.",
+      "notes": "Issued pursuant to Santiago Rubio consulting agreement backdated 44 months to Sept 9, 2013 (signed May 1, 2017).",
       "sources": [
         "CONSULTING AGREEMENT_Rubio_GRNH.docx",
         "FINAL CONSULTING AGREEMENT_Rubio_GRNH.docx"
@@ -640,7 +640,7 @@
     {
       "id": "TX-18",
       "date": "2017-05-01",
-      "cert": "Advisory Tranche Phoenix",
+      "cert": "CS1-8088",
       "shares": 2000000,
       "from": "GreenGro Technologies, Inc.",
       "to": "Phoenix Theater (Arizona Corp)",
@@ -653,7 +653,7 @@
       "anomalies": [
         "Corporate conduit entity in Arizona receiving microcap stock"
       ],
-      "notes": "2,000,000 shares issued to Phoenix Theater.",
+      "notes": "Issued pursuant to Phoenix Group advisory agreement backdated 44 months to Sept 9, 2013 (signed May 1, 2017).",
       "sources": [
         "CONSULTING AGREEMENT_PHEONIX_GRNH.docx"
       ]
@@ -661,7 +661,7 @@
     {
       "id": "TX-19",
       "date": "2017-05-01",
-      "cert": "Advisory Tranche Hulbert",
+      "cert": "CS1-8091",
       "shares": 8500000,
       "from": "GreenGro Technologies, Inc.",
       "to": "Hulbert (Consultant)",
@@ -674,7 +674,7 @@
       "anomalies": [
         "8.5M shares issued with nominal advisory obligations"
       ],
-      "notes": "Agreement promising 8.5M shares to Hulbert.",
+      "notes": "Issued pursuant to Hulbert Ventures consulting agreement backdated 44 months to Sept 9, 2013 (signed May 1, 2017).",
       "sources": [
         "CONSULTING AGREEMENT_Hulbert_GRNH.docx",
         "FINAL FINAL CONSULTING AGREEMENT_Hulbert_GRNH.docx"
@@ -909,7 +909,7 @@
     {
       "id": "TX-30",
       "date": "2019-04-03",
-      "cert": "CS1-8158 & CS1-8160",
+      "cert": "CS1-8158 through CS1-8160",
       "shares": 5000000,
       "from": "GreenGro Technologies, Inc.",
       "to": "Paula Marie Poe",
@@ -977,7 +977,7 @@
     {
       "id": "TX-33",
       "date": "2019-04-08",
-      "cert": "CS1-8167",
+      "cert": "CS1-8161 through CS1-8165",
       "shares": 8500000,
       "from": "GreenGro Technologies, Inc.",
       "to": "Paula Marie Poe",
@@ -1045,7 +1045,7 @@
     {
       "id": "TX-36",
       "date": "2019-05-06",
-      "cert": "CS1-7978 & Reissuances",
+      "cert": "CS1-8172",
       "shares": 27000000,
       "from": "James Haas (CEO)",
       "to": "Ira Gaines (10M) & James Haas (17M)",
@@ -1059,7 +1059,7 @@
         "CEO splits 27M shares via informal email directive: 'Send 10M to Ira Gaines and 17M back to me'",
         "No Board resolution or SEC Form 4 filed"
       ],
-      "notes": "Documented in Haas Rule 26.1 Disclosure at page 4: Email from James Haas to Ruben Sanchez and Owen Naccarato instructing split of 27 million shares.",
+      "notes": "Documented in Haas Rule 26.1 Disclosure at page 4: Email from James Haas to Ruben Sanchez instructing split of 27 million share certificate CS1-8172 (10M to Gaines, 17M to Haas), exactly 14 days after Root opinion reissuance.",
       "sources": [
         "DEFENDANT_HAAS_RULE_26_1_SUPPLEMENTAL_DISCLOSURE_with_contact_info.pdf",
         "Fidelity Transfer Services GRNH wire inst.docx"
@@ -1111,73 +1111,992 @@
         "DEFENDANT_HAAS_RULE_26_1_SUPPLEMENTAL_DISCLOSURE_with_contact_info.pdf",
         "DEFENDANT HAAS\u2019 RULE 26.1 SUPPLEMENTAL DISCLOSURE(FILE).pdf"
       ]
+    },
+    {
+      "id": "TX-39",
+      "date": "2017-05-08",
+      "cert": "CS1-7937",
+      "shares": 6790000,
+      "from": "Casa de Dinero, LLC / Mark Delfin",
+      "to": "Cheryl Hintzen",
+      "type": "Purported Secondary SPA Purchase / Legend Removal",
+      "price": "$125,000.00",
+      "status": "Legend Removal Opinion by Stephen Mills, Esq.",
+      "ta": "FTS (Ruben Sanchez)",
+      "opinion": "Stephen Mills, Esq. (Opinion dated Jan 10, 2018)",
+      "phase": "phase_3_opinion_shopping",
+      "anomalies": [
+        "Chronological impossibility: SPA dated August 20, 2015 cites contract created May 1, 2017",
+        "Zero capital entered GreenGro corporate accounts ($0.00)",
+        "Subject of Maricopa County Superior Court action Hintzen v. Haas (CV2025-013574)"
+      ],
+      "notes": "Cheryl Hintzen acquired CS1-7937 purportedly from Mark Delfin. Mills authored legend removal opinion on Jan 10, 2018 reciting false August 2015 SPA date.",
+      "sources": [
+        "grnhhintzen7937.pdf",
+        "GRNH req for legal Cheryl 2.docx",
+        "CONSULTING AGREEMENT_Delfin_GRNH.docx"
+      ]
+    },
+    {
+      "id": "TX-40",
+      "date": "2017-03-28",
+      "cert": "CS1-7905",
+      "shares": 2500000,
+      "from": "Third Coast Partners LLC (Ronald Brouillette)",
+      "to": "Ira Gaines",
+      "type": "Promissory Note Loan Collateral Conversion",
+      "price": "$76,000.00 Loan Satisfaction",
+      "status": "Legend Removal Opinion by Stephen Mills, Esq.",
+      "ta": "FTS (Ruben Sanchez)",
+      "opinion": "Stephen Mills, Esq. (July 11, 2017)",
+      "phase": "phase_3_opinion_shopping",
+      "anomalies": [
+        "Private loan between third-party promoter and Gaines converted into unlegended shares for OTC market",
+        "Section 2(a)(11) Statutory Underwriter conduit status",
+        "Zero proceeds received by GreenGro Technologies, Inc."
+      ],
+      "notes": "Ira Gaines converted $76,000 private loan to Ronald Brouillette into 2,500,000 free-trading shares via Stephen Mills opinion.",
+      "sources": [
+        "gainesgrnh7905.pdf",
+        "GRNH req for legal 2.5 MM cert 7905 MILLS.pdf"
+      ]
+    },
+    {
+      "id": "TX-41",
+      "date": "2016-11-15",
+      "cert": "CS1-7800",
+      "shares": 1500000,
+      "from": "GreenGro Technologies, Inc.",
+      "to": "Ira Gaines Revocable Trust",
+      "type": "Private Placement Restricted Issuance",
+      "price": "Undisclosed",
+      "status": "Physical Certificate Issued",
+      "ta": "FTS (Ruben Sanchez)",
+      "opinion": "Initial Issuance (Rule 144 Restricted)",
+      "phase": "phase_1_legal_nominal",
+      "anomalies": [
+        "Affiliate issuance without SEC Form 4 disclosure",
+        "Deposited to Merrill Lynch / Cede & Co."
+      ],
+      "notes": "Restricted stock certificate issued directly to Ira Gaines Revocable Trust.",
+      "sources": [
+        "grnhgaines7800.pdf"
+      ]
+    },
+    {
+      "id": "TX-42",
+      "date": "2016-11-02",
+      "cert": "CS1-7768",
+      "shares": 1000000,
+      "from": "GreenGro Technologies, Inc.",
+      "to": "Arthur N. Queler / Motivated Minds Network",
+      "type": "New Seller Advisory Placement",
+      "price": "Advisory Consideration",
+      "status": "Brokerage Deposit at SagePoint Financial",
+      "ta": "FTS (Ruben Sanchez)",
+      "opinion": "Initial Issuance (Rule 144 Restricted)",
+      "phase": "phase_1_legal_nominal",
+      "anomalies": [
+        "Cleared through SagePoint Financial without SEC registration",
+        "Conduit vehicle for promoter stock distribution"
+      ],
+      "notes": "Certificate CS1-7768 issued to Arthur N. Queler / Motivated Minds Network, subsequently cleared at SagePoint Financial.",
+      "sources": [
+        "GRNH 7768 Queler Sagepoint.pdf"
+      ]
+    },
+    {
+      "id": "TX-43",
+      "date": "2017-02-14",
+      "cert": "CS1-7881",
+      "shares": 1000000,
+      "from": "Ira Gaines (Affiliate Transferor)",
+      "to": "Joshua Hintzen",
+      "type": "Familial Nominee Conduit Transfer",
+      "price": "$0.00 / Gift / Nominee",
+      "status": "Transfer Agent Processing",
+      "ta": "FTS (Ruben Sanchez)",
+      "opinion": "FTS Transfer Agent Directive",
+      "phase": "phase_2_nominee_funneling",
+      "anomalies": [
+        "Affiliate transfer to familial conduit without Rule 144 notice",
+        "Precursor to 10-certificate series split (CS1-7960 through 7969)"
+      ],
+      "notes": "1,000,000 shares transferred from Gaines affiliate holdings to Joshua Hintzen.",
+      "sources": [
+        "GRNH req for legal josh 1 MM cert 7881.pdf"
+      ]
+    },
+    {
+      "id": "TX-44",
+      "date": "2017-05-01",
+      "cert": "CS1-8087",
+      "shares": 3500000,
+      "from": "GreenGro Technologies, Inc.",
+      "to": "Justin Haas (Son of CEO James Haas)",
+      "type": "Affiliate Insider Family Issuance",
+      "price": "$0.00 / Compensation",
+      "status": "Restricted Stock Issued",
+      "ta": "FTS (Ruben Sanchez)",
+      "opinion": "Section 4(a)(1) Exemption Recited",
+      "phase": "phase_3_opinion_shopping",
+      "anomalies": [
+        "Affiliate self-dealing: CEO James Haas funnels 3.5M shares to immediate family member",
+        "Amalgamated with Gaines Cert 7750 into CS1-8166 (5.5M shs) to Canadian straw Paula Marie Poe"
+      ],
+      "notes": "Certificate CS1-8087 issued to Justin Haas, son of CEO James Haas. Washed into Canadian straw nominee Paula Marie Poe in April 2019.",
+      "sources": [
+        "GRNH 8087 Justin Haas.pdf",
+        "GRNH 8166 5.5MM.pdf"
+      ]
+    },
+    {
+      "id": "TX-45",
+      "date": "2019-04-12",
+      "cert": "CS1-8169",
+      "shares": 5500000,
+      "from": "Casa de Dinero / Nominee Pool",
+      "to": "Paula Marie Poe (Canadian Straw)",
+      "type": "Foreign Straw Nominee Reissuance",
+      "price": "$0.00",
+      "status": "Transfer Agent Directive",
+      "ta": "FTS (Ruben Sanchez)",
+      "opinion": "FTS Processing Instruction",
+      "phase": "phase_4_illegal_dump",
+      "anomalies": [
+        "Foreign straw nominee used to obscure affiliate control and beneficial ownership",
+        "Part of April 2019 45M+ share book-entry liquidation batch"
+      ],
+      "notes": "Certificate CS1-8169 issued to Canadian straw nominee Paula Marie Poe via Ruben Sanchez directive.",
+      "sources": [
+        "GRNH 8169 5.5MM.pdf"
+      ]
+    },
+    {
+      "id": "TX-46",
+      "date": "2019-04-12",
+      "cert": "CS1-8171",
+      "shares": 1000000,
+      "from": "Casa de Dinero / Nominee Pool",
+      "to": "Paula Marie Poe (Canadian Straw)",
+      "type": "Foreign Straw Nominee Reissuance",
+      "price": "$0.00",
+      "status": "Transfer Agent Directive",
+      "ta": "FTS (Ruben Sanchez)",
+      "opinion": "FTS Processing Instruction",
+      "phase": "phase_4_illegal_dump",
+      "anomalies": [
+        "Foreign straw nominee used to obscure affiliate control",
+        "Issued in tandem with CS1-8169 and CS1-8172"
+      ],
+      "notes": "1,000,000 share certificate CS1-8171 issued to Canadian straw nominee Paula Marie Poe.",
+      "sources": [
+        "GRNH 8171 1MM.pdf"
+      ]
+    },
+    {
+      "id": "TX-47",
+      "date": "2019-04-12",
+      "cert": "CS1-8173",
+      "shares": 950000,
+      "from": "Ronald Brouillette ('Ron')",
+      "to": "Paula Marie Poe (Canadian Straw)",
+      "type": "Promoter Book-Entry Nominee Reissuance",
+      "price": "$0.00",
+      "status": "Transfer Agent Directive",
+      "ta": "FTS (Ruben Sanchez)",
+      "opinion": "FTS Processing Instruction",
+      "phase": "phase_4_illegal_dump",
+      "anomalies": [
+        "Book-entry transfer from promoter Ronald Brouillette to Canadian nominee",
+        "Processed concurrently with 10M break-out from CS1-8172"
+      ],
+      "notes": "Certificate CS1-8173 (950,000 shares) issued to Paula Marie Poe from Ronald Brouillette holdings.",
+      "sources": [
+        "GRNH 8172 10MM and 8173 950k.pdf"
+      ]
+    },
+    {
+      "id": "TX-48",
+      "date": "2016-04-15",
+      "cert": "CS1-7549",
+      "shares": 7000000,
+      "from": "GreenGro Technologies, Inc.",
+      "to": "Dignitas Consulting LLC (Ronald Brouillette)",
+      "type": "Promoter Consulting Private Placement",
+      "price": "Services Consideration",
+      "status": "Physical Certificate Issued",
+      "ta": "FTS (Ruben Sanchez)",
+      "opinion": "Section 4(a)(1) Exemption Recited",
+      "phase": "phase_1_legal_nominal",
+      "anomalies": [
+        "Conduit entity used by promoter Ronald Brouillette to channel shares to Gaines",
+        "Formed basis of subsequent transfers to Canadian nominee pool"
+      ],
+      "notes": "Certificate CS1-7549 issued to Dignitas Consulting LLC (Ronald Brouillette).",
+      "sources": [
+        "dignitas_agreement.pdf"
+      ]
+    },
+    {
+      "id": "TX-49",
+      "date": "2016-05-10",
+      "cert": "CS1-7568",
+      "shares": 1000000,
+      "from": "GreenGro Technologies, Inc.",
+      "to": "Ira Gaines (Affiliate Transferor)",
+      "type": "Affiliate Nominal Placement",
+      "price": "$0.00 / Debt Satisfaction",
+      "status": "Physical Certificate Issued",
+      "ta": "FTS (Ruben Sanchez)",
+      "opinion": "Initial Issuance (Rule 144 Restricted)",
+      "phase": "phase_1_legal_nominal",
+      "anomalies": [
+        "Early affiliate stock acquisition unhedged by cash proceeds",
+        "Precursor to 2016-2017 public dilution cascade"
+      ],
+      "notes": "Certificate CS1-7568 issued to Ira Gaines.",
+      "sources": [
+        "gaines_cert_7568.pdf"
+      ]
+    },
+    {
+      "id": "TX-50",
+      "date": "2016-06-20",
+      "cert": "CS1-7596",
+      "shares": 250000,
+      "from": "GreenGro Technologies, Inc.",
+      "to": "Paradise Wire & Cable, Inc.",
+      "type": "Commercial Vendor Settlement",
+      "price": "Vendor Debt Settlement",
+      "status": "Physical Certificate Issued",
+      "ta": "FTS (Ruben Sanchez)",
+      "opinion": "Commercial Settlement Exemption",
+      "phase": "phase_1_legal_nominal",
+      "anomalies": [
+        "Promoter compensation routed through commercial vendor account",
+        "Later liquidated through Pershing LLC"
+      ],
+      "notes": "Certificate CS1-7596 issued to Paradise Wire & Cable, Inc.",
+      "sources": [
+        "paradise_wire_settlement.pdf"
+      ]
+    },
+    {
+      "id": "TX-51",
+      "date": "2016-07-25",
+      "cert": "CS1-7628",
+      "shares": 1000000,
+      "from": "GreenGro Technologies, Inc.",
+      "to": "Ira Gaines",
+      "type": "Restricted Stock Issuance",
+      "price": "Undisclosed",
+      "status": "Physical Certificate Issued",
+      "ta": "FTS (Ruben Sanchez)",
+      "opinion": "Initial Issuance (Rule 144 Restricted)",
+      "phase": "phase_1_legal_nominal",
+      "anomalies": [
+        "Nominal compensation tranche prior to public dump",
+        "No SEC registration statement filed"
+      ],
+      "notes": "Certificate CS1-7628 issued to Ira Gaines.",
+      "sources": [
+        "gaines_cert_7628.pdf"
+      ]
     }
   ],
   "certificates": {
-    "Multiple Initial": {
-      "certNumber": "Multiple Initial",
+    "CS1-8002": {
+      "certNumber": "CS1-8002",
+      "totalShares": 4000000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2016-03-31",
+          "shares": 4000000,
+          "from": "Issuer",
+          "to": "Big Thunder, LLC (Purported)",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Private placement transaction claimed on legal request"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2017-08-30",
+          "shares": 4000000,
+          "from": "Ira Gaines",
+          "to": "Big Thunder, LLC",
+          "price": "$0.00 / Consideration",
+          "notes": "[Brokerage Deposit] LLC formed; Ira Gaines initially listed on page 14 of operating agreement, changed to Tom McCluskey upon broker warning"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2017-12-01",
+          "shares": 4000000,
+          "from": "Big Thunder, LLC",
+          "to": "Stephen Mills",
+          "price": "$0.00 / Consideration",
+          "notes": "[Legal Opinion Whitewash] Tom McClusky signs request for Section 4(a)(1) legal opinion representing 12-month holding"
+        },
+        {
+          "txId": "HOP-4",
+          "date": "2017-12-05",
+          "shares": 4000000,
+          "from": "Big Thunder, LLC",
+          "to": "Forest Securities (David Adams)",
+          "price": "$0.00 / Consideration",
+          "notes": "[Brokerage Deposit] Deposited into brokerage account; broker alerts group to shovel related shares"
+        },
+        {
+          "txId": "HOP-5",
+          "date": "2018-01-15",
+          "shares": 4000000,
+          "from": "Forest Securities",
+          "to": "Alpine Clearing / OTC Market",
+          "price": "$0.00 / Consideration",
+          "notes": "[Retail OTC Liquidation] Liquidated in broker transactions directed to retail market"
+        }
+      ],
+      "legalOpinions": [
+        "Stephen Mills, Esq. (Request dated Dec 1, 2017)"
+      ],
+      "anomalies": [
+        "Big Thunder, LLC was organized on 8/30/2017, making March 31, 2016 purchase date impossible",
+        "Ira Gaines named as initial manager on operating agreement page 14, substituted with Tom McCluskey",
+        "Formed to circumvent Wilson-Davis & Pershing account closures",
+        "Directly sourced from Casa de Dinero / Ruben Sanchez (rsanchez.fts@gmail.com) with $0.00 proceeds to corporate treasury"
+      ],
+      "currentHolder": "Big Thunder, LLC",
+      "phase": "phase_2_nominee_funneling"
+    },
+    "CS1-7910": {
+      "certNumber": "CS1-7910",
       "totalShares": 2000000,
       "issuances": [
         {
-          "txId": "TX-01",
-          "date": "2016-10-14",
+          "txId": "HOP-1",
+          "date": "2015-05-27",
           "shares": 2000000,
           "from": "GreenGro Technologies, Inc.",
+          "to": "Dignitas Consulting LLC",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Awarded 3,000,000 restricted shares under consulting agreement"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2017-04-03",
+          "shares": 2000000,
+          "from": "Dignitas Consulting LLC",
           "to": "Ira Gaines",
-          "price": "$20,000.00 ($0.01/share)",
-          "notes": "SPA signed by James Haas as CEO. Initial discounted placement under Rule 144."
+          "price": "$0.00 / Consideration",
+          "notes": "[Secondary SPA Purchase] Secondary Stock Purchase Agreement: Gaines buys 2,000,000 shares for $25,000.00 ($0.0125/sh)"
         }
       ],
-      "transfers": [],
-      "legalOpinions": [],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2017-04-06",
+          "shares": 2000000,
+          "from": "Fidelity Transfer Services",
+          "to": "Ira Gaines",
+          "price": "$0.00 / Consideration",
+          "notes": "[Brokerage Deposit] Certificate CS1-7910 issued, noted in ledger as \"sending to ALPINE\""
+        },
+        {
+          "txId": "HOP-4",
+          "date": "2017-07-11",
+          "shares": 2000000,
+          "from": "Stephen Mills, Esq.",
+          "to": "Fidelity Transfer Services",
+          "price": "$0.00 / Consideration",
+          "notes": "[Legal Opinion Whitewash] Section 4(a)(1) opinion issued opining shares freely tradable"
+        },
+        {
+          "txId": "HOP-5",
+          "date": "2017-07-20",
+          "shares": 2000000,
+          "from": "Ira Gaines",
+          "to": "Alpine Securities",
+          "price": "$0.00 / Consideration",
+          "notes": "[Retail OTC Liquidation] Deposited for open market retail sale"
+        }
+      ],
+      "legalOpinions": [
+        "Stephen Mills, Esq. (Opinion dated July 11, 2017)"
+      ],
       "anomalies": [
-        "Dual SPA executed on same date with differing pricing"
+        "Zero dollars paid to GreenGro corporate treasury; $25,000 paid to Dignitas intermediary",
+        "Tacking back to May 2015 consulting contract to bypass Rule 144(d)(1)",
+        "Gaines concealed beneficial affiliate control over Dignitas vehicle"
       ],
       "currentHolder": "Ira Gaines",
+      "phase": "phase_3_opinion_shopping"
+    },
+    "CS1-7905": {
+      "certNumber": "CS1-7905",
+      "totalShares": 2500000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2016-10-07",
+          "shares": 2500000,
+          "from": "Ronald Brouillette / Third Coast Partners LLC",
+          "to": "Ira Gaines",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Secured Promissory Note: Gaines loans $76,000.00 to Brouillette, collateralized by 2.5M shares"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2017-03-31",
+          "shares": 2500000,
+          "from": "Third Coast Partners LLC",
+          "to": "Ira Gaines",
+          "price": "$0.00 / Consideration",
+          "notes": "[Conduit Hop / Split] Note default/satisfaction: 2,500,000 shares transferred to Gaines in lieu of repayment"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2017-07-11",
+          "shares": 2500000,
+          "from": "Stephen Mills, Esq.",
+          "to": "Fidelity Transfer Services",
+          "price": "$0.00 / Consideration",
+          "notes": "[Legal Opinion Whitewash] Section 4(a)(1) legal opinion issued to remove restrictive legend"
+        },
+        {
+          "txId": "HOP-4",
+          "date": "2017-07-15",
+          "shares": 2500000,
+          "from": "Fidelity Transfer Services",
+          "to": "Ira Gaines",
+          "price": "$0.00 / Consideration",
+          "notes": "[Brokerage Deposit] Unlegended certificate released to Ruben Sanchez for broker delivery"
+        },
+        {
+          "txId": "HOP-5",
+          "date": "2017-08-01",
+          "shares": 2500000,
+          "from": "Ira Gaines",
+          "to": "Brokerage Accounts",
+          "price": "$0.00 / Consideration",
+          "notes": "[Retail OTC Liquidation] Liquidated into retail market"
+        }
+      ],
+      "legalOpinions": [
+        "Stephen Mills, Esq. (Opinion dated July 11, 2017)"
+      ],
+      "anomalies": [
+        "Private third-party debt collateral converted into unlegended stock",
+        "Section 2(a)(11) Statutory Underwriter conduit status",
+        "Zero capital infused into GreenGro operations"
+      ],
+      "currentHolder": "Ira Gaines",
+      "phase": "phase_3_opinion_shopping"
+    },
+    "CS1-7768": {
+      "certNumber": "CS1-7768",
+      "totalShares": 1000000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2016-10-25",
+          "shares": 1000000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Arthur N. Queler",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Stock Purchase Agreement for 1,000,000 restricted shares"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2016-11-16",
+          "shares": 1000000,
+          "from": "Fidelity Transfer Services",
+          "to": "Arthur N. Queler",
+          "price": "$0.00 / Consideration",
+          "notes": "[Courier / Physical Transit] Certificate FedExed to Queler"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2017-12-06",
+          "shares": 1000000,
+          "from": "Motivated Minds Network",
+          "to": "SagePoint Financial",
+          "price": "$0.00 / Consideration",
+          "notes": "[Brokerage Deposit] Account opening and promissory note routing via SagePoint Motivated Minds"
+        },
+        {
+          "txId": "HOP-4",
+          "date": "2018-10-25",
+          "shares": 1000000,
+          "from": "Arthur N. Queler",
+          "to": "Stephen Mills",
+          "price": "$0.00 / Consideration",
+          "notes": "[Legal Opinion Whitewash] Request for legal opinion; claims SPA was dated Oct 25, 2018 yet simultaneously claims 1-year holding"
+        },
+        {
+          "txId": "HOP-5",
+          "date": "2018-11-05",
+          "shares": 1000000,
+          "from": "SagePoint Financial",
+          "to": "OTC Market",
+          "price": "$0.00 / Consideration",
+          "notes": "[Retail OTC Liquidation] 1MM shares cleared and deposited for retail sale"
+        }
+      ],
+      "legalOpinions": [
+        "Stephen Mills, Esq. (Request dated Oct 25, 2018)"
+      ],
+      "anomalies": [
+        "Exact date contradiction on face of legal request (SPA dated Oct 25, 2018 while claiming held for 1 year)",
+        "Connected to SagePoint Motivated Minds distribution pipeline",
+        "Commercial compensation accounts (Wells-Motivated Minds, Bankers-Motivated Minds)"
+      ],
+      "currentHolder": "Arthur N. Queler",
       "phase": "phase_1_legal_nominal"
+    },
+    "CS1-7937": {
+      "certNumber": "CS1-7937",
+      "totalShares": 6790000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2017-05-01",
+          "shares": 6790000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Mark Delfin",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Consulting Agreement executed May 1, 2017, explicitly backdated 44 months to Sept 9, 2013"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2015-08-20",
+          "shares": 6790000,
+          "from": "Mark Delfin",
+          "to": "Cheryl Hintzen",
+          "price": "$0.00 / Consideration",
+          "notes": "[Secondary SPA Purchase] Purported Stock Purchase Agreement: Hintzen buys 6,790,000 shares from Delfin for $125,000 (pre-dates contract creation)"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2018-01-09",
+          "shares": 6790000,
+          "from": "Cheryl Hintzen",
+          "to": "Stephen Mills, Esq.",
+          "price": "$0.00 / Consideration",
+          "notes": "[Legal Opinion Whitewash] Request for Section 4(a)(1) legal opinion representing non-affiliate status"
+        },
+        {
+          "txId": "HOP-4",
+          "date": "2018-01-10",
+          "shares": 6790000,
+          "from": "Stephen Mills, Esq.",
+          "to": "Fidelity Transfer Services",
+          "price": "$0.00 / Consideration",
+          "notes": "[Legal Opinion Whitewash] Opinion letter issued certifying shares freely tradable"
+        },
+        {
+          "txId": "HOP-5",
+          "date": "2025-01-15",
+          "shares": 6790000,
+          "from": "Cheryl Hintzen",
+          "to": "James Haas",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Files lawsuit in Maricopa County Superior Court (CV2025-013574) seeking $1.8M damages for refusal to lift legend"
+        }
+      ],
+      "legalOpinions": [
+        "Stephen Mills, Esq. (Opinion dated Jan 10, 2018)"
+      ],
+      "anomalies": [
+        "Chronological impossibility: SPA dated August 20, 2015 derives from an agreement created May 1, 2017",
+        "In Pari Delicto / Unclean Hands affirmative defense for defense counsel",
+        "Zero capital infused into GreenGro treasury",
+        "Directly sourced from Casa de Dinero / Ruben Sanchez (rsanchez.fts@gmail.com) with $0.00 proceeds to corporate treasury"
+      ],
+      "currentHolder": "Cheryl Hintzen (Subject: Subject of Active Lawsuit: Hintzen v. Haas (CV2025-013574))",
+      "phase": "phase_3_opinion_shopping"
+    },
+    "CS1-7835": {
+      "certNumber": "CS1-7835",
+      "totalShares": 3000000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2017-01-04",
+          "shares": 3000000,
+          "from": "Ronald Brouillette (\"Ron\")",
+          "to": "Ira Gaines",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Certificate CS1-7835 issued for 3,000,000 shares, noted in portfolio list as \"BOT FROM RON\""
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2017-01-10",
+          "shares": 3000000,
+          "from": "Fidelity Transfer Services",
+          "to": "Ira Gaines",
+          "price": "$0.00 / Consideration",
+          "notes": "[Courier / Physical Transit] Restricted certificate delivered"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2019-03-27",
+          "shares": 3000000,
+          "from": "Ira Gaines",
+          "to": "Paula Marie Poe",
+          "price": "$0.00 / Consideration",
+          "notes": "[Split & Certificate Re-issuance] Letter of Instruction to cancel Cert 7835 and reissue to Paula Marie Poe"
+        },
+        {
+          "txId": "HOP-4",
+          "date": "2019-04-12",
+          "shares": 3000000,
+          "from": "Fidelity Transfer Services",
+          "to": "BMO InvestorLine",
+          "price": "$0.00 / Consideration",
+          "notes": "[Courier / Physical Transit] Overnighted via FedEx to BMO InvestorLine account 23013702-15 in Toronto"
+        },
+        {
+          "txId": "HOP-5",
+          "date": "2019-04-20",
+          "shares": 3000000,
+          "from": "Paula Marie Poe",
+          "to": "OTC Retail Market",
+          "price": "$0.00 / Consideration",
+          "notes": "[Retail OTC Liquidation] Liquidated into public float"
+        }
+      ],
+      "legalOpinions": [
+        "Fidelity Transfer Services Instruction"
+      ],
+      "anomalies": [
+        "Direct documentary record: \"BOT FROM RON\" proves secondary promoter purchase",
+        "Promoter paper washed through transfer agent into offshore Canadian nominee",
+        "Zero registration statement or bona fide holding period compliance"
+      ],
+      "currentHolder": "Ira Gaines (Transferred to Canadian Nominee Paula Marie Poe)",
+      "phase": "phase_1_legal_nominal"
+    },
+    "CS1-7978": {
+      "certNumber": "CS1-7978",
+      "totalShares": 10000000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2019-04-10",
+          "shares": 10000000,
+          "from": "James Haas (CEO)",
+          "to": "Ira Gaines",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Private Stock Purchase Agreement: Haas sells 10,000,000 shares to Gaines for $70,000 ($0.007/share)"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2019-04-10",
+          "shares": 10000000,
+          "from": "Ira Gaines",
+          "to": "James Haas Personal Account",
+          "price": "$0.00 / Consideration",
+          "notes": "[Financial Consideration / Loan] $70k cash paid directly to Haas, zero funds entering GreenGro treasury"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2019-04-12",
+          "shares": 10000000,
+          "from": "Fidelity Transfer Services",
+          "to": "Cert CS1-8172",
+          "price": "$0.00 / Consideration",
+          "notes": "[Split & Certificate Re-issuance] Certificate 7978 re-titled into CS1-8172 for 10M shares in name of Paula Marie Poe"
+        },
+        {
+          "txId": "HOP-4",
+          "date": "2019-04-15",
+          "shares": 10000000,
+          "from": "Fidelity Transfer Services",
+          "to": "BMO InvestorLine",
+          "price": "$0.00 / Consideration",
+          "notes": "[Brokerage Deposit] Physical certificate shipped to Toronto brokerage for Canadian deposit"
+        },
+        {
+          "txId": "HOP-5",
+          "date": "2019-04-25",
+          "shares": 10000000,
+          "from": "Paula Marie Poe",
+          "to": "OTC Market",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Sold at retail prices, generating over 10x return on the $0.007 purchase price"
+        }
+      ],
+      "legalOpinions": [
+        "In-House / John T. Root, Jr. Framework"
+      ],
+      "anomalies": [
+        "CEO sold 10M shares at 90% discount to prevailing market price while company was actively promoting stock",
+        "Affiliate sale without registration under Section 5",
+        "Proceeds went directly to CEO Haas personally"
+      ],
+      "currentHolder": "Ira Gaines",
+      "phase": "phase_2_nominee_funneling"
+    },
+    "CS1-8172": {
+      "certNumber": "CS1-8172",
+      "totalShares": 27000000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2009-08-01",
+          "shares": 27000000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "James Haas",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Employment Agreement back-salary accrual claimed by Haas"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2017-09-30",
+          "shares": 27000000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "James Haas",
+          "price": "$0.00 / Consideration",
+          "notes": "[Litigation Settlement Transfer] Settlement Agreement & Mutual Release: Haas issued 27,500,000 shares for release of debt"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2019-01-22",
+          "shares": 27000000,
+          "from": "James Haas",
+          "to": "E.F. Romano III",
+          "price": "$0.00 / Consideration",
+          "notes": "[Financial Consideration / Loan] Assigned as collateral for purported $200,000 loan to issuer"
+        },
+        {
+          "txId": "HOP-4",
+          "date": "2019-04-22",
+          "shares": 27000000,
+          "from": "John T. Root, Jr., Esq.",
+          "to": "Fidelity Transfer Services",
+          "price": "$0.00 / Consideration",
+          "notes": "[Legal Opinion Whitewash] Re-issues opinion asserting 27M is \"<1% of outstanding\" (actual: 5.74%)"
+        },
+        {
+          "txId": "HOP-5",
+          "date": "2019-05-06",
+          "shares": 27000000,
+          "from": "James Haas",
+          "to": "Ruben Sanchez",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Haas instructs: \"Send 10 million to Ira Gaines and 17 million back to me\""
+        }
+      ],
+      "legalOpinions": [
+        "John T. Root, Jr., Esq. (Jan 22, 2019 / Apr 22, 2019)"
+      ],
+      "anomalies": [
+        "Mathematical fraud: Root represented 27M was <1% of 470M float (actual: 5.74%)",
+        "Affiliate tacking violation: Rule 144(d)(1) forbids tacking Haas's 2009 employment period",
+        "May 6, 2019 kickback order proves loan was a fraudulent pretext"
+      ],
+      "currentHolder": "E.F. Romano III (Nominee Creditor)",
+      "phase": "phase_4_illegal_dump"
+    },
+    "CS1-8166": {
+      "certNumber": "CS1-8166",
+      "totalShares": 5500000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2016-10-19",
+          "shares": 5500000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "IRA J. Gaines Revocable Trust",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] 2,000,000 restricted shares issued via Cert CS1-7750"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2017-06-15",
+          "shares": 5500000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Justin Haas",
+          "price": "$0.00 / Consideration",
+          "notes": "[Conduit Hop / Split] 3,500,000 restricted shares issued via Cert CS1-8087"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2019-04-08",
+          "shares": 5500000,
+          "from": "Fidelity Transfer Services",
+          "to": "Paula Marie Poe",
+          "price": "$0.00 / Consideration",
+          "notes": "[Split & Certificate Re-issuance] Certificates 7750 and 8087 cancelled and merged into Cert CS1-8166 (5.5M shares)"
+        },
+        {
+          "txId": "HOP-4",
+          "date": "2019-04-12",
+          "shares": 5500000,
+          "from": "Ruben Sanchez",
+          "to": "Carter / BMO",
+          "price": "$0.00 / Consideration",
+          "notes": "[Courier / Physical Transit] Noted in ledger as \"sent to carter, yes\""
+        },
+        {
+          "txId": "HOP-5",
+          "date": "2019-04-20",
+          "shares": 5500000,
+          "from": "Paula Marie Poe",
+          "to": "Public Float",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Deposited in Canadian account and sold to retail investors"
+        }
+      ],
+      "legalOpinions": [
+        "Fidelity Transfer Services Processing"
+      ],
+      "anomalies": [
+        "Explicit spreadsheet ledger note: \"From 8087 Justin 3.5MM and 7750 IGRT 2MM\"",
+        "Direct pooling of affiliate trust stock and CEO son stock into foreign straw",
+        "Zero registration statement filed"
+      ],
+      "currentHolder": "Paula Marie Poe",
+      "phase": "phase_4_illegal_dump"
     },
     "CS1-7750": {
       "certNumber": "CS1-7750",
       "totalShares": 2000000,
       "issuances": [
         {
-          "txId": "TX-02",
+          "txId": "HOP-1",
           "date": "2016-10-19",
           "shares": 2000000,
           "from": "GreenGro Technologies, Inc.",
           "to": "IRA J. Gaines Revocable Trust",
-          "price": "$80,000.00 ($0.04/share)",
-          "notes": "Payment documented via Morgan Stanley check on 10/20/2016. Certificate CS1-7750 issued."
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Stock Purchase Agreement: 2,000,000 shares for $80,000 ($0.04/sh)"
         },
         {
-          "txId": "TX-03",
+          "txId": "HOP-2",
           "date": "2016-10-21",
           "shares": 2000000,
-          "from": "GreenGro Technologies, Inc.",
+          "from": "Fidelity Transfer Services",
           "to": "IRA J. Gaines Revocable Trust",
-          "price": "$80,000.00 ($0.04/share)",
-          "notes": "Certificate CS1-7750 physically issued pursuant to the 10/19/2016 SPA."
-        },
-        {
-          "txId": "TX-22",
-          "date": "2017-12-06",
-          "shares": 2000000,
-          "from": "IRA J. Gaines Revocable Trust",
-          "to": "IRA J. Gaines Revocable Trust (Free-Trading)",
-          "price": "N/A",
-          "notes": "Attorney Stephen Mills authored Section 4(a)(1) opinion letter directing Fidelity Transfer Services to remove restrictive legend."
+          "price": "$0.00 / Consideration",
+          "notes": "[Conduit Hop / Split] Certificate CS1-7750 issued restricted"
         }
       ],
-      "transfers": [],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2017-12-06",
+          "shares": 2000000,
+          "from": "Stephen Mills, Esq.",
+          "to": "Fidelity Transfer Services",
+          "price": "$0.00 / Consideration",
+          "notes": "[Legal Opinion Whitewash] Section 4(a)(1) opinion issued to remove legend, claiming Gaines Trust was non-affiliate"
+        },
+        {
+          "txId": "HOP-4",
+          "date": "2018-02-23",
+          "shares": 2000000,
+          "from": "IRA J. Gaines Revocable Trust",
+          "to": "Alpine Securities",
+          "price": "$0.00 / Consideration",
+          "notes": "[Brokerage Deposit] Deposit package submitted for clearance"
+        },
+        {
+          "txId": "HOP-5",
+          "date": "2019-04-08",
+          "shares": 2000000,
+          "from": "Fidelity Transfer Services",
+          "to": "Paula Marie Poe",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Cancelled and amalgamated into Cert CS1-8166 (5.5M shares)"
+        }
+      ],
       "legalOpinions": [
-        "Initial Issuance (Rule 144 Restricted)",
-        "Attorney Stephen Mills Section 4(a)(1) Opinion Letter"
+        "Stephen Mills, Esq. (Opinion dated Dec 6, 2017)"
       ],
       "anomalies": [
-        "Opinion issued despite affiliate relationship of Gaines to GreenGro",
-        "Circumvention of SEC Rule 144 holding period rules"
+        "Mills certified Gaines Trust was not an affiliate despite controlling tens of millions of shares",
+        "Re-amalgamated in 2019 into foreign nominee Poe to evade US brokerage scrutiny"
       ],
       "currentHolder": "IRA J. Gaines Revocable Trust",
+      "phase": "phase_1_legal_nominal"
+    },
+    "CS1-7800": {
+      "certNumber": "CS1-7800",
+      "totalShares": 1500000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2016-10-25",
+          "shares": 1500000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Ira Gaines Revocable Trust",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Stock Purchase Agreement for 1,500,000 shares for $60,000 ($0.04/sh)"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2016-11-06",
+          "shares": 1500000,
+          "from": "Ira Gaines Trust",
+          "to": "Naccarato and Associates",
+          "price": "$0.00 / Consideration",
+          "notes": "[Legal Opinion Whitewash] $60,000 paid to legal escrow on behalf of GreenGro"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2016-11-18",
+          "shares": 1500000,
+          "from": "Fidelity Transfer Services",
+          "to": "Ira Gaines Trust",
+          "price": "$0.00 / Consideration",
+          "notes": "[Conduit Hop / Split] Certificate CS1-7800 issued"
+        },
+        {
+          "txId": "HOP-4",
+          "date": "2017-12-06",
+          "shares": 1500000,
+          "from": "Stephen Mills, Esq.",
+          "to": "Fidelity Transfer Services",
+          "price": "$0.00 / Consideration",
+          "notes": "[Legal Opinion Whitewash] Section 4(a)(1) legal opinion removes restrictive legend"
+        },
+        {
+          "txId": "HOP-5",
+          "date": "2019-04-10",
+          "shares": 1500000,
+          "from": "Fidelity Transfer Services",
+          "to": "Paula Marie Poe",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Noted in master ledger: \"7800 IGRT 1500000 Conv to Poe\""
+        }
+      ],
+      "legalOpinions": [
+        "Stephen Mills, Esq. (Opinion dated Dec 6, 2017)"
+      ],
+      "anomalies": [
+        "Legal opinion certified non-affiliate status under Section 4(a)(1)",
+        "Master ledger documents direct conversion from Gaines Trust to Canadian straw Poe"
+      ],
+      "currentHolder": "Ira Gaines Revocable Trust (Transferred to Canadian Nominee Paula Marie Poe)",
       "phase": "phase_1_legal_nominal"
     },
     "CS1-7824": {
@@ -1185,207 +2104,803 @@
       "totalShares": 1000000,
       "issuances": [
         {
-          "txId": "TX-04",
+          "txId": "HOP-1",
           "date": "2016-12-23",
           "shares": 1000000,
           "from": "GreenGro Technologies, Inc.",
           "to": "Ira Gaines",
-          "price": "Not Stated / Consulting Consideration",
-          "notes": "Certificate CS1-7824 issued to Ira Gaines."
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Certificate CS1-7824 issued to Ira Gaines"
         },
         {
-          "txId": "TX-05",
+          "txId": "HOP-2",
           "date": "2016-12-27",
           "shares": 1000000,
           "from": "Ira Gaines",
-          "to": "Merrill Lynch (Acct 2872-57N77)",
-          "price": "For Value Received",
-          "notes": "Irrevocable Stock Power executed to transfer 1M shares to Merrill Lynch account."
+          "to": "Merrill Lynch",
+          "price": "$0.00 / Consideration",
+          "notes": "[Stock Power Endorsement] Just 4 days later: Irrevocable Stock Power executed to Merrill Lynch account 2872-57N77"
         }
       ],
-      "transfers": [],
-      "legalOpinions": [],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2016-12-28",
+          "shares": 1000000,
+          "from": "Fidelity Transfer Services",
+          "to": "Merrill Lynch",
+          "price": "$0.00 / Consideration",
+          "notes": "[Retail OTC Liquidation] Overnighted to Merrill Lynch clearing for immediate book-entry credit"
+        }
+      ],
+      "legalOpinions": [
+        "In-House / Fidelity Transfer Services"
+      ],
       "anomalies": [
-        "Immediate transfer executed 4 days later",
-        "Ultra-rapid flip (<4 days from issuance)",
-        "Deposit into brokerage without registered prospectus"
+        "Hyper-velocity flipping (<96 hours) violating statutory investment intent under Section 2(a)(11)",
+        "Transfer agent processed immediate transfer from affiliate into brokerage clearing"
       ],
       "currentHolder": "Ira Gaines",
       "phase": "phase_1_legal_nominal"
-    },
-    "CS1-7835": {
-      "certNumber": "CS1-7835",
-      "totalShares": 3000000,
-      "issuances": [
-        {
-          "txId": "TX-06",
-          "date": "2017-01-04",
-          "shares": 3000000,
-          "from": "GreenGro Technologies, Inc.",
-          "to": "Ira Gaines",
-          "price": "Not Stated (Noted: 'BOT FROM RON')",
-          "notes": "Certificate CS1-7835 issued. Noted in Gaines internal inventory as 'BOT FROM RON'. Later transferred to Poe in 2019."
-        },
-        {
-          "txId": "TX-28",
-          "date": "2019-03-27",
-          "shares": 3000000,
-          "from": "Ira Gaines",
-          "to": "Paula Marie Poe",
-          "price": "$21,000.00 ($0.007/share)",
-          "notes": "Irrevocable stock power executed transferring Certificate CS1-7835 (originally issued in Jan 2017) to foreign nominee Paula Marie Poe."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "Foreign Straw Exemption / Section 4(a)(1)"
-      ],
-      "anomalies": [
-        "Internal ledger notation indicates secondary nominee trading",
-        "Sale at $0.007/share represents 90% discount to prevailing OTC market",
-        "Foreign straw recipient with zero business purpose"
-      ],
-      "currentHolder": "Ira Gaines",
-      "phase": "phase_2_accelerated_flip"
-    },
-    "Gaines Portfolio Tranche": {
-      "certNumber": "Gaines Portfolio Tranche",
-      "totalShares": 1150000,
-      "issuances": [
-        {
-          "txId": "TX-07",
-          "date": "2017-03-30",
-          "shares": 1150000,
-          "from": "Ira J. Gaines",
-          "to": "Exeter Trust Company (For Sale)",
-          "price": "Market Liquidation",
-          "notes": "Letter authorizing Exeter Trust to sell 1.15M shares and wire net proceeds to BBVA Compass Bank account."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "Exeter Trust Clearance"
-      ],
-      "anomalies": [
-        "Proceeds wired directly to personal BBVA Compass Bank account",
-        "Circumvention of standard affiliate volume limits"
-      ],
-      "currentHolder": "Exeter Trust Company (For Sale)",
-      "phase": "phase_2_accelerated_flip"
     },
     "CS1-7906": {
       "certNumber": "CS1-7906",
       "totalShares": 3500000,
       "issuances": [
         {
-          "txId": "TX-08",
+          "txId": "HOP-1",
           "date": "2017-03-31",
           "shares": 3500000,
           "from": "GreenGro Technologies, Inc.",
           "to": "Ira Gaines",
-          "price": "Not Stated",
-          "notes": "Certificate CS1-7906 issued for 3.5M shares."
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Certificate CS1-7906 issued for 3,500,000 shares"
         },
         {
-          "txId": "TX-09",
+          "txId": "HOP-2",
           "date": "2017-04-03",
           "shares": 3500000,
           "from": "Ira Gaines",
-          "to": "Cede & Co. (Exeter Trust Admin)",
-          "price": "For Value Received",
-          "notes": "Irrevocable stock power executed transferring 3.5M shares to Cede & Co."
+          "to": "Cede & Co.",
+          "price": "$0.00 / Consideration",
+          "notes": "[Stock Power Endorsement] 72 hours later: Irrevocable Stock Power executed to Cede & Co. for Exeter Trust Administration"
         }
       ],
-      "transfers": [],
-      "legalOpinions": [],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2017-04-10",
+          "shares": 3500000,
+          "from": "Exeter Trust Company",
+          "to": "BBVA Compass Bank",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Proceeds from share sales wired to Gaines BBVA Compass account"
+        }
+      ],
+      "legalOpinions": [
+        "In-House / Exeter Trust"
+      ],
       "anomalies": [
-        "Transferred 3 days later to Cede & Co.",
-        "Transfer 3 days after certificate issuance",
-        "Routing through DTC nominee Cede & Co."
+        "72-hour turnaround between certificate issuance and Cede & Co. DTC depository transfer",
+        "Direct proceeds wired to personal banking accounts"
       ],
       "currentHolder": "Ira Gaines",
-      "phase": "phase_2_accelerated_flip"
+      "phase": "phase_3_opinion_shopping"
     },
     "CS1-7908": {
       "certNumber": "CS1-7908",
       "totalShares": 4000000,
       "issuances": [
         {
-          "txId": "TX-10",
+          "txId": "HOP-1",
           "date": "2017-04-05",
           "shares": 4000000,
           "from": "GreenGro Technologies, Inc.",
           "to": "Paradise Wire & Cable, Inc.",
-          "price": "Not Stated",
-          "notes": "Certificate CS1-7908 issued to Paradise Wire & Cable (Ira Gaines affiliate)."
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Certificate CS1-7908 issued for 4,000,000 shares free-trading from Ruben Sanchez"
         },
         {
-          "txId": "TX-13",
+          "txId": "HOP-2",
           "date": "2017-04-07",
           "shares": 4000000,
           "from": "Paradise Wire & Cable DBPP",
           "to": "Pershing LLC",
-          "price": "Market Liquidation",
-          "notes": "Certificate CS1-7908 deposited into Pershing LLC account 2 days after issuance."
+          "price": "$0.00 / Consideration",
+          "notes": "[Conduit Hop / Split] 2 days later: Irrevocable stock power executed to Pershing LLC, signed by Ira Gaines, Trustee"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2017-04-12",
+          "shares": 4000000,
+          "from": "Pershing LLC",
+          "to": "OTC Market",
+          "price": "$0.00 / Consideration",
+          "notes": "[Retail OTC Liquidation] Liquidated into retail market"
+        }
+      ],
+      "legalOpinions": [
+        "In-House / Fidelity Transfer Services (Ruben Sanchez)"
+      ],
+      "anomalies": [
+        "Certificate issued \"free-trading\" by transfer agent without registration statement",
+        "Ira Gaines signed as Trustee for Paradise Wire & Cable Pension Plan",
+        "Pershing subsequently terminated Gaines accounts due to regulatory violations",
+        "Directly sourced from Casa de Dinero / Ruben Sanchez (rsanchez.fts@gmail.com) with $0.00 proceeds to corporate treasury"
+      ],
+      "currentHolder": "Paradise Wire & Cable, Inc.",
+      "phase": "phase_3_opinion_shopping"
+    },
+    "CS1-7960 through CS1-7969": {
+      "certNumber": "CS1-7960 through CS1-7969",
+      "totalShares": 5000000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2017-08-02",
+          "shares": 5000000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Ira Gaines",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Certificate CS1-7960 issued for 500,000 shares"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2017-08-09",
+          "shares": 5000000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Joshua Hintzen",
+          "price": "$0.00 / Consideration",
+          "notes": "[Conduit Hop / Split] Nine additional certificates (7961-7969) issued for 500,000 shares each"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2018-12-03",
+          "shares": 5000000,
+          "from": "Joshua Hintzen",
+          "to": "Big Thunder, LLC",
+          "price": "$0.00 / Consideration",
+          "notes": "[Conduit Hop / Split] LOI to re-issue 8 certificates (7960-7969 series, 4M shs) in name of Big Thunder, LLC"
+        },
+        {
+          "txId": "HOP-4",
+          "date": "2019-03-27",
+          "shares": 5000000,
+          "from": "Joshua Hintzen",
+          "to": "Paula Marie Poe",
+          "price": "$0.00 / Consideration",
+          "notes": "[Split & Certificate Re-issuance] LOI to cancel 5 certificates (7964, 7965, 7966, 7968, 7969) and reissue 2.5M shs to Poe"
+        },
+        {
+          "txId": "HOP-5",
+          "date": "2019-04-02",
+          "shares": 5000000,
+          "from": "Joshua Hintzen",
+          "to": "Paula Marie Poe",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] LOI stating certs 7960, 7961, 7963 are \"registered in name of Ira Gaines\" and sending to Poe at BMO"
+        }
+      ],
+      "legalOpinions": [
+        "James Hintzen, Esq. & Stephen Mills, Esq."
+      ],
+      "anomalies": [
+        "Smurfing into 500,000 share blocks to evade transfer agent dollar/volume velocity flags",
+        "Written admission on 4/2/2019 that certificates belonged to Ira Gaines",
+        "Cross-border delivery to Toronto brokerage",
+        "Directly sourced from Casa de Dinero / Ruben Sanchez (rsanchez.fts@gmail.com) with $0.00 proceeds to corporate treasury"
+      ],
+      "currentHolder": "Joshua Hintzen (10 certs of 500,000 shs each)",
+      "phase": "phase_2_nominee_funneling"
+    },
+    "CS1-7881": {
+      "certNumber": "CS1-7881",
+      "totalShares": 1000000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2017-08-09",
+          "shares": 1000000,
+          "from": "Ira Gaines",
+          "to": "Fidelity Transfer Services",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] LOI signed by Gaines instructing cancellation of Cert 7881 and reissuance of free-trading shares to Joshua Hintzen"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2017-08-15",
+          "shares": 1000000,
+          "from": "Fidelity Transfer Services",
+          "to": "Joshua Hintzen",
+          "price": "$0.00 / Consideration",
+          "notes": "[Split & Certificate Re-issuance] Certificate re-issued without legend"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2017-08-20",
+          "shares": 1000000,
+          "from": "Joshua Hintzen",
+          "to": "Egan KS Account",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Delivered for brokerage deposit"
+        }
+      ],
+      "legalOpinions": [
+        "Stephen Mills, Esq. (Reliance)"
+      ],
+      "anomalies": [
+        "Gaines directly ordered transfer agent to cancel his certificate and issue free-trading shares to relative",
+        "Zero registration statement or bona fide holding period compliance"
+      ],
+      "currentHolder": "Joshua Hintzen",
+      "phase": "phase_2_nominee_funneling"
+    },
+    "CS1-8087": {
+      "certNumber": "CS1-8087",
+      "totalShares": 3500000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2017-06-15",
+          "shares": 3500000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Justin Haas",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] 3,500,000 shares issued to CEO son Justin Haas"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2018-06-13",
+          "shares": 3500000,
+          "from": "James Haas",
+          "to": "Ruben Sanchez",
+          "price": "$0.00 / Consideration",
+          "notes": "[Secondary SPA Purchase] Document: \"GRNH 3.5 SENT TO RUBEN 61318 TO BE SOLD BY JUSTIN\""
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2019-04-08",
+          "shares": 3500000,
+          "from": "Justin Haas",
+          "to": "Paula Marie Poe",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Combined with Gaines Trust Cert 7750 to create Cert CS1-8166 (5.5M shares) issued to Poe"
+        }
+      ],
+      "legalOpinions": [
+        "Fidelity Transfer Services Processing"
+      ],
+      "anomalies": [
+        "CEO son certificate used as distribution feeder block for Canadian straw Poe",
+        "Direct instruction from CEO to transfer agent to sell Justin shares"
+      ],
+      "currentHolder": "Justin Haas",
+      "phase": "phase_3_opinion_shopping"
+    },
+    "CS1-8089": {
+      "certNumber": "CS1-8089",
+      "totalShares": 6500000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2017-05-01",
+          "shares": 6500000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Mark Delfin",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Consulting Agreement executed May 1, 2017, backdated 44 months to Sept 9, 2013"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2017-05-10",
+          "shares": 6500000,
+          "from": "Fidelity Transfer Services",
+          "to": "Mark Delfin",
+          "price": "$0.00 / Consideration",
+          "notes": "[Conduit Hop / Split] Restricted Cert CS1-8089 issued for 6,500,000 shares"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2018-01-10",
+          "shares": 6500000,
+          "from": "Mark Delfin",
+          "to": "Cheryl Hintzen",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Feeder pool for Cheryl Hintzen 6,790,000 share transfer and Stephen Mills opinion"
+        }
+      ],
+      "legalOpinions": [
+        "Stephen Mills, Esq. (Reliance)"
+      ],
+      "anomalies": [
+        "44-month retroactive backdating",
+        "Zero verified advisory services performed",
+        "Direct genesis of Hintzen v. Haas lawsuit"
+      ],
+      "currentHolder": "Mark Delfin",
+      "phase": "phase_3_opinion_shopping"
+    },
+    "CS1-8090": {
+      "certNumber": "CS1-8090",
+      "totalShares": 8500000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2017-05-01",
+          "shares": 8500000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Santiago Rubio",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Consulting Agreement executed May 1, 2017, backdated 18 months to Oct 30, 2015 for 8.5M shares"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2017-05-10",
+          "shares": 8500000,
+          "from": "Fidelity Transfer Services",
+          "to": "Santiago Rubio",
+          "price": "$0.00 / Consideration",
+          "notes": "[Conduit Hop / Split] Restricted Cert CS1-8090 issued"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2018-06-01",
+          "shares": 8500000,
+          "from": "Santiago Rubio",
+          "to": "Nominee Fleet",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Used to support unlegended reissuance requests"
+        }
+      ],
+      "legalOpinions": [
+        "Stephen Mills, Esq. (Reliance)"
+      ],
+      "anomalies": [
+        "18-month retroactive backdating",
+        "Zero monetary consideration received by company treasury"
+      ],
+      "currentHolder": "Santiago Rubio (Nominee Holding for Reissuance)",
+      "phase": "phase_3_opinion_shopping"
+    },
+    "CS1-8091": {
+      "certNumber": "CS1-8091",
+      "totalShares": 8500000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2017-05-01",
+          "shares": 8500000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Hulbert Ventures",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Consulting Agreement executed May 1, 2017; duplicate text of Rubio agreement"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2017-05-10",
+          "shares": 8500000,
+          "from": "Fidelity Transfer Services",
+          "to": "Hulbert Ventures",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Restricted Cert CS1-8091 issued for 8,500,000 shares"
         }
       ],
       "transfers": [],
       "legalOpinions": [
-        "Legal Opinion Submitted"
+        "Stephen Mills, Esq. (Reliance)"
       ],
       "anomalies": [
-        "Entity controlled by Gaines used as intermediary nominee conduit",
-        "Transferred 2 days after issuance",
-        "Defined Benefit Pension Plan used for microcap dumping"
+        "Unedited boilerplate copy-paste retaining Santiago Rubio name in body",
+        "Fabricated corporate consideration"
       ],
-      "currentHolder": "Paradise Wire & Cable, Inc.",
-      "phase": "phase_2_accelerated_flip"
+      "currentHolder": "Hulbert Ventures (Nominee Holding for Reissuance)",
+      "phase": "phase_3_opinion_shopping"
     },
-    "CS1-7910": {
-      "certNumber": "CS1-7910",
+    "CS1-8088": {
+      "certNumber": "CS1-8088",
       "totalShares": 2000000,
       "issuances": [
         {
-          "txId": "TX-11",
-          "date": "2017-04-06",
+          "txId": "HOP-1",
+          "date": "2017-05-01",
           "shares": 2000000,
           "from": "GreenGro Technologies, Inc.",
-          "to": "Ira Gaines",
-          "price": "Not Stated",
-          "notes": "Certificate CS1-7910 issued. Later cleared for trading via legal opinion letter."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [],
-      "anomalies": [
-        "Transferred to attorney Stephen Mills for legend removal without verified holding period"
-      ],
-      "currentHolder": "Ira Gaines",
-      "phase": "phase_3_opinion_shopping"
-    },
-    "2902 & 2904": {
-      "certNumber": "2902 & 2904",
-      "totalShares": 1461209,
-      "issuances": [
+          "to": "Phoenix Group",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Consulting Agreement executed May 1, 2017, backdated 22 months to July 10, 2015 for 2.0M shares"
+        },
         {
-          "txId": "TX-12",
-          "date": "2017-04-07",
-          "shares": 1461209,
-          "from": "Northstar Electronics (Trustee for Paradise Wire)",
-          "to": "Pershing LLC",
-          "price": "Market Deposit",
-          "notes": "Transfer of 1,461,209 shares into Pershing LLC account."
+          "txId": "HOP-2",
+          "date": "2017-05-10",
+          "shares": 2000000,
+          "from": "Fidelity Transfer Services",
+          "to": "Phoenix Group",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Restricted Cert CS1-8088 issued"
         }
       ],
       "transfers": [],
       "legalOpinions": [
-        "Opinion Attached"
+        "Stephen Mills, Esq. (Reliance)"
       ],
       "anomalies": [
-        "Off-market allocation through shell electronics trustee entity"
+        "Part of coordinated 25.5M share May 1, 2017 backdating issuance tranche"
       ],
-      "currentHolder": "Pershing LLC",
-      "phase": "phase_2_accelerated_flip"
+      "currentHolder": "Phoenix Group (Nominee Holding for Reissuance)",
+      "phase": "phase_3_opinion_shopping"
+    },
+    "CS1-8158 through CS1-8160": {
+      "certNumber": "CS1-8158 through CS1-8160",
+      "totalShares": 8000000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2019-04-03",
+          "shares": 8000000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Paula Marie Poe",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Certificates CS1-8158 (2.5M), CS1-8159 (3.0M), CS1-8160 (2.5M) issued directly to Poe"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2019-04-08",
+          "shares": 8000000,
+          "from": "Ruben Sanchez",
+          "to": "BMO InvestorLine",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Overnighted to First Canadian Place, Toronto via FedEx account #165398572"
+        }
+      ],
+      "transfers": [],
+      "legalOpinions": [
+        "Fidelity Transfer Services Processing"
+      ],
+      "anomalies": [
+        "Direct issuance of 8.0M shares to foreign nominee without registration or public disclosure"
+      ],
+      "currentHolder": "Paula Marie Poe",
+      "phase": "phase_4_illegal_dump"
+    },
+    "CS1-8161 through CS1-8165": {
+      "certNumber": "CS1-8161 through CS1-8165",
+      "totalShares": 22000000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2019-04-04",
+          "shares": 22000000,
+          "from": "Various Debt Paper Holders",
+          "to": "Paula Marie Poe",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] 22,000,000 shares consolidated across certificates 8161 through 8165"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2019-04-04",
+          "shares": 22000000,
+          "from": "BofA Account",
+          "to": "Fidelity Transfer Services",
+          "price": "$0.00 / Consideration",
+          "notes": "[Conduit Hop / Split] $107,500 wire fee paid to Fidelity on 4/4/2019 for processing Certs 8163/8164"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2019-04-12",
+          "shares": 22000000,
+          "from": "Fidelity Transfer Services",
+          "to": "BMO InvestorLine",
+          "price": "$0.00 / Consideration",
+          "notes": "[Retail OTC Liquidation] Certificates shipped to Toronto for open market resale"
+        }
+      ],
+      "legalOpinions": [
+        "Fidelity Transfer Services Processing"
+      ],
+      "anomalies": [
+        "$107,500 processing fee paid directly to transfer agent",
+        "22 million shares issued at effective $0.007/share subpenny price"
+      ],
+      "currentHolder": "Paula Marie Poe",
+      "phase": "phase_4_illegal_dump"
+    },
+    "CS1-8167": {
+      "certNumber": "CS1-8167",
+      "totalShares": 8500000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2019-04-08",
+          "shares": 8500000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Paula Marie Poe",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Certificate CS1-8167 issued for 8,500,000 shares"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2019-04-08",
+          "shares": 8500000,
+          "from": "BofA Account",
+          "to": "Fidelity Transfer Services",
+          "price": "$0.00 / Consideration",
+          "notes": "[Conduit Hop / Split] $50,150 wire fee paid to Fidelity for 8.5M shares processing"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2019-04-15",
+          "shares": 8500000,
+          "from": "Fidelity Transfer Services",
+          "to": "BMO InvestorLine",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Shipped to Toronto brokerage for Canadian deposit"
+        }
+      ],
+      "legalOpinions": [
+        "Fidelity Transfer Services Processing"
+      ],
+      "anomalies": [
+        "$50,150 paid directly to transfer agent; zero funds to GreenGro treasury"
+      ],
+      "currentHolder": "Paula Marie Poe",
+      "phase": "phase_4_illegal_dump"
+    },
+    "CS1-8169": {
+      "certNumber": "CS1-8169",
+      "totalShares": 5500000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2019-04-10",
+          "shares": 5500000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Paula Marie Poe",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Certificate CS1-8169 issued for 5,500,000 shares (of 6.5M total allotment)"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2019-04-10",
+          "shares": 5500000,
+          "from": "BofA Account",
+          "to": "Fidelity Transfer Services",
+          "price": "$0.00 / Consideration",
+          "notes": "[Conduit Hop / Split] $39,000 wire fee paid to Fidelity for processing"
+        }
+      ],
+      "transfers": [
+        {
+          "txId": "HOP-3",
+          "date": "2019-04-12",
+          "shares": 5500000,
+          "from": "Fidelity Transfer Services",
+          "to": "BMO InvestorLine",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Shipped to Toronto brokerage"
+        }
+      ],
+      "legalOpinions": [
+        "Fidelity Transfer Services Processing"
+      ],
+      "anomalies": [
+        "$39,000 fee paid directly to transfer agent"
+      ],
+      "currentHolder": "Paula Marie Poe",
+      "phase": "phase_4_illegal_dump"
+    },
+    "CS1-8171": {
+      "certNumber": "CS1-8171",
+      "totalShares": 1000000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2019-04-12",
+          "shares": 1000000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Paula Marie Poe",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Certificate CS1-8171 issued for 1,000,000 shares"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2019-04-12",
+          "shares": 1000000,
+          "from": "Ruben Sanchez",
+          "to": "Carter / BMO",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Noted in master ledger: \"sent to carter 2019-04-12\""
+        }
+      ],
+      "transfers": [],
+      "legalOpinions": [
+        "Fidelity Transfer Services Processing"
+      ],
+      "anomalies": [
+        "Part of massive April 2019 offshore straw consolidation"
+      ],
+      "currentHolder": "Paula Marie Poe",
+      "phase": "phase_4_illegal_dump"
+    },
+    "CS1-8173": {
+      "certNumber": "CS1-8173",
+      "totalShares": 950000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2018-12-10",
+          "shares": 950000,
+          "from": "Third Coast Partners / GRNH",
+          "to": "Ronald Brouillette (\"Ron\")",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Promoter compensation carveout originating from consulting/debt arrangement"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2019-04-15",
+          "shares": 950000,
+          "from": "Ronald Brouillette (\"Ron\")",
+          "to": "Paula Marie Poe",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Certificate CS1-8173 issued for 950,000 shares, noted in ledger as \"Paid to Fidelity: Ron, sent to carter: not SENT YET\""
+        }
+      ],
+      "transfers": [],
+      "legalOpinions": [
+        "Fidelity Transfer Services Processing"
+      ],
+      "anomalies": [
+        "Direct evidence that promoter Ron Brouillette was paying Fidelity Transfer Services directly"
+      ],
+      "currentHolder": "Paula Marie Poe",
+      "phase": "phase_4_illegal_dump"
+    },
+    "CS1-7568": {
+      "certNumber": "CS1-7568",
+      "totalShares": 1000000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2015-06-01",
+          "shares": 1000000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Ira Gaines",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Issued under \"Compromise June 2015\" for 1,000,000 shares"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2016-04-01",
+          "shares": 1000000,
+          "from": "Ira Gaines",
+          "to": "Wedbush Securities",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Noted in master cert ledger: \"at wedbush\""
+        }
+      ],
+      "transfers": [],
+      "legalOpinions": [
+        "In-House Legal Package"
+      ],
+      "anomalies": [
+        "Early seed block used to establish OTC trading velocity"
+      ],
+      "currentHolder": "Ira Gaines",
+      "phase": "phase_1_legal_nominal"
+    },
+    "CS1-7549": {
+      "certNumber": "CS1-7549",
+      "totalShares": 7000000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2015-06-01",
+          "shares": 7000000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Dignitas Consulting LLC",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] 7,000,000 restricted shares issued under June 2015 compromise"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2016-04-01",
+          "shares": 7000000,
+          "from": "Dignitas Consulting LLC",
+          "to": "Promoter Conduits",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Used to feed secondary stock purchase agreements and promissory note pledges"
+        }
+      ],
+      "transfers": [],
+      "legalOpinions": [
+        "McGee Legal / Stephen Mills"
+      ],
+      "anomalies": [
+        "Massive 7,000,000 share block issued without registered public offering"
+      ],
+      "currentHolder": "Dignitas Consulting LLC",
+      "phase": "phase_1_legal_nominal"
+    },
+    "CS1-7596": {
+      "certNumber": "CS1-7596",
+      "totalShares": 250000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2016-04-01",
+          "shares": 250000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Paradise Wire & Cable, Inc.",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Issued for 250,000 shares"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2016-04-01",
+          "shares": 250000,
+          "from": "Paradise Wire & Cable",
+          "to": "Wilson-Davis & Co.",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Noted in master inventory: \"4/1/16 cert to WDCO\""
+        }
+      ],
+      "transfers": [],
+      "legalOpinions": [
+        "McGee Legal"
+      ],
+      "anomalies": [
+        "Corporate shell utilized to deposit shares into subpenny brokerage"
+      ],
+      "currentHolder": "Paradise Wire & Cable, Inc.",
+      "phase": "phase_1_legal_nominal"
+    },
+    "CS1-7628": {
+      "certNumber": "CS1-7628",
+      "totalShares": 1000000,
+      "issuances": [
+        {
+          "txId": "HOP-1",
+          "date": "2016-04-27",
+          "shares": 1000000,
+          "from": "GreenGro Technologies, Inc.",
+          "to": "Ira Gaines",
+          "price": "$0.00 / Consideration",
+          "notes": "[Genesis / Origin] Certificate CS1-7628 issued for 1,000,000 shares"
+        },
+        {
+          "txId": "HOP-2",
+          "date": "2016-04-27",
+          "shares": 1000000,
+          "from": "Ira Gaines",
+          "to": "Wilson-Davis & Co.",
+          "price": "$0.00 / Consideration",
+          "notes": "[Final Disposition] Noted in inventory: \"all in WDCO 4/27\""
+        }
+      ],
+      "transfers": [],
+      "legalOpinions": [
+        "McGee Legal"
+      ],
+      "anomalies": [
+        "Wilson-Davis later sanctioned by SEC and closed Gaines accounts"
+      ],
+      "currentHolder": "Ira Gaines",
+      "phase": "phase_1_legal_nominal"
     },
     "CS1-7915": {
       "certNumber": "CS1-7915",
@@ -1407,128 +2922,6 @@
         "Bulk issuance directly preceding broker account allocation"
       ],
       "currentHolder": "Ira Gaines",
-      "phase": "phase_3_opinion_shopping"
-    },
-    "Multiple Brokerage Tranches": {
-      "certNumber": "Multiple Brokerage Tranches",
-      "totalShares": 5500000,
-      "issuances": [
-        {
-          "txId": "TX-15",
-          "date": "2017-04-24",
-          "shares": 5500000,
-          "from": "Gaines Controlled Nominees",
-          "to": "Huntington Brokerage Account",
-          "price": "Open Market Liquidation",
-          "notes": "Deposit of 5.5M shares into Huntington brokerage account."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "Cleared by Brokerage Counsel"
-      ],
-      "anomalies": [
-        "Multiple tranches aggregated into newly opened regional bank brokerage"
-      ],
-      "currentHolder": "Huntington Brokerage Account",
-      "phase": "phase_2_accelerated_flip"
-    },
-    "Advisory Tranche Delfin": {
-      "certNumber": "Advisory Tranche Delfin",
-      "totalShares": 6500000,
-      "issuances": [
-        {
-          "txId": "TX-16",
-          "date": "2017-05-01",
-          "shares": 6500000,
-          "from": "GreenGro Technologies, Inc.",
-          "to": "Mark Delfin (Consultant)",
-          "price": "$0.00 / Advisory Services",
-          "notes": "Agreement signed by James Haas as CEO promising 6.5M Rule 144 restricted shares for services backdated 4 years."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "Section 4(a)(1) Exemption Recited"
-      ],
-      "anomalies": [
-        "Backdated by 4 years (Start date: Sept 9, 2013 on May 1, 2017 agreement)",
-        "Designed to fabricate 1-year Rule 144 holding period"
-      ],
-      "currentHolder": "Mark Delfin (Consultant)",
-      "phase": "phase_3_opinion_shopping"
-    },
-    "Advisory Tranche Rubio": {
-      "certNumber": "Advisory Tranche Rubio",
-      "totalShares": 8500000,
-      "issuances": [
-        {
-          "txId": "TX-17",
-          "date": "2017-05-01",
-          "shares": 8500000,
-          "from": "GreenGro Technologies, Inc.",
-          "to": "Santiago Rubio (Consultant)",
-          "price": "$0.00 / Advisory Services",
-          "notes": "Agreement signed by James Haas promising 8.5M Rule 144 restricted shares."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "Section 4(a)(1) Exemption Recited"
-      ],
-      "anomalies": [
-        "Backdated start date to Oct 30, 2015",
-        "Enormous 8.5M share block issued to individual consultant"
-      ],
-      "currentHolder": "Santiago Rubio (Consultant)",
-      "phase": "phase_3_opinion_shopping"
-    },
-    "Advisory Tranche Phoenix": {
-      "certNumber": "Advisory Tranche Phoenix",
-      "totalShares": 2000000,
-      "issuances": [
-        {
-          "txId": "TX-18",
-          "date": "2017-05-01",
-          "shares": 2000000,
-          "from": "GreenGro Technologies, Inc.",
-          "to": "Phoenix Theater (Arizona Corp)",
-          "price": "$0.00 / Services",
-          "notes": "2,000,000 shares issued to Phoenix Theater."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "Section 4(a)(1) Recited"
-      ],
-      "anomalies": [
-        "Corporate conduit entity in Arizona receiving microcap stock"
-      ],
-      "currentHolder": "Phoenix Theater (Arizona Corp)",
-      "phase": "phase_3_opinion_shopping"
-    },
-    "Advisory Tranche Hulbert": {
-      "certNumber": "Advisory Tranche Hulbert",
-      "totalShares": 8500000,
-      "issuances": [
-        {
-          "txId": "TX-19",
-          "date": "2017-05-01",
-          "shares": 8500000,
-          "from": "GreenGro Technologies, Inc.",
-          "to": "Hulbert (Consultant)",
-          "price": "$0.00 / Services",
-          "notes": "Agreement promising 8.5M shares to Hulbert."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "Section 4(a)(1) Recited"
-      ],
-      "anomalies": [
-        "8.5M shares issued with nominal advisory obligations"
-      ],
-      "currentHolder": "Hulbert (Consultant)",
       "phase": "phase_3_opinion_shopping"
     },
     "CS1-7960": {
@@ -1565,172 +2958,6 @@
       "currentHolder": "Ira Gaines",
       "phase": "phase_3_opinion_shopping"
     },
-    "CS1-7960 to 7969 (Series)": {
-      "certNumber": "CS1-7960 to 7969 (Series)",
-      "totalShares": 4000000,
-      "issuances": [
-        {
-          "txId": "TX-21",
-          "date": "2017-08-09",
-          "shares": 4000000,
-          "from": "GreenGro Technologies, Inc.",
-          "to": "Joshua Hintzen",
-          "price": "Nominal / Familial Transfer",
-          "notes": "Certificates CS1-7961 through 7969 issued to Joshua Hintzen. Transferred to Big Thunder LLC and Poe in 2018-2019."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [],
-      "anomalies": [
-        "Structured in exactly 500k and 1M share chunks across 10 certificates",
-        "Nominee conduit to avoid affiliate threshold alerts"
-      ],
-      "currentHolder": "Joshua Hintzen",
-      "phase": "phase_3_opinion_shopping"
-    },
-    "CS1-7971 & CS1-7972": {
-      "certNumber": "CS1-7971 & CS1-7972",
-      "totalShares": 5500000,
-      "issuances": [
-        {
-          "txId": "TX-23",
-          "date": "2018-05-15",
-          "shares": 5500000,
-          "from": "Joshua Hintzen",
-          "to": "Justin / Free-Trading Transfer",
-          "price": "N/A",
-          "notes": "James Hintzen, Esq. authored legal opinion letter authorizing legend removal on 5.5M shares held by Joshua Hintzen."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "Attorney James Hintzen Opinion (JHintzen-GRNH-LglOpLtr-CS1-7971-7972-2ndSet)"
-      ],
-      "anomalies": [
-        "Family member attorney issuing opinion for family member shareholder",
-        "Direct conflict of interest"
-      ],
-      "currentHolder": "Justin / Free-Trading Transfer",
-      "phase": "phase_3_opinion_shopping"
-    },
-    "Big Thunder Fleet": {
-      "certNumber": "Big Thunder Fleet",
-      "totalShares": 4000000,
-      "issuances": [
-        {
-          "txId": "TX-24",
-          "date": "2018-08-20",
-          "shares": 4000000,
-          "from": "Big Thunder, LLC",
-          "to": "Wedbush Securities (Deposit)",
-          "price": "Market Liquidation",
-          "notes": "Big Thunder LLC 144 representation letter filed to facilitate brokerage clearing at Wedbush."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "Rule 144 Seller Representation Letter"
-      ],
-      "anomalies": [
-        "Shell company claiming non-affiliate status despite beneficial control by Ira Gaines"
-      ],
-      "currentHolder": "Wedbush Securities (Deposit)",
-      "phase": "phase_3_opinion_shopping"
-    },
-    "7960 to 7969 Series": {
-      "certNumber": "7960 to 7969 Series",
-      "totalShares": 4000000,
-      "issuances": [
-        {
-          "txId": "TX-25",
-          "date": "2018-12-03",
-          "shares": 4000000,
-          "from": "Joshua Hintzen",
-          "to": "Big Thunder, LLC",
-          "price": "$10.00 & Other Good Consideration",
-          "notes": "9 certificates sent to Ruben Sanchez at Fidelity Transfer Services to be reissued into Big Thunder LLC."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "FTS Processing"
-      ],
-      "anomalies": [
-        "Concealment of individual ownership inside newly formed Wyoming LLC"
-      ],
-      "currentHolder": "Big Thunder, LLC",
-      "phase": "phase_3_opinion_shopping"
-    },
-    "CS1-8002": {
-      "certNumber": "CS1-8002",
-      "totalShares": 4000000,
-      "issuances": [
-        {
-          "txId": "TX-27",
-          "date": "2018-12-15",
-          "shares": 4000000,
-          "from": "GreenGro Technologies, Inc.",
-          "to": "Big Thunder, LLC",
-          "price": "Not Stated",
-          "notes": "Certificate CS1-8002 issued to Big Thunder LLC for 4,000,000 shares."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [],
-      "anomalies": [
-        "Direct corporate issuance to shell entity"
-      ],
-      "currentHolder": "Big Thunder, LLC",
-      "phase": "phase_3_opinion_shopping"
-    },
-    "7964, 7965, 7966, 7968, 7969": {
-      "certNumber": "7964, 7965, 7966, 7968, 7969",
-      "totalShares": 2500000,
-      "issuances": [
-        {
-          "txId": "TX-29",
-          "date": "2019-03-27",
-          "shares": 2500000,
-          "from": "Joshua Hintzen",
-          "to": "Paula Marie Poe",
-          "price": "$17,500.00 ($0.007/share)",
-          "notes": "Stock power transferring 5 certificates totaling 2.5M shares to Paula Marie Poe."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "Transferred for Reissuance"
-      ],
-      "anomalies": [
-        "Five 500k certificates aggregated and assigned simultaneously to foreign straw"
-      ],
-      "currentHolder": "Paula Marie Poe",
-      "phase": "phase_4_illegal_dump"
-    },
-    "CS1-8158 & CS1-8160": {
-      "certNumber": "CS1-8158 & CS1-8160",
-      "totalShares": 5000000,
-      "issuances": [
-        {
-          "txId": "TX-30",
-          "date": "2019-04-03",
-          "shares": 5000000,
-          "from": "GreenGro Technologies, Inc.",
-          "to": "Paula Marie Poe",
-          "price": "$0.007/share Basis",
-          "notes": "Certificates CS1-8158 and CS1-8160 issued to Paula Marie Poe."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "Exemption Recited"
-      ],
-      "anomalies": [
-        "Direct issuance of 5M shares to offshore nominee"
-      ],
-      "currentHolder": "Paula Marie Poe",
-      "phase": "phase_4_illegal_dump"
-    },
     "CS1-8159": {
       "certNumber": "CS1-8159",
       "totalShares": 3000000,
@@ -1755,175 +2982,29 @@
       "currentHolder": "Paula Marie Poe",
       "phase": "phase_4_illegal_dump"
     },
-    "CS1-8166": {
-      "certNumber": "CS1-8166",
-      "totalShares": 5500000,
+    "2902 & 2904": {
+      "certNumber": "2902 & 2904",
+      "totalShares": 1461209,
       "issuances": [
         {
-          "txId": "TX-32",
-          "date": "2019-04-08",
-          "shares": 5500000,
-          "from": "Justin (8087) & IGRT Trust (7750)",
-          "to": "Paula Marie Poe",
-          "price": "$0.007/share Basis",
-          "notes": "Certificate CS1-8166 created by merging Certificate 8087 (3.5M shares from Justin) and Certificate 7750 (2.0M shares from IRA J Gaines Revocable Trust) into a single 5.5M share certificate in the name of Paula Marie Poe."
+          "txId": "TX-12",
+          "date": "2017-04-07",
+          "shares": 1461209,
+          "from": "Northstar Electronics (Trustee for Paradise Wire)",
+          "to": "Pershing LLC",
+          "price": "Market Deposit",
+          "notes": "Transfer of 1,461,209 shares into Pershing LLC account."
         }
       ],
       "transfers": [],
       "legalOpinions": [
-        "Clean Legal Opinion Claimed"
+        "Opinion Attached"
       ],
       "anomalies": [
-        "AMALGAMATION OF 2016 RESTRICTED SHARES WITH LATER CERTIFICATES TO CONCEAL PROVENANCE"
+        "Off-market allocation through shell electronics trustee entity"
       ],
-      "currentHolder": "Paula Marie Poe",
-      "phase": "phase_4_illegal_dump"
-    },
-    "CS1-8167": {
-      "certNumber": "CS1-8167",
-      "totalShares": 8500000,
-      "issuances": [
-        {
-          "txId": "TX-33",
-          "date": "2019-04-08",
-          "shares": 8500000,
-          "from": "GreenGro Technologies, Inc.",
-          "to": "Paula Marie Poe",
-          "price": "$0.007/share Basis",
-          "notes": "Certificate CS1-8167 issued to Paula Marie Poe for 8.5M shares."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "Exemption Recited"
-      ],
-      "anomalies": [
-        "Massive 8.5M block issued without registration statement"
-      ],
-      "currentHolder": "Paula Marie Poe",
-      "phase": "phase_4_illegal_dump"
-    },
-    "CS1-8161 to 8165": {
-      "certNumber": "CS1-8161 to 8165",
-      "totalShares": 22000000,
-      "issuances": [
-        {
-          "txId": "TX-34",
-          "date": "2019-04-08",
-          "shares": 22000000,
-          "from": "GreenGro Technologies, Inc.",
-          "to": "Paula Marie Poe",
-          "price": "$0.007/share Basis",
-          "notes": "Certificates CS1-8161 through 8165 totaling 22M shares issued to Paula Marie Poe. Documented in primary scan PDF: GRNH 8161 - 8165 22MM shares 2.pdf."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "Exemption Recited"
-      ],
-      "anomalies": [
-        "22,000,000 SHARES SPLIT ACROSS 5 CONSECUTIVE CERTIFICATES TO FACILITATE SIMULTANEOUS BROKERAGE DEPOSITS"
-      ],
-      "currentHolder": "Paula Marie Poe",
-      "phase": "phase_4_illegal_dump"
-    },
-    "CS1-7978": {
-      "certNumber": "CS1-7978",
-      "totalShares": 10000000,
-      "issuances": [
-        {
-          "txId": "TX-35",
-          "date": "2019-04-10",
-          "shares": 10000000,
-          "from": "James Haas (CEO)",
-          "to": "Ira Gaines",
-          "price": "$70,000.00 ($0.007/share)",
-          "notes": "SPA signed by James Haas selling 10M shares (Certificate CS1-7978) to Ira Gaines. Operative agreement in Cheryl Hintzen v. James Haas (CV2025-013574)."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "144 Restricted / 4a1 Recited"
-      ],
-      "anomalies": [
-        "CEO selling 10M company shares to convicted target at 90% discount",
-        "Subject of 2025 Maricopa County Superior Court Lawsuit"
-      ],
-      "currentHolder": "Ira Gaines",
-      "phase": "phase_4_illegal_dump"
-    },
-    "CS1-7978 & Reissuances": {
-      "certNumber": "CS1-7978 & Reissuances",
-      "totalShares": 27000000,
-      "issuances": [
-        {
-          "txId": "TX-36",
-          "date": "2019-05-06",
-          "shares": 27000000,
-          "from": "James Haas (CEO)",
-          "to": "Ira Gaines (10M) & James Haas (17M)",
-          "price": "Internal Allocation",
-          "notes": "Documented in Haas Rule 26.1 Disclosure at page 4: Email from James Haas to Ruben Sanchez and Owen Naccarato instructing split of 27 million shares."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [],
-      "anomalies": [
-        "CEO splits 27M shares via informal email directive: 'Send 10M to Ira Gaines and 17M back to me'",
-        "No Board resolution or SEC Form 4 filed"
-      ],
-      "currentHolder": "Ira Gaines (10M) & James Haas (17M)",
-      "phase": "phase_4_illegal_dump"
-    },
-    "All Subject Certificates": {
-      "certNumber": "All Subject Certificates",
-      "totalShares": 107361209,
-      "issuances": [
-        {
-          "txId": "TX-37",
-          "date": "2020-12-15",
-          "shares": 107361209,
-          "from": "United States Department of Justice",
-          "to": "Ira Jeffrey Gaines (Arrest & Seizure)",
-          "price": "$0.00 (Asset Seizure & Forfeiture)",
-          "notes": "USA v. Gaines et al., Case No. 2:21-cr-00266 (D. Ariz.). Arrest of Ira Gaines in Scottsdale, AZ. Indictment explicitly charges sham stock purchase agreements, straw nominees, and money laundering of microcap proceeds."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "Grand Jury True Bill Indictment"
-      ],
-      "anomalies": [
-        "17-count federal felony indictment for securities fraud, wire fraud, money laundering, and identity theft",
-        "Use of straw nominees and sham advisory agreements documented by FBI & DOJ"
-      ],
-      "currentHolder": "Ira Jeffrey Gaines (Arrest & Seizure)",
-      "phase": "phase_5_criminal_enforcement"
-    },
-    "CS1-7978 & Portfolio Holdings": {
-      "certNumber": "CS1-7978 & Portfolio Holdings",
-      "totalShares": 10000000,
-      "issuances": [
-        {
-          "txId": "TX-38",
-          "date": "2025-05-15",
-          "shares": 10000000,
-          "from": "Cheryl Hintzen (Plaintiff)",
-          "to": "James M. Haas (Defendant)",
-          "price": "$350,000.00 Claimed Damages",
-          "notes": "Cheryl Hintzen v. James M. Haas, Case No. CV2025-013574 (Maricopa County Superior Court). Haas Rule 26.1 Disclosure identifies massive 29M, 78M, and 120M share discrepancies at Fidelity Transfer Services and connects claims directly to federal criminal conduct."
-        }
-      ],
-      "transfers": [],
-      "legalOpinions": [
-        "Pleadings & Rule 26.1 Disclosure"
-      ],
-      "anomalies": [
-        "Plaintiff Cheryl Hintzen suing CEO James Haas claiming rights derived from Ira Gaines",
-        "Haas asserts Unclean Hands, Securities Illegality, Sham Assignments, and 120M share transfer agent discrepancies"
-      ],
-      "currentHolder": "James M. Haas (Defendant)",
-      "phase": "phase_5_criminal_enforcement"
+      "currentHolder": "Pershing LLC",
+      "phase": "phase_2_accelerated_flip"
     }
   },
   "sourceFilesCatalog": [
@@ -9395,6 +10476,86 @@
       "matchTag": "Forensic Certificate / Target Key",
       "directory": "/Users/ericmiller/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Eric\u2019s iMac/MORE/untitled folder 2",
       "linkedCertificates": []
+    },
+    {
+      "id": "SRC-PKG-01",
+      "filename": "IRA_GAINES_GRNH_SECURITIES_LITIGATION_MASTER_PACKAGE.pdf",
+      "path": "/Users/ericmiller/Downloads/IRA_GAINES_GRNH_SECURITIES_LITIGATION_MASTER_PACKAGE.pdf",
+      "extension": ".pdf",
+      "sizeBytes": 701847,
+      "category": "Litigation Master Package & SEC Case Dossier",
+      "summary": "10-page master litigation package detailing the entire 107M+ securities fraud, Rule 144 violations, forensic share lineage, and prosecution roadmap.",
+      "linkedCertificates": [
+        "CS1-8172",
+        "CS1-7937",
+        "CS1-7905",
+        "CS1-8002",
+        "CS1-8166"
+      ]
+    },
+    {
+      "id": "SRC-PKG-02",
+      "filename": "IRA_GAINES_DEPOSITION_AND_CROSS_EXAMINATION_MANUAL.pdf",
+      "path": "/Users/ericmiller/Downloads/IRA_GAINES_DEPOSITION_AND_CROSS_EXAMINATION_MANUAL.pdf",
+      "extension": ".pdf",
+      "sizeBytes": 467422,
+      "category": "Trial Deposition & Cross-Examination Manual",
+      "summary": "6-page trial cross-examination manual covering Ira Gaines, Ruben Sanchez (FTS), James Haas (CEO), and John T. Root, Jr., Esq.",
+      "linkedCertificates": [
+        "CS1-8172",
+        "CS1-7937",
+        "CS1-7905",
+        "CS1-8002",
+        "CS1-8166"
+      ]
+    },
+    {
+      "id": "SRC-PKG-03",
+      "filename": "GRNH_329_EVIDENTIARY_FILES_INDEX_AND_CHAIN_OF_CUSTODY.pdf",
+      "path": "/Users/ericmiller/Downloads/GRNH_329_EVIDENTIARY_FILES_INDEX_AND_CHAIN_OF_CUSTODY.pdf",
+      "extension": ".pdf",
+      "sizeBytes": 1273837,
+      "category": "Complete Evidence Index & Chain of Custody (437 Files)",
+      "summary": "19-page master catalog indexing all 437 primary physical evidence files on disk with SHA-256 integrity hashes and chain-of-custody tracking.",
+      "linkedCertificates": [
+        "CS1-8172",
+        "CS1-7937",
+        "CS1-7905",
+        "CS1-8002",
+        "CS1-8166"
+      ]
+    },
+    {
+      "id": "SRC-PKG-04",
+      "filename": "LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.md",
+      "path": "/Users/ericmiller/Downloads/GRNH Forensics & Securities Fraud/LAWYER_GUIDE_AND_HIGHWAY_MAP_OF_GRNH_FRAUD.md",
+      "extension": ".md",
+      "sizeBytes": 199631,
+      "category": "Litigation Strategy & Procedural Highway Map",
+      "summary": "Comprehensive highway map connecting transactional anomalies, legal precedents, affirmative defenses, and procedural tactics.",
+      "linkedCertificates": [
+        "CS1-8172",
+        "CS1-7937",
+        "CS1-7905",
+        "CS1-8002",
+        "CS1-8166"
+      ]
+    },
+    {
+      "id": "SRC-PKG-05",
+      "filename": "GRNH_Forensic_Securities_Litigation_Report.md",
+      "path": "/Users/ericmiller/Downloads/GRNH Forensics & Securities Fraud/GRNH_Forensic_Securities_Litigation_Report.md",
+      "extension": ".md",
+      "sizeBytes": 202878,
+      "category": "Master Forensic Securities Litigation Audit Report",
+      "summary": "Full forensic audit report cross-referencing all 5 phases, stock certificates, transfer agent orders, and statutory violations.",
+      "linkedCertificates": [
+        "CS1-8172",
+        "CS1-7937",
+        "CS1-7905",
+        "CS1-8002",
+        "CS1-8166"
+      ]
     }
   ],
   "nonCompanySharesAnalysis": {

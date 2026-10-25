@@ -387,7 +387,7 @@ ${sourceFilesCatalog
                 {meta.totalSharesTracked.toLocaleString()}
               </div>
               <div style={{ fontSize: "0.72rem", color: "var(--text-muted)", marginTop: "2px" }}>
-                Across 38 Primary Transactions
+                Across {meta.totalTransactions} Primary Transactions
               </div>
             </div>
 
