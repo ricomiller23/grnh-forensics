@@ -227,6 +227,28 @@ ${sourceFilesCatalog
             </div>
 
             <div style={{ display: "flex", gap: "12px", alignItems: "center", flexWrap: "wrap" }}>
+              <a
+                id="btn-lexcore-copilot"
+                href="https://lex-core-terminal-20261024.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  background: "linear-gradient(135deg, #0284c7 0%, #0891b2 100%)",
+                  color: "#ffffff",
+                  border: "1px solid #38bdf8",
+                  fontWeight: 700,
+                  fontSize: "0.82rem",
+                  padding: "9px 16px",
+                  borderRadius: "8px",
+                  textDecoration: "none",
+                  boxShadow: "0 4px 14px rgba(8, 145, 178, 0.35)",
+                }}
+              >
+                <Scale size={15} /> LexCore Law & Deep Research Copilot ↗
+              </a>
               <Link
                 href="/lineage"
                 style={{
